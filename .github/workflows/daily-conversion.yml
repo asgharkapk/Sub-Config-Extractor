@@ -147,23 +147,7 @@ jobs:
                     # ساخت URL کامل برای درخواست به API محلی subconverter
                     # شامل لینک سابسکریپشن و پارامترهای پیشرفته
                     FULL_API_URL="http://localhost:25500/sub?target=${TARGET_FORMAT}&url=${URL_TO_CONVERT}${ADVANCED_PARAMS}"
-                    
-                    # تابع برای بررسی و اصلاح short-id
-                    fix_reality_short_id() {
-                      local yaml_file="$1"
-                      SHORT_ID=$(yq e '.reality-opts.short-id' "$yaml_file" 2>/dev/null)
-                      if [[ -z "$SHORT_ID" || ${#SHORT_ID} -lt 8 ]]; then
-                        NEW_SHORT_ID=$(openssl rand -hex 4)
-                        echo "  ⚠️ short-id نامعتبر یا کوتاه بود ($SHORT_ID). جایگزینی با $NEW_SHORT_ID"
-                        yq e -i '(.[] | select(.reality-opts.short-id | length < 8) | .reality-opts.short-id) = strenv(NEW_SHORT_ID)' "$yaml_file"
-                      fi
-                    }
                                         
-                    # اگر فایل YAML از قبل وجود دارد و reality-opts دارد، short-id را اصلاح کن
-                    if [ -f "$OUTPUT_FILE_PATH_IN_WORKSPACE" ]; then
-                      fix_reality_short_id "$OUTPUT_FILE_PATH_IN_WORKSPACE"
-                    fi
-                    
                     # ارسال به subconverter
                                       
                     # ارسال درخواست curl به subconverter محلی و ذخیره خروجی
@@ -172,6 +156,41 @@ jobs:
                     # -o: ذخیره خروجی در فایل مشخص شده
                     # حذف -f برای جلوگیری از توقف Workflow در صورت خطای HTTP (مانند 400)
                     curl -s -S -o "$OUTPUT_FILE_PATH_IN_WORKSPACE" "$FULL_API_URL" || true
+                    
+                    # بررسی وضعیت خروج دستور curl
+                    CURL_EXIT_CODE=$?
+                    if [ "$CURL_EXIT_CODE" -ne 0 ]; then
+                      echo "  خطا در تبدیل لینک. خروجی با پیام خطا پر می‌شود."
+                      echo "Error: Failed to convert this link. Check GitHub Actions logs for details." > "$OUTPUT_FILE_PATH_IN_WORKSPACE"
+                    else
+                      # پاک کردن کاراکترهای نامعتبر UTF-8
+                      iconv -f utf-8 -t utf-8 -c "$OUTPUT_FILE_PATH_IN_WORKSPACE" -o "$OUTPUT_FILE_PATH_IN_WORKSPACE.clean"
+                      mv "$OUTPUT_FILE_PATH_IN_WORKSPACE.clean" "$OUTPUT_FILE_PATH_IN_WORKSPACE"
+                    
+                      # تابع اصلاح short-id
+                      fix_reality_short_id() {
+                        local yaml_file="$1"
+                    
+                        # تولید short-id جدید
+                        NEW_SHORT_ID=$(openssl rand -hex 4)
+                    
+                        # اصلاح هر short-id که کمتر از 8 کاراکتر دارد در تمام آیتم‌های لیست
+                        yq e -i '
+                          .[] |= (
+                            if (.["reality-opts"]["short-id"] // "" | length) < 8 then
+                              .["reality-opts"]["short-id"] = strenv(NEW_SHORT_ID)
+                            else
+                              .
+                            end
+                          )
+                        ' "$yaml_file"
+                    
+                        echo "  ⚠️ short-id نامعتبر جایگزین شد با $NEW_SHORT_ID"
+                      }
+                    
+                      # اعمال اصلاح short-id
+                      fix_reality_short_id "$OUTPUT_FILE_PATH_IN_WORKSPACE"
+                    fi
                     
                     # بررسی وضعیت خروج دستور curl
                     CURL_EXIT_CODE=$?
