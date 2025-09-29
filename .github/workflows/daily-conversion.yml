@@ -139,6 +139,10 @@ jobs:
                     URL_TO_CONVERT=$(python3 -c 'import urllib.parse; print(urllib.parse.quote(input(), safe=""))' <<< "$URL_TO_CONVERT_RAW")
                     
                     OUTPUT_FILE_PATH_IN_WORKSPACE="${CURRENT_OUTPUT_DIR}/${OUTPUT_FILENAME}"
+
+                    # پاک کردن کاراکترهای نامعتبر UTF-8
+                    iconv -f utf-8 -t utf-8 -c "$OUTPUT_FILE_PATH_IN_WORKSPACE" -o "$OUTPUT_FILE_PATH_IN_WORKSPACE.clean"
+                    mv "$OUTPUT_FILE_PATH_IN_WORKSPACE.clean" "$OUTPUT_FILE_PATH_IN_WORKSPACE"
                     
                     # ساخت URL کامل برای درخواست به API محلی subconverter
                     # شامل لینک سابسکریپشن و پارامترهای پیشرفته
