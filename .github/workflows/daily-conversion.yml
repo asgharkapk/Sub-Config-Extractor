@@ -202,7 +202,7 @@ jobs:
         run: |
           # بررسی اینکه آیا پوشه خروجی وجود دارد و خالی نیست
           if [ -d "output_configs" ] && [ "$(ls -A output_configs)" ]; then
-            git add output_configs # اضافه کردن کل پوشه خروجی برای commit
+            git add output_configs README.md # اضافه کردن کل پوشه خروجی برای commit
             git commit -m "Update converted configs from daily subconverter action" || echo "No changes to commit" # اگر تغییری نبود، خطا نمی‌دهد.
             git push
           else
