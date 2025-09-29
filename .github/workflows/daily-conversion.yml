@@ -4,190 +4,123 @@ on:
   schedule:
     - cron: '30 5 * * *'
     - cron: '30 17 * * *'
+  push:
   workflow_dispatch:
 
 jobs:
   convert_and_push:
-    runs-on: ubuntu-latest # از یک محیط لینوکس استفاده می‌کند.
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository # کد مخزن را به محیط اجرا کپی می‌کند.
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Cache Docker image for subconverter # کش کردن ایمیج داکر subconverter برای اجرای سریع‌تر
-        id: cache-subconverter-docker
-        uses: actions/cache@v3
-        with:
-          path: /var/lib/docker # مسیری که ایمیج‌های داکر در آن ذخیره می‌شوند.
-          key: ${{ runner.os }}-docker-${{ hashFiles('**/Dockerfile') }} # کلید کش بر اساس سیستم عامل و تغییرات Dockerfile (اگر وجود داشته باشد)
-          restore-keys: |
-            ${{ runner.os }}-docker-
-
-      - name: Pull subconverter Docker image # اطمینان از وجود آخرین ایمیج subconverter
+      - name: Pull subconverter Docker image
         run: docker pull metacubex/subconverter:latest
 
-      - name: Create base output directory # ایجاد پوشه اصلی برای ذخیره خروجی‌ها
+      - name: Create base output directory
         run: mkdir -p output_configs
 
-      - name: Install yq # نصب yq برای خواندن فایل YAML
-        run: sudo snap install yq
+      - name: Install yq
+        run: sudo apt-get update && sudo apt-get install -y yq
 
-      - name: Read subconverter settings # خواندن تنظیمات از فایل YAML
+      - name: Read subconverter settings
         id: read_settings
         run: |
           SETTINGS_FILE="config/subconverter_settings.yml"
           ADVANCED_PARAMS=""
 
           if [ -f "$SETTINGS_FILE" ]; then
-            echo "خواندن تنظیمات از: $SETTINGS_FILE"
-            # لیست تمام پارامترهای پیشرفته که می‌خواهید از فایل settings.yml بخوانید
-            # این لیست باید با پارامترهای پشتیبانی شده توسط subconverter API مطابقت داشته باشد.
-            PARAMS=(
-              "emoji" "add_emoji" "remove_emoji" "append_type" "tfo" "udp" "list" "sort"
+            PARAMS=( "emoji" "add_emoji" "remove_emoji" "append_type" "tfo" "udp" "list" "sort"
               "script" "insert" "scv" "fdn" "expand" "append_info" "prepend" "classic"
               "tls13" "new_name" "ua" "interval" "dev_id" "filename" "exclude" "include" "rename"
             )
 
             for param in "${PARAMS[@]}"; do
-              # استفاده از yq برای خواندن مقدار پارامتر. 2>/dev/null برای ساکت کردن خطاهای yq در صورت عدم وجود پارامتر.
               VALUE=$(yq e ".$param" "$SETTINGS_FILE" 2>/dev/null)
-              
-              # بررسی اینکه مقدار null نباشد و خالی نباشد
               if [ "$VALUE" != "null" ] && [ -n "$VALUE" ]; then
-                # URL-encode کردن مقدار پارامتر برای استفاده در URL
                 ENCODED_VALUE=$(python3 -c 'import urllib.parse; print(urllib.parse.quote(input(), safe=""))' <<< "$VALUE")
                 ADVANCED_PARAMS+="&${param}=${ENCODED_VALUE}"
               fi
             done
             echo "ADVANCED_PARAMS=$ADVANCED_PARAMS" >> $GITHUB_OUTPUT
           else
-            echo "فایل تنظیمات '$SETTINGS_FILE' یافت نشد. از تنظیمات پیش‌فرض subconverter استفاده می‌شود."
             echo "ADVANCED_PARAMS=" >> $GITHUB_OUTPUT
           fi
 
-      - name: Start subconverter Docker container # راه‌اندازی کانتینر subconverter در حالت HTTP سرور
+      - name: Start subconverter Docker container
         run: |
           docker run -d -p 25500:25500 --name subconverter_instance metacubex/subconverter:latest
-          # صبر کردن برای آماده شدن سرویس subconverter
-          echo "صبر کردن برای راه‌اندازی subconverter..."
-          # مقدار sleep را می‌توان بر اساس سرعت runner و زمان راه‌اندازی subconverter تنظیم کرد.
-          # 10 ثانیه معمولاً کافی است.
+          echo "Waiting for subconverter to start..."
           sleep 10 
-        
-      - name: Process subscription files # پردازش فایل‌های سابسکریپشن
+
+      - name: Process subscription files
         run: |
-          # مسیر پوشه حاوی فایل‌های سابسکریپشن ورودی
           INPUT_DIR="input_subs"
-          # مسیر پوشه اصلی برای ذخیره فایل‌های کانفیگ تبدیل شده
           OUTPUT_BASE_DIR="output_configs"
-          # پارامترهای پیشرفته از مرحله قبلی (خروجی read_settings)
           ADVANCED_PARAMS="${{ steps.read_settings.outputs.ADVANCED_PARAMS }}"
           
-          # بررسی اینکه آیا پوشه ورودی وجود دارد یا خیر
           if [ ! -d "$INPUT_DIR" ]; then
-            echo "پوشه ورودی '$INPUT_DIR' یافت نشد. لطفاً فایل‌های سابسکریپشن خود را در این پوشه قرار دهید."
-            echo "عملیات تبدیل متوقف می‌شود."
-            exit 0 # Workflow با موفقیت پایان می‌یابد اما عملیات تبدیل انجام نمی‌شود.
+            echo "No input_subs directory found."
+            exit 0
           fi
 
-          # حلقه برای پردازش هر فایل .txt در پوشه ورودی
-          # از find برای اطمینان از یافتن فقط فایل‌ها و مدیریت بهتر نام‌ها استفاده می‌شود.
           find "$INPUT_DIR" -maxdepth 1 -type f -name "*.txt" | while read sub_file; do
-            echo "در حال پردازش فایل: $sub_file"
-            
-            # استخراج نام فایل بدون پسوند (مثلا "clash" از "clash.txt") که به عنوان TARGET_FORMAT استفاده می‌شود
-            # sed برای حذف پسوند .txt استفاده می‌شود.
             TARGET_FORMAT=$(basename "$sub_file" | sed 's/\.txt$//')
-            
-            # ایجاد زیرپوشه خروجی برای این فرمت هدف (مثلا output_configs/clash)
             CURRENT_OUTPUT_DIR="${OUTPUT_BASE_DIR}/${TARGET_FORMAT}"
             mkdir -p "$CURRENT_OUTPUT_DIR"
-            echo "ایجاد پوشه خروجی: $CURRENT_OUTPUT_DIR"
 
             LINE_COUNT=0
-            # خواندن هر خط از فایل
             while IFS= read -r line; do
               LINE_COUNT=$((LINE_COUNT+1))
-              trimmed_line=$(echo "$line" | xargs) # حذف فضای خالی اطراف خط
-
-              if [ -n "$trimmed_line" ]; then # اگر خط خالی نباشد
-                # جداسازی لینک و نام فایل دلخواه
+              trimmed_line=$(echo "$line" | xargs)
+              if [ -n "$trimmed_line" ]; then
                 if [[ "$trimmed_line" == *,* ]]; then
                   URL_TO_CONVERT_RAW=$(echo "$trimmed_line" | cut -d',' -f1)
-                  CUSTOM_OUTPUT_BASE_NAME=$(echo "$trimmed_line" | cut -d',' -f2-) # گرفتن همه چیز بعد از اولین کاما
-                  # تمیز کردن نام فایل سفارشی: حذف کاراکترهای نامعتبر و جایگزینی با '_'
+                  CUSTOM_OUTPUT_BASE_NAME=$(echo "$trimmed_line" | cut -d',' -f2-)
                   CUSTOM_OUTPUT_BASE_NAME=$(echo "$CUSTOM_OUTPUT_BASE_NAME" | sed 's/[^a-zA-Z0-9._-]/_/g')
                   OUTPUT_FILENAME="${CUSTOM_OUTPUT_BASE_NAME}.yaml"
                 else
-                  # بازگشت به نام‌گذاری پیش‌فرض اگر کاما یافت نشد
                   URL_TO_CONVERT_RAW="$trimmed_line"
                   OUTPUT_FILENAME="${TARGET_FORMAT}_$(printf "%03d" $LINE_COUNT).yaml"
-                  echo "  هشدار: خط #$LINE_COUNT در فایل '$sub_file' فرمت 'URL,FILENAME' را ندارد. از نام پیش‌فرض استفاده می‌شود."
                 fi
 
-                # بررسی اینکه بخش URL واقعاً یک URL باشد (یک بررسی ساده)
                 if [[ "$URL_TO_CONVERT_RAW" =~ ^https?:// ]]; then
-                    echo "  در حال تبدیل لینک #$LINE_COUNT از فایل '$sub_file' به فرمت '$TARGET_FORMAT'..."
-                    
-                    # URL-encode کردن لینک تکی با استفاده از پایتون
-                    URL_TO_CONVERT=$(python3 -c 'import urllib.parse; print(urllib.parse.quote(input(), safe=""))' <<< "$URL_TO_CONVERT_RAW")
-                    
-                    OUTPUT_FILE_PATH_IN_WORKSPACE="${CURRENT_OUTPUT_DIR}/${OUTPUT_FILENAME}"
-
-                    # ساخت URL کامل برای درخواست به API محلی subconverter
-                    # شامل لینک سابسکریپشن و پارامترهای پیشرفته
-                    FULL_API_URL="http://localhost:25500/sub?target=${TARGET_FORMAT}&url=${URL_TO_CONVERT}${ADVANCED_PARAMS}"
-                    
-                    # ارسال درخواست curl به subconverter محلی و ذخیره خروجی
-                    # -s: حالت ساکت (silent)
-                    # -S: نمایش خطاها حتی در حالت ساکت
-                    # -o: ذخیره خروجی در فایل مشخص شده
-                    # حذف -f برای جلوگیری از توقف Workflow در صورت خطای HTTP (مانند 400)
-                    curl -s -S -o "$OUTPUT_FILE_PATH_IN_WORKSPACE" "$FULL_API_URL"
-                    
-                    # بررسی وضعیت خروج دستور curl
-                    CURL_EXIT_CODE=$?
-                    if [ "$CURL_EXIT_CODE" -eq 0 ]; then
-                      echo "  تبدیل لینک #$LINE_COUNT با موفقیت انجام شد. خروجی در '${OUTPUT_FILE_PATH_IN_WORKSPACE}' ذخیره شد."
-                    else
-                      echo "  خطا در تبدیل لینک #$LINE_COUNT از فایل '$sub_file' (کد خطا: $CURL_EXIT_CODE). لطفاً لاگ‌های GitHub Actions را برای جزئیات بیشتر بررسی کنید."
-                      echo "  این لینک ممکن است نامعتبر باشد یا subconverter نتواند آن را پردازش کند. به پردازش لینک‌های بعدی ادامه می‌دهیم."
-                      # می‌توانید محتوای فایل خروجی را با یک پیام خطا پر کنید تا مشخص باشد تبدیل ناموفق بوده است.
-                      echo "Error: Failed to convert this link. Check GitHub Actions logs for details." > "$OUTPUT_FILE_PATH_IN_WORKSPACE"
-                    fi
-                else
-                    echo "  خطا: خط #$LINE_COUNT در فایل '$sub_file' حاوی URL معتبری نیست: '$URL_TO_CONVERT_RAW'. از آن رد می‌شویم."
+                  URL_TO_CONVERT=$(python3 -c 'import urllib.parse; print(urllib.parse.quote(input(), safe=""))' <<< "$URL_TO_CONVERT_RAW")
+                  OUTPUT_FILE_PATH_IN_WORKSPACE="${CURRENT_OUTPUT_DIR}/${OUTPUT_FILENAME}"
+                  FULL_API_URL="http://localhost:25500/sub?target=${TARGET_FORMAT}&url=${URL_TO_CONVERT}${ADVANCED_PARAMS}"
+                  curl -s -S -o "$OUTPUT_FILE_PATH_IN_WORKSPACE" "$FULL_API_URL" || echo "Error converting link" > "$OUTPUT_FILE_PATH_IN_WORKSPACE"
                 fi
-              else
-                echo "  خط #$LINE_COUNT در فایل '$sub_file' خالی است. از آن رد می‌شویم."
               fi
             done < "$sub_file"
-            
-            # اگر هیچ لینکی در فایل یافت نشد، یک پیام بدهید
-            if [ "$LINE_COUNT" -eq 0 ]; then
-              echo "فایل '$sub_file' هیچ لینک معتبری برای تبدیل نداشت."
-            fi
           done
 
-      - name: Stop subconverter Docker container # توقف کانتینر subconverter
-        if: always() # همیشه اجرا شود، حتی اگر مراحل قبلی خطا داشته باشند
+      - name: Stop subconverter Docker container
+        if: always()
         run: |
-          echo "توقف و حذف کانتینر subconverter..."
-          docker stop subconverter_instance || true # `|| true` برای جلوگیری از خطا در صورت عدم وجود کانتینر
-          docker rm subconverter_instance || true # `|| true` برای جلوگیری از خطا در صورت عدم وجود کانتینر
+          docker stop subconverter_instance || true
+          docker rm subconverter_instance || true
 
-      - name: Configure Git user # پیکربندی اطلاعات Git برای commit کردن تغییرات
+      - name: Generate README with output list
+        run: |
+          echo "## Converted Configs" > README.md
+          echo "" >> README.md
+          USER=$(echo "${{ github.repository }}" | cut -d'/' -f1)
+          REPO=$(echo "${{ github.repository }}" | cut -d'/' -f2)
+
+          find output_configs -type f -name "*.yaml" | sort | while read file; do
+            REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
+            FILE_NAME=$(basename "$file")
+            echo "${FILE_NAME}|https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH}" >> README.md
+          done
+
+      - name: Configure Git user
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit and push changes # commit کردن فایل‌های تبدیل شده و push آن‌ها به مخزن
+      - name: Commit and push changes
         run: |
-          # بررسی اینکه آیا پوشه خروجی وجود دارد و خالی نیست
-          if [ -d "output_configs" ] && [ "$(ls -A output_configs)" ]; then
-            git add output_configs # اضافه کردن کل پوشه خروجی برای commit
-            git commit -m "Update converted configs from daily subconverter action" || echo "No changes to commit" # اگر تغییری نبود، خطا نمی‌دهد.
-            git push
-          else
-            echo "پوشه 'output_configs' خالی است یا وجود ندارد. هیچ تغییری برای commit وجود ندارد."
-          fi
+          git add output_configs README.md
+          git commit -m "Update converted configs and README list" || echo "No changes to commit"
+          git push
