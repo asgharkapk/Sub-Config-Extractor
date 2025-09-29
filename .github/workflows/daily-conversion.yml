@@ -145,13 +145,10 @@ jobs:
                     # تابع برای بررسی و اصلاح short-id
                     fix_reality_short_id() {
                       local yaml_file="$1"
-                      # چک کردن اینکه short-id کمتر از 8 کاراکتر باشد یا خالی است
                       SHORT_ID=$(yq e '.reality-opts.short-id' "$yaml_file" 2>/dev/null)
                       if [[ -z "$SHORT_ID" || ${#SHORT_ID} -lt 8 ]]; then
-                        # تولید short-id تصادفی 8 کاراکتری هگزادسیمال
                         NEW_SHORT_ID=$(openssl rand -hex 4)
                         echo "  ⚠️ short-id نامعتبر یا کوتاه بود ($SHORT_ID). جایگزینی با $NEW_SHORT_ID"
-                        # اصلاح فایل YAML با yq
                         yq e -i ".reality-opts.short-id = \"$NEW_SHORT_ID\"" "$yaml_file"
                       fi
                     }
@@ -162,14 +159,13 @@ jobs:
                     fi
                     
                     # ارسال به subconverter
-                    curl -s -S -o "$OUTPUT_FILE_PATH_IN_WORKSPACE" "$FULL_API_URL"
-                    
+                                      
                     # ارسال درخواست curl به subconverter محلی و ذخیره خروجی
                     # -s: حالت ساکت (silent)
                     # -S: نمایش خطاها حتی در حالت ساکت
                     # -o: ذخیره خروجی در فایل مشخص شده
                     # حذف -f برای جلوگیری از توقف Workflow در صورت خطای HTTP (مانند 400)
-                    curl -s -S -o "$OUTPUT_FILE_PATH_IN_WORKSPACE" "$FULL_API_URL"
+                    curl -s -S -o "$OUTPUT_FILE_PATH_IN_WORKSPACE" "$FULL_API_URL" || true
                     
                     # بررسی وضعیت خروج دستور curl
                     CURL_EXIT_CODE=$?
