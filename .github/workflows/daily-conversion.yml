@@ -168,24 +168,20 @@ jobs:
                       mv "$OUTPUT_FILE_PATH_IN_WORKSPACE.clean" "$OUTPUT_FILE_PATH_IN_WORKSPACE"
                     
                       fix_reality_short_id() {
-                        local yaml_file="$1"
-                      
-                        # تولید short-id جدید
-                        NEW_SHORT_ID=$(openssl rand -hex 4)
-                      
-                        # اصلاح هر short-id که کمتر از 8 کاراکتر دارد
-                        yq eval -i '
-                          .[] |= (
-                            if (.["reality-opts"] and (.["reality-opts"]["short-id"] | length < 8)) then
-                              .["reality-opts"]["short-id"] = strenv(NEW_SHORT_ID)
-                            else
-                              .
-                            end
-                          )
-                        ' "$yaml_file"
-                      
-                        echo "  ⚠️ short-id نامعتبر جایگزین شد با $NEW_SHORT_ID"
-                      }
+                      local yaml_file="$1"
+                    
+                      # تولید short-id جدید
+                      NEW_SHORT_ID=$(openssl rand -hex 4)
+                    
+                      # اصلاح short-id برای هر آیتم آرایه که کمتر از 8 کاراکتر دارد
+                      yq eval -i '
+                        .[] 
+                        | select(.["reality-opts"] and (.["reality-opts"]["short-id"] // "" | length < 8)) 
+                        | .["reality-opts"]["short-id"] = strenv(NEW_SHORT_ID)
+                      ' "$yaml_file"
+                    
+                      echo "  ⚠️ short-id نامعتبر جایگزین شد با $NEW_SHORT_ID"
+                    }
                     
                       # اعمال اصلاح short-id
                       fix_reality_short_id "$OUTPUT_FILE_PATH_IN_WORKSPACE"
