@@ -136,7 +136,32 @@ jobs:
                     # URL-encode کردن لینک تکی با استفاده از پایتون
                     URL_TO_CONVERT=$(python3 -c 'import urllib.parse; print(urllib.parse.quote(input(), safe=""))' <<< "$URL_TO_CONVERT_RAW")
                     
+                    #OUTPUT_FILE_PATH_IN_WORKSPACE="${CURRENT_OUTPUT_DIR}/${OUTPUT_FILENAME}"
+
+                    # تابع برای بررسی و اصلاح short-id
+                    fix_reality_short_id() {
+                      local yaml_file="$1"
+                      # چک کردن اینکه short-id کمتر از 8 کاراکتر باشد یا خالی است
+                      SHORT_ID=$(yq e '.reality-opts.short-id' "$yaml_file" 2>/dev/null)
+                      if [[ -z "$SHORT_ID" || ${#SHORT_ID} -lt 8 ]]; then
+                        # تولید short-id تصادفی 8 کاراکتری هگزادسیمال
+                        NEW_SHORT_ID=$(openssl rand -hex 4)
+                        echo "  ⚠️ short-id نامعتبر یا کوتاه بود ($SHORT_ID). جایگزینی با $NEW_SHORT_ID"
+                        # اصلاح فایل YAML با yq
+                        yq e -i ".reality-opts.short-id = \"$NEW_SHORT_ID\"" "$yaml_file"
+                      fi
+                    }
+                    
+                    # قبل از ارسال به subconverter
                     OUTPUT_FILE_PATH_IN_WORKSPACE="${CURRENT_OUTPUT_DIR}/${OUTPUT_FILENAME}"
+                    
+                    # اگر فایل YAML از قبل وجود دارد و reality-opts دارد، short-id را اصلاح کن
+                    if [ -f "$OUTPUT_FILE_PATH_IN_WORKSPACE" ]; then
+                      fix_reality_short_id "$OUTPUT_FILE_PATH_IN_WORKSPACE"
+                    fi
+                    
+                    # ارسال به subconverter
+                    curl -s -S -o "$OUTPUT_FILE_PATH_IN_WORKSPACE" "$FULL_API_URL"
 
                     # ساخت URL کامل برای درخواست به API محلی subconverter
                     # شامل لینک سابسکریپشن و پارامترهای پیشرفته
