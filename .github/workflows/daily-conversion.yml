@@ -6,9 +6,6 @@ on:
     - cron: '30 17 * * *'
   push:
   workflow_dispatch:
-  
-permissions:
-  contents: write
 
 jobs:
   convert_and_push:
@@ -80,8 +77,6 @@ jobs:
         
       - name: Process subscription files # پردازش فایل‌های سابسکریپشن
         run: |
-          set +e
-          
           # مسیر پوشه حاوی فایل‌های سابسکریپشن ورودی
           INPUT_DIR="input_subs"
           # مسیر پوشه اصلی برای ذخیره فایل‌های کانفیگ تبدیل شده
@@ -140,33 +135,17 @@ jobs:
                     
                     OUTPUT_FILE_PATH_IN_WORKSPACE="${CURRENT_OUTPUT_DIR}/${OUTPUT_FILENAME}"
 
-                    # پاک کردن کاراکترهای نامعتبر UTF-8
-                    iconv -f utf-8 -t utf-8 -c "$OUTPUT_FILE_PATH_IN_WORKSPACE" -o "$OUTPUT_FILE_PATH_IN_WORKSPACE.clean"
-                    mv "$OUTPUT_FILE_PATH_IN_WORKSPACE.clean" "$OUTPUT_FILE_PATH_IN_WORKSPACE"
-                    
                     # ساخت URL کامل برای درخواست به API محلی subconverter
                     # شامل لینک سابسکریپشن و پارامترهای پیشرفته
                     FULL_API_URL="http://localhost:25500/sub?target=${TARGET_FORMAT}&url=${URL_TO_CONVERT}${ADVANCED_PARAMS}"
-                                        
-                    # ارسال به subconverter
-                                      
+                    
                     # ارسال درخواست curl به subconverter محلی و ذخیره خروجی
                     # -s: حالت ساکت (silent)
                     # -S: نمایش خطاها حتی در حالت ساکت
                     # -o: ذخیره خروجی در فایل مشخص شده
                     # حذف -f برای جلوگیری از توقف Workflow در صورت خطای HTTP (مانند 400)
-                    curl -s -S -o "$OUTPUT_FILE_PATH_IN_WORKSPACE" "$FULL_API_URL" || true
+                    curl -s -S -o "$OUTPUT_FILE_PATH_IN_WORKSPACE" "$FULL_API_URL"
                     
-                    # بررسی وضعیت خروج دستور curl
-                    CURL_EXIT_CODE=$?
-                    if [ "$CURL_EXIT_CODE" -ne 0 ]; then
-                      echo "  خطا در تبدیل لینک. خروجی با پیام خطا پر می‌شود."
-                      echo "Error: Failed to convert this link. Check GitHub Actions logs for details." > "$OUTPUT_FILE_PATH_IN_WORKSPACE"
-                    else
-                      # پاک کردن کاراکترهای نامعتبر UTF-8
-                      iconv -f utf-8 -t utf-8 -c "$OUTPUT_FILE_PATH_IN_WORKSPACE" -o "$OUTPUT_FILE_PATH_IN_WORKSPACE.clean"
-                      mv "$OUTPUT_FILE_PATH_IN_WORKSPACE.clean" "$OUTPUT_FILE_PATH_IN_WORKSPACE"
-                                        
                     # بررسی وضعیت خروج دستور curl
                     CURL_EXIT_CODE=$?
                     if [ "$CURL_EXIT_CODE" -eq 0 ]; then
@@ -197,6 +176,11 @@ jobs:
           echo "توقف و حذف کانتینر subconverter..."
           docker stop subconverter_instance || true # `|| true` برای جلوگیری از خطا در صورت عدم وجود کانتینر
           docker rm subconverter_instance || true # `|| true` برای جلوگیری از خطا در صورت عدم وجود کانتینر
+
+      - name: Configure Git user # پیکربندی اطلاعات Git برای commit کردن تغییرات
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Generate LIST with output list
         run: |
