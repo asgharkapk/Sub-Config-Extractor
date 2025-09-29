@@ -149,7 +149,7 @@ jobs:
                       if [[ -z "$SHORT_ID" || ${#SHORT_ID} -lt 8 ]]; then
                         NEW_SHORT_ID=$(openssl rand -hex 4)
                         echo "  ⚠️ short-id نامعتبر یا کوتاه بود ($SHORT_ID). جایگزینی با $NEW_SHORT_ID"
-                        yq e -i ".reality-opts.short-id = \"$NEW_SHORT_ID\"" "$yaml_file"
+                        yq e -i ".reality-opts.short-id = \"$NEW_SHORT_ID\"" "$yaml_file" || true
                       fi
                     }
                                         
