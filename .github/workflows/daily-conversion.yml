@@ -137,6 +137,10 @@ jobs:
                     URL_TO_CONVERT=$(python3 -c 'import urllib.parse; print(urllib.parse.quote(input(), safe=""))' <<< "$URL_TO_CONVERT_RAW")
                     
                     OUTPUT_FILE_PATH_IN_WORKSPACE="${CURRENT_OUTPUT_DIR}/${OUTPUT_FILENAME}"
+                    
+                    # ساخت URL کامل برای درخواست به API محلی subconverter
+                    # شامل لینک سابسکریپشن و پارامترهای پیشرفته
+                    FULL_API_URL="http://localhost:25500/sub?target=${TARGET_FORMAT}&url=${URL_TO_CONVERT}${ADVANCED_PARAMS}"
 
                     # تابع برای بررسی و اصلاح short-id
                     fix_reality_short_id() {
@@ -159,10 +163,6 @@ jobs:
                     
                     # ارسال به subconverter
                     curl -s -S -o "$OUTPUT_FILE_PATH_IN_WORKSPACE" "$FULL_API_URL"
-
-                    # ساخت URL کامل برای درخواست به API محلی subconverter
-                    # شامل لینک سابسکریپشن و پارامترهای پیشرفته
-                    FULL_API_URL="http://localhost:25500/sub?target=${TARGET_FORMAT}&url=${URL_TO_CONVERT}${ADVANCED_PARAMS}"
                     
                     # ارسال درخواست curl به subconverter محلی و ذخیره خروجی
                     # -s: حالت ساکت (silent)
