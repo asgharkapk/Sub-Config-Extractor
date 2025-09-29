@@ -1,6 +1,6 @@
-# 📂 لیست کانفیگ‌های کلش متا
-### با قوانین مخصوص ایران\n
-**فایل‌های پیکربندی آماده استفاده:**\n
+# لیست پراکسی های استخراج شده از کالکتور های گیتهاب
+### لیست پراکسی استخراج شده خام
+**فایل‌های پیکربندی آماده استفاده:**برای proxy-providers
 - [🌐 10ium_HighSpeed.yaml](https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/10ium_HighSpeed.yaml)
 - [🚀 10ium_V2Hub3_reality.yaml](https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/10ium_V2Hub3_reality.yaml)
 - [🔒 10ium_V2Hub3_shadowsocks.yaml](https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/10ium_V2Hub3_shadowsocks.yaml)
