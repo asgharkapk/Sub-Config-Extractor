@@ -136,7 +136,7 @@ jobs:
                     # URL-encode کردن لینک تکی با استفاده از پایتون
                     URL_TO_CONVERT=$(python3 -c 'import urllib.parse; print(urllib.parse.quote(input(), safe=""))' <<< "$URL_TO_CONVERT_RAW")
                     
-                    #OUTPUT_FILE_PATH_IN_WORKSPACE="${CURRENT_OUTPUT_DIR}/${OUTPUT_FILENAME}"
+                    OUTPUT_FILE_PATH_IN_WORKSPACE="${CURRENT_OUTPUT_DIR}/${OUTPUT_FILENAME}"
 
                     # تابع برای بررسی و اصلاح short-id
                     fix_reality_short_id() {
@@ -151,10 +151,7 @@ jobs:
                         yq e -i ".reality-opts.short-id = \"$NEW_SHORT_ID\"" "$yaml_file"
                       fi
                     }
-                    
-                    # قبل از ارسال به subconverter
-                    OUTPUT_FILE_PATH_IN_WORKSPACE="${CURRENT_OUTPUT_DIR}/${OUTPUT_FILENAME}"
-                    
+                                        
                     # اگر فایل YAML از قبل وجود دارد و reality-opts دارد، short-id را اصلاح کن
                     if [ -f "$OUTPUT_FILE_PATH_IN_WORKSPACE" ]; then
                       fix_reality_short_id "$OUTPUT_FILE_PATH_IN_WORKSPACE"
