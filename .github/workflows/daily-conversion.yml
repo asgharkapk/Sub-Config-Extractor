@@ -80,6 +80,8 @@ jobs:
         
       - name: Process subscription files # پردازش فایل‌های سابسکریپشن
         run: |
+          set +e
+          
           # مسیر پوشه حاوی فایل‌های سابسکریپشن ورودی
           INPUT_DIR="input_subs"
           # مسیر پوشه اصلی برای ذخیره فایل‌های کانفیگ تبدیل شده
@@ -141,7 +143,7 @@ jobs:
                     # ساخت URL کامل برای درخواست به API محلی subconverter
                     # شامل لینک سابسکریپشن و پارامترهای پیشرفته
                     FULL_API_URL="http://localhost:25500/sub?target=${TARGET_FORMAT}&url=${URL_TO_CONVERT}${ADVANCED_PARAMS}"
-
+                    
                     # تابع برای بررسی و اصلاح short-id
                     fix_reality_short_id() {
                       local yaml_file="$1"
