@@ -180,7 +180,7 @@ jobs:
           docker stop subconverter_instance || true # `|| true` برای جلوگیری از خطا در صورت عدم وجود کانتینر
           docker rm subconverter_instance || true # `|| true` برای جلوگیری از خطا در صورت عدم وجود کانتینر
 
-      - name: Generate README with output list
+      - name: Generate LIST with output list
         run: |
           echo "## Converted Configs" > Output.list
           echo "" >> Output.list
@@ -195,9 +195,9 @@ jobs:
 
       - name: Generate README.md
         run: |
-          echo "# 📂 لیست کانفیگ‌های کلش متا" > README.md
-          echo "### با قوانین مخصوص ایران\n" >> README.md
-          echo "**فایل‌های پیکربندی آماده استفاده:**\n" >> README.md
+          echo "# لیست پراکسی های استخراج شده از کالکتور های گیتهاب" > README.md
+          echo "### لیست پراکسی استخراج شده خام" >> README.md
+          echo "**فایل‌های پیکربندی آماده استفاده:**برای proxy-providers" >> README.md
 
           USER=$(echo "${{ github.repository }}" | cut -d'/' -f1)
           REPO=$(echo "${{ github.repository }}" | cut -d'/' -f2)
