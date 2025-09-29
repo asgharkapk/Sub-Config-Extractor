@@ -167,7 +167,6 @@ jobs:
                       iconv -f utf-8 -t utf-8 -c "$OUTPUT_FILE_PATH_IN_WORKSPACE" -o "$OUTPUT_FILE_PATH_IN_WORKSPACE.clean"
                       mv "$OUTPUT_FILE_PATH_IN_WORKSPACE.clean" "$OUTPUT_FILE_PATH_IN_WORKSPACE"
                     
-                      # تابع اصلاح short-id
                       fix_reality_short_id() {
                         local yaml_file="$1"
                       
@@ -176,8 +175,8 @@ jobs:
                       
                         # اصلاح هر short-id که کمتر از 8 کاراکتر دارد
                         yq eval -i '
-                          map(
-                            if (.["reality-opts"]["short-id"] // "" | length) < 8 then
+                          .[] |= (
+                            if (.["reality-opts"] and (.["reality-opts"]["short-id"] | length < 8)) then
                               .["reality-opts"]["short-id"] = strenv(NEW_SHORT_ID)
                             else
                               .
