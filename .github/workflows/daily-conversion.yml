@@ -182,7 +182,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Generate LIST with output list
+      - name: Generate Output LIST
         run: |
           echo "## Converted Configs" > Output.list
           echo "" >> Output.list
@@ -192,7 +192,7 @@ jobs:
           find output_configs -type f -name "*.yaml" | sort | while read file; do
             REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
             FILE_NAME=$(basename "$file")
-            echo "${FILE_NAME}|https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH}" >> Output.list
+            echo "${REL_PATH}|https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH}" >> Output.list
           done
 
       - name: Generate README.md
@@ -211,7 +211,7 @@ jobs:
             REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
             FILE_NAME=$(basename "$file")
             EMOJI=${EMOJIS[$((IDX % ${#EMOJIS[@]}))]}
-            echo "- [${EMOJI} ${FILE_NAME}](https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH})" >> README.md
+            echo "- [${EMOJI} ${REL_PATH}](https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH})" >> README.md
             IDX=$((IDX + 1))
           done
 
