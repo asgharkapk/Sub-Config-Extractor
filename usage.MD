@@ -192,7 +192,8 @@ https%3A%2F%2Fdler.cloud%2Fsubscribe%2FABCDE%3Fsurge%3Dss
 Then combine the desired %TARGET% (i.e., Clash) with the %URL% obtained in the previous step. Enter the following URL:
 http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fdler.cloud%2Fsubscribe%2FABCDE%3Fsurge%3Dss
 
-Finally, enter this link in the Clash subscription section and you're done. ```
+Finally, enter this link in the Clash subscription section and you're done. 
+```
 
 </details>
 
@@ -215,7 +216,8 @@ https%3A%2F%2Fdler.cloud%2Fsubscribe%2FABCDE%3Fclash%3Dvmess%7Chttps%3A%2F%2Fric
 Then, fill in the desired %TARGET% (i.e., Clash) and the %URL% obtained in the previous step into the call address:
 http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fdler.cloud%2Fsubscribe%2FABCDE%3Fclash%3Dvmess%7Chttps%3A%2F%2Frich.cloud%2Fsubscribe%2FABCDE%3Fclash%3Dvmess
 
-Finally, enter this link into the Clash subscription section, and you're done. ```
+Finally, enter this link into the Clash subscription section, and you're done. 
+```
 
 </details>
 
@@ -234,7 +236,8 @@ ss%3A%2F%2FYWVzLTEyOC1nY206dGVzdA%3D%3D%40192%2E168%2E100%2E1%3A8888%23Example1
 Then, enter the desired %TARGET% (i.e., Clash) and the %URL% obtained in the previous step into the call address:
 http://127.0.0.1:25500/sub?target=clash&url=ss%3A%2F%2FYWVzLTEyOC1nY206dGVzdA%3D%3D%40192%2E168%2E100%2E1%3A8888%23Example1
 
-Finally, enter this link into the Clash subscription section, and you're done. ```
+Finally, enter this link into the Clash subscription section, and you're done. 
+```
 
 </details>
 
@@ -257,7 +260,8 @@ ss%3A%2F%2FYWVzLTEyOC1nY206dGVzdA%3D%3D%40192%2E168%2E100%2E1%3A8888%23Example1%
 Then combine the desired %TARGET% (i.e., Clash) with the %URL% obtained in the previous step. Enter the calling URL:
 http://127.0.0.1:25500/sub?target=clash&url=ss%3A%2F%2FYWVzLTEyOC1nY206dGVzdA%3D%3D%40192%2E168%2E100%2E1%3A8888%23Example1%7Cvmess%3A%2F%2FeyJ2IjoiMiIsInBzIjoidm1lc3MtcHJveHkxIiwiYWRkIjoiZXhhbXB sZS5jb20iLCJwb3J0Ijo0NDMsInR5cGUiOiIiLCJpZCI6IjEyMzQ1Njc4LWFiY2QtMTIzNC0xMjM0LTQ3ZmZjYTBjZTIyOSIsImFpZCI6NDQzLCJuZXQiOiJ3cyIsInBhdGgiOiIvdjIiLCJob3N0IjoiZXhhbXBsZS5jb20iLCJ0bHMiOiJ0bHMifQ%3D%3D
 
-Finally, enter this link into the Clash subscription section and you're done. ```
+Finally, enter this link into the Clash subscription section and you're done. 
+```
 
 </details>
 
@@ -783,8 +787,7 @@ Flow:
 - {name: name2, key: value}
 Compact:
 [{name: name1, key: value},{name: name2, key: value}]
-``
-`
+```
 
 11. **rename_node**
 
@@ -977,11 +980,14 @@ custom_proxy_group=node_select `select`(^(?!.*(US|Japan)).*)
 
 - Special filtering conditions can also be used:
 
-`` `!!GROUPID=%n%`` Nodes included in the n+1th link in the link to be converted
+```
+!!GROUPID=%n%`` Nodes included in the n+1th link in the link to be converted
 
-`` `!!INSERT=%n%`` Nodes included in the n+1th link in the `insert_url` configuration file
+```
+!!INSERT=%n%`` Nodes included in the n+1th link in the `insert_url` configuration file
 
-`` `!!PROVIDER=%proxy-provider-name%`` Proxy provider with a specified name
+```
+!!PROVIDER=%proxy-provider-name%`` Proxy provider with a specified name
 
 GROUPID and INSERT support range matching, such as 1,!2,3-4,!5-6,7+,8- 
 
