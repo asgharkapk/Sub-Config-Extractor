@@ -168,7 +168,7 @@ http://127.0.0.1:25500/sub?target=%TARGET%&url=%URL%&config=%CONFIG%
 
 | Calling Parameters | Required |
 Example | Explanation |
-| ------ | :-: | :------------------------ | ------------------------------------------------------------------------------------------------------------------- |
+
 | target | Required | surge&ver=4 | Specifies the configuration type you want to generate. See the parameters in [Supported Types](#Supported Types) above for details. |
 | url | Required | https%3A%2F%2Fwww.xxx.com | Specifies the subscription link or proxy node sharing link provided by the airport. This link must be URLEncoded. |
 | config | Optional | https%3A%2F%2Fwww.xxx.com | Specifies the external configuration URL (including the grouping and rule sections). This link must be URLEncoded. See [External Configuration](#External Configuration) for details. If this parameter is not present, the configuration file in the main program directory is used. |
@@ -308,7 +308,7 @@ http://127.0.0.1:25500/sub?target=%TARGET%&url=%URL%&emoji=%EMOJI%····
 #### Calling Instructions (Advanced)
 
 | Calling Parameters | Required | Example | Explanation |
-| ------------- | :-: |:--------------------------| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+
 | target | Required | surge&ver=4 | Specifies the configuration type to generate. See the parameters in [Supported Types](#Supported Types) above for details. |
 | url | Optional | https%3A%2F%2Fwww.xxx.com | Specifies the subscription link provided by the airport or the shared link of the proxy node. It must be [URLEncoded](https://www.urlencoder.org/) Processing, **optional prerequisite is to specify `default_url`**. Data URI can also be used. Use `tag:xxx,https%3A%2F%2Fwww.xxx.com` to specify that all nodes in this subscription belong to the `xxx` group. This is used to match `!!GROUP=XXX` in the configuration file. |
 | group | Optional | MySS | Used to set the group name for this subscription. This is mostly used for SSD/SSR. |
@@ -325,7 +325,7 @@ http://127.0.0.1:25500/sub?target=%TARGET%&url=%URL%&emoji=%EMOJI%····
 | upload | Optional | true / false | Used to upload the generated subscription file to `Gist`. Requires `gistconf.ini`. Defaults to false (no upload). See [Auto Upload](#Auto Upload) for details. |
 | emoji | Optional | true / false | Used to set whether the node name contains emojis. Defaults to true. |
 | add_emoji | Optional | true / false | Used to add emojis to the node name. Defaults to true.
-|
+
 | remove_emoji | Optional | true / false | Used to set whether to remove existing emojis from node names. Defaults to true. |
 | append_type | Optional | true / false | Used to insert the node type before the node name, such as `[SS]`, `[SSR]`, etc. |
 | tfo | Optional | true / false | Used to enable TCP Fast Open for this subscription link. Defaults to false. |
@@ -343,7 +343,7 @@ http://127.0.0.1:25500/sub?target=%TARGET%&url=%URL%&emoji=%EMOJI%····
 | classic | Optional | true / false | Used to set whether to generate the Clash classical rule-provider. |
 | tls13 | Optional | true / false | Used to set whether to add the TLS 1.3 enablement parameter for the node. |
 | new_name | Optional | true / false | If set to true, Clash's new group name (proxies, proxy-groups, rules) will be enabled. |
-| ua | Optional | shadowrocket%2F2.2.65 | Used to customize the User-Agent string. Requires [URLEncode](https://www.urlencoder.org/). If not specified, the default User-Agent will be used.
+| ua | Optional | shadowrocket%2F2.2.65 | Used to customize the User-Agent string. Requires [URLEncode](https://www.urlencoder.org/). If not specified, the default User-Agent will be used.|
 
 For example:
 
@@ -407,7 +407,7 @@ http://127.0.0.1:25500/getprofile?name=%NAME%&token=%TOKEN%
 #### Calling Instructions (File)
 
 | Calling Parameters | Required | Example | Explanation |
-| ----- | :-: | :------------------------ | :------------------------------------------------------------- |
+
 | name | Required | profiles/formyairport.ini | Specifies the storage location of the configuration file (a relative location based on the **pref configuration file** can be used) |
 | token | Required | passwd | For security reasons, a token must be set (see the description of `api_access_token` in the `[common] section of [Configuration Files](#Configuration Files) for details). |
 
@@ -1480,7 +1480,7 @@ http://127.0.0.1:25500/getruleset?type=%TYPE%&url=%URL%&group=%GROUP%
 #### Call Instructions (Rule Conversion)
 
 | Call Parameters | Required | Example | Explanation |
-| ----- | :-------: | :------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+
 | type | Required | 6 | Indicates the type of rule to be generated, represented by a number: 1 for Surge, 2 for Quantumult X, 3 for Clash domain rule-provider, 4 for Clash ipcidr rule-provider, 5 for Surge DOMAIN-SET, and 6 for Clash classical ruleset |
 | url | Required | | Refers to the rule link to be converted, which requires Base64 processing. |
 | group | Required when type=2 | mygroup | The policy group name corresponding to the rule. Required when generating Quantumult X type (type=2) |
