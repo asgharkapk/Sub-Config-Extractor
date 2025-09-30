@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-latest # از یک محیط لینوکس استفاده می‌کند.
 
     steps:
-      - name: Checkout repository # کد مخزن را به محیط اجرا کپی می‌کند.
+      - name: 📥 Checkout repository # کد مخزن را به محیط اجرا کپی می‌کند
         uses: actions/checkout@v3
 
-      - name: Cache Docker image for subconverter # کش کردن ایمیج داکر subconverter برای اجرای سریع‌تر
+      - name: 💾 Cache Docker image for subconverter # کش کردن ایمیج داکر subconverter برای اجرای سریع‌تر
         id: cache-subconverter-docker
         uses: actions/cache@v3
         with:
@@ -24,16 +24,16 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-docker-
 
-      - name: Pull subconverter Docker image # اطمینان از وجود آخرین ایمیج subconverter
+      - name: 🐳 Pull subconverter Docker image # اطمینان از وجود آخرین ایمیج subconverter
         run: docker pull metacubex/subconverter:latest
 
-      - name: Create base output directory # ایجاد پوشه اصلی برای ذخیره خروجی‌ها
+      - name: 📂 Create base output directory # ایجاد پوشه اصلی برای ذخیره خروجی‌ها
         run: mkdir -p output_configs
 
-      - name: Install yq # نصب yq برای خواندن فایل YAML
+      - name: ⚙️ Install yq # نصب yq برای خواندن فایل YAML
         run: sudo snap install yq
 
-      - name: Read subconverter settings # خواندن تنظیمات از فایل YAML
+      - name: 📖 Read subconverter settings # خواندن تنظیمات از فایل YAML
         id: read_settings
         run: |
           SETTINGS_FILE="config/subconverter_settings.yml"
@@ -66,7 +66,7 @@ jobs:
             echo "ADVANCED_PARAMS=" >> $GITHUB_OUTPUT
           fi
 
-      - name: Start subconverter Docker container # راه‌اندازی کانتینر subconverter در حالت HTTP سرور
+      - name: 🚀 Start subconverter Docker container # راه‌اندازی کانتینر subconverter در حالت HTTP سرور
         run: |
           docker run -d -p 25500:25500 --name subconverter_instance metacubex/subconverter:latest
           # صبر کردن برای آماده شدن سرویس subconverter
@@ -75,7 +75,7 @@ jobs:
           # 10 ثانیه معمولاً کافی است.
           sleep 10 
         
-      - name: Process subscription files # پردازش فایل‌های سابسکریپشن
+      - name: 🔄 Process subscription files # پردازش فایل‌های سابسکریپشن
         run: |
           # مسیر پوشه حاوی فایل‌های سابسکریپشن ورودی
           INPUT_DIR="input_subs"
@@ -170,19 +170,14 @@ jobs:
             fi
           done
 
-      - name: Stop subconverter Docker container # توقف کانتینر subconverter
+      - name: 🛑 Stop subconverter Docker container # توقف کانتینر subconverter
         if: always() # همیشه اجرا شود، حتی اگر مراحل قبلی خطا داشته باشند
         run: |
           echo "توقف و حذف کانتینر subconverter..."
           docker stop subconverter_instance || true # `|| true` برای جلوگیری از خطا در صورت عدم وجود کانتینر
           docker rm subconverter_instance || true # `|| true` برای جلوگیری از خطا در صورت عدم وجود کانتینر
 
-      - name: Configure Git user # پیکربندی اطلاعات Git برای commit کردن تغییرات
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Generate Output LIST
+      - name: 📝 Generate Output LIST
         run: |
           echo "## Converted Configs" > Output.list
           echo "" >> Output.list
@@ -190,16 +185,20 @@ jobs:
           REPO=$(echo "${{ github.repository }}" | cut -d'/' -f2)
 
           find output_configs -type f -name "*.yaml" | sort | while read file; do
-            REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
-            FILE_NAME=$(basename "$file")
-            echo "${REL_PATH}|https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH}" >> Output.list
+            # شمارش خطوط فایل
+            LINE_COUNT=$(wc -l < "$file")
+            if [ "$LINE_COUNT" -gt 1 ]; then
+              REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
+              echo "${REL_PATH}|https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH}" >> Output.list
+            fi
           done
 
-      - name: Generate README.md
+      - name: 📑 Generate README.md
         run: |
           echo "# لیست پراکسی های استخراج شده از کالکتور های گیتهاب" > README.md
           echo "### لیست پراکسی استخراج شده خام" >> README.md
-          echo "**فایل‌های پیکربندی آماده استفاده:**برای proxy-providers" >> README.md
+          echo "**فایل‌های پیکربندی آماده استفاده:** برای proxy-providers" >> README.md
+          echo "" >> README.md
 
           USER=$(echo "${{ github.repository }}" | cut -d'/' -f1)
           REPO=$(echo "${{ github.repository }}" | cut -d'/' -f2)
@@ -208,21 +207,23 @@ jobs:
           IDX=0
 
           find output_configs -type f -name "*.yaml" | sort | while read file; do
-            REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
-            FILE_NAME=$(basename "$file")
-            EMOJI=${EMOJIS[$((IDX % ${#EMOJIS[@]}))]}
-            echo "- [${EMOJI} ${REL_PATH}](https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH})" >> README.md
-            IDX=$((IDX + 1))
+            LINE_COUNT=$(wc -l < "$file")
+            if [ "$LINE_COUNT" -gt 1 ]; then
+              REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
+              EMOJI=${EMOJIS[$((IDX % ${#EMOJIS[@]}))]}
+              echo "- [${EMOJI} ${REL_PATH}](https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH})" >> README.md
+              IDX=$((IDX + 1))
+            fi
           done
 
           cat << 'EOF' >> README.md
 
-      - name: Configure Git user # پیکربندی اطلاعات Git برای commit کردن تغییرات
+      - name: 👤 Configure Git user # پیکربندی اطلاعات Git برای commit کردن تغییرات
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit and push changes # commit کردن فایل‌های تبدیل شده و push آن‌ها به مخزن
+      - name: 📤 Commit and push changes # commit کردن فایل‌های تبدیل شده و push آن‌ها به مخزن
         run: |
           # بررسی اینکه آیا پوشه خروجی وجود دارد و خالی نیست
           if [ -d "output_configs" ] && [ "$(ls -A output_configs)" ]; then
