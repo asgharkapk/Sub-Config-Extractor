@@ -117,7 +117,7 @@ jobs:
                   URL_TO_CONVERT_RAW=$(echo "$trimmed_line" | cut -d',' -f1)
                   CUSTOM_OUTPUT_BASE_NAME=$(echo "$trimmed_line" | cut -d',' -f2-) # گرفتن همه چیز بعد از اولین کاما
                   # تمیز کردن نام فایل سفارشی: حذف کاراکترهای نامعتبر و جایگزینی با '_'
-                  CUSTOM_OUTPUT_BASE_NAME=$(echo "$CUSTOM_OUTPUT_BASE_NAME" | sed 's/[^a-zA-Z0-9._-]/_/g')
+                  CUSTOM_OUTPUT_BASE_NAME=$(echo "$CUSTOM_OUTPUT_BASE_NAME" | sed 's/[^a-zA-Z0-9._/-]/_/g')
                   OUTPUT_FILENAME="${CUSTOM_OUTPUT_BASE_NAME}.yaml"
                 else
                   # بازگشت به نام‌گذاری پیش‌فرض اگر کاما یافت نشد
