@@ -134,7 +134,8 @@ jobs:
                     URL_TO_CONVERT=$(python3 -c 'import urllib.parse; print(urllib.parse.quote(input(), safe=""))' <<< "$URL_TO_CONVERT_RAW")
                     
                     OUTPUT_FILE_PATH_IN_WORKSPACE="${CURRENT_OUTPUT_DIR}/${OUTPUT_FILENAME}"
-
+                    mkdir -p "$(dirname "$OUTPUT_FILE_PATH_IN_WORKSPACE")"
+                    
                     # ساخت URL کامل برای درخواست به API محلی subconverter
                     # شامل لینک سابسکریپشن و پارامترهای پیشرفته
                     FULL_API_URL="http://localhost:25500/sub?target=${TARGET_FORMAT}&url=${URL_TO_CONVERT}${ADVANCED_PARAMS}"
