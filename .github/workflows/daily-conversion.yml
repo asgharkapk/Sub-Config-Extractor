@@ -191,15 +191,17 @@ jobs:
           USER=$(echo "${{ github.repository }}" | cut -d'/' -f1)
           REPO=$(echo "${{ github.repository }}" | cut -d'/' -f2)
 
-          find output_configs -type f -name "*.yaml" | sort | while read file; do
-            # شمارش خطوط فایل
-            LINE_COUNT=$(wc -l < "$file")
-            # echo "📋 شمارش خطوط فایل: $file → $LINE_COUNT"
-            if [ "$LINE_COUNT" -lt 5 ]; then
-              REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
-              echo "|[${LINE_COUNT}]|https://github.com/${USER}/${REPO}/blob/main/output_configs/${REL_PATH}|" >> Error.md
-            fi
-          done
+          find output_configs -type f -name "*.yaml" \
+            | while read file; do
+                echo "$(wc -l < "$file") $file"
+              done \
+            | sort -nr \
+            | while read LINE_COUNT file; do
+                if [ "$LINE_COUNT" -lt 5 ]; then
+                  REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
+                  echo "|[${LINE_COUNT}]|https://github.com/${USER}/${REPO}/blob/main/output_configs/${REL_PATH}|" >> Error.md
+                fi
+              done
 
       - name: 📝 Generate Output LIST
         run: |
@@ -208,14 +210,17 @@ jobs:
           USER=$(echo "${{ github.repository }}" | cut -d'/' -f1)
           REPO=$(echo "${{ github.repository }}" | cut -d'/' -f2)
 
-          find output_configs -type f -name "*.yaml" | sort | while read file; do
-            # شمارش خطوط فایل
-            LINE_COUNT=$(wc -l < "$file")
-            if [ "$LINE_COUNT" -gt 10 ]; then
-              REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
-              echo "[${LINE_COUNT}]${REL_PATH}|https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH}" >> Output.list
-            fi
-          done
+          find output_configs -type f -name "*.yaml" \
+            | while read file; do
+                echo "$(wc -l < "$file") $file"
+              done \
+            | sort -nr \
+            | while read LINE_COUNT file; do
+                if [ "$LINE_COUNT" -gt 10 ]; then
+                  REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
+                  echo "[${LINE_COUNT}]${REL_PATH}|https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH}" >> Output.list
+                fi
+              done
 
       - name: 📑 Generate README.md
         run: |
@@ -239,15 +244,20 @@ jobs:
           )
           IDX=0
 
-          find output_configs -type f -name "*.yaml" | sort | while read file; do
-            LINE_COUNT=$(wc -l < "$file")
-            if [ "$LINE_COUNT" -gt 10 ]; then
-              REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
-              EMOJI=${EMOJIS[$((IDX % ${#EMOJIS[@]}))]}
-              echo "|- [${EMOJI} ${REL_PATH}](https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH})|[${LINE_COUNT}]|" >> README.md
-              IDX=$((IDX + 1))
-            fi
-          done
+          # 🔢 Sort files by line count (descending)
+          find output_configs -type f -name "*.yaml" \
+            | while read file; do
+                echo "$(wc -l < "$file") $file"
+              done \
+            | sort -nr \
+            | while read LINE_COUNT file; do
+                if [ "$LINE_COUNT" -gt 10 ]; then
+                  REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
+                  EMOJI=${EMOJIS[$((IDX % ${#EMOJIS[@]}))]}
+                  echo "| [${EMOJI} ${REL_PATH}](https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH})|[${LINE_COUNT}]|" >> README.md
+                  IDX=$((IDX + 1))
+                fi
+              done
 
           cat << 'EOF' >> README.md
 
