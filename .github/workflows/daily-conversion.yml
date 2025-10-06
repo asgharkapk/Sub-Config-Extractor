@@ -188,7 +188,7 @@ jobs:
           find output_configs -type f -name "*.yaml" | sort | while read file; do
             # شمارش خطوط فایل
             LINE_COUNT=$(wc -l < "$file")
-            if [ "$LINE_COUNT" -gt 1 ]; then
+            if [ "$LINE_COUNT" -gt 10 ]; then
               REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
               echo "${REL_PATH}|https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH}" >> Output.list
             fi
@@ -209,7 +209,7 @@ jobs:
 
           find output_configs -type f -name "*.yaml" | sort | while read file; do
             LINE_COUNT=$(wc -l < "$file")
-            if [ "$LINE_COUNT" -gt 1 ]; then
+            if [ "$LINE_COUNT" -gt 10 ]; then
               REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
               EMOJI=${EMOJIS[$((IDX % ${#EMOJIS[@]}))]}
               echo "- [${EMOJI} ${REL_PATH}](https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH})" >> README.md
