@@ -131,7 +131,7 @@ jobs:
 
                 # بررسی اینکه بخش URL واقعاً یک URL باشد (یک بررسی ساده)
                 if [[ "$URL_TO_CONVERT_RAW" =~ ^https?:// ]]; then
-                    echo "🔄 در حال تبدیل لینک #$LINE_COUNT از فایل '$sub_file' به فرمت '$TARGET_FORMAT'..."
+                    # echo "🔄 در حال تبدیل لینک #$LINE_COUNT از فایل '$sub_file' به فرمت '$TARGET_FORMAT'..."
                     
                     # URL-encode کردن لینک تکی با استفاده از پایتون
                     URL_TO_CONVERT=$(python3 -c 'import urllib.parse; print(urllib.parse.quote(input(), safe=""))' <<< "$URL_TO_CONVERT_RAW")
@@ -152,9 +152,9 @@ jobs:
                     
                     # بررسی وضعیت خروج دستور curl
                     CURL_EXIT_CODE=$?
-                    if [ "$CURL_EXIT_CODE" -eq 0 ]; then
-                      echo "✅ تبدیل لینک #$LINE_COUNT با موفقیت انجام شد. خروجی در '${OUTPUT_FILE_PATH_IN_WORKSPACE}' ذخیره شد."
-                    else
+                    # if [ "$CURL_EXIT_CODE" -eq 0 ]; then
+                      # echo "✅ تبدیل لینک #$LINE_COUNT با موفقیت انجام شد. خروجی در '${OUTPUT_FILE_PATH_IN_WORKSPACE}' ذخیره شد."
+                    if [ "$CURL_EXIT_CODE" -ne 0 ]; then
                       echo "❌ خطا در تبدیل لینک #$LINE_COUNT از فایل '$sub_file' (کد خطا: $CURL_EXIT_CODE). لطفاً لاگ‌های GitHub Actions را برای جزئیات بیشتر بررسی کنید."
                       echo "  این لینک ممکن است نامعتبر باشد یا subconverter نتواند آن را پردازش کند. به پردازش لینک‌های بعدی ادامه می‌دهیم."
                       # می‌توانید محتوای فایل خروجی را با یک پیام خطا پر کنید تا مشخص باشد تبدیل ناموفق بوده است.
@@ -181,6 +181,23 @@ jobs:
           docker stop subconverter_instance || true # `|| true` برای جلوگیری از خطا در صورت عدم وجود کانتینر
           docker rm subconverter_instance || true # `|| true` برای جلوگیری از خطا در صورت عدم وجود کانتینر
 
+      - name: 📝 Generate ERROR⚠️ LIST
+        run: |
+          echo "## Converted Configs" > Error.list
+          echo "" >> Error.list
+          USER=$(echo "${{ github.repository }}" | cut -d'/' -f1)
+          REPO=$(echo "${{ github.repository }}" | cut -d'/' -f2)
+
+          find output_configs -type f -name "*.yaml" | sort | while read file; do
+            # شمارش خطوط فایل
+            LINE_COUNT=$(wc -l < "$file")
+            # echo "📋 شمارش خطوط فایل: $file → $LINE_COUNT"
+            if [ "$LINE_COUNT" -lt 5 ]; then
+              REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
+              echo "${REL_PATH}[${LINE_COUNT}]|https://github.com/${USER}/${REPO}/blob/main/output_configs/${REL_PATH}" >> Error.list
+            fi
+          done
+
       - name: 📝 Generate Output LIST
         run: |
           echo "## Converted Configs" > Output.list
@@ -191,7 +208,6 @@ jobs:
           find output_configs -type f -name "*.yaml" | sort | while read file; do
             # شمارش خطوط فایل
             LINE_COUNT=$(wc -l < "$file")
-            echo "📋 شمارش خطوط فایل: $file → $LINE_COUNT"
             if [ "$LINE_COUNT" -gt 10 ]; then
               REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
               echo "${REL_PATH}[${LINE_COUNT}]|https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH}" >> Output.list
