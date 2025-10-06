@@ -40,7 +40,8 @@ jobs:
           ADVANCED_PARAMS=""
 
           if [ -f "$SETTINGS_FILE" ]; then
-            echo "خواندن تنظیمات از: $SETTINGS_FILE"
+            echo "✅ خواندن تنظیمات از: $SETTINGS_FILE"
+
             # لیست تمام پارامترهای پیشرفته که می‌خواهید از فایل settings.yml بخوانید
             # این لیست باید با پارامترهای پشتیبانی شده توسط subconverter API مطابقت داشته باشد.
             PARAMS=(
@@ -62,7 +63,8 @@ jobs:
             done
             echo "ADVANCED_PARAMS=$ADVANCED_PARAMS" >> $GITHUB_OUTPUT
           else
-            echo "فایل تنظیمات '$SETTINGS_FILE' یافت نشد. از تنظیمات پیش‌فرض subconverter استفاده می‌شود."
+            echo "⚠️ فایل تنظیمات '$SETTINGS_FILE' یافت نشد. از تنظیمات پیش‌فرض subconverter استفاده می‌شود."
+
             echo "ADVANCED_PARAMS=" >> $GITHUB_OUTPUT
           fi
 
@@ -70,7 +72,8 @@ jobs:
         run: |
           docker run -d -p 25500:25500 --name subconverter_instance metacubex/subconverter:latest
           # صبر کردن برای آماده شدن سرویس subconverter
-          echo "صبر کردن برای راه‌اندازی subconverter..."
+          echo "⌛ صبر کردن برای راه‌اندازی subconverter..."
+
           # مقدار sleep را می‌توان بر اساس سرعت runner و زمان راه‌اندازی subconverter تنظیم کرد.
           # 10 ثانیه معمولاً کافی است.
           sleep 10 
@@ -94,7 +97,7 @@ jobs:
           # حلقه برای پردازش هر فایل .txt در پوشه ورودی
           # از find برای اطمینان از یافتن فقط فایل‌ها و مدیریت بهتر نام‌ها استفاده می‌شود.
           find "$INPUT_DIR" -maxdepth 1 -type f -name "*.txt" | while read sub_file; do
-            echo "در حال پردازش فایل: $sub_file"
+            echo "📂 در حال پردازش فایل: $sub_file"
             
             # استخراج نام فایل بدون پسوند (مثلا "clash" از "clash.txt") که به عنوان TARGET_FORMAT استفاده می‌شود
             # sed برای حذف پسوند .txt استفاده می‌شود.
@@ -103,7 +106,7 @@ jobs:
             # ایجاد زیرپوشه خروجی برای این فرمت هدف (مثلا output_configs/clash)
             CURRENT_OUTPUT_DIR="${OUTPUT_BASE_DIR}/${TARGET_FORMAT}"
             mkdir -p "$CURRENT_OUTPUT_DIR"
-            echo "ایجاد پوشه خروجی: $CURRENT_OUTPUT_DIR"
+            echo "📁 ایجاد پوشه خروجی: $CURRENT_OUTPUT_DIR"
 
             LINE_COUNT=0
             # خواندن هر خط از فایل
@@ -123,12 +126,12 @@ jobs:
                   # بازگشت به نام‌گذاری پیش‌فرض اگر کاما یافت نشد
                   URL_TO_CONVERT_RAW="$trimmed_line"
                   OUTPUT_FILENAME="${TARGET_FORMAT}_$(printf "%03d" $LINE_COUNT).yaml"
-                  echo "  هشدار: خط #$LINE_COUNT در فایل '$sub_file' فرمت 'URL,FILENAME' را ندارد. از نام پیش‌فرض استفاده می‌شود."
+                  echo "⚠️ هشدار: خط #$LINE_COUNT در فایل '$sub_file' فرمت 'URL,FILENAME' را ندارد. از نام پیش‌فرض استفاده می‌شود."
                 fi
 
                 # بررسی اینکه بخش URL واقعاً یک URL باشد (یک بررسی ساده)
                 if [[ "$URL_TO_CONVERT_RAW" =~ ^https?:// ]]; then
-                    echo "  در حال تبدیل لینک #$LINE_COUNT از فایل '$sub_file' به فرمت '$TARGET_FORMAT'..."
+                    echo "🔄 در حال تبدیل لینک #$LINE_COUNT از فایل '$sub_file' به فرمت '$TARGET_FORMAT'..."
                     
                     # URL-encode کردن لینک تکی با استفاده از پایتون
                     URL_TO_CONVERT=$(python3 -c 'import urllib.parse; print(urllib.parse.quote(input(), safe=""))' <<< "$URL_TO_CONVERT_RAW")
@@ -150,31 +153,31 @@ jobs:
                     # بررسی وضعیت خروج دستور curl
                     CURL_EXIT_CODE=$?
                     if [ "$CURL_EXIT_CODE" -eq 0 ]; then
-                      echo "  تبدیل لینک #$LINE_COUNT با موفقیت انجام شد. خروجی در '${OUTPUT_FILE_PATH_IN_WORKSPACE}' ذخیره شد."
+                      echo "✅ تبدیل لینک #$LINE_COUNT با موفقیت انجام شد. خروجی در '${OUTPUT_FILE_PATH_IN_WORKSPACE}' ذخیره شد."
                     else
-                      echo "  خطا در تبدیل لینک #$LINE_COUNT از فایل '$sub_file' (کد خطا: $CURL_EXIT_CODE). لطفاً لاگ‌های GitHub Actions را برای جزئیات بیشتر بررسی کنید."
+                      echo "❌ خطا در تبدیل لینک #$LINE_COUNT از فایل '$sub_file' (کد خطا: $CURL_EXIT_CODE). لطفاً لاگ‌های GitHub Actions را برای جزئیات بیشتر بررسی کنید."
                       echo "  این لینک ممکن است نامعتبر باشد یا subconverter نتواند آن را پردازش کند. به پردازش لینک‌های بعدی ادامه می‌دهیم."
                       # می‌توانید محتوای فایل خروجی را با یک پیام خطا پر کنید تا مشخص باشد تبدیل ناموفق بوده است.
                       echo "Error: Failed to convert this link. Check GitHub Actions logs for details." > "$OUTPUT_FILE_PATH_IN_WORKSPACE"
                     fi
                 else
-                    echo "  خطا: خط #$LINE_COUNT در فایل '$sub_file' حاوی URL معتبری نیست: '$URL_TO_CONVERT_RAW'. از آن رد می‌شویم."
+                    echo "🚫 خطا: خط #$LINE_COUNT در فایل '$sub_file' حاوی URL معتبری نیست: '$URL_TO_CONVERT_RAW'. از آن رد می‌شویم."
                 fi
               else
-                echo "  خط #$LINE_COUNT در فایل '$sub_file' خالی است. از آن رد می‌شویم."
+                echo "⚪ خط #$LINE_COUNT در فایل '$sub_file' خالی است. از آن رد می‌شویم."
               fi
             done < "$sub_file"
             
             # اگر هیچ لینکی در فایل یافت نشد، یک پیام بدهید
             if [ "$LINE_COUNT" -eq 0 ]; then
-              echo "فایل '$sub_file' هیچ لینک معتبری برای تبدیل نداشت."
+              echo "📭 فایل '$sub_file' هیچ لینک معتبری برای تبدیل نداشت."
             fi
           done
 
       - name: 🛑 Stop subconverter Docker container # توقف کانتینر subconverter
         if: always() # همیشه اجرا شود، حتی اگر مراحل قبلی خطا داشته باشند
         run: |
-          echo "توقف و حذف کانتینر subconverter..."
+          echo "🛑 توقف و حذف کانتینر subconverter..."
           docker stop subconverter_instance || true # `|| true` برای جلوگیری از خطا در صورت عدم وجود کانتینر
           docker rm subconverter_instance || true # `|| true` برای جلوگیری از خطا در صورت عدم وجود کانتینر
 
@@ -188,9 +191,10 @@ jobs:
           find output_configs -type f -name "*.yaml" | sort | while read file; do
             # شمارش خطوط فایل
             LINE_COUNT=$(wc -l < "$file")
+            echo "📋 شمارش خطوط فایل: $file → $LINE_COUNT"
             if [ "$LINE_COUNT" -gt 10 ]; then
               REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
-              echo "${REL_PATH}|https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH}" >> Output.list
+              echo "${REL_PATH}[${LINE_COUNT}]|https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH}" >> Output.list
             fi
           done
 
@@ -204,7 +208,14 @@ jobs:
           USER=$(echo "${{ github.repository }}" | cut -d'/' -f1)
           REPO=$(echo "${{ github.repository }}" | cut -d'/' -f2)
 
-          EMOJIS=("🌐" "🚀" "🔒" "⚡" "🛡️")
+          EMOJIS=(
+            "🌐" "🚀" "🔒" "⚡" "🛡️"   # your originals
+            "📦" "🛰️" "📡" "🔧" "🗂️"
+            "💻" "📊" "📝" "🌀" "🌍"
+            "💡" "📁" "⚙️" "🖧" "🔗"
+            "🧩" "🔍" "🖥️" "🔄" "📶"
+            "✈️" "🌟" "🧭" "🏷️" "🔑"
+          )
           IDX=0
 
           find output_configs -type f -name "*.yaml" | sort | while read file; do
@@ -212,7 +223,7 @@ jobs:
             if [ "$LINE_COUNT" -gt 10 ]; then
               REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
               EMOJI=${EMOJIS[$((IDX % ${#EMOJIS[@]}))]}
-              echo "- [${EMOJI} ${REL_PATH}](https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH})" >> README.md
+              echo "- [${EMOJI} ${REL_PATH}[${LINE_COUNT}]](https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH})" >> README.md
               IDX=$((IDX + 1))
             fi
           done
