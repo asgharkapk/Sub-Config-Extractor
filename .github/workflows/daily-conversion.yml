@@ -86,6 +86,10 @@ jobs:
           OUTPUT_BASE_DIR="output_configs"
           # پارامترهای پیشرفته از مرحله قبلی (خروجی read_settings)
           ADVANCED_PARAMS="${{ steps.read_settings.outputs.ADVANCED_PARAMS }}"
+
+          # Initialize duplicate log ONCE
+          echo "## Duplicate Filenames Log" > duplicate.error
+          echo "" >> duplicate.error
           
           # بررسی اینکه آیا پوشه ورودی وجود دارد یا خیر
           if [ ! -d "$INPUT_DIR" ]; then
@@ -139,12 +143,10 @@ jobs:
                     OUTPUT_FILE_PATH_IN_WORKSPACE="${CURRENT_OUTPUT_DIR}/${OUTPUT_FILENAME}"
                     mkdir -p "$(dirname "$OUTPUT_FILE_PATH_IN_WORKSPACE")"
 
-                    echo "## Duplicate Filenames Log" > duplicate.error
-                    echo "" >> duplicate.error
                     # Check for duplicate filenames
-                    if [ -f "$OUTPUT_FILE_PATH_IN_WORKSPACE" ]; then
-                      echo "⚠️ Duplicate detected: '$OUTPUT_FILE_PATH_IN_WORKSPACE' from URL: $URL_TO_CONVERT_RAW" | tee -a duplicate.error
-                    fi
+                    # if [ -f "$OUTPUT_FILE_PATH_IN_WORKSPACE" ]; then
+                    #   echo "⚠️ Duplicate detected: '$OUTPUT_FILE_PATH_IN_WORKSPACE' from URL: $URL_TO_CONVERT_RAW" | tee -a duplicate.error
+                    # fi
 
                     # ساخت URL کامل برای درخواست به API محلی subconverter
                     # شامل لینک سابسکریپشن و پارامترهای پیشرفته
