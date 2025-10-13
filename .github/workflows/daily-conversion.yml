@@ -138,7 +138,14 @@ jobs:
                     
                     OUTPUT_FILE_PATH_IN_WORKSPACE="${CURRENT_OUTPUT_DIR}/${OUTPUT_FILENAME}"
                     mkdir -p "$(dirname "$OUTPUT_FILE_PATH_IN_WORKSPACE")"
-                    
+
+                    echo "## Duplicate Filenames Log" > duplicate.error
+                    echo "" >> duplicate.error
+                    # Check for duplicate filenames
+                    if [ -f "$OUTPUT_FILE_PATH_IN_WORKSPACE" ]; then
+                      echo "⚠️ Duplicate detected: '$OUTPUT_FILE_PATH_IN_WORKSPACE' from URL: $URL_TO_CONVERT_RAW" | tee -a duplicate.error
+                    fi
+
                     # ساخت URL کامل برای درخواست به API محلی subconverter
                     # شامل لینک سابسکریپشن و پارامترهای پیشرفته
                     FULL_API_URL="http://localhost:25500/sub?target=${TARGET_FORMAT}&url=${URL_TO_CONVERT}${ADVANCED_PARAMS}"
@@ -270,7 +277,7 @@ jobs:
         run: |
           # بررسی اینکه آیا پوشه خروجی وجود دارد و خالی نیست
           if [ -d "output_configs" ] && [ "$(ls -A output_configs)" ]; then
-            git add output_configs Error.md Output.list README.md # اضافه کردن کل پوشه خروجی برای commit
+            git add output_configs duplicate.error Error.md Output.list README.md # اضافه کردن کل پوشه خروجی برای commit
             git commit -m "Update converted configs from daily subconverter action" || echo "No changes to commit" # اگر تغییری نبود، خطا نمی‌دهد.
             git push
           else
