@@ -227,7 +227,7 @@ jobs:
             | while read LINE_COUNT file; do
                 if [ "$LINE_COUNT" -gt 10 ]; then
                   REL_PATH=$(echo "$file" | sed 's|^output_configs/||')
-                  echo "[${LINE_COUNT}]${REL_PATH}|https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH}" >> Output.list
+                  echo "[${LINE_COUNT}]___${REL_PATH}|https://raw.githubusercontent.com/${USER}/${REPO}/refs/heads/main/output_configs/${REL_PATH}" >> Output.list
                 fi
               done
 
