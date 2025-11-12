@@ -1,2 +1,4 @@
-proxies:
-  - {name: "[VMess] netherbobi.vtuix.ir:7035", server: netherbobi.vtuix.ir, port: 7035, type: vmess, uuid: 6270eaeb-2f67-4fb5-9d58-662c52d67b3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: filimo.com}}, udp: true, tfo: false}
+Internal server error while processing request '/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FMrMohebi%2Fxray-proxy-grabber-telegram%2Frefs%2Fheads%2Fmaster%2Fcollected-proxies%2Fxray-json-full%2Factives_all.json&add_emoji=true&remove_emoji=false&append_type=true&tfo=false&udp=true&list=true&sort=false&script=false&insert=true&scv=true&fdn=true&expand=false&append_info=true&prepend=true&classic=false&tls13=false&new_name=false'!
+
+  exception: std::runtime_error
+  what(): rapidjson assertion failed: IsObject() (/usr/include/rapidjson/document.h:1338)
