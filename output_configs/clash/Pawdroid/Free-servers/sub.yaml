@@ -1,5 +1,9 @@
 proxies:
-  - {name: "[Trojan] 🇺🇸 美国 华盛顿Cogent通信公司", server: 38.96.254.102, port: 18509, type: trojan, password: .ie4rghJuMkcf0oF, sni: shoppingmall.electricbanana.click, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[Trojan] 🇨🇦 加拿大多伦多 V2CROSS.COM", server: 198.57.27.27, port: 12990, type: trojan, password: 6pRjKQJ0CWyFtG.9, sni: diningtable.electricbanana.click, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[SS] 欧盟 V2CROSS.COM", server: 45.83.22.118, port: 8443, type: ss, cipher: aes-256-gcm, password: 6af24790-76c9-49d3-bbe0-01285239e57d, udp: true, tfo: false}
   - {name: "[VMess] 🇬🇧 英国 V2CROSS.COM", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[Trojan] 🇭🇰 香港 电讯盈科有限公司", server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VMess] 🇺🇸 美国 CloudFlare节点", server: cf.fovi.tk, port: 443, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol.fovi.tk}}, udp: true, tfo: false}
+  - {name: "[SS] 🇺🇸 美国 加利福尼亚州洛杉矶IT7网络", server: 67.209.177.69, port: 26351, type: ss, cipher: aes-256-gcm, password: 57dtozbdQRZT9MaL, udp: true, tfo: false}
+  - {name: "[Trojan] 🇭🇰 香港 电讯盈科有限公司", server: 219.79.186.107, port: 443, type: trojan, password: BxceQaOe, sni: t.me%25252Fripaojiedian, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇭🇰 香港 电讯盈科有限公司 2", server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VMess] 🇺🇸 美国 V2CROSS.COM", server: 74.117.196.232, port: 37934, type: vmess, uuid: f1a513d2-c32a-49dc-8e64-d4f8a2f1e001, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest}, udp: true, tfo: false}
+  - {name: "[VMess] 🇬🇧 英国 V2CROSS.COM 2", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: false}
