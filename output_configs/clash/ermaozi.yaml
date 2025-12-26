@@ -1,4 +1,4 @@
 proxies:
-  - {name: "[Trojan] 🇯🇵 🇨🇳_CN_中国->🇯🇵_JP_日本", server: 36.156.102.115, port: 26876, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VMess] 🇺🇸 🇨🇳_CN_中国->🇺🇸_US_美国", server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true, tfo: false}
-  - {name: "[SS] 🇲🇩 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯", server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇨🇳_CN_中国->🇯🇵_JP_日本", server: 36.156.102.115, port: 26876, type: trojan, password: BxceQaOe, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇺🇸 🇨🇳_CN_中国->🇺🇸_US_美国", server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo}, tfo: false}
+  - {name: "[SS] 🇲🇩 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯", server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
