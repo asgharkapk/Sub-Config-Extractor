@@ -1,5 +1,7 @@
 proxies:
+  - {name: "[SS] 🇨🇳 广东省广州市 电信", server: 119.147.193.224, port: 33110, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, tfo: false}
+  - {name: "[Trojan] 🇮🇷 伊朗 V2CROSS.COM", server: 37.202.200.19, port: 25010, type: trojan, password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05, sni: 37.202.200.19, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇨🇳 广东省广州市 电信 2", server: 119.147.193.224, port: 33111, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, tfo: false}
   - {name: "[VMess] 🇬🇧 英国 V2CROSS.COM", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇭🇰 香港 电讯盈科有限公司", server: 203.198.84.221, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇨🇳 广东省东莞市 电信IDC机房", server: 14.17.71.67, port: 10006, type: ss, cipher: chacha20-ietf-poly1305, password: 53db9c44-94a1-4976-8682-5d1c3642058d, tfo: false}
-  - {name: "[Trojan] 🇨🇦 加拿大多伦多 V2CROSS.COM", server: 198.57.27.27, port: 12990, type: trojan, password: 6pRjKQJ0CWyFtG.9, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本 东京Amazon数据中心", server: 54.238.137.20, port: 3127, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇺🇸 美国 CloudFlare节点", server: c7.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c7.620720.xyz}}, tfo: false}
