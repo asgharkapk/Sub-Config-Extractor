@@ -1,4 +1,8 @@
 proxies:
-  - {name: "[VMess] 🇭🇰 香港 Amazon数据中心", server: cgroup.node4.v.nodelist-airport.com, port: 8312, type: vmess, uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇭🇰 香港 Amazon数据中心 2", server: cgroup.node4.v.nodelist-airport.com, port: 8312, type: vmess, uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: "[VMess] 🇺🇸 美国 CloudFlare节点", server: zula.ir, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: nasnet-511952424.mcitel.co}}, tfo: false}
+  - {name: "[Trojan] 🇺🇸 美国 华盛顿Cogent通信公司", server: 38.96.254.102, port: 18509, type: trojan, password: .ie4rghJuMkcf0oF, sni: shoppingmall.electricbanana.click, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇨🇦 加拿大多伦多 V2CROSS.COM", server: 198.57.27.27, port: 12990, type: trojan, password: 6pRjKQJ0CWyFtG.9, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇭🇺 匈牙利 V2CROSS.COM", server: 109.61.39.150, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 01dc0d7cbb650bc3, tfo: false}
+  - {name: "[SS] 🇯🇴 约旦 V2CROSS.COM", server: 91.106.109.74, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 11bf054dcc0342cd, tfo: false}
+  - {name: "[SS] 🇺🇸 美国 V2CROSS.COM", server: fl3.cowjuice.me, port: 9443, type: ss, cipher: chacha20-ietf-poly1305, password: X36TIi4C3NH6Oln3TdGyjg, tfo: false}
+  - {name: "[SS] 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心", server: 156.244.36.105, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 34bafa5f59fc339f, tfo: false}
