@@ -1,9 +1,8 @@
 proxies:
-  - {name: "[Trojan] 🇪🇸 西班牙 V2CROSS.COM", server: 80.173.231.254, port: 12420, type: trojan, password: wp9IsiY82uQhcmgNC1eoBM, sni: www.semanticstaplegun.click, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇺🇸 美国 CloudFlare节点", server: cf-proxy.202507.xyz, port: 443, type: vmess, uuid: fa8c811b-7bd3-4c04-b9dd-c701698f1efd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gb.202507.xyz}}, tfo: false}
+  - {name: "[VLESS] 🇱🇹 立陶宛 V2CROSS.COM", server: bf.branly23.cloud, port: 2087, type: vless, tls: true, uuid: 9f6ffb3c-de36-4a48-8cae-34d7e3ede5ea, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇭🇰 香港 特别行政区", server: 154.90.60.117, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 6f3fdf1a9ce11652, tfo: false}
   - {name: "[Trojan] 🇺🇸 美国 V2CROSS.COM", server: 140.82.35.244, port: 20994, type: trojan, password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s, sni: ads.x5.ru, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇳🇱 荷兰阿姆斯特丹 xTom/AS3214", server: 5.181.21.246, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: gKYygTcRYhc3skc2x6tZ073lYz0DnieX, tfo: false}
-  - {name: "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM", server: 212.193.18.144, port: 36158, type: trojan, password: ZblhWr0mqMakCPg.N, sni: ya.ru, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇭🇰 香港 电讯盈科有限公司", server: 203.198.122.187, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇨🇦 加拿大 V2CROSS.COM", server: 167.17.185.172, port: 10889, type: trojan, password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj, sni: web.max.ru, skip-cert-verify: true, tfo: false}
   - {name: "[Trojan] 🇳🇴 挪威 V2CROSS.COM", server: 83.143.87.9, port: 18581, type: trojan, password: RPyW62_b9aH.ztJKeArou, skip-cert-verify: true, tfo: false}
   - {name: "[SS] 🇬🇧 英国 V2CROSS.COM", server: 78.129.140.11, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: y3SowqUkrt1cbm487g74Ac, tfo: false}
-  - {name: "[VMess] 🇬🇧 英国 V2CROSS.COM", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
