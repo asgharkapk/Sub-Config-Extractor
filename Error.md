@@ -8,7 +8,6 @@
 |[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/freeclash/-v2ray-2.yaml|
 |[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/freeclash/-4.yaml|
 |[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/freeclash/-2.yaml|
-|[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/Pawdroid/Free-servers/sub.yaml|
 |[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/10ium/base64-encoder/liketolivefree_sub.yaml|
 |[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/surfboard/money.yaml|
 |[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/surfboard/mahsanet_mtn_sub_4.yaml|
@@ -16,7 +15,6 @@
 |[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/surfboard/mahsanet_mci_sub_1.yaml|
 |[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/lagzian_meta.yaml|
 |[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/lagzian/_meta.yaml|
-|[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/Pawdroid/Free-servers/sub.yaml|
 |[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/Epodonios.yaml|
 |[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/10ium/base64-encoder/Epodonios/0000.yaml|
 |[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/vpnclashfa-backup/SubConfigShuffler/itsyebekhe_PSG_trojan_cloudflare.txt.yaml|
@@ -64,7 +62,6 @@
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/mahsanet/_mci_sub_3.yaml|
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/mahsa-sub_3.yaml|
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/MahsaNetConfigTopic.yaml|
-|[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/Barabama_ndnode.yaml|
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/surfboard/theGreatPeter_nodes.yaml|
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/surfboard/moneyfly1_merged_proxies.yaml|
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/surfboard/mahsanet_mtn_sub_3.yaml|
@@ -111,7 +108,6 @@
 |[2]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/surfboard/ShadowsocksM-MCI-Wifi.yaml|
 |[2]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/surfboard/Rayan-Config_H-V.yaml|
 |[2]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/surfboard/Rayan-Config_H-IV.yaml|
-|[2]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/surfboard/MrMohebi_under_1500ms.yaml|
 |[2]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/surfboard/Mosifree_TCH.yaml|
 |[2]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/surfboard/Mosifree_Reality.yaml|
 |[2]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/surfboard/Mosifree-Reality.yaml|
@@ -158,6 +154,7 @@
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/mahsanet/_mci_sub_2.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/mahdibland/ShadowsocksAggregator/EternityAir.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/ermaozi.yaml|
+|[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/Barabama_ndnode.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/10ium/base64-encoder/theGreatPeter_nodes.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/10ium/HiN-VPN/subscription/source/base64/lrnbymaa.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/10ium/HiN-VPN/subscription/source/base64/configfa.yaml|
@@ -168,6 +165,7 @@
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/mahsa-sub_4.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/ermaozi.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/ainita.yaml|
+|[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/Pawdroid/Free-servers/sub.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/Barabama_ndnode.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/10ium/base64-encoder/peasoft_list_raw.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/10ium/HiN-VPN/subscription/source/base64/v2ray1_ng.yaml|
@@ -492,7 +490,6 @@
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/NiREvil/vless/fragment.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/NiREvil/vless/SSTime.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/Net-Account/Config/Config.yaml|
-|[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/MrMohebi_under_1500ms.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/MrMohebi/xray-proxy-grabber-telegram/collected-proxies/xray-json-full/actives_all.json.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/Mosifree_Vless.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/Mosifree_TCH.yaml|
@@ -2598,7 +2595,6 @@
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/NiREvil/vless/fragment.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/NiREvil/vless/SSTime.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/Net-Account/Config/Config.yaml|
-|[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/MrMohebi_under_1500ms.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/MrMohebi/xray-proxy-grabber-telegram/collected-proxies/xray-json-full/actives_all.json.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/Mosifree/_Vless.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/Mosifree/_TCH.yaml|
