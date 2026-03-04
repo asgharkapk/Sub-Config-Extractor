@@ -1,15 +1,27 @@
 proxies:
-  - {name: "[SS] 🇰🇷 🇰🇷_KR_韩国", server: 221.150.109.89, port: 43231, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷_KR_韩国_1", server: 168.126.234.233, port: 28860, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[Trojan] 🇺🇸 🇺🇸_US_美国_2", server: kfjdi.pages.dev, port: 443, type: trojan, password: er668, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷_KR_韩国_2", server: 218.38.103.150, port: 39502, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷_KR_韩国_3", server: 121.170.203.147, port: 61417, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷_KR_韩国_4", server: 211.201.169.70, port: 19307, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷_KR_韩国_5", server: 218.234.149.9, port: 4483, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[SS] 🇨🇳_CN_中国", server: 156.244.36.105, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 34bafa5f59fc339f, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱_NL_荷兰_1", server: fl3.cowjuice.me, port: 9443, type: ss, cipher: chacha20-ietf-poly1305, password: X36TIi4C3NH6Oln3TdGyjg, tfo: false}
-  - {name: "[SS] 🇭🇺 🇭🇺_HU_匈牙利", server: 109.61.39.150, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 01dc0d7cbb650bc3, tfo: false}
-  - {name: "[SS] 🇯🇴 🇯🇴_JO_约旦", server: 91.106.109.74, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 11bf054dcc0342cd, tfo: false}
-  - {name: "[SS] 🇨🇳 🇨🇳_CN_中国_1", server: 154.205.147.237, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 2272de48c53e0a57, tfo: false}
-  - {name: "[VMess] 🇭🇰 中国 - 香港 - PCCW IMS Limited - 45", server: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc, alterId: 2, cipher: "", tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net}}, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]", server: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b, alterId: 2, cipher: "", tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net}}, tfo: false}
+  - {name: "[SS] 🇨🇳_CN_中国->🏳️_unKnow_未知", server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, tfo: false}
+  - {name: "[Trojan] 🇩🇪 🇨🇳_CN_中国->🇩🇪_DE_德国", server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 04e5b584-1850-483d-a844-9ad624a4ca8e, sni: green2.cdntencentmusic.com, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇱🇹 🇨🇳_CN_中国->🇱🇹_LT_立陶宛", server: chengbai02.ascwt179.com, port: 13223, type: ss, cipher: aes-128-gcm, password: JVrsLLN1tkN8oXZO, tfo: false}
+  - {name: "[VLESS] 🇨🇦 🇨🇦_CA_加拿大", server: 142.248.80.157, port: 443, type: vless, tls: true, uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2, servername: apple.com, flow: xtls-rprx-vision, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇨🇳_CN_中国", server: 220.130.58.136, port: 35502, type: trojan, password: c5355528-55a2-45df-b8fd-a48ce3c41413, sni: green2.cdntencentmusic.com, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇬🇧 🇨🇳_CN_中国->🇬🇧_GB_英国", server: ldu.izenny.com, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, tfo: false}
+  - {name: "[VLESS] 🇺🇸 🇺🇸_US_美国", server: hk.tfree.top, port: 10006, type: vless, tls: true, uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5, servername: www.cloudflare.com, flow: xtls-rprx-vision, reality-opts: {public-key: XUVBEFyxevBwoGwVlo31vXMR_wQ0h0UnhzC4jCeakkc, short-id: 590bdc3b6dad}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 未知", server: 103.186.154.58, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 未知_1", server: 103.186.154.139, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[VLESS] 🇷🇺 🇷🇺_RU_俄罗斯", server: nr-01.opsvpnvless.ru, port: 443, type: vless, tls: true, uuid: 1218c022-dca8-49e5-b7d4-a04f3023db81, servername: stats.vk-portal.net, flow: xtls-rprx-vision, reality-opts: {public-key: 2ryk_zFs_pzxv-bL9FkOk0Jb5oQw1jAbyXjp6oh96R0, short-id: 4e249e62}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] 🇺🇸 🇺🇸_US_美国_1", server: 198.62.62.235, port: 443, type: vless, tls: true, uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261, servername: bank.alaska-tigr.info, network: ws, ws-opts: {path: /love, headers: {Host: bank.alaska-tigr.info}}, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] 🇺🇸 🇺🇸_US_美国_2", server: 198.62.62.248, port: 443, type: vless, tls: true, uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261, servername: tar.alabama-tigr.info, network: ws, ws-opts: {path: /love, headers: {Host: tar.alabama-tigr.info}}, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] 🇺🇸 🇺🇸_US_美国_3", server: 104.18.32.47, port: 2052, type: vless, tls: true, uuid: 5e62ddcf-78c9-4b15-803a-436c8c839ddc, network: ws, ws-opts: {path: /, headers: {Host: oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK.}}, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 未知_2", server: 103.186.154.160, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 未知_3", server: 103.186.154.188, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[VLESS] 🇺🇸 🇺🇸_US_美国_4", server: 47.80.12.87, port: 443, type: vless, tls: true, uuid: 3e7f67de-648e-4871-b51a-a225214d41ee, servername: api.company-target.com, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 未知_4", server: 103.186.154.250, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 未知_5", server: 103.186.155.53, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇺🇸 🇨🇳_CN_中国->🇺🇸_US_美国", server: ldu.izenny.com, port: 55936, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, tfo: false}
+  - {name: "[SS] 🇷🇺 🇷🇺_RU_俄罗斯_1", server: 195.58.49.100, port: 60129, type: ss, cipher: aes-256-gcm, password: 9f3d1a6d31468599, tfo: false}
+  - {name: "[SS] 未知_6", server: 103.186.154.240, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[VLESS] 🇷🇺 🇷🇺_RU_俄罗斯_2", server: 5.101.85.4, port: 47407, type: vless, tls: true, uuid: cc69278f-b497-4518-a346-5c0e11f1e9ae, servername: www.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: xyz}, reality-opts: {public-key: rtap40B_7pJfYxdJxgfihEJyn3UAFZSAcjU5d4WA1h0, short-id: 0467594079bb9d47}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 未知_7", server: 103.186.154.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[VLESS] 🇧🇷 🇧🇷_BR_巴西->🇷🇺_RU_俄罗斯", server: azaranik.ir, port: 2053, type: vless, tls: true, uuid: 7b3ba8c0-0bb2-469a-a396-1c360e7da8d7, servername: kffoepwiqmiovvunwoowow2jowpqpwkc892.mrpixanos.ir, network: ws, ws-opts: {path: /, headers: {Host: kffoepwiqmiovvunwoowow2jowpqpwkc892.mrpixanos.ir}}, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 未知_8", server: 103.186.154.46, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[VLESS] 🇫🇮 🇫🇮_FI_芬兰", server: 195.20.17.182, port: 443, type: vless, tls: true, uuid: ec5796b3-678b-4b11-9c1d-a53171dfd897, servername: www.python.org, flow: xtls-rprx-vision, reality-opts: {public-key: 2HWC3TKZmYDORsrGqTTOITNFBp6ANhwgERK6lPcVbic, short-id: ecd1c97d}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
