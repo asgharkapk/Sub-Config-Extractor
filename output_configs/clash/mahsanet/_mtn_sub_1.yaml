@@ -1,3 +1,5 @@
 proxies:
-  - {name: "[SS] ne2🇧🇪(", server: 163.171.206.24, port: 44235, type: ss, cipher: chacha20-ietf-poly1305, password: 9d97433688e7efd5, tfo: false}
-  - {name: "[VMess] (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪", server: 57.129.28.63, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: fapeng.org, network: ws, ws-opts: {path: linkvws, headers: {Host: fapeng.org}}, tfo: false}
+  - {name: "[VLESS] v2ray_dalghak", server: 91.242.229.129, port: 4443, type: vless, tls: true, uuid: bbd4e4e9-b56f-4b0d-a85b-9eb5aa65644c, servername: nl18.fastlanehosting.ru, alpn: [h2%2Chttp%2F1.1], host: nl18.fastlanehosting.ru, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] v2ray_dalghak", server: 8.217.13.74, port: 31769, type: vmess, uuid: cf1ad6c7-5987-4314-82bb-b4399040d047, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] @V2raysCollector ☄", server: hl-freedom-2.undef.network, port: 443, type: trojan, password: jJT7gd5O9vwJzL6RiXpxxXIAL, sni: hl-freedom-2.undef.network, skip-cert-verify: true, network: ws, ws-opts: {path: /f2fc2a1f, headers: {Host: hl-freedom-2.undef.network}}, tfo: false}
+  - {name: "[SS] @V2raysCollector 🥀", server: 193.29.139.143, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, tfo: false}
