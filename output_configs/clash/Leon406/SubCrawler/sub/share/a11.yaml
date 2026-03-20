@@ -1,264 +1,255 @@
 proxies:
-  - {name: "[VMess] CF中转_032013121", server: 104.17.77.77, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray1.dozapp.xyz, network: ws, ws-opts: {path: /lMnsZUN4/, headers: {Host: v2ray1.dozapp.xyz}}, tfo: false}
-  - {name: "[VMess] CF中转_032013122", server: 104.17.77.77, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /lMnsZUN4/, headers: {Host: v2ray1.dozapp.xyz}}, tfo: false}
-  - {name: "[VMess] CF中转_0320131517", server: 172.67.184.67, port: 443, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cdfr.ae1autumn.dpdns.org, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4, headers: {Host: cdfr.ae1autumn.dpdns.org}}, tfo: false}
-  - {name: "[SS] 🇨🇳 中国_032013001", server: 106.75.162.7, port: 50000, type: ss, cipher: aes-128-gcm, password: d72781da-3ea8-4d7f-9bca-c04ed410443b, tfo: false}
-  - {name: "[SS] 🇨🇳 中国_032013004", server: 59.37.143.195, port: 29128, type: ss, cipher: aes-256-gcm, password: c232063c-4c63-4558-9077-6b3c929a7884, tfo: false}
-  - {name: "[SS] 🇨🇳 中国_032013007", server: 59.37.143.195, port: 29136, type: ss, cipher: aes-256-gcm, password: c232063c-4c63-4558-9077-6b3c929a7884, tfo: false}
-  - {name: "[SS] 🇨🇳 中国_032013008", server: 59.37.143.195, port: 29120, type: ss, cipher: aes-256-gcm, password: c232063c-4c63-4558-9077-6b3c929a7884, tfo: false}
-  - {name: "[SS] 🇨🇳 中国_032013011", server: 59.37.143.195, port: 29114, type: ss, cipher: aes-256-gcm, password: c232063c-4c63-4558-9077-6b3c929a7884, tfo: false}
-  - {name: "[SS] 🇨🇳 中国_032013012", server: 59.37.143.195, port: 29101, type: ss, cipher: aes-256-gcm, password: c232063c-4c63-4558-9077-6b3c929a7884, tfo: false}
-  - {name: "[SS] 🇨🇳 中国_032013014", server: 59.37.143.195, port: 29132, type: ss, cipher: aes-256-gcm, password: c232063c-4c63-4558-9077-6b3c929a7884, tfo: false}
-  - {name: "[SS] 🇩🇰 丹麦_032013001", server: 158.173.20.171, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[Trojan] 🇷🇺 俄罗斯联邦_032013102", server: 156.244.6.115, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇷🇺 俄罗斯联邦_032013103", server: 188.119.65.113, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇷🇺 俄罗斯联邦_032013104", server: 38.60.218.170, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇭🇷 克罗地亚_032013001", server: 5.181.2.76, port: 36608, type: ss, cipher: chacha20-ietf-poly1305, password: JOZ5Mb3nJCmmoKhd8Cc9aC, tfo: false}
-  - {name: "[SS] 🇨🇦 加拿大_032013002", server: 144.217.164.29, port: 12000, type: ss, cipher: aes-256-gcm, password: 8JCsPssfgS8tiRwiMlhARg==, tfo: false}
-  - {name: "[SS] 🇨🇦 加拿大_032013007", server: 144.217.7.33, port: 12000, type: ss, cipher: aes-256-gcm, password: 8JCsPssfgS8tiRwiMlhARg==, tfo: false}
-  - {name: "[SS] 🇨🇦 加拿大_032013032", server: 148.113.139.160, port: 46534, type: ss, cipher: chacha20-ietf-poly1305, password: 7a106afc33eaa261, tfo: false}
-  - {name: "[SS] 🇨🇦 加拿大_032013033 M45", server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[Trojan] 🇨🇦 加拿大_032013040", server: 148.113.208.228, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇿🇦 南非_032013010", server: 169.239.128.39, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇮🇳 印度_032013011", server: 185.67.125.109, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: be4a6fd2209f62a7, tfo: false}
-  - {name: "[Trojan] 🇨🇳 台湾_032013006", server: 220.130.75.217, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇨🇳 台湾_032013008", server: 85.237.207.189, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇨🇾 塞浦路斯_032013010", server: 45.12.132.183, port: 80, type: vmess, uuid: 703f722a-4bdf-4e9d-9afd-a681fdf87c74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: 45.12.132.183}}, tfo: false}
-  - {name: "[Trojan] 🇨🇾 塞浦路斯_032013097", server: 45.83.131.85, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇨🇾 塞浦路斯_032013098", server: 45.15.167.20, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇲🇽 墨西哥_032013001", server: 154.205.152.64, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 315eb3e160cf2432, tfo: false}
-  - {name: "[SS] 🇲🇽 墨西哥_032013002", server: 185.163.1.90, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 2b195d916cb84007, tfo: false}
-  - {name: "[SS] 🇲🇽 墨西哥_032013003", server: 89.223.88.33, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 7c31a67b41b18c26, tfo: false}
-  - {name: "[Trojan] 🇲🇽 墨西哥_032013004", server: 38.180.179.132, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇲🇽 墨西哥_032013005", server: 154.205.152.109, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇵🇰 巴基斯坦_032013001", server: 119.159.245.24, port: 26737, type: ss, cipher: chacha20-ietf-poly1305, password: 1d1bc54689ed4b75, tfo: false}
-  - {name: "[SS] 🇵🇰 巴基斯坦_032013002", server: 119.159.245.24, port: 26739, type: ss, cipher: chacha20-ietf-poly1305, password: 1d1bc54689ed4b75, tfo: false}
-  - {name: "[SS] 🇵🇰 巴基斯坦_032013003", server: 119.159.245.24, port: 29700, type: ss, cipher: chacha20-ietf-poly1305, password: fec4e6f9e954aead, tfo: false}
-  - {name: "[Trojan] 🇵🇰 巴基斯坦_032013004", server: 38.60.217.20, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇧🇷 巴西_032013009 L0", server: 157.185.173.60, port: 18424, type: ss, cipher: chacha20-ietf-poly1305, password: 97fe6b07cbfaf7e7, tfo: false}
-  - {name: "[SS] 🇩🇪 德国_032013006", server: 57.129.94.79, port: 11206, type: ss, cipher: chacha20-ietf-poly1305, password: 70c455c9f19aa3a5, tfo: false}
-  - {name: "[SS] 🇩🇪 德国_032013007", server: 209.46.102.22, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 1hhrqrokj3ag, tfo: false}
-  - {name: "[SS] 🇩🇪 德国_032013042", server: 57.129.95.45, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 6675cbf62d6a3a4f, tfo: false}
-  - {name: "[SS] 🇩🇪 德国_032013192", server: 213.202.208.199, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, tfo: false}
-  - {name: "[VMess] 🇩🇪 德国_032013193", server: 46.225.54.75, port: 10410, type: vmess, uuid: 0654d64d-08bf-43e5-ad44-18a7d1a8d6f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇩🇪 德国_032013194", server: cool-lioness.rooster465.autos, port: 443, type: trojan, password: ZY07256934, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇩🇪 德国_032013195", server: 38.242.222.183, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 52671647af0cffa0, tfo: false}
-  - {name: "[SS] 🇩🇪 德国_032013196", server: 2.58.81.221, port: 80, type: ss, cipher: aes-256-gcm, password: 9dQS3geeylyrRth9, tfo: false}
-  - {name: "[SS] 🇩🇪 德国_032013197", server: 2.58.81.221, port: 443, type: ss, cipher: aes-256-gcm, password: 9dQS3geeylyrRth9, tfo: false}
-  - {name: "[SS] 🇩🇪 德国_032013198", server: 147.45.178.107, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Wy9VmcWHo9QzTxuYMx-X014nQFSah3WT, tfo: false}
-  - {name: "[VMess] 🇩🇪 德国_032013199", server: 164.92.245.167, port: 2096, type: vmess, uuid: 4c95d617-efd8-4045-98d5-4d00e96667f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
-  - {name: "[VMess] 🇮🇹 意大利_032013001", server: 45.92.70.236, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇮🇹 意大利_032013002", server: 45.92.70.236, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇱🇻 拉脱维亚_032013018", server: 94.131.104.67, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇲🇩 摩尔多瓦_032013002", server: 94.232.247.164, port: 44030, type: vmess, uuid: 22c396a3-95da-4be8-beef-834d17d75784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇲🇩 摩尔多瓦_032013007", server: 94.232.247.164, port: 44030, type: vmess, uuid: 22c396a3-95da-4be8-beef-834d17d75784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇲🇩 摩尔多瓦_032013008", server: 89.221.225.71, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇲🇩 摩尔多瓦_032013009", server: 45.142.212.145, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇸🇰 斯洛伐克_032013002", server: 5.180.55.152, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇸🇬 新加坡_032013001", server: free-duckling.rooster465.autos, port: 443, type: trojan, password: ZY07256934, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇸🇬 新加坡_032013002", server: delicate-buck.rooster465.autos, port: 443, type: trojan, password: ZY07256934, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇸🇬 新加坡_032013007", server: 194.233.94.119, port: 80, type: ss, cipher: aes-256-gcm, password: 8t2xeemUtyui4zAv, tfo: false}
-  - {name: "[Trojan] 🇸🇬 新加坡_032013134", server: eternal-woodcock.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: eternal-woodcock.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇸🇬 新加坡_032013135", server: n1747624271.lie5d.cyou, port: 443, type: vmess, uuid: a231ba8b-8871-416c-813b-e2240bc66bb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1747624271.lie5d.cyou, network: ws, ws-opts: {path: /, headers: {Host: n1747624271.lie5d.cyou}}, tfo: false}
-  - {name: "[SS] 🇸🇬 新加坡_032013136", server: 194.233.75.190, port: 443, type: ss, cipher: aes-256-gcm, password: qKvfX7yQnT99OMu3, tfo: false}
-  - {name: "[VMess] 🇸🇬 新加坡_032013137", server: n1747624282.lie5d.cyou, port: 443, type: vmess, uuid: 30109222-8c53-41bc-9781-a01cdeb68e4c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1747624282.lie5d.cyou}}, tfo: false}
-  - {name: "[Trojan] 🇸🇬 新加坡_032013138", server: normal-macaque.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: normal-macaque.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇸🇬 新加坡_032013139", server: immense-seasnail.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: immense-seasnail.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇸🇬 新加坡_032013140", server: lucky-chimp.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: lucky-chimp.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇸🇬 新加坡_032013141", server: diverse-hawk.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: diverse-hawk.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇸🇬 新加坡_032013142", server: picked-guinea.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: picked-guinea.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013001", server: engaging-toucan.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: engaging-toucan.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇯🇵 日本_032013002 L0", server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013003", server: 160.16.214.104, port: 3419, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013004", server: 160.16.72.205, port: 4674, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013005 L0", server: 160.16.70.180, port: 4937, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013006 L0", server: 160.16.72.33, port: 3057, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013007", server: 160.16.130.21, port: 4019, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013008", server: 153.121.65.107, port: 4019, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013009 L0", server: 160.16.72.33, port: 4674, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013010", server: 160.16.106.99, port: 2001, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013014 L0", server: 153.121.45.139, port: 4674, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇯🇵 日本_032013018", server: 46.250.254.170, port: 443, type: ss, cipher: aes-256-gcm, password: BedufgztHO3B5Kqe, tfo: false}
-  - {name: "[SS] 🇯🇵 日本_032013077", server: 103.106.228.175, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, tfo: false}
-  - {name: "[SS] 🇯🇵 日本_032013078", server: 46.250.254.170, port: 80, type: ss, cipher: aes-256-gcm, password: BedufgztHO3B5Kqe, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013079", server: calm-honeybee.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: calm-honeybee.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013080", server: harmless-pegasus.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: harmless-pegasus.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013081", server: close-wasp.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: close-wasp.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013082", server: amazed-mako.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: amazed-mako.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013083", server: fleet-bonefish.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: fleet-bonefish.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013084", server: lucky-urchin.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: lucky-urchin.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013085", server: humorous-foxhound.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: humorous-foxhound.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013086", server: relevant-oryx.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: relevant-oryx.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013087", server: new-eagle.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: new-eagle.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013088", server: thankful-mustang.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: thankful-mustang.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013089", server: welcome-owl.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: welcome-owl.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013090", server: capable-loon.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: capable-loon.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013091", server: sharp-dogfish.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: sharp-dogfish.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本_032013092", server: on-airedale.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: on-airedale.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 未知_032013001", server: cg1d05.waimaojd.com, port: 443, type: vmess, uuid: 6abe3ac8-e1f8-4b24-bb67-191bc23b5fab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cg1d05.waimaojd.com, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1d05.waimaojd.com}}, tfo: false}
-  - {name: "[VMess] 未知_032013671", server: dfg.ae1autumn.cc.cd, port: 80, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4}, tfo: false}
-  - {name: "[VMess] 未知_032013672", server: vbh.ae1autumn.cc.cd, port: 80, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4, headers: {Host: vbh.ae1autumn.cc.cd}}, tfo: false}
-  - {name: "[VMess] 未知_032013673", server: rgt.ae1autumn.dpdns.org, port: 80, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4}, tfo: false}
-  - {name: "[VMess] 未知_032013674", server: cdfr.ae1autumn.dpdns.org, port: 443, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4}, tfo: false}
-  - {name: "[VMess] 未知_032013675", server: rgt.ae1autumn.dpdns.org, port: 443, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4, headers: {Host: rgt.ae1autumn.dpdns.org}}, tfo: false}
-  - {name: "[VMess] 未知_032013676", server: 1qw.ae1autumn.cc.cd, port: 80, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 1qw.ae1autumn.cc.cd, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4, headers: {Host: 1qw.ae1autumn.cc.cd}}, tfo: false}
-  - {name: "[VMess] 未知_032013677", server: tg.apocalypse.cc.cd, port: 80, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4, headers: {Host: tg.apocalypse.cc.cd}}, tfo: false}
-  - {name: "[VMess] 未知_032013678", server: cvfg.ae1autumn.cc.cd, port: 80, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: cvfg.ae1autumn.cc.cd, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4, headers: {Host: cvfg.ae1autumn.cc.cd}}, tfo: false}
-  - {name: "[VMess] 未知_032013679", server: fvbg.ae1autumn.cc.cd, port: 80, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: fvbg.ae1autumn.cc.cd, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4, headers: {Host: fvbg.ae1autumn.cc.cd}}, tfo: false}
-  - {name: "[VMess] 未知_032013680", server: hju.ae1autumn.cc.cd, port: 80, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4}, tfo: false}
-  - {name: "[VMess] 未知_032013681", server: test226.2568954.xyz, port: 2087, type: vmess, uuid: 2f0a3a26-8384-4bbf-f91a-e41e252b30c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /021e6967-ebd6-46d1}, tfo: false}
-  - {name: "[VMess] 未知_032013682", server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 0b4c4ed4-deed-4bda-ae3d-6c8ccd1d1199, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zzrt.uhomdex.shop, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, tfo: false}
-  - {name: "[VMess] 未知_032013721", server: zdqbk.cmvvb.online, port: 8443, type: vmess, uuid: ef46b74c-b3ef-4633-9818-0af6226c4060, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zdqbk.cmvvb.online, network: ws, ws-opts: {path: /, headers: {Host: zdqbk.cmvvb.online}}, tfo: false}
-  - {name: "[VMess] 🇫🇷 法国_032013001", server: 162.19.248.238, port: 550, type: vmess, uuid: ede27a79-b039-490b-932c-495de4b68880, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇫🇷 法国_032013089", server: 51.158.151.24, port: 20104, type: vmess, uuid: 40e306a6-7cab-40ac-a085-a961895eb11b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /arki}, tfo: false}
-  - {name: "[SS] 🇫🇷 法国_032013095", server: 51.178.114.83, port: 11202, type: ss, cipher: chacha20-ietf-poly1305, password: d5b878cbb46f3e33, tfo: false}
-  - {name: "[VMess] 🇫🇷 法国_032013096", server: 162.19.248.238, port: 550, type: vmess, uuid: ede27a79-b039-490b-932c-495de4b68880, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇫🇷 法国_032013097", server: 51.178.38.134, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇵🇱 波兰_032013002", server: outgoing-ladybird.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: outgoing-ladybird.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇵🇱 波兰_032013014", server: fluent-stingray.crayfish192.xyz, port: 443, type: trojan, password: IL37892054, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇦🇺 澳大利亚_032013002", server: engaged-ram.rooster465.autos, port: 443, type: trojan, password: IL37892054, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇦🇺 澳大利亚_032013016", server: enhanced-crayfish.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: enhanced-crayfish.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇦🇺 澳大利亚_032013020", server: 154.26.155.172, port: 80, type: ss, cipher: aes-256-gcm, password: SL4vzcvhBHhTWivD, tfo: false}
-  - {name: "[SS] 🇦🇺 澳大利亚_032013021", server: 154.26.155.172, port: 443, type: ss, cipher: aes-256-gcm, password: SL4vzcvhBHhTWivD, tfo: false}
-  - {name: "[SS] 🇦🇺 澳大利亚_032013022", server: 154.26.156.99, port: 47385, type: ss, cipher: chacha20-ietf-poly1305, password: 78322e4b934870b6, tfo: false}
-  - {name: "[SS] 🇦🇺 澳大利亚_032013023", server: 154.26.156.99, port: 47386, type: ss, cipher: chacha20-ietf-poly1305, password: 78322e4b934870b6, tfo: false}
-  - {name: "[SS] 🇦🇺 澳大利亚_032013024", server: 154.26.156.99, port: 47388, type: ss, cipher: chacha20-ietf-poly1305, password: 78322e4b934870b6, tfo: false}
-  - {name: "[Trojan] 🇦🇺 澳大利亚_032013025", server: steady-lemming.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: steady-lemming.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇦🇺 澳大利亚_032013026", server: 176.97.69.40, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇸🇪 瑞典_032013032", server: 38.180.56.158, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇨🇭 瑞士_032013001", server: 38.180.161.123, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, tfo: false}
-  - {name: "[Trojan] 🇵🇪 秘鲁_032013002", server: 38.180.173.150, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇷🇴 罗马尼亚_032013029", server: 185.247.224.136, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013001 L0", server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013002 L0", server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013004", server: 193.47.60.186, port: 28687, type: ss, cipher: chacha20-ietf-poly1305, password: yKVMoB3AwiTEznpnoq2FYR, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013005 L0", server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[VMess] 🇺🇸 美国_032013006", server: cn01.365cloud8754.com, port: 6001, type: vmess, uuid: db75bc92-4e32-48dd-b792-d7a8b707626c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇺🇸 美国_032013025", server: cn01.365cloud8754.com, port: 6001, type: vmess, uuid: db75bc92-4e32-48dd-b792-d7a8b707626c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇺🇸 美国_032013027 L0", server: 165.140.216.141, port: 443, type: vmess, uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013038", server: 149.104.71.134, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 1e68d4bd002437ab, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013039", server: 144.31.1.106, port: 4495, type: ss, cipher: chacha20-ietf-poly1305, password: 2Z9ba3GwDL-rn6DSQ0N-awHNhcuxaHP3, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013040", server: 185.111.156.33, port: 80, type: ss, cipher: aes-256-gcm, password: 5mCH4624QflO1cFR, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013041", server: 154.53.60.212, port: 80, type: ss, cipher: aes-256-gcm, password: ZfbPFDdeBj0B1Txs, tfo: false}
-  - {name: "[VMess] 🇺🇸 美国_032013109", server: 66.163.117.58, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013119", server: 144.31.234.82, port: 45356, type: ss, cipher: chacha20-ietf-poly1305, password: EDTfh0zLmD5dfg03sQYFcp, tfo: false}
-  - {name: "[VMess] 🇺🇸 美国_032013135", server: usaapp1.jisuyun.top, port: 2053, type: vmess, uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: usaapp1.jisuyun.top, network: ws, ws-opts: {path: /usavm, headers: {Host: usaapp1.jisuyun.top}}, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013145", server: 154.53.63.32, port: 80, type: ss, cipher: aes-256-gcm, password: k6ruJuwgAUxIrkHb, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013146", server: 154.53.60.197, port: 80, type: ss, cipher: aes-256-gcm, password: 8rb580EBG4l7tO8K, tfo: false}
-  - {name: "[VMess] 🇺🇸 美国_032013149", server: cn01.365cloud8754.com, port: 6001, type: vmess, uuid: db75bc92-4e32-48dd-b792-d7a8b707626c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013785 M45", server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013822 M60", server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013824", server: 144.126.145.77, port: 443, type: ss, cipher: aes-256-gcm, password: QzM0NfuMNngbVnZK, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013825", server: 144.31.1.103, port: 4495, type: ss, cipher: chacha20-ietf-poly1305, password: 2Z9ba3GwDL-rn6DSQ0N-awHNhcuxaHP3, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013826", server: 66.94.125.178, port: 80, type: ss, cipher: aes-256-gcm, password: 14CLBaFBqwqxBJy6, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013827", server: 154.53.63.42, port: 80, type: ss, cipher: aes-256-gcm, password: SM7WYtAwvBORXKjI, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013828", server: 144.126.145.77, port: 80, type: ss, cipher: aes-256-gcm, password: QzM0NfuMNngbVnZK, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013829", server: 94.72.127.58, port: 443, type: ss, cipher: aes-256-gcm, password: jJHq807bQ7TM0yOh, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013830", server: 154.12.242.150, port: 80, type: ss, cipher: aes-256-gcm, password: 7vZO55fXgXAJXa2F, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013831", server: 209.126.5.209, port: 80, type: ss, cipher: aes-256-gcm, password: kEVKj1xvgzeEn8AV, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013832", server: 94.72.127.58, port: 80, type: ss, cipher: aes-256-gcm, password: jJHq807bQ7TM0yOh, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013833", server: 62.146.171.57, port: 80, type: ss, cipher: aes-256-gcm, password: jd9FR12wprKPNJHg, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013834", server: 154.12.240.141, port: 80, type: ss, cipher: aes-256-gcm, password: mK7eN3z276Tr0vVA, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013835", server: 154.53.57.143, port: 80, type: ss, cipher: aes-256-gcm, password: uwmRUOVM5ljNAtPj, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013836", server: 154.12.240.141, port: 443, type: ss, cipher: aes-256-gcm, password: mK7eN3z276Tr0vVA, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013837", server: 154.53.63.32, port: 443, type: ss, cipher: aes-256-gcm, password: k6ruJuwgAUxIrkHb, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013838", server: 154.12.242.150, port: 443, type: ss, cipher: aes-256-gcm, password: 7vZO55fXgXAJXa2F, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013839", server: 209.126.5.209, port: 443, type: ss, cipher: aes-256-gcm, password: kEVKj1xvgzeEn8AV, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013840 M63", server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013841", server: 154.53.57.143, port: 443, type: ss, cipher: aes-256-gcm, password: uwmRUOVM5ljNAtPj, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013842", server: 154.53.63.42, port: 443, type: ss, cipher: aes-256-gcm, password: SM7WYtAwvBORXKjI, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013844", server: 62.146.171.57, port: 443, type: ss, cipher: aes-256-gcm, password: jd9FR12wprKPNJHg, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013845 M60", server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013846 M60", server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[VMess] 🇺🇸 美国_032013847 L0", server: 165.140.216.141, port: 443, type: vmess, uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013848", server: 154.38.176.7, port: 443, type: ss, cipher: aes-256-gcm, password: nKeE2ZFWVaE4DyjR, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013849", server: 66.94.125.178, port: 443, type: ss, cipher: aes-256-gcm, password: 14CLBaFBqwqxBJy6, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013850", server: 185.111.156.33, port: 443, type: ss, cipher: aes-256-gcm, password: 5mCH4624QflO1cFR, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013851", server: 154.53.60.197, port: 443, type: ss, cipher: aes-256-gcm, password: 8rb580EBG4l7tO8K, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013852", server: 154.53.60.212, port: 443, type: ss, cipher: aes-256-gcm, password: ZfbPFDdeBj0B1Txs, tfo: false}
-  - {name: "[SS] 🇺🇸 美国_032013853", server: 108.181.0.177, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: G5p6ww4o67HB, tfo: false}
-  - {name: "[Trojan] 🇺🇸 美国_032013854", server: natural-seagull.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: natural-seagull.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸 美国_032013855", server: healthy-ewe.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: healthy-ewe.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇺🇸 美国_032013856", server: 216.106.185.141, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇺🇸 美国_032013857", server: 216.106.185.141, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸 美国_032013897", server: 15.204.108.89, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸 美国_032013898", server: 38.180.141.48, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸 美国_032013899", server: 15.204.56.75, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸 美国_032013900", server: 38.180.60.168, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸 美国_032013901", server: 45.136.129.8, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸 美国_032013902", server: 15.204.237.191, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸 美国_032013903", server: 38.54.50.92, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸 美国_032013904", server: 40.160.29.83, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸 美国_032013905", server: 45.12.144.61, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸 美国_032013906", server: 194.33.45.157, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸 美国_032013907", server: 77.247.126.137, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013001", server: 82.38.31.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013002", server: 82.38.31.187, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013003", server: 82.38.31.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013004", server: 82.38.31.205, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013005", server: 82.38.31.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013006", server: 82.38.31.218, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013007", server: 82.38.31.214, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013008", server: 82.38.31.191, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013009", server: 82.38.31.82, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013010", server: 82.38.31.99, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013011", server: 82.38.31.208, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[Trojan] 🇬🇧 英国_032013012", server: upright-rhino.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: upright-rhino.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013013", server: 82.38.31.184, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013014", server: 51.132.248.78, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1kVr0KATIJI7mwOF, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013015", server: 51.132.248.78, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013016", server: 82.38.31.101, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013017", server: 82.38.31.122, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013018", server: 82.38.31.62, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013029", server: 149.102.132.186, port: 80, type: ss, cipher: aes-256-gcm, password: YhzqOeJsfuZ9rkkc, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013032", server: 82.38.31.190, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013101", server: 149.102.132.184, port: 443, type: ss, cipher: aes-256-gcm, password: ldjmwoNqgQqqc43j, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013102", server: 94.156.250.148, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013103", server: 149.102.132.180, port: 80, type: ss, cipher: aes-256-gcm, password: ZTiO11KwZG3S7aET, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013104", server: 82.38.31.66, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013105", server: 82.38.31.69, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013106", server: 82.38.31.148, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013107", server: 82.38.31.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013108", server: 149.102.132.180, port: 443, type: ss, cipher: aes-256-gcm, password: ZTiO11KwZG3S7aET, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013109", server: 149.102.132.184, port: 80, type: ss, cipher: aes-256-gcm, password: ldjmwoNqgQqqc43j, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013110", server: 149.102.132.186, port: 443, type: ss, cipher: aes-256-gcm, password: YhzqOeJsfuZ9rkkc, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013111", server: 82.38.31.186, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013112", server: 82.38.31.103, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013113", server: 149.102.152.25, port: 443, type: ss, cipher: aes-256-gcm, password: RLUoaU4nh8b8Mqq7, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013114", server: 149.102.152.25, port: 80, type: ss, cipher: aes-256-gcm, password: RLUoaU4nh8b8Mqq7, tfo: false}
-  - {name: "[SS] 🇬🇧 英国_032013115", server: 185.218.3.131, port: 60664, type: ss, cipher: chacha20-ietf-poly1305, password: Aex4y92EluOwjtinhoxlsO, tfo: false}
-  - {name: "[VMess] 🇬🇧 英国_032013116", server: fsdns1.ectunnelvpn.me, port: 80, type: vmess, uuid: 6b2d86e5-df05-4511-a79f-82d53ce99b36, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: fsdns1.ectunnelvpn.me}}, tfo: false}
-  - {name: "[SS] 🇳🇱 荷兰_032013001 H77", server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, tfo: false}
-  - {name: "[SS] 🇳🇱 荷兰_032013002", server: 195.66.25.220, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: yhrHMDgZ2egKftvrecvkpUPqpUTyac7q, tfo: false}
-  - {name: "[Trojan] 🇳🇱 荷兰_032013006", server: 195.66.25.251, port: 443, type: trojan, password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-, sni: 8443.golden-cards.me, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇳🇱 荷兰_032013026", server: 193.29.139.151, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇳🇱 荷兰_032013027 M55", server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇳🇱 荷兰_032013095", server: 193.29.139.204, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇳🇱 荷兰_032013096 L0", server: 193.29.139.175, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, tfo: false}
-  - {name: "[SS] 🇳🇱 荷兰_032013097 H77", server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: fbx1Fw7mENCd7vZMvorQZ5, tfo: false}
-  - {name: "[SS] 🇻🇳 越南_032013007", server: 38.54.14.156, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: a94f0b6916f67bdc, tfo: false}
-  - {name: "[VMess] 🇦🇪 阿联酋_032013028", server: cg1c15.waimaojd.com, port: 443, type: vmess, uuid: 4378a67e-d277-44b5-a99b-a947fff1ee21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c15.waimaojd.com}}, tfo: false}
-  - {name: "[Trojan] 🇦🇪 阿联酋_032013029", server: 154.90.55.81, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇦🇪 阿联酋_032013030", server: 38.180.26.190, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇰🇷 韩国_032013001", server: select-marmoset.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: select-marmoset.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇰🇷 韩国_032013002", server: glowing-deer.rooster465.autos, port: 443, type: trojan, password: ZY07256934, sni: glowing-deer.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇰🇷 韩国_032013003", server: 141.164.45.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, tfo: false}
-  - {name: "[SS] 🇰🇷 韩国_032013060", server: 141.164.45.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, tfo: false}
-  - {name: "[SS] 🇰🇷 韩国_032013061", server: 141.164.45.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, tfo: false}
-  - {name: "[SS] 🇰🇷 韩国_032013062", server: 141.164.45.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false}
-  - {name: "[SS] 🇰🇷 韩国_032013063", server: 141.164.45.187, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false}
-  - {name: "[SS] 🇰🇷 韩国_032013064", server: 141.164.45.187, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, tfo: false}
-  - {name: "[SS] 🇰🇷 韩国_032013065", server: 141.164.45.187, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false}
-  - {name: "[SS] 🇰🇷 韩国_032013066", server: 141.164.45.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, tfo: false}
-  - {name: "[SS] 🇰🇷 韩国_032013067", server: 141.164.45.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, tfo: false}
-  - {name: "[SS] 🇰🇷 韩国_032013068", server: 156.244.19.94, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 652e423c559eefd4, tfo: false}
-  - {name: "[SS] 🇰🇷 韩国_032013069", server: 141.164.45.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, tfo: false}
-  - {name: "[Trojan] 🇰🇷 韩国_032013070", server: positive-bear.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: positive-bear.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇰🇷 韩国_032013072", server: 158.247.220.63, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇭🇰 香港_032013002", server: n1753356378.4u9ma.icu, port: 443, type: vmess, uuid: 37b20639-0d6e-46f2-9db5-472201b10cdd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1753356378.4u9ma.icu, network: ws, ws-opts: {path: /, headers: {Host: n1753356378.4u9ma.icu}}, tfo: false}
-  - {name: "[Trojan] 🇭🇰 香港_032013005", server: caring-ghoul.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: caring-ghoul.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇭🇰 香港_032013006", server: growing-tuna.rooster465.autos, port: 443, type: trojan, password: IL37892054, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇭🇰 香港_032013009", server: n1761296877.lie5d.cyou, port: 443, type: vmess, uuid: 1ebfdffa-1a37-4336-8494-f85b36cdf087, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1761296877.lie5d.cyou}}, tfo: false}
-  - {name: "[Trojan] 🇭🇰 香港_032013045", server: robust-toucan.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: robust-toucan.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇲🇾 马来西亚_032013007", server: 124.217.247.205, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: RZirHzSqyyb37DDIiQeDLZTJft5ZQGmUCwyA3wm5ath4j9Y3, tfo: false}
-  - {name: "[Trojan] 🇲🇾 马来西亚_032013009", server: 38.60.195.223, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] CF中转_032023050", server: 104.18.1.45, port: 8080, type: vmess, uuid: 35df5bdc-ab53-495a-9cda-045f958a5d51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: buyvmus2.6bnw.top}}, tfo: false}
+  - {name: "[VMess] CF中转_032023121", server: 104.17.77.77, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray1.dozapp.xyz, network: ws, ws-opts: {path: /lMnsZUN4/, headers: {Host: v2ray1.dozapp.xyz}}, tfo: false}
+  - {name: "[VMess] CF中转_032023122", server: 104.17.77.77, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /lMnsZUN4/, headers: {Host: v2ray1.dozapp.xyz}}, tfo: false}
+  - {name: "[VMess] CF中转_0320231503", server: 172.67.184.67, port: 443, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cdfr.ae1autumn.dpdns.org, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4, headers: {Host: cdfr.ae1autumn.dpdns.org}}, tfo: false}
+  - {name: "[SS] 🇨🇳 中国_032023001", server: 106.75.162.7, port: 50000, type: ss, cipher: aes-128-gcm, password: d72781da-3ea8-4d7f-9bca-c04ed410443b, tfo: false}
+  - {name: "[SS] 🇩🇰 丹麦_032023001", server: 158.173.20.171, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[Trojan] 🇷🇺 俄罗斯联邦_032023106", server: 156.244.6.115, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇷🇺 俄罗斯联邦_032023107", server: 38.60.218.170, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇧🇬 保加利亚_032023002", server: 38.180.2.141, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, tfo: false}
+  - {name: "[SS] 🇭🇷 克罗地亚_032023001", server: 5.181.2.76, port: 36608, type: ss, cipher: chacha20-ietf-poly1305, password: JOZ5Mb3nJCmmoKhd8Cc9aC, tfo: false}
+  - {name: "[SS] 🇨🇦 加拿大_032023002", server: 144.217.164.29, port: 12000, type: ss, cipher: aes-256-gcm, password: 8JCsPssfgS8tiRwiMlhARg==, tfo: false}
+  - {name: "[SS] 🇨🇦 加拿大_032023008", server: 144.217.7.33, port: 12000, type: ss, cipher: aes-256-gcm, password: 8JCsPssfgS8tiRwiMlhARg==, tfo: false}
+  - {name: "[SS] 🇨🇦 加拿大_032023031", server: 148.113.139.160, port: 46534, type: ss, cipher: chacha20-ietf-poly1305, password: 7a106afc33eaa261, tfo: false}
+  - {name: "[SS] 🇨🇦 加拿大_032023032 M45", server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[Trojan] 🇨🇦 加拿大_032023033", server: 148.113.208.228, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇿🇦 南非_032023010", server: 169.239.128.39, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇮🇳 印度_032023011", server: 185.67.125.109, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: be4a6fd2209f62a7, tfo: false}
+  - {name: "[Trojan] 🇨🇳 台湾_032023007", server: 85.237.207.189, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇨🇳 台湾_032023008", server: 220.130.75.219, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇨🇾 塞浦路斯_032023097", server: 45.83.131.85, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇨🇾 塞浦路斯_032023098", server: 45.15.167.20, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇲🇽 墨西哥_032023001", server: 154.205.152.64, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 315eb3e160cf2432, tfo: false}
+  - {name: "[SS] 🇲🇽 墨西哥_032023002", server: 185.163.1.90, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 2b195d916cb84007, tfo: false}
+  - {name: "[SS] 🇲🇽 墨西哥_032023003", server: 89.223.88.33, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 7c31a67b41b18c26, tfo: false}
+  - {name: "[Trojan] 🇲🇽 墨西哥_032023004", server: 38.180.179.132, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇲🇽 墨西哥_032023005", server: 154.205.152.109, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇵🇰 巴基斯坦_032023001", server: 119.159.245.24, port: 26737, type: ss, cipher: chacha20-ietf-poly1305, password: 1d1bc54689ed4b75, tfo: false}
+  - {name: "[SS] 🇵🇰 巴基斯坦_032023002", server: 119.159.245.24, port: 26739, type: ss, cipher: chacha20-ietf-poly1305, password: 1d1bc54689ed4b75, tfo: false}
+  - {name: "[SS] 🇵🇰 巴基斯坦_032023003", server: 119.159.245.24, port: 29700, type: ss, cipher: chacha20-ietf-poly1305, password: fec4e6f9e954aead, tfo: false}
+  - {name: "[Trojan] 🇵🇰 巴基斯坦_032023004", server: 38.60.217.20, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇧🇷 巴西_032023008 L0", server: 157.185.173.60, port: 18424, type: ss, cipher: chacha20-ietf-poly1305, password: 97fe6b07cbfaf7e7, tfo: false}
+  - {name: "[SS] 🇩🇪 德国_032023017", server: 57.129.95.45, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 6675cbf62d6a3a4f, tfo: false}
+  - {name: "[SS] 🇩🇪 德国_032023018", server: 57.129.94.79, port: 11206, type: ss, cipher: chacha20-ietf-poly1305, password: 70c455c9f19aa3a5, tfo: false}
+  - {name: "[SS] 🇩🇪 德国_032023182", server: 209.46.102.22, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 1hhrqrokj3ag, tfo: false}
+  - {name: "[SS] 🇩🇪 德国_032023184", server: 213.202.208.199, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, tfo: false}
+  - {name: "[VMess] 🇩🇪 德国_032023185", server: 46.225.54.75, port: 10410, type: vmess, uuid: 0654d64d-08bf-43e5-ad44-18a7d1a8d6f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇩🇪 德国_032023186", server: cool-lioness.rooster465.autos, port: 443, type: trojan, password: ZY07256934, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇩🇪 德国_032023187", server: 38.242.222.183, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 52671647af0cffa0, tfo: false}
+  - {name: "[SS] 🇩🇪 德国_032023188", server: 2.58.81.221, port: 80, type: ss, cipher: aes-256-gcm, password: 9dQS3geeylyrRth9, tfo: false}
+  - {name: "[SS] 🇩🇪 德国_032023189", server: 2.58.81.221, port: 443, type: ss, cipher: aes-256-gcm, password: 9dQS3geeylyrRth9, tfo: false}
+  - {name: "[SS] 🇩🇪 德国_032023190", server: 147.45.178.107, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Wy9VmcWHo9QzTxuYMx-X014nQFSah3WT, tfo: false}
+  - {name: "[VMess] 🇩🇪 德国_032023191", server: 164.92.245.167, port: 2096, type: vmess, uuid: 4c95d617-efd8-4045-98d5-4d00e96667f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
+  - {name: "[VMess] 🇮🇹 意大利_032023001", server: 45.92.70.236, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇮🇹 意大利_032023002", server: 45.92.70.236, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇱🇻 拉脱维亚_032023019", server: 94.131.104.67, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇲🇩 摩尔多瓦_032023001", server: 94.232.247.164, port: 44030, type: vmess, uuid: 22c396a3-95da-4be8-beef-834d17d75784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇲🇩 摩尔多瓦_032023008", server: 94.232.247.164, port: 44030, type: vmess, uuid: 22c396a3-95da-4be8-beef-834d17d75784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇲🇩 摩尔多瓦_032023009", server: 89.221.225.71, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇲🇩 摩尔多瓦_032023010", server: 45.142.212.145, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇸🇰 斯洛伐克_032023002", server: 5.180.55.152, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇸🇬 新加坡_032023001", server: free-duckling.rooster465.autos, port: 443, type: trojan, password: ZY07256934, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇸🇬 新加坡_032023002", server: delicate-buck.rooster465.autos, port: 443, type: trojan, password: ZY07256934, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇸🇬 新加坡_032023004", server: 194.233.94.119, port: 80, type: ss, cipher: aes-256-gcm, password: 8t2xeemUtyui4zAv, tfo: false}
+  - {name: "[Trojan] 🇸🇬 新加坡_032023132", server: eternal-woodcock.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: eternal-woodcock.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇸🇬 新加坡_032023133", server: n1747624271.lie5d.cyou, port: 443, type: vmess, uuid: a231ba8b-8871-416c-813b-e2240bc66bb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1747624271.lie5d.cyou, network: ws, ws-opts: {path: /, headers: {Host: n1747624271.lie5d.cyou}}, tfo: false}
+  - {name: "[SS] 🇸🇬 新加坡_032023134", server: 194.233.75.190, port: 443, type: ss, cipher: aes-256-gcm, password: qKvfX7yQnT99OMu3, tfo: false}
+  - {name: "[VMess] 🇸🇬 新加坡_032023135", server: n1747624282.lie5d.cyou, port: 443, type: vmess, uuid: 30109222-8c53-41bc-9781-a01cdeb68e4c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1747624282.lie5d.cyou}}, tfo: false}
+  - {name: "[Trojan] 🇸🇬 新加坡_032023136", server: normal-macaque.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: normal-macaque.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇸🇬 新加坡_032023137", server: immense-seasnail.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: immense-seasnail.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇸🇬 新加坡_032023138", server: lucky-chimp.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: lucky-chimp.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇸🇬 新加坡_032023139", server: diverse-hawk.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: diverse-hawk.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇸🇬 新加坡_032023140", server: picked-guinea.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: picked-guinea.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇯🇵 日本_032023001 L0", server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023002", server: 160.16.214.104, port: 3419, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023003", server: 160.16.72.205, port: 4674, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023004", server: 160.16.130.21, port: 4019, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023005", server: 153.121.65.107, port: 4019, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023006 L0", server: 160.16.70.180, port: 4937, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023007 L0", server: 153.121.45.139, port: 4674, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023009", server: engaging-toucan.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: engaging-toucan.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023010 L0", server: 160.16.72.33, port: 2001, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023011 L0", server: 160.16.72.33, port: 3057, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023012 L0", server: 160.16.72.33, port: 4674, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇯🇵 日本_032023015", server: 46.250.254.170, port: 443, type: ss, cipher: aes-256-gcm, password: BedufgztHO3B5Kqe, tfo: false}
+  - {name: "[SS] 🇯🇵 日本_032023076", server: 103.106.228.175, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, tfo: false}
+  - {name: "[SS] 🇯🇵 日本_032023077", server: 46.250.254.170, port: 80, type: ss, cipher: aes-256-gcm, password: BedufgztHO3B5Kqe, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023078", server: calm-honeybee.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: calm-honeybee.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023079", server: harmless-pegasus.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: harmless-pegasus.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023080", server: close-wasp.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: close-wasp.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023081", server: amazed-mako.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: amazed-mako.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023082", server: fleet-bonefish.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: fleet-bonefish.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023083", server: lucky-urchin.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: lucky-urchin.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023084", server: humorous-foxhound.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: humorous-foxhound.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023085", server: relevant-oryx.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: relevant-oryx.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023086", server: new-eagle.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: new-eagle.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023087", server: thankful-mustang.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: thankful-mustang.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023088", server: welcome-owl.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: welcome-owl.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023089", server: capable-loon.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: capable-loon.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023090", server: sharp-dogfish.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: sharp-dogfish.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本_032023091", server: on-airedale.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: on-airedale.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 未知_032023001", server: cg1d05.waimaojd.com, port: 443, type: vmess, uuid: 6abe3ac8-e1f8-4b24-bb67-191bc23b5fab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cg1d05.waimaojd.com, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1d05.waimaojd.com}}, tfo: false}
+  - {name: "[VMess] 未知_032023002", server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: edb3e961-0b28-4e52-8446-399f3ef03c08, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zzrt.uhomdex.shop, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, tfo: false}
+  - {name: "[VMess] 未知_032023088", server: nqzkb.cmvvb.online, port: 443, type: vmess, uuid: 16604b48-7497-428c-a6d4-b017b3a30ce4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nqzkb.cmvvb.online}}, tfo: false}
+  - {name: "[VMess] 未知_032023649", server: hju.ae1autumn.cc.cd, port: 80, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4}, tfo: false}
+  - {name: "[VMess] 未知_032023650", server: dfg.ae1autumn.cc.cd, port: 80, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4}, tfo: false}
+  - {name: "[VMess] 未知_032023651", server: vbh.ae1autumn.cc.cd, port: 80, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4, headers: {Host: vbh.ae1autumn.cc.cd}}, tfo: false}
+  - {name: "[VMess] 未知_032023652", server: rgt.ae1autumn.dpdns.org, port: 80, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4}, tfo: false}
+  - {name: "[VMess] 未知_032023653", server: cdfr.ae1autumn.dpdns.org, port: 443, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4}, tfo: false}
+  - {name: "[VMess] 未知_032023654", server: rgt.ae1autumn.dpdns.org, port: 443, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4, headers: {Host: rgt.ae1autumn.dpdns.org}}, tfo: false}
+  - {name: "[VMess] 未知_032023655", server: 1qw.ae1autumn.cc.cd, port: 80, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 1qw.ae1autumn.cc.cd, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4, headers: {Host: 1qw.ae1autumn.cc.cd}}, tfo: false}
+  - {name: "[VMess] 未知_032023656", server: tg.apocalypse.cc.cd, port: 80, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4, headers: {Host: tg.apocalypse.cc.cd}}, tfo: false}
+  - {name: "[VMess] 未知_032023657", server: cvfg.ae1autumn.cc.cd, port: 80, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: cvfg.ae1autumn.cc.cd, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4, headers: {Host: cvfg.ae1autumn.cc.cd}}, tfo: false}
+  - {name: "[VMess] 未知_032023658", server: fvbg.ae1autumn.cc.cd, port: 80, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: fvbg.ae1autumn.cc.cd, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4, headers: {Host: fvbg.ae1autumn.cc.cd}}, tfo: false}
+  - {name: "[VMess] 未知_032023659", server: test226.2568954.xyz, port: 2087, type: vmess, uuid: 2f0a3a26-8384-4bbf-f91a-e41e252b30c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /021e6967-ebd6-46d1}, tfo: false}
+  - {name: "[VMess] 未知_032023660", server: zdqbk.cmvvb.online, port: 8443, type: vmess, uuid: ef46b74c-b3ef-4633-9818-0af6226c4060, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zdqbk.cmvvb.online, network: ws, ws-opts: {path: /, headers: {Host: zdqbk.cmvvb.online}}, tfo: false}
+  - {name: "[VMess] 🇫🇷 法国_032023001", server: 51.158.151.24, port: 20104, type: vmess, uuid: 40e306a6-7cab-40ac-a085-a961895eb11b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /arki}, tfo: false}
+  - {name: "[VMess] 🇫🇷 法国_032023002", server: 162.19.248.238, port: 550, type: vmess, uuid: ede27a79-b039-490b-932c-495de4b68880, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇫🇷 法国_032023091", server: 51.178.114.83, port: 11202, type: ss, cipher: chacha20-ietf-poly1305, password: d5b878cbb46f3e33, tfo: false}
+  - {name: "[VMess] 🇫🇷 法国_032023092", server: 162.19.248.238, port: 550, type: vmess, uuid: ede27a79-b039-490b-932c-495de4b68880, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇫🇷 法国_032023093", server: 51.178.38.134, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇵🇱 波兰_032023001", server: outgoing-ladybird.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: outgoing-ladybird.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇵🇱 波兰_032023014", server: fluent-stingray.crayfish192.xyz, port: 443, type: trojan, password: IL37892054, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇦🇺 澳大利亚_032023001", server: enhanced-crayfish.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: enhanced-crayfish.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇦🇺 澳大利亚_032023002", server: engaged-ram.rooster465.autos, port: 443, type: trojan, password: IL37892054, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇦🇺 澳大利亚_032023021", server: 154.26.155.172, port: 80, type: ss, cipher: aes-256-gcm, password: SL4vzcvhBHhTWivD, tfo: false}
+  - {name: "[SS] 🇦🇺 澳大利亚_032023022", server: 154.26.155.172, port: 443, type: ss, cipher: aes-256-gcm, password: SL4vzcvhBHhTWivD, tfo: false}
+  - {name: "[SS] 🇦🇺 澳大利亚_032023023", server: 154.26.156.99, port: 47385, type: ss, cipher: chacha20-ietf-poly1305, password: 78322e4b934870b6, tfo: false}
+  - {name: "[SS] 🇦🇺 澳大利亚_032023024", server: 154.26.156.99, port: 47386, type: ss, cipher: chacha20-ietf-poly1305, password: 78322e4b934870b6, tfo: false}
+  - {name: "[SS] 🇦🇺 澳大利亚_032023025", server: 154.26.156.99, port: 47388, type: ss, cipher: chacha20-ietf-poly1305, password: 78322e4b934870b6, tfo: false}
+  - {name: "[Trojan] 🇦🇺 澳大利亚_032023026", server: steady-lemming.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: steady-lemming.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇦🇺 澳大利亚_032023027", server: 176.97.69.40, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇸🇪 瑞典_032023034", server: 38.180.56.158, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇵🇪 秘鲁_032023002", server: 38.180.173.150, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇷🇴 罗马尼亚_032023026", server: 185.247.224.136, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023001 L0", server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023002 L0", server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023003 L0", server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023006", server: 193.47.60.186, port: 28687, type: ss, cipher: chacha20-ietf-poly1305, password: yKVMoB3AwiTEznpnoq2FYR, tfo: false}
+  - {name: "[VMess] 🇺🇸 美国_032023027 L0", server: 165.140.216.141, port: 443, type: vmess, uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023051", server: 149.104.71.134, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 1e68d4bd002437ab, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023052", server: 144.31.234.82, port: 45356, type: ss, cipher: chacha20-ietf-poly1305, password: EDTfh0zLmD5dfg03sQYFcp, tfo: false}
+  - {name: "[VMess] 🇺🇸 美国_032023074", server: 66.163.117.58, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇺🇸 美国_032023075", server: usaapp1.jisuyun.top, port: 2053, type: vmess, uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: usaapp1.jisuyun.top, network: ws, ws-opts: {path: /usavm, headers: {Host: usaapp1.jisuyun.top}}, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023085", server: 154.53.63.32, port: 80, type: ss, cipher: aes-256-gcm, password: k6ruJuwgAUxIrkHb, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023086", server: 154.53.60.197, port: 80, type: ss, cipher: aes-256-gcm, password: 8rb580EBG4l7tO8K, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023786 M45", server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023825 M60", server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023827", server: 154.53.60.212, port: 80, type: ss, cipher: aes-256-gcm, password: ZfbPFDdeBj0B1Txs, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023828", server: 144.31.1.106, port: 4495, type: ss, cipher: chacha20-ietf-poly1305, password: 2Z9ba3GwDL-rn6DSQ0N-awHNhcuxaHP3, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023829", server: 185.111.156.33, port: 80, type: ss, cipher: aes-256-gcm, password: 5mCH4624QflO1cFR, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023830", server: 144.126.145.77, port: 443, type: ss, cipher: aes-256-gcm, password: QzM0NfuMNngbVnZK, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023831", server: 144.31.1.103, port: 4495, type: ss, cipher: chacha20-ietf-poly1305, password: 2Z9ba3GwDL-rn6DSQ0N-awHNhcuxaHP3, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023832", server: 66.94.125.178, port: 80, type: ss, cipher: aes-256-gcm, password: 14CLBaFBqwqxBJy6, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023833", server: 154.53.63.42, port: 80, type: ss, cipher: aes-256-gcm, password: SM7WYtAwvBORXKjI, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023834", server: 144.126.145.77, port: 80, type: ss, cipher: aes-256-gcm, password: QzM0NfuMNngbVnZK, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023835", server: 94.72.127.58, port: 443, type: ss, cipher: aes-256-gcm, password: jJHq807bQ7TM0yOh, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023836", server: 154.12.242.150, port: 80, type: ss, cipher: aes-256-gcm, password: 7vZO55fXgXAJXa2F, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023837", server: 209.126.5.209, port: 80, type: ss, cipher: aes-256-gcm, password: kEVKj1xvgzeEn8AV, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023838", server: 94.72.127.58, port: 80, type: ss, cipher: aes-256-gcm, password: jJHq807bQ7TM0yOh, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023839", server: 62.146.171.57, port: 80, type: ss, cipher: aes-256-gcm, password: jd9FR12wprKPNJHg, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023840", server: 154.12.240.141, port: 80, type: ss, cipher: aes-256-gcm, password: mK7eN3z276Tr0vVA, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023841", server: 154.53.57.143, port: 80, type: ss, cipher: aes-256-gcm, password: uwmRUOVM5ljNAtPj, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023842", server: 154.12.240.141, port: 443, type: ss, cipher: aes-256-gcm, password: mK7eN3z276Tr0vVA, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023843", server: 154.53.63.32, port: 443, type: ss, cipher: aes-256-gcm, password: k6ruJuwgAUxIrkHb, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023844", server: 154.12.242.150, port: 443, type: ss, cipher: aes-256-gcm, password: 7vZO55fXgXAJXa2F, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023845", server: 209.126.5.209, port: 443, type: ss, cipher: aes-256-gcm, password: kEVKj1xvgzeEn8AV, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023846 M63", server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023847", server: 154.53.57.143, port: 443, type: ss, cipher: aes-256-gcm, password: uwmRUOVM5ljNAtPj, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023848", server: 154.53.63.42, port: 443, type: ss, cipher: aes-256-gcm, password: SM7WYtAwvBORXKjI, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023850", server: 62.146.171.57, port: 443, type: ss, cipher: aes-256-gcm, password: jd9FR12wprKPNJHg, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023851 M60", server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023852 M60", server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[VMess] 🇺🇸 美国_032023853 L0", server: 165.140.216.141, port: 443, type: vmess, uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023854", server: 154.38.176.7, port: 443, type: ss, cipher: aes-256-gcm, password: nKeE2ZFWVaE4DyjR, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023855", server: 66.94.125.178, port: 443, type: ss, cipher: aes-256-gcm, password: 14CLBaFBqwqxBJy6, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023856", server: 185.111.156.33, port: 443, type: ss, cipher: aes-256-gcm, password: 5mCH4624QflO1cFR, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023857", server: 154.53.60.197, port: 443, type: ss, cipher: aes-256-gcm, password: 8rb580EBG4l7tO8K, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023858", server: 154.53.60.212, port: 443, type: ss, cipher: aes-256-gcm, password: ZfbPFDdeBj0B1Txs, tfo: false}
+  - {name: "[SS] 🇺🇸 美国_032023859", server: 108.181.0.177, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: G5p6ww4o67HB, tfo: false}
+  - {name: "[Trojan] 🇺🇸 美国_032023860", server: natural-seagull.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: natural-seagull.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸 美国_032023861", server: healthy-ewe.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: healthy-ewe.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇺🇸 美国_032023862", server: 216.106.185.141, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇺🇸 美国_032023863", server: 216.106.185.141, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸 美国_032023864", server: 15.204.108.89, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸 美国_032023865", server: 38.180.141.48, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸 美国_032023866", server: 15.204.56.75, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸 美国_032023867", server: 38.180.60.168, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸 美国_032023868", server: 45.136.129.8, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸 美国_032023869", server: 15.204.237.191, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸 美国_032023870", server: 38.54.50.92, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸 美国_032023871", server: 40.160.29.83, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸 美国_032023872", server: 45.12.144.61, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸 美国_032023873", server: 194.33.45.157, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸 美国_032023874", server: 77.247.126.137, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023001", server: 82.38.31.205, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023002", server: 82.38.31.187, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023003", server: 82.38.31.191, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023004", server: 82.38.31.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023005", server: 82.38.31.208, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023006", server: 82.38.31.82, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023007", server: 82.38.31.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023008", server: 82.38.31.214, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023009", server: 82.38.31.99, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023010", server: 82.38.31.218, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023011", server: 51.132.248.78, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
+  - {name: "[Trojan] 🇬🇧 英国_032023012", server: upright-rhino.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: upright-rhino.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023013", server: 82.38.31.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023014", server: 82.38.31.184, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023015", server: 82.38.31.101, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023016", server: 82.38.31.62, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023018", server: 149.102.132.186, port: 80, type: ss, cipher: aes-256-gcm, password: YhzqOeJsfuZ9rkkc, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023022", server: 82.38.31.190, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023023", server: 82.38.31.122, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023096", server: 51.132.248.78, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1kVr0KATIJI7mwOF, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023101", server: 149.102.132.184, port: 443, type: ss, cipher: aes-256-gcm, password: ldjmwoNqgQqqc43j, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023102", server: 94.156.250.148, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023103", server: 149.102.132.180, port: 80, type: ss, cipher: aes-256-gcm, password: ZTiO11KwZG3S7aET, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023104", server: 82.38.31.66, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023105", server: 82.38.31.69, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023106", server: 82.38.31.148, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023107", server: 82.38.31.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023108", server: 149.102.132.180, port: 443, type: ss, cipher: aes-256-gcm, password: ZTiO11KwZG3S7aET, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023109", server: 149.102.132.184, port: 80, type: ss, cipher: aes-256-gcm, password: ldjmwoNqgQqqc43j, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023110", server: 149.102.132.186, port: 443, type: ss, cipher: aes-256-gcm, password: YhzqOeJsfuZ9rkkc, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023111", server: 82.38.31.186, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023112", server: 82.38.31.103, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023113", server: 149.102.152.25, port: 443, type: ss, cipher: aes-256-gcm, password: RLUoaU4nh8b8Mqq7, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023114", server: 149.102.152.25, port: 80, type: ss, cipher: aes-256-gcm, password: RLUoaU4nh8b8Mqq7, tfo: false}
+  - {name: "[SS] 🇬🇧 英国_032023115", server: 185.218.3.131, port: 60664, type: ss, cipher: chacha20-ietf-poly1305, password: Aex4y92EluOwjtinhoxlsO, tfo: false}
+  - {name: "[VMess] 🇬🇧 英国_032023116", server: fsdns1.ectunnelvpn.me, port: 80, type: vmess, uuid: 6b2d86e5-df05-4511-a79f-82d53ce99b36, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: fsdns1.ectunnelvpn.me}}, tfo: false}
+  - {name: "[SS] 🇳🇱 荷兰_032023001 H77", server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, tfo: false}
+  - {name: "[SS] 🇳🇱 荷兰_032023002", server: 195.66.25.220, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: yhrHMDgZ2egKftvrecvkpUPqpUTyac7q, tfo: false}
+  - {name: "[SS] 🇳🇱 荷兰_032023005", server: 193.29.139.151, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇳🇱 荷兰_032023006 M55", server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[Trojan] 🇳🇱 荷兰_032023009", server: 195.66.25.251, port: 443, type: trojan, password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-, sni: 8443.golden-cards.me, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇳🇱 荷兰_032023097", server: 193.29.139.204, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇳🇱 荷兰_032023098 L0", server: 193.29.139.175, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, tfo: false}
+  - {name: "[SS] 🇳🇱 荷兰_032023099 H77", server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: fbx1Fw7mENCd7vZMvorQZ5, tfo: false}
+  - {name: "[VMess] 🇪🇸 西班牙_032023005", server: 85.90.217.42, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇻🇳 越南_032023007", server: 38.54.14.156, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: a94f0b6916f67bdc, tfo: false}
+  - {name: "[VMess] 🇦🇪 阿联酋_032023028", server: cg1c15.waimaojd.com, port: 443, type: vmess, uuid: 4378a67e-d277-44b5-a99b-a947fff1ee21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c15.waimaojd.com}}, tfo: false}
+  - {name: "[Trojan] 🇦🇪 阿联酋_032023029", server: 154.90.55.81, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇦🇪 阿联酋_032023030", server: 38.180.26.190, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇰🇷 韩国_032023001", server: select-marmoset.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: select-marmoset.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇰🇷 韩国_032023002", server: glowing-deer.rooster465.autos, port: 443, type: trojan, password: ZY07256934, sni: glowing-deer.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇰🇷 韩国_032023003", server: 141.164.45.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, tfo: false}
+  - {name: "[SS] 🇰🇷 韩国_032023055", server: 141.164.45.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, tfo: false}
+  - {name: "[SS] 🇰🇷 韩国_032023056", server: 141.164.45.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, tfo: false}
+  - {name: "[SS] 🇰🇷 韩国_032023057", server: 141.164.45.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false}
+  - {name: "[SS] 🇰🇷 韩国_032023058", server: 141.164.45.187, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false}
+  - {name: "[SS] 🇰🇷 韩国_032023059", server: 141.164.45.187, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, tfo: false}
+  - {name: "[SS] 🇰🇷 韩国_032023060", server: 141.164.45.187, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false}
+  - {name: "[SS] 🇰🇷 韩国_032023061", server: 141.164.45.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, tfo: false}
+  - {name: "[SS] 🇰🇷 韩国_032023062", server: 141.164.45.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, tfo: false}
+  - {name: "[SS] 🇰🇷 韩国_032023063", server: 156.244.19.94, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 652e423c559eefd4, tfo: false}
+  - {name: "[SS] 🇰🇷 韩国_032023064", server: 141.164.45.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, tfo: false}
+  - {name: "[Trojan] 🇰🇷 韩国_032023065", server: positive-bear.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: positive-bear.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇰🇷 韩国_032023066", server: 158.247.220.63, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇭🇰 香港_032023001", server: growing-tuna.rooster465.autos, port: 443, type: trojan, password: IL37892054, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇭🇰 香港_032023003", server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇭🇰 香港_032023005", server: caring-ghoul.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: caring-ghoul.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇭🇰 香港_032023045", server: robust-toucan.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: robust-toucan.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇲🇾 马来西亚_032023004", server: 124.217.247.205, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: RZirHzSqyyb37DDIiQeDLZTJft5ZQGmUCwyA3wm5ath4j9Y3, tfo: false}
+  - {name: "[Trojan] 🇲🇾 马来西亚_032023007", server: 38.60.195.223, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, tfo: false}

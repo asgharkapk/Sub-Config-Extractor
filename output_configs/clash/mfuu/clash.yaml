@@ -1,7 +1,7 @@
 proxies:
   - {name: "[SS] 🇨🇦 🇨🇦CA-144.217.164.29-00", server: 144.217.164.29, port: 12000, type: ss, cipher: aes-256-gcm, password: 8JCsPssfgS8tiRwiMlhARg==, tfo: false}
   - {name: "[VMess] 🇦🇶NOWHERE-0.0.0.0-01", server: 547.rtxconfigz.shop, port: 8080, type: vmess, uuid: 44e57485-eccc-46ef-808f-cd17ac810018, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@Malinda6104, headers: {Host: 547.rtxconfigz.shop}}, tfo: false}
-  - {name: "[VMess] 🏁RELAY-104.21.76.158-02", server: t1.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t1.620720.xyz}}, tfo: false}
+  - {name: "[VMess] 🏁RELAY-172.67.197.47-02", server: t1.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t1.620720.xyz}}, tfo: false}
   - {name: "[SS] 🇨🇦 🇨🇦CA-45.154.204.7-03", server: 45.154.204.7, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
   - {name: "[SS] 🇺🇸 🇺🇸US-146.19.49.251-04", server: 146.19.49.251, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6, tfo: false}
   - {name: "[VMess] 🇨🇦 🇨🇦CA-15.235.41.200-05", server: 15.235.41.200, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: 15.235.41.200}}, tfo: false}
@@ -27,45 +27,43 @@ proxies:
   - {name: "[VMess] 🇺🇸 🇺🇸US-67.21.83.58-25", server: cg1c01.waimaojd.com, port: 443, type: vmess, uuid: be8e3136-b874-4085-bd23-ec3699300490, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c01.waimaojd.com}}, tfo: false}
   - {name: "[VMess] 🇺🇸 🇺🇸US-67.21.85.228-26", server: cg1c04.waimaojd.com, port: 443, type: vmess, uuid: be8e3136-b874-4085-bd23-ec3699300490, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c04.waimaojd.com}}, tfo: false}
   - {name: "[VMess] 🇺🇸 🇺🇸US-38.114.103.146-27", server: cg1c14.waimaojd.com, port: 443, type: vmess, uuid: be8e3136-b874-4085-bd23-ec3699300490, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c14.waimaojd.com}}, tfo: false}
-  - {name: "[SS] 🇷🇺 🇷🇺RU-45.140.169.225-28", server: 45.140.169.225, port: 50128, type: ss, cipher: aes-256-gcm, password: c5fcdf7829112cb4, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-51.132.248.78-29", server: 51.132.248.78, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1kVr0KATIJI7mwOF, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰HK-103.181.164.145-30", server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-20.50.123.224-31", server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
-  - {name: "[VMess] 🇩🇪 🇩🇪DE-82.198.246.97-32", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-192.124.176.95-33", server: 192.124.176.95, port: 8388, type: ss, cipher: aes-256-gcm, password: UcbtKq1aPi88, tfo: false}
-  - {name: "[VMess] 🇺🇸 🇺🇸US-5.34.216.148-34", server: cn01.365cloud8754.com, port: 6001, type: vmess, uuid: db75bc92-4e32-48dd-b792-d7a8b707626c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇩🇪 🇩🇪DE-82.198.246.97-35", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇩🇪 🇩🇪DE-63.180.254.10-36", server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰HK-42.2.129.197-37", server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇺🇸 🇺🇸US-5.34.216.148-38", server: cn01.365cloud8754.com, port: 6001, type: vmess, uuid: db75bc92-4e32-48dd-b792-d7a8b707626c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-43.207.174.89-39", server: 43.207.174.89, port: 6196, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇭🇰 🇭🇰HK-16.162.120.15-40", server: 16.162.120.15, port: 51885, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇭🇰 🇭🇰HK-43.199.230.155-41", server: 43.199.230.155, port: 8044, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇨🇳 🇨🇳CN-106.75.162.7-42", server: 106.75.162.7, port: 50000, type: ss, cipher: aes-128-gcm, password: d72781da-3ea8-4d7f-9bca-c04ed410443b, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-57.180.252.251-43", server: 57.180.252.251, port: 16919, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-54.248.3.214-44", server: 54.248.3.214, port: 34818, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-57.180.17.175-45", server: 57.180.17.175, port: 2001, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-153.121.45.139-46", server: 153.121.45.139, port: 4674, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-54.248.3.214-47", server: 54.248.3.214, port: 3419, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇭🇰 🇭🇰HK-16.162.120.15-48", server: 16.162.120.15, port: 52951, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-52.195.215.60-49", server: 52.195.215.60, port: 4920, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-57.180.252.251-50", server: 57.180.252.251, port: 4920, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-54.95.208.150-51", server: 54.95.208.150, port: 14919, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇩🇪 🇩🇪DE-63.180.254.10-52", server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰HK-42.2.129.197-53", server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇺🇸 🇺🇸US-5.34.216.148-54", server: cn01.365cloud8754.com, port: 6001, type: vmess, uuid: db75bc92-4e32-48dd-b792-d7a8b707626c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-43.207.174.89-55", server: 43.207.174.89, port: 6196, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇭🇰 🇭🇰HK-16.162.120.15-56", server: 16.162.120.15, port: 51885, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇭🇰 🇭🇰HK-43.199.230.155-57", server: 43.199.230.155, port: 8044, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇨🇳 🇨🇳CN-106.75.162.7-58", server: 106.75.162.7, port: 50000, type: ss, cipher: aes-128-gcm, password: d72781da-3ea8-4d7f-9bca-c04ed410443b, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-57.180.252.251-59", server: 57.180.252.251, port: 16919, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-54.248.3.214-60", server: 54.248.3.214, port: 34818, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-57.180.17.175-61", server: 57.180.17.175, port: 2001, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-153.121.45.139-62", server: 153.121.45.139, port: 4674, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-54.248.3.214-63", server: 54.248.3.214, port: 3419, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇭🇰 🇭🇰HK-16.162.120.15-64", server: 16.162.120.15, port: 52951, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-52.195.215.60-65", server: 52.195.215.60, port: 4920, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-57.180.252.251-66", server: 57.180.252.251, port: 4920, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-54.95.208.150-67", server: 54.95.208.150, port: 14919, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇨🇳 🇨🇳CN-112.19.9.103-68", server: mofacpdd.til69.com, port: 41921, type: ss, cipher: chacha20-ietf-poly1305, password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6, tfo: false}
-  - {name: "[Trojan] 🇺🇸 🇺🇸US-216.24.57.250-69", server: 216.24.57.250, port: 443, type: trojan, password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83, sni: afrcloud1.mmv.kr, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇭🇰 🇭🇰HK-58.152.25.253-28", server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇩🇪 🇩🇪DE-82.198.246.97-29", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇨🇳 🇨🇳CN-144.48.186.119-30", server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇮🇸 🇮🇸IS-37.235.49.209-31", server: 37.235.49.209, port: 28099, type: trojan, password: qmBSKnAl6LYi9=z23Rs.Z, sni: celestialcorset.crystalhamster.click, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇫🇮FI-212.193.18.144-32", server: 212.193.18.144, port: 36158, type: trojan, password: ZblhWr0mqMakCPg.N, sni: ya.ru, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇳🇴NO-80.173.231.254-33", server: 80.173.231.254, port: 12420, type: trojan, password: wp9IsiY82uQhcmgNC1eoBM, sni: www.semanticstaplegun.click, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇩🇪 🇩🇪DE-63.180.254.10-34", server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: "[VMess] 🇭🇰 🇭🇰HK-1.36.131.112-35", server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇺🇸 🇺🇸US-5.34.216.148-36", server: cn01.365cloud8754.com, port: 6001, type: vmess, uuid: db75bc92-4e32-48dd-b792-d7a8b707626c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-43.207.174.89-37", server: 43.207.174.89, port: 6196, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇭🇰 🇭🇰HK-16.162.120.15-38", server: 16.162.120.15, port: 51885, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇭🇰 🇭🇰HK-43.199.230.155-39", server: 43.199.230.155, port: 8044, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇨🇳 🇨🇳CN-106.75.162.7-40", server: 106.75.162.7, port: 50000, type: ss, cipher: aes-128-gcm, password: d72781da-3ea8-4d7f-9bca-c04ed410443b, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-57.180.252.251-41", server: 57.180.252.251, port: 16919, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-54.248.3.214-42", server: 54.248.3.214, port: 34818, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-57.180.17.175-43", server: 57.180.17.175, port: 2001, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-153.121.45.139-44", server: 153.121.45.139, port: 4674, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-54.248.3.214-45", server: 54.248.3.214, port: 3419, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇭🇰 🇭🇰HK-16.162.120.15-46", server: 16.162.120.15, port: 52951, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-52.195.215.60-47", server: 52.195.215.60, port: 4920, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-57.180.252.251-48", server: 57.180.252.251, port: 4920, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-54.95.208.150-49", server: 54.95.208.150, port: 14919, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇩🇪 🇩🇪DE-63.180.254.10-50", server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: "[VMess] 🇭🇰 🇭🇰HK-1.36.131.112-51", server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇺🇸 🇺🇸US-5.34.216.148-52", server: cn01.365cloud8754.com, port: 6001, type: vmess, uuid: db75bc92-4e32-48dd-b792-d7a8b707626c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-43.207.174.89-53", server: 43.207.174.89, port: 6196, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇭🇰 🇭🇰HK-16.162.120.15-54", server: 16.162.120.15, port: 51885, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇭🇰 🇭🇰HK-43.199.230.155-55", server: 43.199.230.155, port: 8044, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇨🇳 🇨🇳CN-106.75.162.7-56", server: 106.75.162.7, port: 50000, type: ss, cipher: aes-128-gcm, password: d72781da-3ea8-4d7f-9bca-c04ed410443b, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-57.180.252.251-57", server: 57.180.252.251, port: 16919, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-54.248.3.214-58", server: 54.248.3.214, port: 34818, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-57.180.17.175-59", server: 57.180.17.175, port: 2001, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-153.121.45.139-60", server: 153.121.45.139, port: 4674, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-54.248.3.214-61", server: 54.248.3.214, port: 3419, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇭🇰 🇭🇰HK-16.162.120.15-62", server: 16.162.120.15, port: 52951, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-52.195.215.60-63", server: 52.195.215.60, port: 4920, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-57.180.252.251-64", server: 57.180.252.251, port: 4920, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-54.95.208.150-65", server: 54.95.208.150, port: 14919, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇨🇳 🇨🇳CN-112.19.9.104-66", server: mofacpdd.til69.com, port: 41921, type: ss, cipher: chacha20-ietf-poly1305, password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6, tfo: false}
+  - {name: "[Trojan] 🇺🇸 🇺🇸US-216.24.57.250-67", server: 216.24.57.250, port: 443, type: trojan, password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83, sni: afrcloud1.mmv.kr, skip-cert-verify: true, tfo: false}
