@@ -83,7 +83,7 @@ proxies:
   - {name: "[SS] Server 83 🇰🇿", server: 213.156.137.142, port: 43660, type: ss, cipher: chacha20-ietf-poly1305, password: cc27a3012d81a44c, tfo: false}
   - {name: "[VMess] Server 84 🇩🇪", server: 57.129.28.212, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: fapeng.org, network: ws, ws-opts: {path: linkvws, headers: {Host: fapeng.org}}, tfo: false}
   - {name: "[VMess] Server 85 🇩🇪", server: 57.129.28.63, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: fapeng.org, network: ws, ws-opts: {path: linkvws, headers: {Host: fapeng.org}}, tfo: false}
-  - {name: "[VLESS] Server 86 🇨🇦", server: chatgpt.com, port: 443, type: vless, tls: true, uuid: e6c7ed63-89db-4ae1-a3f8-7a722921b3b2, servername: apii.onlineshoppingez.ir, alpn: [http/1.1], network: ws, ws-opts: {path: /O1w0n3vYgFKYs7EzNAvLPvOp, headers: {Host: apii.onlineshoppingez.ir}}, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] Server 86 🇬🇧", server: chatgpt.com, port: 443, type: vless, tls: true, uuid: e6c7ed63-89db-4ae1-a3f8-7a722921b3b2, servername: apii.onlineshoppingez.ir, alpn: [http/1.1], network: ws, ws-opts: {path: /O1w0n3vYgFKYs7EzNAvLPvOp, headers: {Host: apii.onlineshoppingez.ir}}, skip-cert-verify: true, tfo: false}
   - {name: "[VLESS] Server 87", server: serveruwofl.samanidempire.org, port: 443, type: vless, tls: true, uuid: ee4b0561-450d-4f5b-a8e2-f84c95def9b2, alpn: [http%2F1.1], network: ws, ws-opts: {path: /1ab3537d, headers: {Host: serveruwofl.samanidempire.org}}, skip-cert-verify: true, tfo: false}
   - {name: "[VLESS] Server 88 🇦🇱", server: pq-albania1.09vpn.com, port: 80, type: vless, tls: true, uuid: 8910cbb3-33b1-4266-a243-ac780ac63394, network: ws, ws-opts: {path: /vless/}, skip-cert-verify: true, tfo: false}
   - {name: "[VLESS] Server 89 🇺🇸", server: 45.82.251.208, port: 8880, type: vless, tls: true, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: ""}, skip-cert-verify: true, tfo: false}
@@ -157,6 +157,7 @@ proxies:
   - {name: "[SS] Server 160 🇰🇿", server: kazakhstan25.clearorbitllc.com, port: 52323, type: ss, cipher: chacha20-ietf-poly1305, password: gvaUC0IKACno8p05FYZLoM, tfo: false}
   - {name: "[VMess] Server 161 🇨🇦", server: 15.235.50.172, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: baradiha.com}}, tfo: false}
   - {name: "[Hysteria2] 🇳🇱 >>@oneclickvpnkeys::NL", server: 144.31.224.14, port: 443, type: hysteria2, ports: 443, password: 123456789StrongPass, sni: www.cloudflare.com, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 𝘾𝙁🌐", server: 144.31.224.14, port: 443, type: hysteria2, ports: 443, password: 123456789StrongPass, sni: www.cloudflare.com, skip-cert-verify: true, tfo: false}
   - {name: "[Hysteria2] 🇬🇧 c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk:1743", server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk, port: 1743, type: hysteria2, ports: 1743, password: 17cdeb6c-f046-11ee-bdac-f23c93141fad, sni: 🔒, skip-cert-verify: true, tfo: false}
   - {name: "[Hysteria2] 206.71.158.23:45000", server: 206.71.158.23, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, sni: 🔒, skip-cert-verify: true, tfo: false}
   - {name: "[Hysteria2] gavazn.lnmarketplace.net:45000", server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, sni: 🔒, skip-cert-verify: true, tfo: false}
@@ -164,7 +165,6 @@ proxies:
   - {name: "[Hysteria2] 🇩🇪", server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true, tfo: false}
   - {name: "[Hysteria2] 206.71.158.40:35000", server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: 🔒, skip-cert-verify: true, tfo: false}
   - {name: "[Hysteria2] 206.71.158.41:35000", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: 🔒, skip-cert-verify: true, tfo: false}
-  - {name: "[Hysteria2] 🌐سرور", server: 144.31.224.14, port: 443, type: hysteria2, ports: 443, password: 123456789StrongPass, sni: www.cloudflare.com, skip-cert-verify: true, tfo: false}
   - {name: "[Hysteria2] 🩵+@Azarakhsh_Proxy+🩷", server: 179.61.132.96, port: 8443, type: hysteria2, ports: 8443, password: KevinZakarian, obfs: salamander, obfs-password: KevinZakarian, sni: 179.61.132.96, skip-cert-verify: true, tfo: false}
   - {name: "[Hysteria2] 🩵 @Azarakhsh_Proxy 🩷", server: 179.61.132.96, port: 8443, type: hysteria2, ports: 8443, password: KevinZakarian, obfs: salamander, obfs-password: KevinZakarian, sni: 179.61.132.96, skip-cert-verify: true, tfo: false}
   - {name: "[Hysteria2] b@oneclickvpnkeys", server: "[2a14:3f87:f001:9::a]", port: 443, type: hysteria2, ports: 443, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true, tfo: false}
@@ -186,246 +186,204 @@ proxies:
   - {name: "[Hysteria2] کانال تلگرام : Free_VPN_CH@ #1", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true, tfo: false}
   - {name: "[Hysteria2] کانال تلگرام : Free_VPN_CH@ #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true, tfo: false}
   - {name: "[Hysteria2] کانال تلگرام : Free_VPN_CH@ #3", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org@freenettir, skip-cert-verify: true, tfo: false}
-  - {name: "[Hysteria2] @V2RAYROZ 🐥🌷 2", server: "5.175.249.174:35000?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=api.kermanshahi.org#%40V2RAYROZ%20%F0%9F%90%A5%F0%9F%8C%B7vless://203b0744-f943-4bba-a8d2-cab635467c46@45.136.126.16", port: 443, type: hysteria2, ports: 443, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: google.com, skip-cert-verify: true, tfo: false}
-  - {name: "[Hysteria2] @V2RAYROZ 🐥🌷 3", server: "5.175.249.174:35000?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=api.kermanshahi.org#%40V2RAYROZ%20%F0%9F%90%A5%F0%9F%8C%B7vless://e0c50817-86dd-4ee1-bca3-6e296d85dd59@grok.com", port: 2083, type: hysteria2, ports: 2083, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: blouck-de.gozarcloud.ir, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] @V2RAYROZ 🐥🌷 2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true, tfo: false}
   - {name: "[Hysteria2] Telegram", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true, tfo: false}
   - {name: "[Hysteria2] کانال 3", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true, tfo: false}
   - {name: "[Hysteria2] کانال 4", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true, tfo: false}
   - {name: "[Hysteria2] کانال 5", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org@freenettir, skip-cert-verify: true, tfo: false}
   - {name: "[Hysteria2] @V2rayNG3 5", server: 77.90.41.197, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true, tfo: false}
   - {name: "[Hysteria2] 208.87.243.187:22222", server: 208.87.243.187, port: 22222, type: hysteria2, ports: 22222, password: dongtaiwang.com, sni: 🔒, skip-cert-verify: true, tfo: false}
-  - {name: "[Hysteria2] 9|12@oneclickvpnkeys", server: 62.210.124.146, port: 22000, type: hysteria2, ports: 22000, password: dongtaiwang.com, sni: www.microsoft.com, skip-cert-verify: true, tfo: false}
   - {name: "[Hysteria2] @V2rayNG3 6", server: "[2a01:4f9:4b:f378::1]", port: 13599, type: hysteria2, ports: 13599, password: linux.do, sni: www.bing.com, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇫🇷 🇫🇷 France, Paris | 🌐 | [BL]", server: 212.193.31.114, port: 58888, type: ss, cipher: chacha20-ietf-poly1305, password: b0e89q7JzFSgSgFJpPVdrfFeBK8559Ak, tfo: false}
+  - {name: "[SS] 🇩🇪 🇩🇪 Germany, Karlsruhe (Nordweststadt) | 🌐 | [IPv6] | [BL]", server: 45.136.31.53, port: 7004, type: ss, cipher: aes-256-gcm, password: f36520aa-a3dc-4144-bef9-cfd4a310f2f3, tfo: false}
+  - {name: "[SS] 🇭🇰 🇭🇰 Hong Kong, Mong Kok | [BL]", server: 103.141.221.124, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, tfo: false}
+  - {name: "[SS] 🇨🇳 🇹🇼 Taiwan | 🌐 | [IPv6] | [BL]", server: n8mrcg005938lsz.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, tfo: false}
+  - {name: "[SS] 🇨🇳 🇹🇼 Taiwan | 🌐 | [IPv6] | [BL] 2", server: n8mrcg006043yc6.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, tfo: false}
+  - {name: "[SS] 🇨🇳 🇹🇼 Taiwan | 🌐 | [IPv6] | [BL] 3", server: nbmrcg003466pb9.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, tfo: false}
+  - {name: "[SS] 🇨🇳 🇹🇼 Taiwan | 🌐 | [IPv6] | [BL] 4", server: r3mrcg007150y7y.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, tfo: false}
+  - {name: "[SS] 🇨🇳 🇹🇼 Taiwan | 🌐 | [IPv6] | [BL] 5", server: r3mrcg007175dsk.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, tfo: false}
+  - {name: "[SS] 🇨🇳 🇹🇼 Taiwan, Taichung | [BL]", server: namrcg001662wgh.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, tfo: false}
   - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Ho Chi Minh City | [BL]", server: 103.151.57.112, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL]", server: 103.186.154.139, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 2", server: 103.186.154.140, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 3", server: 103.186.154.142, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 4", server: 103.186.154.143, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 5", server: 103.186.154.146, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 6", server: 103.186.154.147, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 7", server: 103.186.154.148, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 8", server: 103.186.154.149, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 9", server: 103.186.154.14, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 10", server: 103.186.154.150, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 11", server: 103.186.154.151, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 12", server: 103.186.154.152, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 13", server: 103.186.154.156, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 14", server: 103.186.154.158, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 15", server: 103.186.154.159, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 16", server: 103.186.154.162, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 17", server: 103.186.154.164, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 18", server: 103.186.154.165, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 19", server: 103.186.154.169, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 20", server: 103.186.154.16, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 21", server: 103.186.154.172, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 22", server: 103.186.154.173, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 23", server: 103.186.154.175, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 24", server: 103.186.154.177, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 25", server: 103.186.154.178, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 26", server: 103.186.154.179, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 27", server: 103.186.154.17, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 28", server: 103.186.154.181, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 29", server: 103.186.154.182, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 30", server: 103.186.154.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 31", server: 103.186.154.184, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 32", server: 103.186.154.185, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 33", server: 103.186.154.186, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 34", server: 103.186.154.187, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 35", server: 103.186.154.188, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 36", server: 103.186.154.189, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 37", server: 103.186.154.190, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 38", server: 103.186.154.192, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 39", server: 103.186.154.193, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 40", server: 103.186.154.194, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 41", server: 103.186.154.195, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 42", server: 103.186.154.197, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 43", server: 103.186.154.198, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 44", server: 103.186.154.199, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 45", server: 103.186.154.201, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 46", server: 103.186.154.202, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 47", server: 103.186.154.203, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 48", server: 103.186.154.204, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 49", server: 103.186.154.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 50", server: 103.186.154.206, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 51", server: 103.186.154.210, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 52", server: 103.186.154.211, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 53", server: 103.186.154.212, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 54", server: 103.186.154.213, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 55", server: 103.186.154.215, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 56", server: 103.186.154.217, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 57", server: 103.186.154.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 58", server: 103.186.154.221, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 59", server: 103.186.154.222, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 60", server: 103.186.154.223, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 61", server: 103.186.154.224, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 62", server: 103.186.154.225, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 63", server: 103.186.154.227, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 64", server: 103.186.154.228, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 65", server: 103.186.154.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 66", server: 103.186.154.230, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 67", server: 103.186.154.234, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 68", server: 103.186.154.235, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 69", server: 103.186.154.236, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 70", server: 103.186.154.238, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 71", server: 103.186.154.239, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 72", server: 103.186.154.240, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 73", server: 103.186.154.241, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 74", server: 103.186.154.243, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 75", server: 103.186.154.245, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 76", server: 103.186.154.247, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 77", server: 103.186.154.24, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 78", server: 103.186.154.251, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 79", server: 103.186.154.252, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 80", server: 103.186.154.254, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 81", server: 103.186.154.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 82", server: 103.186.154.27, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 83", server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 84", server: 103.186.154.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 85", server: 103.186.154.31, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 86", server: 103.186.154.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 87", server: 103.186.154.33, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 88", server: 103.186.154.34, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 89", server: 103.186.154.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 90", server: 103.186.154.36, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 91", server: 103.186.154.39, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 92", server: 103.186.154.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 93", server: 103.186.154.43, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 94", server: 103.186.154.44, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 95", server: 103.186.154.45, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 96", server: 103.186.154.47, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 97", server: 103.186.154.49, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 98", server: 103.186.154.4, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 99", server: 103.186.154.50, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 100", server: 103.186.154.51, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 101", server: 103.186.154.53, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 102", server: 103.186.154.54, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 103", server: 103.186.154.56, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 104", server: 103.186.154.57, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 105", server: 103.186.154.59, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 106", server: 103.186.154.60, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 107", server: 103.186.154.63, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 108", server: 103.186.154.66, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 109", server: 103.186.154.69, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 110", server: 103.186.154.72, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 111", server: 103.186.154.73, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 112", server: 103.186.154.74, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 113", server: 103.186.154.77, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 114", server: 103.186.154.78, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 115", server: 103.186.154.80, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 116", server: 103.186.154.9, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 117", server: 103.186.155.103, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 118", server: 103.186.155.106, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 119", server: 103.186.155.107, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 120", server: 103.186.155.108, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 121", server: 103.186.155.109, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 122", server: 103.186.155.10, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 123", server: 103.186.155.110, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 124", server: 103.186.155.111, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 125", server: 103.186.155.112, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 126", server: 103.186.155.114, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 127", server: 103.186.155.115, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 128", server: 103.186.155.116, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 129", server: 103.186.155.119, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 130", server: 103.186.155.121, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 131", server: 103.186.155.125, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 132", server: 103.186.155.126, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 133", server: 103.186.155.128, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 134", server: 103.186.155.129, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 135", server: 103.186.155.12, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 136", server: 103.186.155.130, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 137", server: 103.186.155.132, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 138", server: 103.186.155.133, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 139", server: 103.186.155.136, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 140", server: 103.186.155.137, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 141", server: 103.186.155.138, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 142", server: 103.186.155.139, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 143", server: 103.186.155.141, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 144", server: 103.186.155.142, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 145", server: 103.186.155.143, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 146", server: 103.186.155.144, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 147", server: 103.186.155.147, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 148", server: 103.186.155.149, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 149", server: 103.186.155.150, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 150", server: 103.186.155.153, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 151", server: 103.186.155.15, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 152", server: 103.186.155.17, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 153", server: 103.186.155.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 154", server: 103.186.155.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 155", server: 103.186.155.207, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 156", server: 103.186.155.211, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 157", server: 103.186.155.213, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 158", server: 103.186.155.214, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 159", server: 103.186.155.215, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 160", server: 103.186.155.218, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 161", server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 162", server: 103.186.155.220, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 163", server: 103.186.155.221, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 164", server: 103.186.155.222, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 165", server: 103.186.155.223, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 166", server: 103.186.155.224, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 167", server: 103.186.155.225, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 168", server: 103.186.155.226, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 169", server: 103.186.155.227, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 170", server: 103.186.155.228, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 171", server: 103.186.155.230, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 172", server: 103.186.155.236, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 173", server: 103.186.155.238, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 174", server: 103.186.155.239, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 175", server: 103.186.155.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 176", server: 103.186.155.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 177", server: 103.186.155.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 178", server: 103.186.155.27, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 179", server: 103.186.155.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 180", server: 103.186.155.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 181", server: 103.186.155.2, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 182", server: 103.186.155.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 183", server: 103.186.155.37, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 184", server: 103.186.155.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 185", server: 103.186.155.39, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 186", server: 103.186.155.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 187", server: 103.186.155.41, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 188", server: 103.186.155.42, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 189", server: 103.186.155.43, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 190", server: 103.186.155.44, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 191", server: 103.186.155.45, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 192", server: 103.186.155.46, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 193", server: 103.186.155.47, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 194", server: 103.186.155.48, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 195", server: 103.186.155.4, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 196", server: 103.186.155.50, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 197", server: 103.186.155.51, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 198", server: 103.186.155.54, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 199", server: 103.186.155.55, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 200", server: 103.186.155.56, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 201", server: 103.186.155.58, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 202", server: 103.186.155.5, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 203", server: 103.186.155.60, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 204", server: 103.186.155.61, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 205", server: 103.186.155.62, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 206", server: 103.186.155.64, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 207", server: 103.186.155.65, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 208", server: 103.186.155.66, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 209", server: 103.186.155.67, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 210", server: 103.186.155.68, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 211", server: 103.186.155.69, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 212", server: 103.186.155.71, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 213", server: 103.186.155.75, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 214", server: 103.186.155.76, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 215", server: 103.186.155.77, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 216", server: 103.186.155.78, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 217", server: 103.186.155.79, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 218", server: 103.186.155.80, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 219", server: 103.186.155.81, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 220", server: 103.186.155.83, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 221", server: 103.186.155.84, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 222", server: 103.186.155.85, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 223", server: 103.186.155.9, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🌐 Anycast-IP | [IPv6] | [BL]", server: 94.159.98.123, port: 443, type: ss, cipher: none, password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ylnhh.us.ci, path: "/14b02e2a-8930-4afb-8412-ea4a4954ca5b?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, tfo: false}
-  - {name: "[SS] 🌐 Anycast-IP | [IPv6] | [BL] 2", server: 199.181.197.38, port: 443, type: ss, cipher: none, password: 3e96ef7d-8637-42c2-ac73-75182196e755, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mfvpn.fuchen.indevs.in, path: "3e96ef7d-8637-42c2-ac73-75182196e755?ed=2560", tls: true, mux: true, skip-cert-verify: true}, tfo: false}
-  - {name: "[Hysteria2] 🇯🇵 🇯🇵 Japan | 🌐 | [IPv6] | [BL]", server: iij.mggl.wang, port: 35789, type: hysteria2, ports: 35789, password: 79d73809-f5ed-4099-8588-ba77578def1d, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL]", server: 103.186.154.12, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 2", server: 103.186.154.148, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 3", server: 103.186.154.14, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 4", server: 103.186.154.152, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 5", server: 103.186.154.153, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 6", server: 103.186.154.154, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 7", server: 103.186.154.155, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 8", server: 103.186.154.156, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 9", server: 103.186.154.157, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 10", server: 103.186.154.160, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 11", server: 103.186.154.164, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 12", server: 103.186.154.168, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 13", server: 103.186.154.170, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 14", server: 103.186.154.172, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 15", server: 103.186.154.174, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 16", server: 103.186.154.177, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 17", server: 103.186.154.178, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 18", server: 103.186.154.180, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 19", server: 103.186.154.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 20", server: 103.186.154.187, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 21", server: 103.186.154.191, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 22", server: 103.186.154.192, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 23", server: 103.186.154.193, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 24", server: 103.186.154.194, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 25", server: 103.186.154.195, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 26", server: 103.186.154.196, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 27", server: 103.186.154.197, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 28", server: 103.186.154.198, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 29", server: 103.186.154.199, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 30", server: 103.186.154.200, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 31", server: 103.186.154.201, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 32", server: 103.186.154.202, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 33", server: 103.186.154.203, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 34", server: 103.186.154.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 35", server: 103.186.154.207, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 36", server: 103.186.154.209, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 37", server: 103.186.154.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 38", server: 103.186.154.210, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 39", server: 103.186.154.212, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 40", server: 103.186.154.215, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 41", server: 103.186.154.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 42", server: 103.186.154.220, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 43", server: 103.186.154.221, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 44", server: 103.186.154.225, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 45", server: 103.186.154.226, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 46", server: 103.186.154.229, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 47", server: 103.186.154.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 48", server: 103.186.154.231, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 49", server: 103.186.154.234, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 50", server: 103.186.154.236, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 51", server: 103.186.154.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 52", server: 103.186.154.240, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 53", server: 103.186.154.242, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 54", server: 103.186.154.243, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 55", server: 103.186.154.246, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 56", server: 103.186.154.249, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 57", server: 103.186.154.24, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 58", server: 103.186.154.250, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 59", server: 103.186.154.252, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 60", server: 103.186.154.27, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 61", server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 62", server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 63", server: 103.186.154.31, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 64", server: 103.186.154.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 65", server: 103.186.154.34, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 66", server: 103.186.154.36, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 67", server: 103.186.154.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 68", server: 103.186.154.39, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 69", server: 103.186.154.41, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 70", server: 103.186.154.44, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 71", server: 103.186.154.45, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 72", server: 103.186.154.47, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 73", server: 103.186.154.48, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 74", server: 103.186.154.4, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 75", server: 103.186.154.50, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 76", server: 103.186.154.53, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 77", server: 103.186.154.62, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 78", server: 103.186.154.64, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 79", server: 103.186.154.70, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 80", server: 103.186.154.73, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 81", server: 103.186.154.9, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 82", server: 103.186.155.102, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 83", server: 103.186.155.103, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 84", server: 103.186.155.104, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 85", server: 103.186.155.105, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 86", server: 103.186.155.106, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 87", server: 103.186.155.108, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 88", server: 103.186.155.110, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 89", server: 103.186.155.114, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 90", server: 103.186.155.115, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 91", server: 103.186.155.116, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 92", server: 103.186.155.118, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 93", server: 103.186.155.119, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 94", server: 103.186.155.120, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 95", server: 103.186.155.121, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 96", server: 103.186.155.122, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 97", server: 103.186.155.124, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 98", server: 103.186.155.126, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 99", server: 103.186.155.127, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 100", server: 103.186.155.133, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 101", server: 103.186.155.134, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 102", server: 103.186.155.135, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 103", server: 103.186.155.136, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 104", server: 103.186.155.137, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 105", server: 103.186.155.138, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 106", server: 103.186.155.139, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 107", server: 103.186.155.13, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 108", server: 103.186.155.140, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 109", server: 103.186.155.141, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 110", server: 103.186.155.143, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 111", server: 103.186.155.146, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 112", server: 103.186.155.148, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 113", server: 103.186.155.154, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 114", server: 103.186.155.15, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 115", server: 103.186.155.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 116", server: 103.186.155.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 117", server: 103.186.155.202, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 118", server: 103.186.155.204, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 119", server: 103.186.155.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 120", server: 103.186.155.206, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 121", server: 103.186.155.207, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 122", server: 103.186.155.209, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 123", server: 103.186.155.213, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 124", server: 103.186.155.214, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 125", server: 103.186.155.215, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 126", server: 103.186.155.218, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 127", server: 103.186.155.220, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 128", server: 103.186.155.221, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 129", server: 103.186.155.222, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 130", server: 103.186.155.231, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 131", server: 103.186.155.233, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 132", server: 103.186.155.234, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 133", server: 103.186.155.235, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 134", server: 103.186.155.239, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 135", server: 103.186.155.240, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 136", server: 103.186.155.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 137", server: 103.186.155.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 138", server: 103.186.155.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 139", server: 103.186.155.2, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 140", server: 103.186.155.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 141", server: 103.186.155.31, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 142", server: 103.186.155.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 143", server: 103.186.155.36, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 144", server: 103.186.155.37, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 145", server: 103.186.155.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 146", server: 103.186.155.39, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 147", server: 103.186.155.3, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 148", server: 103.186.155.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 149", server: 103.186.155.43, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 150", server: 103.186.155.45, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 151", server: 103.186.155.46, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 152", server: 103.186.155.47, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 153", server: 103.186.155.48, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 154", server: 103.186.155.49, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 155", server: 103.186.155.52, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 156", server: 103.186.155.53, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 157", server: 103.186.155.54, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 158", server: 103.186.155.55, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 159", server: 103.186.155.56, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 160", server: 103.186.155.58, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 161", server: 103.186.155.60, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 162", server: 103.186.155.61, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 163", server: 103.186.155.63, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 164", server: 103.186.155.64, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 165", server: 103.186.155.68, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 166", server: 103.186.155.70, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 167", server: 103.186.155.71, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 168", server: 103.186.155.77, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 169", server: 103.186.155.78, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 170", server: 103.186.155.80, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇻🇳 🇻🇳 Vietnam, Hải Dương | [BL] 171", server: 103.186.155.9, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🌐 Anycast-IP | [IPv6] | [BL]", server: 50.62.88.16, port: 443, type: ss, cipher: none, password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ylnhh.us.ci, path: "/14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, tfo: false}
+  - {name: "[SS] 🌐 Anycast-IP | [IPv6] | [BL] 2", server: 94.159.98.123, port: 443, type: ss, cipher: none, password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ylnhh.us.ci, path: "/14b02e2a-8930-4afb-8412-ea4a4954ca5b?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, tfo: false}
+  - {name: "[SS] 🌐 Anycast-IP | [IPv6] | [BL] 3", server: 199.181.197.38, port: 443, type: ss, cipher: none, password: 3e96ef7d-8637-42c2-ac73-75182196e755, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mfvpn.fuchen.indevs.in, path: "3e96ef7d-8637-42c2-ac73-75182196e755?ed=2560", tls: true, mux: true, skip-cert-verify: true}, tfo: false}
+  - {name: "[Hysteria2] 🇭🇰 🇭🇰 Hong Kong, Kwu Tung | [BL]", server: 22f48047-t6pb40-tasftf-duku.hk1.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9, sni: 22f48047-t6pb40-tasftf-duku.hk1.hyhuawei.com, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 🇭🇰 🇭🇰 Hong Kong, Kwu Tung | [BL] 2", server: 22f48047-t6pb40-tasftf-duku.hk1.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9, sni: 22f48047-t6pb40-tasftf-duku.hk1.hyhuawei.com, skip-cert-verify: true, tfo: false}
   - {name: "[Hysteria2] 🇬🇧 🇬🇧 United Kingdom, Coventry | 🌐 | [IPv6] | [BL]", server: 91.132.160.243, port: 1935, type: hysteria2, ports: 1935, password: hysteria2_fastlane_25q5nyzdf:D2OuF6pWvlokFwPqN6jI74FnRQypNmz3, sni: de6.h.fastlanehosting.ru, skip-cert-verify: true, tfo: false}
-  - {name: "[Hysteria2] 🌐 Anycast-IP | [BL]", server: 138.124.183.9, port: 1935, type: hysteria2, ports: 1935, password: hysteria2_fastlane_6sgx5u17p:OcbYulgMa2vCRWaa4QD1GXBPr0PSrply, sni: us1.h.smartaisupport.ru, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇭🇰 🇭🇰 Hong Kong, Central | [BL]", server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 🇺🇸 🇺🇸 United States, Council Bluffs | [BL]", server: meiguo.iptk123.com, port: 443, type: hysteria2, ports: 443, password: 2e6e6164-ba26-45f8-a831-9365e0f58a0a, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 🇺🇸 🇺🇸 United States, Council Bluffs | [BL] 2", server: meiguo.iptk123.com, port: 443, type: hysteria2, ports: 443, password: c8d187bb-1464-4407-a86b-c9fd5c777334, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🌐 Anycast-IP | [IPv6] | [BL]", server: 59.20.121.139, port: 29999, type: trojan, password: trojan, sni: jflsjlaf.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jflsjlaf.pages.dev}}, tfo: false}
   - {name: "[VMess] 🇭🇰 [OpenRay] 🇭🇰 HK-126", server: 8.218.19.101, port: 443, type: vmess, uuid: 469e9a38-b64e-46c3-9793-234158942d3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1761214902.wpg27.xyz, network: ws, ws-opts: {path: "", headers: {Host: n1761214902.wpg27.xyz}}, tfo: false}
   - {name: "[VLESS] [OpenRay] 🇰🇿 KZ-27", server: 77.73.232.61, port: 19747, type: vless, tls: true, uuid: 2a9ed01e-5455-44b4-a66a-76ee8165f0ac, servername: yahoo.com, host: yahoo.com, reality-opts: {public-key: ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM, short-id: 2001}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
   - {name: "[Trojan] 🇨🇦 [OpenRay] 🇨🇦 CA-11997", server: 188.114.98.0, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, tfo: false}
@@ -440,14 +398,12 @@ proxies:
   - {name: "[VLESS] [OpenRay] 🇰🇿 KZ-9", server: 83.222.23.81, port: 38065, type: vless, tls: true, uuid: 4b9063e0-3288-44e9-9aac-80fbfce323a0, servername: yahoo.com, host: yahoo.com, reality-opts: {public-key: dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo, short-id: fa}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
   - {name: "[Trojan] [OpenRay] Dynamic-11646", server: www.creationlong.org, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, tfo: false}
   - {name: "[Trojan] 🇨🇦 [OpenRay] 🇨🇦 CA-12035", server: 188.114.98.0, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, tfo: false}
-  - {name: "[VLESS] [OpenRay] Dynamic-9652", server: all.tellmethetrue.shop, port: 443, type: vless, tls: true, uuid: e4824193-4f54-453b-d037-88368e85ef0e, servername: pqh30v5.carwashipdir.shop, alpn: [h2], network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: ""}, skip-cert-verify: true, tfo: false}
   - {name: "[VMess] 🇭🇰 [OpenRay] 🇭🇰 HK-151", server: n1747624280.lie5d.cyou, port: 443, type: vmess, uuid: 49dcf4b4-81eb-4fe2-91d3-86dc2e27ced5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1747624280.lie5d.cyou}}, tfo: false}
   - {name: "[VLESS] [OpenRay] Dynamic-11801", server: s1.db-link.in, port: 443, type: vless, tls: true, uuid: 3f9c8463-8610-3ed8-86c8-a26713067825, servername: s6.oboob.cn, alpn: ["h3,h2"], network: ws, ws-opts: {path: /db1024efd9edc1a9, headers: {Host: s6.oboob.cn}}, skip-cert-verify: true, tfo: false}
   - {name: "[VMess] 🇭🇰 [OpenRay] 🇭🇰 HK-169", server: 47.243.205.58, port: 443, type: vmess, uuid: 4f86a909-836d-4643-b650-d812144a1fa9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: n1761214912.wpg27.xyz}}, tfo: false}
   - {name: "[VMess] 🇭🇰 [OpenRay] 🇭🇰 HK-186", server: n1761214919.mv7wh.tech, port: 443, type: vmess, uuid: c592f040-faff-47dc-a464-9bccf2dd4e7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1761214919.mv7wh.tech, network: ws, ws-opts: {path: /, headers: {Host: n1761214919.mv7wh.tech}}, tfo: false}
   - {name: "[VMess] 🇺🇸 [OpenRay] 🇺🇸 US-11402", server: 209.126.84.189, port: 443, type: vmess, uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: 209.126.84.189}}, tfo: false}
   - {name: "[VMess] 🇺🇸 [OpenRay] 🇺🇸 US-11431", server: 209.126.84.189, port: 443, type: vmess, uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: AZERB.NET}}, tfo: false}
-  - {name: "[VLESS] 🇨🇦 [OpenRay] 🇨🇦 CA-9952", server: 104.16.9.20, port: 443, type: vless, tls: true, uuid: e4824193-4f54-453b-d037-88368e85ef0e, servername: pqh30v5.carwashipdir.shop, alpn: [h2], network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: ""}, skip-cert-verify: true, tfo: false}
   - {name: "[Trojan] 🇨🇦 [OpenRay] 🇨🇦 CA-12043", server: 188.114.98.0, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, tfo: false}
   - {name: "[VLESS] 🇺🇸 [OpenRay] 🇺🇸 US-11387", server: 95.164.85.109, port: 59374, type: vless, tls: true, uuid: bfc78cd8-5951-4803-8d6c-4cedef8cd420, servername: yahoo.com, host: yahoo.com, reality-opts: {public-key: ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc, short-id: d21e7c}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
   - {name: "[VLESS] [OpenRay] Dynamic-11336", server: s1.db-link.in, port: 443, type: vless, tls: true, uuid: d2efa18a-9e8a-3057-91fe-90c8e620e49f, servername: s6.oboob.cn, alpn: ["h3,h2"], network: ws, ws-opts: {path: /db10242a4797a252, headers: {Host: s6.oboob.cn}}, skip-cert-verify: true, tfo: false}
@@ -459,7 +415,6 @@ proxies:
   - {name: "[VLESS] [OpenRay] Dynamic-11598", server: 025.electrocellco-cf-025.workers.dev, port: 2053, type: vless, tls: true, uuid: 0b93fd13-de5c-4ca5-8530-435bfa2a0955, servername: 025.ELEcTROcELLco-Cf-025.wORkeRS.DeV, network: ws, ws-opts: {path: "/eyJqdW5rIjoiblpnQTM1U2tMRVNQIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560", headers: {Host: 025.ELEcTROcELLco-Cf-025.wORkeRS.DeV}}, skip-cert-verify: true, tfo: false}
   - {name: "[Trojan] [OpenRay] Dynamic-11667", server: chatgpt.com, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, tfo: false}
   - {name: "[VLESS] 🇩🇪 [OpenRay] 🇩🇪 DE-3505", server: 57.129.49.1, port: 23576, type: vless, tls: true, uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5, servername: fuck.rkn, host: fuck.rkn, flow: xtls-rprx-vision, reality-opts: {public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s, short-id: 01}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] [OpenRay] Dynamic-11357", server: chatgpt.com, port: 443, type: vless, tls: true, uuid: e4824193-4f54-453b-d037-88368e85ef0e, servername: pqh30v4.carwashipdir.shop, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: ""}, skip-cert-verify: true, tfo: false}
   - {name: "[VLESS] [OpenRay] Dynamic-11334", server: s1.db-link.in, port: 443, type: vless, tls: true, uuid: 305419ed-4ef5-3e5a-8d48-b803c58853d3, servername: s6.oboob.cn, alpn: ["h3,h2"], network: ws, ws-opts: {path: /db10248afdcb0daf, headers: {Host: s6.oboob.cn}}, skip-cert-verify: true, tfo: false}
   - {name: "[VLESS] 🇺🇸 [OpenRay] 🇺🇸 US-11298", server: 172.234.130.82, port: 10001, type: vless, tls: true, uuid: 53cd8178-2ee6-43d9-a2a7-881f287fd408, servername: yahoo.com, host: yahoo.com, reality-opts: {public-key: kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM, short-id: 1a24af87}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
   - {name: "[VMess] [OpenRay] Dynamic-11612", server: cf.090227.xyz, port: 443, type: vmess, uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgal.dagrate.eu.org}}, tfo: false}
@@ -505,8 +460,8 @@ proxies:
   - {name: "[VMess] 🇯🇵 [OpenRay] 🇯🇵 JP-454", server: n1753598452.wpg27.xyz, port: 443, type: vmess, uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1753598452.wpg27.xyz}}, tfo: false}
   - {name: "[VMess] 🇺🇸 [OpenRay] 🇺🇸 US-11678", server: 209.126.84.189, port: 443, type: vmess, uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: 209.126.84.189}}, tfo: false}
   - {name: "[VMess] [OpenRay] Dynamic-11535", server: cf.090227.xyz, port: 443, type: vmess, uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgal.dagrate.eu.org}}, tfo: false}
-  - {name: "[Trojan] [OpenRay] Dynamic-12565", server: www.multiplydose.com, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252Fassignment", headers: {Host: www.multiplydose.com}}, tfo: false}
   - {name: "[VLESS] 🇳🇱 [OpenRay] 🇳🇱 NL-530", server: midorinote.ru, port: 8443, type: vless, tls: true, uuid: a5e746f7-328f-4b65-a65f-e2e2a4a5b1a9, servername: tradingview.com, host: tradingview.com, flow: xtls-rprx-vision, reality-opts: {public-key: wNcFqVd4_PkgJbfgJJeouSU6Pn_Swuce4q4Chw5T0hY, short-id: f7aa9e61197d3ac6}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] [OpenRay] Dynamic-12565", server: www.multiplydose.com, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252Fassignment", headers: {Host: www.multiplydose.com}}, tfo: false}
   - {name: "[VMess] 🇵🇭 [OpenRay] 🇵🇭 PH-6", server: 61.245.11.60, port: 80, type: vmess, uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/}, tfo: false}
   - {name: "[VMess] 🇦🇺 [OpenRay] 🇦🇺 AU-3", server: 45.15.185.17, port: 80, type: vmess, uuid: c503a96a-a2f5-4847-a31f-20c17ecf3be4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/}, tfo: false}
   - {name: "[VMess] [OpenRay] 🇰🇿 KZ-62", server: 3h-kazakhstan1.09vpn.com, port: 80, type: vmess, uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/}, tfo: false}
@@ -518,6 +473,9 @@ proxies:
   - {name: "[VLESS] [OpenRay] Dynamic-12496", server: vip2.kaixincloud.top, port: 2053, type: vless, tls: true, uuid: e5f8a9f6-f164-479b-b3b5-b90f213c7145, servername: ir1.airpanel.top, network: ws, ws-opts: {path: /, headers: {Host: ir1.airpanel.top}}, skip-cert-verify: true, tfo: false}
   - {name: "[VMess] 🇲🇾 [OpenRay] 🇲🇾 MY-7", server: 47.250.45.234, port: 43063, type: vmess, uuid: c77f48f5-4be3-4461-b52b-49998e7b897b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, tfo: false}
   - {name: "[VMess] [OpenRay] 🇰🇿 KZ-76", server: 38.107.234.57, port: 80, type: vmess, uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: 38.107.234.57}}, tfo: false}
+  - {name: "[SS] 🇬🇧 [OpenRay] 🇬🇧 GB-193", server: 57.129.140.88, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: k1v5g9FefdoO, tfo: false}
+  - {name: "[Trojan] [OpenRay] Dynamic-12026", server: 22b.net, port: 2087, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)", headers: {Host: store.timimi.dpdns.org}}, tfo: false}
+  - {name: "[Trojan] 🇨🇦 [OpenRay] 🇨🇦 CA-11858", server: irancell.buzzmuzzpanel.online, port: 443, type: trojan, password: freedom, sni: 047.eleCTROCelLco-Cf-047.woRkers.DEV, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoienRVUEM4N2p6dXE2Wm0iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560", headers: {Host: 047.eleCTROCelLco-Cf-047.woRkers.DEV}}, tfo: false}
   - {name: "[SS] 🏴🏳5", server: 82.38.31.122, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
   - {name: "[SS] 🌎 | 👉👉 @𝗫𝘃𝗽𝗻𝗽𝗹𝘂𝘀_𝗯𝗼𝘁 👈👈 |🟢 𝚃𝙴𝚂𝚃𝙴𝙳", server: 154.53.63.32, port: 80, type: ss, cipher: aes-256-gcm, password: k6ruJuwgAUxIrkHb, tfo: false}
   - {name: "[VLESS] 🔆 Tel : @ProxyVPN11 ⟵", server: 157.173.127.225, port: 443, type: vless, tls: true, uuid: 11beaf11-726d-4c11-8ce9-27308c1c608c, servername: analytics.google.com, host: analytics.google.com, reality-opts: {public-key: v3EwzA9RIIh5Ndxm-gypRY6RCJhOpQ-2WO7KaH8nsC8, short-id: eab26c4a32}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
@@ -559,203 +517,203 @@ proxies:
   - {name: "[VLESS] Telegram:@mtproto_proserver", server: 64.188.106.202, port: 38765, type: vless, tls: true, uuid: 7a0ae662-eee7-44c0-8998-d575870bd749, servername: aws.amazon.com, host: aws.amazon.com, reality-opts: {public-key: fUyUwpKV_0yleQhE_dZF0TuD1lw3BJ-Jo9M6iOaEFEY, short-id: d789a31a7a7014}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
   - {name: "[SS] `@mtproto_proserver", server: 163.171.137.76, port: 47394, type: ss, cipher: chacha20-ietf-poly1305, password: eafad96826c79ddd, tfo: false}
   - {name: "[VLESS] Telegram:@mtproto_proserver 2", server: 89.124.89.24, port: 443, type: vless, tls: true, uuid: f7bae22e-20ab-11f1-835c-0242ac110002, servername: nl1.cyphervpn.pro, host: nl1.cyphervpn.pro, reality-opts: {public-key: YW-C1ihJAmuzFtvNLUggNlEh86DQm8jvfrJ-wMj7XQY, short-id: 5bfa0c}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇨🇦 🇨🇦CA-79.127.200.169-0164", server: 79.127.200.169, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-156.146.38.169-0162", server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-156.146.38.167-0160", server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-156.146.38.170-0161", server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-173.234.29.2-0165", server: 173.234.29.2, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-104.192.226.106-0168", server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[VMess] 🇨🇦 🇨🇦CA-134.195.198.147-4777", server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-173.244.56.6-0167", server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇨🇦 🇨🇦CA-79.127.233.170-0166", server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-109.201.152.181-0172", server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-37.19.198.236-0159", server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-57.129.140.88-0174", server: 57.129.140.88, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: k1v5g9FefdoO, tfo: false}
-  - {name: "[Trojan] 🇳🇱 🇳🇱NL-194.124.216.185-0175", server: nl-4.tr202512.com, port: 443, type: trojan, password: M08tvzYWtUEJNtbpHp, sni: nl-4.tr202512.com, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-51.15.17.169-0176", server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.208-0205", server: 82.38.31.208, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.202-0188", server: 82.38.31.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.217-0195", server: 82.38.31.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.82-0204", server: 82.38.31.82, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.189-0194", server: 82.38.31.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇪🇨EC-38.165.231.25-0170", server: 38.165.231.25, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-51.142.122.175-0190", server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.202-0211", server: 193.29.139.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.210-0189", server: 82.38.31.210, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.217-0196", server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.218-0184", server: 82.38.31.218, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.179-0275", server: 82.38.31.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.189-0186", server: 193.29.139.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.251-0201", server: 193.29.139.251, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.141-0208", server: 193.29.139.141, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.179-0246", server: 193.29.139.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.199-0198", server: 82.38.31.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.99-0187", server: 82.38.31.99, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-51.142.122.175-0191", server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-37.19.198.236-0177", server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇨🇦 🇨🇦CA-79.127.200.169-0167", server: 79.127.200.169, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇨🇦 🇨🇦CA-137.184.174.93-0331", server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-156.146.38.167-0169", server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-156.146.38.169-0168", server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-156.146.38.170-0170", server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-173.234.29.2-0171", server: 173.234.29.2, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[VMess] 🇨🇦 🇨🇦CA-134.195.198.147-6982", server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: inna.cfd}}, tfo: false}
+  - {name: "[SS] 🇨🇦 🇨🇦CA-79.127.233.170-0175", server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-173.244.56.6-0174", server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-146.70.61.37-0329", server: 146.70.61.37, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-57.129.140.88-0178", server: 57.129.140.88, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: k1v5g9FefdoO, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-109.201.152.181-0176", server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-104.192.226.106-0172", server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[Trojan] 🇳🇱 🇳🇱NL-194.124.216.187-0179", server: nl-4.tr202512.com, port: 443, type: trojan, password: M08tvzYWtUEJNtbpHp, sni: nl-4.tr202512.com, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-20.117.159.69-0187", server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-20.117.159.69-0209", server: admin.c1.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1kVr0KATIJI7mwOF, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-20.117.159.69-0206", server: admin.c1.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.194-0211", server: 82.38.31.194, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.205-0215", server: 82.38.31.205, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.189-0185", server: 82.38.31.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-20.117.159.69-0199", server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.157-0210", server: 193.29.139.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.176-0216", server: 82.38.31.176, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.217-0183", server: 82.38.31.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.202-0182", server: 82.38.31.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.214-0202", server: 82.38.31.214, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.141-0195", server: 193.29.139.141, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
   - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.124-0200", server: 82.38.31.124, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.101-0178", server: 82.38.31.101, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.214-0203", server: 82.38.31.214, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.35-0185", server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-158.173.20.171-0199", server: 158.173.20.171, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[VMess] 🇨🇦 🇨🇦CA-134.195.198.147-7031", server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: inna.cfd}}, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-51.142.122.175-0197", server: admin.c1.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
-  - {name: "[Trojan] 🇵🇱 🇵🇱PL-62.112.222.55-0309", server: fluent-stingray.crayfish192.xyz, port: 443, type: trojan, password: IL37892054, sni: fluent-stingray.crayfish192.xyz, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇵🇱 🇵🇱PL-62.112.222.103-0268", server: outgoing-ladybird.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: outgoing-ladybird.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-51.142.122.175-0192", server: admin.c1.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1kVr0KATIJI7mwOF, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.157-0182", server: 193.29.139.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.194-0180", server: 82.38.31.194, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇸🇪SE-121.127.46.147-0207", server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[Trojan] 🇵🇱 🇵🇱PL-62.112.222.55-1705", server: fluent-stingray.crayfish192.xyz, port: 443, type: trojan, password: IL37892054, sni: fluent-stingray.crayfish192.xyz, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.227-0183", server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.205-0179", server: 82.38.31.205, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.176-0177", server: 82.38.31.176, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-141.98.101.178-0209", server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-141.98.101.182-0214", server: 141.98.101.182, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇱🇻LV-46.183.217.204-0210", server: 46.183.217.204, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SS] 🇵🇦PA-138.186.142.80-0212", server: 138.186.142.80, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SS] 🇱🇻LV-185.176.221.72-0259", server: 185.176.221.72, port: 24637, type: ss, cipher: chacha20-ietf-poly1305, password: MholStyHL7DhrewKbpQa20, tfo: false}
-  - {name: "[SS] 🇫🇮FI-193.47.60.186-0215", server: 193.47.60.186, port: 28687, type: ss, cipher: chacha20-ietf-poly1305, password: yKVMoB3AwiTEznpnoq2FYR, tfo: false}
-  - {name: "[SS] 🇫🇮FI-38.244.136.233-0220", server: promo18v.bystrivpn.ru, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dAHM1pm8ag7KdlrUylQi6t, tfo: false}
-  - {name: "[SS] 🇯🇵 🇯🇵JP-172.105.199.111-0218", server: 172.105.199.111, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, tfo: false}
-  - {name: "[SS] 🇯🇵 🇯🇵JP-149.22.87.204-0217", server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇪🇨EC-38.165.231.25-0186", server: 38.165.231.25, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.189-0193", server: 193.29.139.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.101-0201", server: 82.38.31.101, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.82-0184", server: 82.38.31.82, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.210-0189", server: 82.38.31.210, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.202-0188", server: 193.29.139.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[VMess] 🇨🇦 🇨🇦CA-134.195.198.147-4738", server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.251-0194", server: 193.29.139.251, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-158.173.20.171-0204", server: 158.173.20.171, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.227-0214", server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, tfo: false}
+  - {name: "[Trojan] 🇵🇱 🇵🇱PL-62.112.222.55-0207", server: fluent-stingray.crayfish192.xyz, port: 443, type: trojan, password: IL37892054, sni: fluent-stingray.crayfish192.xyz, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.208-0181", server: 82.38.31.208, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[Trojan] 🇵🇱 🇵🇱PL-62.112.222.171-0502", server: outgoing-cockatoo.rooster465.autos, port: 443, type: trojan, password: WF42809561, sni: outgoing-cockatoo.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇵🇱 🇵🇱PL-62.112.222.55-1668", server: fluent-stingray.crayfish192.xyz, port: 443, type: trojan, password: IL37892054, sni: fluent-stingray.crayfish192.xyz, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇵🇱 🇵🇱PL-62.112.222.103-0208", server: outgoing-ladybird.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: outgoing-ladybird.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇵🇱 🇵🇱PL-62.112.222.76-0504", server: top-goshawk.rooster465.autos, port: 443, type: trojan, password: WF42809561, sni: top-goshawk.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-51.15.17.169-0180", server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.35-0203", server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.99-0198", server: 82.38.31.99, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇸🇪SE-121.127.46.147-0212", server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇵🇦PA-138.186.142.81-0227", server: 138.186.142.81, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇵🇦PA-138.186.142.80-0220", server: 138.186.142.80, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇫🇮FI-38.244.136.233-0223", server: promo18v.bystrivpn.ru, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dAHM1pm8ag7KdlrUylQi6t, tfo: false}
+  - {name: "[SS] 🇱🇻LV-46.183.217.204-0219", server: 46.183.217.204, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇯🇵 🇯🇵JP-172.105.199.111-0224", server: 172.105.199.111, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, tfo: false}
+  - {name: "[Trojan] 🇵🇱 🇵🇱PL-62.112.222.54-0503", server: funky-platypus.rooster465.autos, port: 443, type: trojan, password: WF42809561, sni: funky-platypus.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇺🇸 🇺🇸US-77.83.141.171-4892", server: vc.fly.dev, port: 443, type: vmess, uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true, servername: vc.fly.dev, network: ws, ws-opts: {path: "", headers: {Host: vc.fly.dev}}, tfo: false}
+  - {name: "[SS] 🇯🇵 🇯🇵JP-149.22.87.204-0225", server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
   - {name: "[SS] 🇧🇬BG-89.44.197.181-0226", server: 89.44.197.181, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: zDLmeWRsfcFdKT1Tpy02xodEToqCldTxvZcRoPIZZtBdnIEL, tfo: false}
-  - {name: "[SS] 🇵🇦PA-138.186.142.81-0213", server: 138.186.142.81, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[Trojan] 🇰🇷 🇰🇷KR-54.180.131.34-0241", server: glowing-deer.rooster465.autos, port: 443, type: trojan, password: ZY07256934, sni: glowing-deer.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇰🇷 🇰🇷KR-3.34.140.83-0221", server: select-marmoset.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: select-marmoset.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇨🇦 🇨🇦CA-23.162.200.227-7029", server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
-  - {name: "[SS] 🇨🇦 🇨🇦CA-23.95.76.59-0234", server: 23.95.76.59, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SS] 🇿🇦ZA-156.38.168.58-0227", server: 156.38.168.58, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SS] 🇿🇦ZA-102.133.165.160-0231", server: 102.133.165.160, port: 16233, type: ss, cipher: chacha20-ietf-poly1305, password: Xsy8Ox4yOV3xLlpxtjzs3X, tfo: false}
-  - {name: "[Trojan] 🇭🇰 🇭🇰HK-185.244.208.189-0228", server: growing-tuna.rooster465.autos, port: 443, type: trojan, password: IL37892054, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-68.183.227.4-0225", server: 68.183.227.4, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, tfo: false}
-  - {name: "[SS] 🇿🇦ZA-102.37.156.224-0232", server: 102.37.156.224, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: aduB9HGxQHjA2SBMRjkHX6, tfo: false}
-  - {name: "[SS] 🇵🇰PK-156.59.243.6-0230", server: 156.59.243.6, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SS] 🇦🇪AE-147.78.0.182-0233", server: 147.78.0.182, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SS] 🇲🇹MT-171.22.254.17-0240", server: 171.22.254.17, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[Trojan] 🇦🇺 🇦🇺AU-87.121.33.165-0236", server: enhanced-crayfish.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: enhanced-crayfish.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇦🇺 🇦🇺AU-87.121.33.75-0237", server: steady-lemming.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: steady-lemming.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇨🇦 🇨🇦CA-45.154.204.7-0247", server: 45.154.204.7, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[Trojan] 🇦🇺 🇦🇺AU-87.121.33.75-0815", server: steady-lemming.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: steady-lemming.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[SSR] %�\x11�<'���KM\rK�MM\x0b��\r\x0b�L�L\f�%�", server: ssca.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", tfo: false}
-  - {name: "[Trojan] 🇱🇹LT-195.66.25.251-0244", server: 8443.golden-cards.me, port: 443, type: trojan, password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-, sni: 8443.golden-cards.me, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇨🇳 🇹🇼TW-185.189.160.105-0245", server: 185.189.160.105, port: 41632, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[Trojan] 🇮🇸 🇮🇸IS-37.235.49.209-0249", server: 37.235.49.209, port: 28099, type: trojan, password: qmBSKnAl6LYi9=z23Rs.Z, sni: celestialcorset.crystalhamster.click, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇰🇿KZ-109.61.39.28-0243", server: 109.61.39.28, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[Trojan] 🇳🇴NO-80.173.231.254-0252", server: 80.173.231.254, port: 12420, type: trojan, password: wp9IsiY82uQhcmgNC1eoBM, sni: www.semanticstaplegun.click, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇵🇱 🇵🇱PL-57.128.214.100-4784", server: 57.128.214.100, port: 12000, type: ss, cipher: aes-256-gcm, password: 8JCsPssfgS8tiRwiMlhARg==, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-160.16.124.17-0807", server: 160.16.124.17, port: 34818, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇱🇹LT-195.66.25.220-0224", server: 195.66.25.220, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: yhrHMDgZ2egKftvrecvkpUPqpUTyac7q, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-38.89.142.56-0311", server: 38.89.142.56, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SS] 🇨🇦 🇨🇦CA-144.217.164.29-0251", server: 144.217.164.29, port: 12000, type: ss, cipher: aes-256-gcm, password: 8JCsPssfgS8tiRwiMlhARg==, tfo: false}
-  - {name: "[VMess] 🇺🇸 🇺🇸US-209.126.84.189-0790", server: 209.126.84.189, port: 443, type: vmess, uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: 209.126.84.189}}, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-38.135.24.131-0281", server: 38.135.24.131, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 🇵🇾PY-38.165.233.93-0255", server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇩🇰 🇩🇰DK-192.36.27.94-0254", server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-160.16.124.17-0809", server: 160.16.124.17, port: 1524, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇮🇳 🇮🇳IN-82.180.146.173-0258", server: 82.180.146.173, port: 35652, type: ss, cipher: aes-128-gcm, password: 93498539-7838-4836-b9b3-8311ffc79bcf, tfo: false}
-  - {name: "[VMess] 🇺🇸 🇺🇸US-209.126.84.189-0784", server: v2ray.codefyinc.com, port: 443, type: vmess, uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: v2ray.codefyinc.com}}, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-38.135.24.131-0256", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷KR-141.164.45.187-0301", server: 141.164.45.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-213.109.147.242-0257", server: 213.109.147.242, port: 62685, type: ss, cipher: chacha20-ietf-poly1305, password: VpKABcOpNNA0l5G2AVOmw8, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-185.5.38.111-0261", server: 185.5.38.111, port: 55988, type: ss, cipher: chacha20-ietf-poly1305, password: 2EmWRS1TkS3TkxKApnrihb3aHjDSXRvT1T1K9U2Bruxrnp5A8zmpTxwwTNje6BkVqmn9BgRF6pq8qoRHCfZdcah7BLbjrpT1, tfo: false}
-  - {name: "[SS] 🇻🇳VN-103.163.218.2-0260", server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-185.5.38.111-0274", server: mx2.drawnrisha.one, port: 55988, type: ss, cipher: chacha20-ietf-poly1305, password: bZ87amPpdG7KuWM62bKtm1KHoowuVjnV8CKtq653ymHcg2dPYcPJfnaQ61stuAjr2ZiLDaqH56XpkxEYuwDzzRrMWieebWGt, tfo: false}
-  - {name: "[SS] 🇭🇷HR-46.183.184.60-4659", server: 46.183.184.60, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇭🇰 🇭🇰HK-203.23.128.33-0263", server: 203.23.128.33, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷KR-154.90.63.177-0282", server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷KR-154.90.62.168-0265", server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇷🇺 🇷🇺RU-38.60.223.8-0273", server: 38.60.223.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇨🇴CO-154.223.16.212-0287", server: 154.223.16.212, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇬🇷GR-192.71.166.100-0302", server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷KR-218.237.185.230-4703", server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.206-0181", server: 193.29.139.206, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, tfo: false}
-  - {name: "[SS] 🇸🇮SI-192.71.244.150-0272", server: 192.71.244.150, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇵🇪PE-138.186.143.32-0270", server: 138.186.143.32, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰HK-47.243.135.74-4861", server: 47.243.135.74, port: 55185, type: vmess, uuid: 1375985e-334a-4c25-8f64-52a182bc8037, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
-  - {name: "[SS] 🇮🇳 🇮🇳IN-134.209.147.198-0283", server: 134.209.147.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇭🇰 🇭🇰HK-112.213.102.188-0264", server: 112.213.102.188, port: 41632, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-107.181.147.235-0280", server: media.mothyleela.cfd, port: 40521, type: ss, cipher: chacha20-ietf-poly1305, password: LYW2w9fwdrwj2qC9NyTBuBNKQJUvkKnCp9UxVnFW6LqeSpiCcnzV1cMohBUnCCWBkjkp83rV9wWeYQQqUZwMuYu1YyCt17tW, tfo: false}
-  - {name: "[SS] 🇵🇪PE-138.186.143.32-0278", server: 138.186.143.32, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.187-0202", server: 82.38.31.187, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇧🇪BE-192.71.249.78-0279", server: 192.71.249.78, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[Trojan] 🇰🇷 🇰🇷KR-3.34.140.83-0229", server: select-marmoset.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: select-marmoset.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇫🇮FI-193.47.60.186-0222", server: 193.47.60.186, port: 28687, type: ss, cipher: chacha20-ietf-poly1305, password: yKVMoB3AwiTEznpnoq2FYR, tfo: false}
+  - {name: "[SS] 🇱🇻LV-185.176.221.72-0221", server: 185.176.221.72, port: 24637, type: ss, cipher: chacha20-ietf-poly1305, password: MholStyHL7DhrewKbpQa20, tfo: false}
+  - {name: "[SS] 🇿🇦ZA-156.38.168.58-0232", server: 156.38.168.58, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-68.183.227.4-0235", server: 68.183.227.4, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, tfo: false}
+  - {name: "[Trojan] 🇭🇰 🇭🇰HK-185.244.208.189-0234", server: growing-tuna.rooster465.autos, port: 443, type: trojan, password: IL37892054, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇵🇰PK-156.59.243.6-0237", server: 156.59.243.6, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇿🇦ZA-102.37.156.224-0236", server: 102.37.156.224, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: aduB9HGxQHjA2SBMRjkHX6, tfo: false}
+  - {name: "[SS] 🇨🇦 🇨🇦CA-23.95.76.59-0231", server: 23.95.76.59, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇨🇦 🇨🇦CA-45.154.204.7-0242", server: 45.154.204.7, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇿🇦ZA-102.133.165.160-0233", server: 102.133.165.160, port: 16233, type: ss, cipher: chacha20-ietf-poly1305, password: Xsy8Ox4yOV3xLlpxtjzs3X, tfo: false}
+  - {name: "[VMess] 🇨🇦 🇨🇦CA-23.162.200.227-6980", server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
+  - {name: "[SS] 🇦🇪AE-147.78.0.182-0238", server: 147.78.0.182, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[Trojan] 🇦🇺 🇦🇺AU-87.121.33.165-0240", server: enhanced-crayfish.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: enhanced-crayfish.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇦🇺 🇦🇺AU-87.121.33.75-0241", server: steady-lemming.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: steady-lemming.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-141.98.101.178-0217", server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇲🇹MT-171.22.254.17-0239", server: 171.22.254.17, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇰🇿KZ-109.61.39.28-0248", server: 109.61.39.28, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[Trojan] 🇮🇸 🇮🇸IS-37.235.49.209-0247", server: 37.235.49.209, port: 28099, type: trojan, password: qmBSKnAl6LYi9=z23Rs.Z, sni: celestialcorset.crystalhamster.click, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-160.16.70.180-0821", server: 160.16.70.180, port: 3700, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-160.16.70.180-0818", server: 160.16.70.180, port: 1524, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇳🇴NO-80.173.231.254-0249", server: 80.173.231.254, port: 12420, type: trojan, password: wp9IsiY82uQhcmgNC1eoBM, sni: www.semanticstaplegun.click, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇨🇳 🇹🇼TW-185.189.160.105-0246", server: 185.189.160.105, port: 41632, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-160.16.124.17-0251", server: 160.16.124.17, port: 34818, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-160.16.124.17-0259", server: 160.16.124.17, port: 1524, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-38.135.24.131-0256", server: 38.135.24.131, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-213.109.147.242-0264", server: 213.109.147.242, port: 62685, type: ss, cipher: chacha20-ietf-poly1305, password: VpKABcOpNNA0l5G2AVOmw8, tfo: false}
+  - {name: "[SS] 🇨🇦 🇨🇦CA-144.217.164.29-0254", server: 144.217.164.29, port: 12000, type: ss, cipher: aes-256-gcm, password: 8JCsPssfgS8tiRwiMlhARg==, tfo: false}
+  - {name: "[SS] 🇵🇱 🇵🇱PL-217.30.10.70-4864", server: 217.30.10.70, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, tfo: false}
+  - {name: "[SS] 🇩🇰 🇩🇰DK-192.36.27.94-0258", server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇪🇸 🇪🇸ES-5.188.181.201-8150", server: 5.188.181.201, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, tfo: false}
+  - {name: "[SS] 🇱🇹LT-193.135.174.135-4696", server: 193.135.174.135, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇵🇾PY-38.165.233.93-0257", server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇵🇱 🇵🇱PL-217.30.10.70-4863", server: 217.30.10.70, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-51.15.23.63-4854", server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇵🇱 🇵🇱PL-217.30.10.70-4862", server: 217.30.10.70, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, tfo: false}
+  - {name: "[Trojan] 🇰🇷 🇰🇷KR-54.180.131.34-0228", server: glowing-deer.rooster465.autos, port: 443, type: trojan, password: ZY07256934, sni: glowing-deer.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇵🇱 🇵🇱PL-217.30.10.70-4861", server: 217.30.10.70, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, tfo: false}
+  - {name: "[VMess] 🇺🇸 🇺🇸US-209.126.84.189-0793", server: v2ray.codefyinc.com, port: 443, type: vmess, uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: v2ray.codefyinc.com}}, tfo: false}
+  - {name: "[SS] 🇰🇷 🇰🇷KR-154.90.63.177-0270", server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-141.98.101.182-0218", server: 141.98.101.182, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇭🇰 🇭🇰HK-112.213.102.188-0281", server: 112.213.102.188, port: 41632, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
+  - {name: "[SS] 🇧🇪BE-192.71.249.78-0285", server: 192.71.249.78, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-38.135.24.131-0827", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 🇲🇦MA-154.70.207.97-4845", server: 154.70.207.97, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇭🇷HR-46.183.184.60-0268", server: 46.183.184.60, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇬🇷GR-192.71.166.100-0274", server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇨🇳 🇹🇼TW-154.223.20.79-0311", server: 154.223.20.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇷🇺 🇷🇺RU-38.60.223.8-0272", server: 38.60.223.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇭🇰 🇭🇰HK-203.23.128.33-0269", server: 203.23.128.33, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[VMess] 🇺🇸 🇺🇸US-209.126.84.189-0799", server: 209.126.84.189, port: 443, type: vmess, uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: 209.126.84.189}}, tfo: false}
+  - {name: "[SS] 🇵🇷PR-185.47.255.22-0315", server: 185.47.255.22, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇲🇽MX-147.78.1.230-0313", server: 147.78.1.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇲🇽MX-147.78.1.230-0314", server: 147.78.1.230, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.199-0197", server: 82.38.31.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇰🇷 🇰🇷KR-154.90.62.168-0271", server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇧🇬BG-38.60.247.151-0299", server: 38.60.247.151, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇮🇳 🇮🇳IN-134.209.147.198-0280", server: 134.209.147.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-38.135.24.131-0262", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.179-0192", server: 82.38.31.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.187-0284", server: 82.38.31.187, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.179-0196", server: 193.29.139.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, tfo: false}
+  - {name: "[SS] 🇵🇪PE-138.186.143.32-0283", server: 138.186.143.32, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇻🇳VN-103.163.218.2-0266", server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇲🇰MK-46.183.185.37-0287", server: 46.183.185.37, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[VMess] 🇭🇰 🇭🇰HK-47.76.254.70-0298", server: n1753101277.4u9ma.icu, port: 443, type: vmess, uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1753101277.4u9ma.icu, network: ws, ws-opts: {path: "", headers: {Host: n1753101277.4u9ma.icu}}, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.206-0276", server: 193.29.139.206, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.184-0292", server: 82.38.31.184, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[VMess] 🏁RELAY-172.67.197.47-0780", server: t1.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: t1.620720.xyz}}, tfo: false}
+  - {name: "[SS] 🇵🇪PE-138.186.143.32-0278", server: 138.186.143.32, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇧🇷BR-38.54.57.90-0306", server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-107.181.147.235-0282", server: media.mothyleela.cfd, port: 40521, type: ss, cipher: chacha20-ietf-poly1305, password: LYW2w9fwdrwj2qC9NyTBuBNKQJUvkKnCp9UxVnFW6LqeSpiCcnzV1cMohBUnCCWBkjkp83rV9wWeYQQqUZwMuYu1YyCt17tW, tfo: false}
+  - {name: "[SS] 🇨🇴CO-154.223.16.212-0273", server: 154.223.16.212, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇹🇷TR-203.202.232.78-0305", server: 203.202.232.78, port: 60299, type: ss, cipher: chacha20-ietf-poly1305, password: AVLbEUEtBD59FsRqcNyEib, tfo: false}
+  - {name: "[SS] 🇸🇮SI-192.71.244.150-0277", server: 192.71.244.150, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇭🇷HR-5.181.2.76-0290", server: 5.181.2.76, port: 36608, type: ss, cipher: chacha20-ietf-poly1305, password: JOZ5Mb3nJCmmoKhd8Cc9aC, tfo: false}
+  - {name: "[SS] 🇧🇴BO-185.93.173.60-0310", server: 185.93.173.60, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[Trojan] 🇱🇹LT-195.66.25.251-0245", server: 8443.golden-cards.me, port: 443, type: trojan, password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-, sni: 8443.golden-cards.me, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-185.5.38.111-0265", server: 185.5.38.111, port: 55988, type: ss, cipher: chacha20-ietf-poly1305, password: 2EmWRS1TkS3TkxKApnrihb3aHjDSXRvT1T1K9U2Bruxrnp5A8zmpTxwwTNje6BkVqmn9BgRF6pq8qoRHCfZdcah7BLbjrpT1, tfo: false}
+  - {name: "[SS] 🇱🇹LT-195.66.25.220-0252", server: 195.66.25.220, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: yhrHMDgZ2egKftvrecvkpUPqpUTyac7q, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-185.5.38.111-0267", server: mx2.drawnrisha.one, port: 55988, type: ss, cipher: chacha20-ietf-poly1305, password: bZ87amPpdG7KuWM62bKtm1KHoowuVjnV8CKtq653ymHcg2dPYcPJfnaQ61stuAjr2ZiLDaqH56XpkxEYuwDzzRrMWieebWGt, tfo: false}
   - {name: "[VMess] 🏁RELAY-104.21.25.226-0286", server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 0b4c4ed4-deed-4bda-ae3d-6c8ccd1d1199, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zzrt.uhomdex.shop, network: ws, ws-opts: {path: "", headers: {Host: zzrt.uhomdex.shop}}, tfo: false}
-  - {name: "[SS] 🇲🇰MK-46.183.185.37-0267", server: 46.183.185.37, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇪🇸 🇪🇸ES-37.143.130.203-0284", server: 37.143.130.203, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[VMess] 🏁RELAY-104.21.76.158-0298", server: c7.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: c7.620720.xyz, network: ws, ws-opts: {path: "", headers: {Host: c7.620720.xyz}}, tfo: false}
-  - {name: "[SS] 🇭🇷HR-5.181.2.76-0299", server: 5.181.2.76, port: 36608, type: ss, cipher: chacha20-ietf-poly1305, password: JOZ5Mb3nJCmmoKhd8Cc9aC, tfo: false}
-  - {name: "[VMess] 🏁RELAY-172.67.134.208-0285", server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: bb6e260e-b80d-4365-b252-9fbe466f1f34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cxsfvn.uhomdex.shop, network: ws, ws-opts: {path: "", headers: {Host: cxsfvn.uhomdex.shop}}, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.184-0266", server: 82.38.31.184, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰HK-8.218.45.191-0297", server: n1752248946.4u9ma.icu, port: 443, type: vmess, uuid: ef167986-d154-4409-88b1-757efb6ae823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1752248946.4u9ma.icu, network: ws, ws-opts: {path: "", headers: {Host: n1752248946.4u9ma.icu}}, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰HK-47.242.138.141-0292", server: n1761296880.lie5d.cyou, port: 443, type: vmess, uuid: 1effac4a-cdb8-4717-a10c-da97263c802c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1761296880.lie5d.cyou, network: ws, ws-opts: {path: "", headers: {Host: n1761296880.lie5d.cyou}}, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰HK-47.243.63.35-4738", server: n1761214919.mv7wh.tech, port: 443, type: vmess, uuid: c592f040-faff-47dc-a464-9bccf2dd4e7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1761214919.mv7wh.tech, network: ws, ws-opts: {path: "", headers: {Host: n1761214919.mv7wh.tech}}, tfo: false}
-  - {name: "[VMess] 🇯🇵 🇯🇵JP-47.245.15.239-4877", server: n1753598446.wpg27.xyz, port: 443, type: vmess, uuid: a5047d95-24b8-451a-93e3-f2a387b93d5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: n1753598446.wpg27.xyz}}, tfo: false}
-  - {name: "[VMess] 🇯🇵 🇯🇵JP-47.245.42.92-0308", server: 47.245.42.92, port: 443, type: vmess, uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: n1753598452.wpg27.xyz}}, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰HK-47.76.254.70-0291", server: n1753101277.4u9ma.icu, port: 443, type: vmess, uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1753101277.4u9ma.icu, network: ws, ws-opts: {path: "", headers: {Host: n1753101277.4u9ma.icu}}, tfo: false}
-  - {name: "[SS] 🇧🇬BG-38.60.247.151-0288", server: 38.60.247.151, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰HK-47.238.158.209-0293", server: n1753101272.lie5d.cyou, port: 443, type: vmess, uuid: 568a3e7a-c13e-4205-af30-e75ec3e5c778, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1753101272.lie5d.cyou, network: ws, ws-opts: {path: "", headers: {Host: n1753101272.lie5d.cyou}}, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷KR-218.237.185.230-4704", server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[VMess] 🇯🇵 🇯🇵JP-47.245.42.92-4741", server: n1753598452.wpg27.xyz, port: 443, type: vmess, uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1753598452.wpg27.xyz, network: ws, ws-opts: {path: "", headers: {Host: n1753598452.wpg27.xyz}}, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰HK-47.238.82.7-0323", server: n1753356378.4u9ma.icu, port: 443, type: vmess, uuid: 37b20639-0d6e-46f2-9db5-472201b10cdd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1753356378.4u9ma.icu, network: ws, ws-opts: {path: "", headers: {Host: n1753356378.4u9ma.icu}}, tfo: false}
-  - {name: "[SS] 🇯🇵 🇯🇵JP-103.106.228.247-0271", server: 103.106.228.247, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SS] 🇹🇷TR-203.202.232.78-0216", server: 203.202.232.78, port: 60299, type: ss, cipher: chacha20-ietf-poly1305, password: AVLbEUEtBD59FsRqcNyEib, tfo: false}
-  - {name: "[SS] 🇧🇷BR-38.54.57.90-0296", server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷KR-221.139.79.57-0303", server: 221.139.79.57, port: 13979, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰HK-47.242.31.79-0295", server: n1761214904.wpg27.xyz, port: 443, type: vmess, uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1761214904.wpg27.xyz, network: ws, ws-opts: {path: "", headers: {Host: n1761214904.wpg27.xyz}}, tfo: false}
-  - {name: "[SS] 🇪🇬EG-38.54.59.180-0294", server: 38.54.59.180, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SS] 🇧🇴BO-185.93.173.60-0306", server: 185.93.173.60, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SS] 🇨🇳 🇹🇼TW-154.223.20.79-0269", server: 154.223.20.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰HK-47.243.244.164-0316", server: n1761214908.wpg27.xyz, port: 443, type: vmess, uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: n1761214908.wpg27.xyz}}, tfo: false}
-  - {name: "[SS] 🇲🇽MX-147.78.1.230-0277", server: 147.78.1.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇲🇽MX-147.78.1.230-0276", server: 147.78.1.230, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SS] 🇵🇷PR-185.47.255.22-0262", server: 185.47.255.22, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[VMess] 🇺🇸 🇺🇸US-149.30.232.103-4935", server: 149.30.232.103, port: 15097, type: vmess, uuid: 460908b8-de16-42e9-bd0d-191522ab92a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
-  - {name: "[SS] 🇩🇪 🇩🇪DE-38.60.250.107-0304", server: 38.60.250.107, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[VMess] 🇺🇸 🇺🇸US-149.30.232.103-4939", server: 149.30.232.103, port: 31469, type: vmess, uuid: 5381445d-6ae4-4948-b61a-a16d9498d21b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
-  - {name: "[VMess] 🇺🇸 🇺🇸US-149.30.232.103-4942", server: 149.30.232.103, port: 18393, type: vmess, uuid: 2c1807ce-6a63-4451-9add-a778d2507160, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷KR-141.164.45.187-0290", server: 141.164.45.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-92.112.126.90-0307", server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-92.112.126.90-0869", server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰HK-8.210.166.22-4723", server: n1761214911.74qxv.top, port: 443, type: vmess, uuid: 372c1939-299d-4946-9633-5ffa971f8b67, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1761214911.74qxv.top, network: ws, ws-opts: {path: "", headers: {Host: n1761214911.74qxv.top}}, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰HK-47.244.120.197-4862", server: 47.244.120.197, port: 44867, type: vmess, uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰HK-47.244.120.197-4858", server: 47.244.120.197, port: 36703, type: vmess, uuid: 45b83519-9c4f-4052-a11b-02e017b636d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
-  - {name: "[VMess] 🇲🇾 🇲🇾MY-47.250.45.234-4886", server: 47.250.45.234, port: 43063, type: vmess, uuid: c77f48f5-4be3-4461-b52b-49998e7b897b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
-  - {name: "[SS] 🇨🇦 🇨🇦CA-196.247.59.154-5346", server: 196.247.59.154, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[Trojan] 🇨🇳 🇨🇳CN-183.236.51.8-4509", server: 183.236.51.8, port: 10819, type: trojan, password: 7d223bae-e183-4bf6-89c3-e327b15df490, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-146.70.61.37-0171", server: 146.70.61.37, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, tfo: false}
-  - {name: "[VMess] 🇨🇦 🇨🇦CA-134.195.198.147-0169", server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: inna.cfd}}, tfo: false}
-  - {name: "[SS] 🇨🇦 🇨🇦CA-137.184.174.93-0163", server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, tfo: false}
-  - {name: "[VMess] 🇸🇬 🇸🇬SG-180.215.130.123-0153", server: 180.215.130.123, port: 11584, type: vmess, uuid: 181472ed-0bb7-43be-dccb-74aca2b33ed5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: 180.215.130.123}}, tfo: false}
-  - {name: "[VMess] 🇸🇬 🇸🇬SG-103.253.26.20-0152", server: 103.253.26.20, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: zecjk.com}}, tfo: false}
-  - {name: "[VMess] 🇸🇬 🇸🇬SG-202.61.141.130-0151", server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: 202.61.141.130}}, tfo: false}
-  - {name: "[VMess] 🇸🇬 🇸🇬SG-8.214.33.158-0149", server: 8.214.33.158, port: 80, type: vmess, uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: 8.214.33.158}}, tfo: false}
-  - {name: "[VMess] 🇸🇬 🇸🇬SG-180.215.130.123-0148", server: 180.215.130.123, port: 46452, type: vmess, uuid: c5414fe0-018b-473a-aa3b-f210f2ba42f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: 180.215.130.123}}, tfo: false}
-  - {name: "[VMess] 🇸🇬 🇸🇬SG-103.253.26.134-0147", server: 103.253.26.134, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: eeh7iewe.com}}, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.138-0144", server: 217.197.161.138, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.136-0143", server: 217.197.161.136, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-81.90.189.18-0142", server: 81.90.189.18, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.191-0193", server: 82.38.31.191, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-81.90.189.18-0141", server: 81.90.189.18, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-81.90.189.152-0140", server: 81.90.189.152, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.164-0139", server: 217.197.161.164, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-81.90.189.152-0138", server: 81.90.189.152, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-81.90.189.18-0137", server: 81.90.189.18, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.136-0136", server: 217.197.161.136, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.164-0135", server: 217.197.161.164, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.164-0134", server: 217.197.161.164, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.136-0133", server: 217.197.161.136, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.166-0132", server: 217.197.161.166, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.136-0131", server: 217.197.161.136, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.166-0130", server: 217.197.161.166, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[VMess] 🇳🇱 🇳🇱NL-51.158.151.24-0206", server: 51.158.151.24, port: 20104, type: vmess, uuid: 40e306a6-7cab-40ac-a085-a961895eb11b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.166-0129", server: 217.197.161.166, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.138-0128", server: 217.197.161.138, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.166-0127", server: 217.197.161.166, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-81.90.189.18-0126", server: 81.90.189.18, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.166-0125", server: 217.197.161.166, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-81.90.189.18-0124", server: 81.90.189.18, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.166-0123", server: 217.197.161.166, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.164-0122", server: 217.197.161.164, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.166-0121", server: 217.197.161.166, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.138-0120", server: 217.197.161.138, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-81.90.189.18-0119", server: 81.90.189.18, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.166-0118", server: 217.197.161.166, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇩🇪 🇩🇪DE-38.60.250.107-0317", server: 38.60.250.107, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇪🇸 🇪🇸ES-37.143.130.203-0288", server: 37.143.130.203, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[VMess] 🇨🇳 🇹🇼TW-103.229.124.3-7335", server: 103.229.124.3, port: 20521, type: vmess, uuid: 292e9c90-25b3-4ff5-b98a-9ef5877714ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-92.112.126.90-0834", server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, tfo: false}
+  - {name: "[SS] 🇰🇷 🇰🇷KR-141.164.45.187-0263", server: 141.164.45.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, tfo: false}
+  - {name: "[SS] 🇪🇬EG-38.54.59.180-0309", server: 38.54.59.180, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[VMess] 🇭🇰 🇭🇰HK-47.238.82.7-0303", server: n1753356378.4u9ma.icu, port: 443, type: vmess, uuid: 37b20639-0d6e-46f2-9db5-472201b10cdd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1753356378.4u9ma.icu, network: ws, ws-opts: {path: "", headers: {Host: n1753356378.4u9ma.icu}}, tfo: false}
+  - {name: "[VMess] 🇺🇸 🇺🇸US-149.30.232.103-4885", server: 149.30.232.103, port: 15097, type: vmess, uuid: 460908b8-de16-42e9-bd0d-191522ab92a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
+  - {name: "[SS] 🇰🇷 🇰🇷KR-221.139.79.57-0307", server: 221.139.79.57, port: 13979, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
+  - {name: "[VMess] 🇺🇸 🇺🇸US-149.30.232.103-4888", server: 149.30.232.103, port: 31469, type: vmess, uuid: 5381445d-6ae4-4948-b61a-a16d9498d21b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
+  - {name: "[SS] 🇰🇷 🇰🇷KR-141.164.45.187-0320", server: 141.164.45.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, tfo: false}
+  - {name: "[VMess] 🇺🇸 🇺🇸US-149.30.232.103-4896", server: 149.30.232.103, port: 18393, type: vmess, uuid: 2c1807ce-6a63-4451-9add-a778d2507160, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
+  - {name: "[SS] 🇯🇵 🇯🇵JP-103.106.228.247-0304", server: 103.106.228.247, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-92.112.126.90-0321", server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, tfo: false}
+  - {name: "[VMess] 🇭🇰 🇭🇰HK-47.244.120.197-4822", server: 47.244.120.197, port: 44867, type: vmess, uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
+  - {name: "[SS] 🇵🇹PT-185.231.233.112-0506", server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[VMess] 🇭🇰 🇭🇰HK-47.243.135.74-4821", server: 47.243.135.74, port: 55185, type: vmess, uuid: 1375985e-334a-4c25-8f64-52a182bc8037, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-38.89.142.56-0253", server: 38.89.142.56, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[VMess] 🇭🇰 🇭🇰HK-47.244.120.197-4823", server: 47.244.120.197, port: 36703, type: vmess, uuid: 45b83519-9c4f-4052-a11b-02e017b636d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, tfo: false}
+  - {name: "[VMess] 🏁RELAY-104.18.42.98-0558", server: cf.090227.xyz, port: 443, type: vmess, uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sgal.dagrate.eu.org, network: ws, ws-opts: {path: "", headers: {Host: sgal.dagrate.eu.org}}, tfo: false}
+  - {name: "[SS] 🇩🇪 🇩🇪DE-193.108.117.75-5330", server: 193.108.117.75, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, tfo: false}
+  - {name: "[VMess] 🏁RELAY-172.67.199.34-0685", server: 172.67.199.34, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: lu.sharecentre.online}}, tfo: false}
+  - {name: "[VMess] 🇸🇬 🇸🇬SG-180.215.130.123-0161", server: 180.215.130.123, port: 11584, type: vmess, uuid: 181472ed-0bb7-43be-dccb-74aca2b33ed5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: 180.215.130.123}}, tfo: false}
+  - {name: "[VMess] 🇸🇬 🇸🇬SG-103.253.26.20-0160", server: 103.253.26.20, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: zecjk.com}}, tfo: false}
+  - {name: "[VMess] 🇸🇬 🇸🇬SG-202.61.141.130-0159", server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: 202.61.141.130}}, tfo: false}
+  - {name: "[VMess] 🇸🇬 🇸🇬SG-8.214.33.158-0157", server: 8.214.33.158, port: 80, type: vmess, uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: 8.214.33.158}}, tfo: false}
+  - {name: "[VMess] 🇸🇬 🇸🇬SG-180.215.130.123-0156", server: 180.215.130.123, port: 46452, type: vmess, uuid: c5414fe0-018b-473a-aa3b-f210f2ba42f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: 180.215.130.123}}, tfo: false}
+  - {name: "[VMess] 🇸🇬 🇸🇬SG-103.253.26.134-0155", server: 103.253.26.134, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: eeh7iewe.com}}, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.138-0152", server: 217.197.161.138, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.136-0151", server: 217.197.161.136, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.217-0190", server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.218-0191", server: 82.38.31.218, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-81.90.189.18-0150", server: 81.90.189.18, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-81.90.189.18-0149", server: 81.90.189.18, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-81.90.189.152-0148", server: 81.90.189.152, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.164-0147", server: 217.197.161.164, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-81.90.189.152-0146", server: 81.90.189.152, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-81.90.189.18-0145", server: 81.90.189.18, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.136-0144", server: 217.197.161.136, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.164-0143", server: 217.197.161.164, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.164-0142", server: 217.197.161.164, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.136-0141", server: 217.197.161.136, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.166-0140", server: 217.197.161.166, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.136-0139", server: 217.197.161.136, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.166-0138", server: 217.197.161.166, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[VMess] 🇨🇦 🇨🇦CA-134.195.198.147-0205", server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: inna.cfd}}, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.166-0137", server: 217.197.161.166, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.138-0136", server: 217.197.161.138, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.166-0135", server: 217.197.161.166, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-81.90.189.18-0134", server: 81.90.189.18, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.166-0133", server: 217.197.161.166, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-81.90.189.18-0132", server: 81.90.189.18, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.166-0131", server: 217.197.161.166, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.164-0130", server: 217.197.161.164, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.166-0129", server: 217.197.161.166, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.138-0128", server: 217.197.161.138, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-81.90.189.18-0127", server: 81.90.189.18, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-217.197.161.166-0126", server: 217.197.161.166, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-81.90.189.18-0125", server: 81.90.189.18, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇸🇬 🇸🇬SG-81.90.189.18-0124", server: 81.90.189.18, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
