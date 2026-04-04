@@ -1,2 +1,5 @@
 proxies:
-  - {name: "[SS] `@mtproto_proserver", server: 163.171.137.76, port: 47394, type: ss, cipher: chacha20-ietf-poly1305, password: eafad96826c79ddd, tfo: false}
+  - {name: "[Trojan] V2ray psiphon 5", server: 38.180.219.80, port: 2083, type: trojan, password: q2jXRWncMA7pQren_VjQKhSQfoBWK_, sni: xo.e0f.cx, skip-cert-verify: true, network: ws, ws-opts: {path: /trojan-ws, headers: {Host: xo.e0f.cx}}, tfo: false}
+  - {name: "[SS] V2ray psiphon 4", server: 38.242.222.183, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 52671647af0cffa0, tfo: false}
+  - {name: "[Trojan] @v2_mod_shop (تلگرام)", server: 160.16.106.99, port: 2001, type: trojan, password: 9f7d5cb76d1645101994d9b25891e3b7, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] @v2_mod_shop (تلگرام)", server: 156.244.8.155, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, tfo: false}
