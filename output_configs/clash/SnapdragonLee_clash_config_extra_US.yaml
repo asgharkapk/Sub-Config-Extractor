@@ -1,43 +1,50 @@
 proxies:
-  - {name: "[SS] 🇺🇸 US_76_0@75", server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇺🇸 US_77_0@76", server: 38.165.231.25, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SS] 🇺🇸 US_78_0@77", server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇺🇸 US_79_0@78", server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇺🇸 US_80_0@79", server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 US_81_0@80", server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 US_82_0@81", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 🇺🇸 US_83_0@82", server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇺🇸 US_84_0@83", server: 38.89.142.56, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[VMess] 🇺🇸 US_85_0@84", server: cf.090227.xyz, port: 443, type: vmess, uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sgal.dagrate.eu.org, network: ws, ws-opts: {path: /}, tfo: false}
-  - {name: "[VMess] 🇺🇸 US_87_0@86", server: 172.64.152.23, port: 8443, type: vmess, uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: frsys.fl-dl.com, network: ws, ws-opts: {path: /gbt}, tfo: false}
-  - {name: "[Trojan] 🇺🇸 US_88_0@87", server: usla.mjt000.com, port: 443, type: trojan, password: e4af2638-bb12-4e4a-84f1-a032e23ca63f, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸 US_89_0@88", server: 154.17.24.29, port: 443, type: trojan, password: x3wOepOcT04FnR8YYF35pzSACDgRBa3CAe9qNalDCy6a2uE8Z7xlX3SSyZKDIj, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸 US_90_0@89", server: hinet.mjt000.com, port: 443, type: trojan, password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸US_91_0@90", server: 5.253.41.160, port: 443, type: trojan, password: d9576e81-fc34-46f2-b624-0c1e99cde4be, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[SSR] 🇺🇸 Relay_🇺🇸US-🇺🇸US_02_1@1", server: nm3.boom.party, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: "", tfo: false}
-  - {name: "[VMess] 🇬🇧 Relay_🇬🇧GB-🇺🇸US_31_2@30", server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇺🇸US_143_2@142", server: 173.234.29.2, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SS] 🇺🇸 Relay_🇺🇸US-🇷🇺RU_144_2@143", server: 23.95.76.59, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SS] 🇺🇸US_145_2@144", server: 38.60.223.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇺🇸US_146_2@145", server: 193.47.60.186, port: 28687, type: ss, cipher: chacha20-ietf-poly1305, password: yKVMoB3AwiTEznpnoq2FYR, tfo: false}
-  - {name: "[SS] 🇺🇸US_148_2@147", server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸US_149_2@148", server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸US_150_2@149", server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, tfo: false}
-  - {name: "[SS] 🇺🇸US_151_2@150", server: 171.22.254.17, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇺🇸US_153_2@152", server: 5.181.2.76, port: 36608, type: ss, cipher: chacha20-ietf-poly1305, password: JOZ5Mb3nJCmmoKhd8Cc9aC, tfo: false}
-  - {name: "[SS] 🇺🇸US_156_2@155", server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: "[SS] 🇺🇸US_157_2@156", server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸US_160_2@159", server: 38.60.250.107, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SSR] 🇺🇸 Relay_🇺🇸US-🇺🇸US_162_2@161", server: us.linode.rbqis.me, port: 19155, type: ssr, cipher: aes-192-ctr, password: JUBXCP, protocol: auth_sha1_v4, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", tfo: false}
-  - {name: "[VMess] 🇺🇸US_164_2@163", server: 172.233.17.76, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇺🇸US_165_2@164", server: 149.30.232.103, port: 18393, type: vmess, uuid: 2c1807ce-6a63-4451-9add-a778d2507160, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, tfo: false}
-  - {name: "[VMess] 🇺🇸US_166_2@165", server: 149.30.232.103, port: 31469, type: vmess, uuid: 5381445d-6ae4-4948-b61a-a16d9498d21b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, tfo: false}
-  - {name: "[VMess] 🇺🇸US_167_2@166", server: 149.30.232.103, port: 15097, type: vmess, uuid: 460908b8-de16-42e9-bd0d-191522ab92a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, tfo: false}
-  - {name: "[VMess] 🇺🇸 Relay_🇺🇸US-🇺🇸US_169_2@168", server: n1753101277.4u9ma.icu, port: 443, type: vmess, uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1753101277.4u9ma.icu, network: ws, ws-opts: {path: /}, tfo: false}
-  - {name: "[VMess] 🇺🇸US_170_2@169", server: 67.220.72.237, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇺🇸US_171_2@170", server: 107.175.91.118, port: 443, type: vmess, uuid: 1bb1f95f-7425-4442-93f7-8fc1bd1a2001, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-wisp}, tfo: false}
-  - {name: "[VMess] 🇺🇸 Relay_🇺🇸US-🇺🇸US_173_2@172", server: v2ray.codefyinc.com, port: 443, type: vmess, uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: v2ray.codefyinc.com, network: ws, ws-opts: {path: /vmessws}, tfo: false}
-  - {name: "[VMess] 🇺🇸US_174_2@173", server: 173.249.209.146, port: 20086, type: vmess, uuid: 3935c2dc-dbb0-43f7-b367-fe89abe87fdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
-  - {name: "[Trojan] Pool_🇺🇸US_175_2@174", server: 64.94.95.118, port: 57142, type: trojan, password: kkzh2prsyr2ik47as615, sni: 64.94.95.118, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸US_176_2@175", server: 94.131.105.125, port: 4443, type: trojan, password: strong-secret-pass-777, sni: 94.131.105.125, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VMess] Relay_🏁ZZ-🇺🇸US_537_2@536", server: 104.17.77.77, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray1.dozapp.xyz, network: ws, ws-opts: {path: /lMnsZUN4/}, tfo: false}
+  - {name: "[SS] 🇺🇸 US_82_0@81", server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇺🇸 US_83_0@82", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 🇺🇸 US_84_0@83", server: 193.135.174.135, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇺🇸 US_85_0@84", server: 38.89.142.56, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇺🇸 US_86_0@85", server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 US_87_0@86", server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇺🇸 US_88_0@87", server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 US_89_0@88", server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇺🇸 US_90_0@89", server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇺🇸 US_91_0@90", server: 38.165.231.25, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[VMess] 🇺🇸 US_93_0@92", server: 172.64.152.23, port: 8443, type: vmess, uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: frsys.fl-dl.com, network: ws, ws-opts: {path: /gbt}, tfo: false}
+  - {name: "[Trojan] 🇺🇸 US_94_0@93", server: hinet.mjt000.com, port: 443, type: trojan, password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸 US_95_0@94", server: usla.mjt000.com, port: 443, type: trojan, password: e4af2638-bb12-4e4a-84f1-a032e23ca63f, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸 US_96_0@95", server: 154.17.24.29, port: 443, type: trojan, password: x3wOepOcT04FnR8YYF35pzSACDgRBa3CAe9qNalDCy6a2uE8Z7xlX3SSyZKDIj, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸US_97_0@96", server: 5.253.41.160, port: 443, type: trojan, password: d9576e81-fc34-46f2-b624-0c1e99cde4be, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[SSR] 🇺🇸 Relay_🇺🇸US-🇺🇸US_03_1@2", server: nm3.boom.party, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: "", tfo: false}
+  - {name: "[VMess] 🇫🇷 Relay_🇫🇷FR-🇺🇸US_09_2@8", server: t.cnmjcn.cyou, port: 16618, type: vmess, uuid: b688ce0f-9201-4e8e-a67a-f3be2c6aa201, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 7a297964a2b31dafd3529ef4d14574b9.mobgslb.tbcache.com, network: ws, ws-opts: {path: /}, tfo: false}
+  - {name: "[SS] 🇬🇧 Relay_🇬🇧GB-🇺🇸US_22_2@21", server: usgpt.slianrk.com, port: 13012, type: ss, cipher: chacha20-ietf-poly1305, password: e777513e-9df5-4dc3-bc84-74e564345a81, tfo: false}
+  - {name: "[VMess] 🇬🇧 Relay_🇬🇧GB-🇺🇸US_34_2@33", server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇬🇧 Relay_🇬🇧GB-🇺🇸US_36_2@35", server: 82.198.246.46, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇬🇧 Relay_🇬🇧GB-🇺🇸US_37_2@36", server: gtm1.ktmwan.net, port: 12885, type: vmess, uuid: bbd785de-9793-4453-be40-6a3fdc418203, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: baidu.com, network: ws, ws-opts: {path: /}, tfo: false}
+  - {name: "[VMess] 🇬🇧 Relay_🇬🇧GB-🇺🇸US_39_2@38", server: gtm1.ktmwan.net, port: 12883, type: vmess, uuid: bbd785de-9793-4453-be40-6a3fdc418203, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: baidu.com, network: ws, ws-opts: {path: /}, tfo: false}
+  - {name: "[VMess] 🇬🇧 Relay_🇬🇧GB-🇺🇸US_41_2@40", server: gtm1.ktmwan.net, port: 12889, type: vmess, uuid: bbd785de-9793-4453-be40-6a3fdc418203, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: baidu.com, network: ws, ws-opts: {path: /}, tfo: false}
+  - {name: "[VMess] Relay_🇮🇷IR-🇺🇸US_62_2@61", server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] Relay_🇮🇷IR-🇺🇸US_66_2@65", server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] Relay_🇮🇷IR-🇺🇸US_67_2@66", server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇺🇸US_123_2@122", server: 38.60.223.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇺🇸US_125_2@124", server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸US_128_2@127", server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 Relay_🇺🇸US-🇩🇪DE_129_2@128", server: 15.204.247.49, port: 12000, type: ss, cipher: aes-256-gcm, password: 8JCsPssfgS8tiRwiMlhARg==, tfo: false}
+  - {name: "[SS] 🇺🇸US_130_2@129", server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸US_131_2@130", server: 193.47.60.186, port: 28687, type: ss, cipher: chacha20-ietf-poly1305, password: yKVMoB3AwiTEznpnoq2FYR, tfo: false}
+  - {name: "[SS] 🇺🇸US_133_2@132", server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇺🇸US_134_2@133", server: 171.22.254.17, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: "[SS] 🇺🇸US_136_2@135", server: 173.234.29.2, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇺🇸US_140_2@139", server: 38.60.250.107, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇺🇸 Relay_🇺🇸US-🇷🇺RU_141_2@140", server: 23.95.76.59, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SSR] 🇺🇸 Relay_🇺🇸US-🇺🇸US_142_2@141", server: us.linode.rbqis.me, port: 19155, type: ssr, cipher: aes-192-ctr, password: JUBXCP, protocol: auth_sha1_v4, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", tfo: false}
+  - {name: "[VMess] 🇺🇸US_144_2@143", server: 149.30.232.103, port: 15097, type: vmess, uuid: 460908b8-de16-42e9-bd0d-191522ab92a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, tfo: false}
+  - {name: "[VMess] 🇺🇸US_145_2@144", server: 173.249.209.146, port: 20086, type: vmess, uuid: 3935c2dc-dbb0-43f7-b367-fe89abe87fdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
+  - {name: "[VMess] 🇺🇸US_146_2@145", server: 149.30.232.103, port: 31469, type: vmess, uuid: 5381445d-6ae4-4948-b61a-a16d9498d21b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, tfo: false}
+  - {name: "[VMess] 🇺🇸 Relay_🇺🇸US-🇺🇸US_147_2@146", server: v2ray.codefyinc.com, port: 443, type: vmess, uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: v2ray.codefyinc.com, network: ws, ws-opts: {path: /vmessws}, tfo: false}
+  - {name: "[VMess] 🇺🇸US_148_2@147", server: 172.233.17.76, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇺🇸US_149_2@148", server: 149.30.232.103, port: 18393, type: vmess, uuid: 2c1807ce-6a63-4451-9add-a778d2507160, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, tfo: false}
+  - {name: "[VMess] 🇺🇸US_151_2@150", server: 107.175.91.118, port: 443, type: vmess, uuid: 1bb1f95f-7425-4442-93f7-8fc1bd1a2001, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray-wisp}, tfo: false}
+  - {name: "[VMess] 🇺🇸US_153_2@152", server: 67.220.72.237, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] Pool_🇺🇸US_154_2@153", server: 64.94.95.118, port: 57142, type: trojan, password: kkzh2prsyr2ik47as615, sni: 64.94.95.118, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸US_155_2@154", server: 94.131.105.125, port: 4443, type: trojan, password: strong-secret-pass-777, sni: 94.131.105.125, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VMess] Relay_🏁ZZ-🇺🇸US_499_2@498", server: 104.17.77.77, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray1.dozapp.xyz, network: ws, ws-opts: {path: /lMnsZUN4/}, tfo: false}
