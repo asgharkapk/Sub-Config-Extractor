@@ -1,103 +1,156 @@
 proxies:
-  - {name: "[SS] 🇺🇸 US🇺🇸 | 94.72.127.58-443 | 36.35ms", server: 94.72.127.58, port: 443, type: ss, cipher: aes-256-gcm, password: jJHq807bQ7TM0yOh, tfo: false}
-  - {name: "[SS] IE🇮🇪 | 38.180.152.210-8881 | 133.94ms", server: 38.180.152.210, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, tfo: false}
-  - {name: "[SS] 🇬🇧 GB🇬🇧 | 141.98.101.178-443 | 119.6ms", server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 US🇺🇸 | 156.146.38.169-443 | 17.33ms", server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇨🇦 CA🇨🇦 | 149.22.95.183-443 | 57.84ms", server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇯🇵 JP🇯🇵 | 149.22.87.241-443 | 121.71ms", server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇯🇵 JP🇯🇵 | 149.22.87.241-443 | 122.74ms", server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇯🇵 JP🇯🇵 | 149.22.87.240-443 | 121.49ms", server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇯🇵 JP🇯🇵 | 149.22.87.204-443 | 121.24ms", server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇬🇧 GB🇬🇧 | 141.98.101.179-443 | 130.78ms", server: 141.98.101.179, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇬🇧 GB🇬🇧 | 141.98.101.178-443 | 126.97ms", server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇬🇧 GB🇬🇧 | 141.98.101.178-443 | 118.5ms", server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇳🇱 NL🇳🇱 | 109.201.152.181-443 | 131.41ms", server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇷🇺 RU🇷🇺 | 145.249.109.121-25512 | 141.42ms", server: 145.249.109.121, port: 25512, type: ss, cipher: chacha20-ietf-poly1305, password: smSMfR9jqLgMkHuQtxSIWh, tfo: false}
-  - {name: "[SS] 🇩🇪 DE🇩🇪 | 193.43.104.64-32941 | 133.08ms", server: 193.43.104.64, port: 32941, type: ss, cipher: chacha20-ietf-poly1305, password: ryemW70bc7ejzSjmYhFZav, tfo: false}
-  - {name: "[SS] 🇳🇱 NL🇳🇱 | 193.29.139.235-8080 | 157.74ms", server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇳🇱 NL🇳🇱 | 193.29.139.235-8080 | 145.25ms", server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] TR🇹🇷 | 62.133.63.169-37096 | 171.55ms", server: 62.133.63.169, port: 37096, type: ss, cipher: chacha20-ietf-poly1305, password: oGmgmQoKE3xqSQFhU4Isuw, tfo: false}
-  - {name: "[SS] 🇷🇺 RU🇷🇺 | 178.130.46.148-47345 | 135.33ms", server: 178.130.46.148, port: 47345, type: ss, cipher: chacha20-ietf-poly1305, password: nGSRvZ5IsYcRNDpDtNVrkV, tfo: false}
-  - {name: "[SS] 🇬🇧 GB🇬🇧 | series-a2.varzesh360.co-443 | 340.71ms", server: series-a2.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, tfo: false}
-  - {name: "[SS] 🇬🇧 GB🇬🇧 | series-a2.samanehha.co-443 | 331.63ms", server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, tfo: false}
-  - {name: "[SS] 🇬🇧 GB🇬🇧 | 57.129.140.88-8388 | 128.38ms", server: 57.129.140.88, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: k1v5g9FefdoO, tfo: false}
-  - {name: "[SS] 🇬🇧 GB🇬🇧 | 82.38.31.210-8080 | 141.72ms", server: 82.38.31.210, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 GB🇬🇧 | 82.38.31.199-8080 | 160.34ms", server: 82.38.31.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 GB🇬🇧 | 82.38.31.189-8080 | 134.72ms", server: 82.38.31.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 GB🇬🇧 | 82.38.31.176-8080 | 135.62ms", server: 82.38.31.176, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇫🇷 FR🇫🇷 | 91.239.208.204-17477 | 131.06ms", server: 91.239.208.204, port: 17477, type: ss, cipher: chacha20-ietf-poly1305, password: hzxQofNAcTk2xo2drzxpIE, tfo: false}
-  - {name: "[SS] 🇷🇺 RU🇷🇺 | 212.192.14.73-65330 | 154.95ms", server: 212.192.14.73, port: 65330, type: ss, cipher: chacha20-ietf-poly1305, password: hyeRslWhyBanRDW6PyTiSC, tfo: false}
-  - {name: "[SS] SE🇸🇪 | 46.246.96.30-31561 | 134.75ms", server: 46.246.96.30, port: 31561, type: ss, cipher: chacha20-ietf-poly1305, password: hc8LMJew3Fl9MbcFCoFgT0, tfo: false}
-  - {name: "[SS] 🇺🇸 US🇺🇸 | tinkered-pennies-puppies.freesocks.work-443 | 90.86ms", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 🇳🇱 NL🇳🇱 | 195.66.27.148-28709 | 129.93ms", server: 195.66.27.148, port: 28709, type: ss, cipher: chacha20-ietf-poly1305, password: hShp1Km0NcFSmSigc8ozky, tfo: false}
-  - {name: "[SS] 🇷🇺 RU🇷🇺 | 145.249.109.148-16548 | 138.79ms", server: 145.249.109.148, port: 16548, type: ss, cipher: chacha20-ietf-poly1305, password: ge0S0k9UQZuJS4N5pEH80E, tfo: false}
-  - {name: "[SS] 🇷🇺 RU🇷🇺 | 212.192.14.226-41968 | 155.29ms", server: 212.192.14.226, port: 41968, type: ss, cipher: chacha20-ietf-poly1305, password: gC7aQv9DsENaVfKzTPDKYV, tfo: false}
-  - {name: "[SS] CY🇨🇾 | 2.56.176.23-4533 | 181.7ms", server: 2.56.176.23, port: 4533, type: ss, cipher: chacha20-ietf-poly1305, password: gCX8nn3nm7qlzcrBuAnxrK, tfo: false}
-  - {name: "[SS] SE🇸🇪 | 46.246.96.191-15721 | 151.07ms", server: 46.246.96.191, port: 15721, type: ss, cipher: chacha20-ietf-poly1305, password: fkZZaQfxglQEbFpiDyKEdN, tfo: false}
-  - {name: "[SS] 🇩🇪 DE🇩🇪 | 95.164.123.39-32821 | 136.26ms", server: 95.164.123.39, port: 32821, type: ss, cipher: chacha20-ietf-poly1305, password: fBTl409Xqg3DwqKili0NQF, tfo: false}
-  - {name: "[SS] 🇩🇪 DE🇩🇪 | 95.164.123.196-57493 | 140.29ms", server: 95.164.123.196, port: 57493, type: ss, cipher: chacha20-ietf-poly1305, password: evFIqXOc55xLHMluu5zX31, tfo: false}
-  - {name: "[SS] 🇫🇷 FR🇫🇷 | 162.19.214.191-59724 | 131.16ms", server: 162.19.214.191, port: 59724, type: ss, cipher: chacha20-ietf-poly1305, password: e7yQKOelKM4UIJCZYLrzQX, tfo: false}
-  - {name: "[SS] 🇫🇷 FR🇫🇷 | 162.19.214.191-59724 | 140.53ms", server: 162.19.214.191, port: 59724, type: ss, cipher: chacha20-ietf-poly1305, password: e7yQKOelKM4UIJCZYLrzQX, tfo: false}
-  - {name: "[SS] TR🇹🇷 | 185.39.204.189-34085 | 172.1ms", server: 185.39.204.189, port: 34085, type: ss, cipher: chacha20-ietf-poly1305, password: depjSbjv2Uql6W4Vge7sDf, tfo: false}
-  - {name: "[SS] TH🇹🇭 | 102.129.229.85-31700 | 211.18ms", server: 102.129.229.85, port: 31700, type: ss, cipher: chacha20-ietf-poly1305, password: d7zh2lMrXNH5+8+8pKzlxiCU9NN022ih+uAyxj5d4qo=, tfo: false}
-  - {name: "[SS] 🇳🇱 NL🇳🇱 | 193.29.139.164-8080 | 145.42ms", server: 193.29.139.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, tfo: false}
-  - {name: "[SS] BG🇧🇬 | 95.164.113.153-5669 | 152.8ms", server: 95.164.113.153, port: 5669, type: ss, cipher: chacha20-ietf-poly1305, password: cJvGkXLQg1TCouv8BmE0Xu, tfo: false}
-  - {name: "[SS] TR🇹🇷 | 83.217.9.17-25232 | 170.84ms", server: 83.217.9.17, port: 25232, type: ss, cipher: chacha20-ietf-poly1305, password: bgvLZUfs8sivoB9A7wkYdm, tfo: false}
-  - {name: "[SS] TR🇹🇷 | 185.39.204.161-33563 | 186.79ms", server: 185.39.204.161, port: 33563, type: ss, cipher: chacha20-ietf-poly1305, password: bSlgCoGhApOb55tIMD0zxY, tfo: false}
-  - {name: "[SS] HR🇭🇷 | 5.181.2.73-43248 | 160.42ms", server: 5.181.2.73, port: 43248, type: ss, cipher: chacha20-ietf-poly1305, password: bSFMvNLHapp4ZrcGIXy9Vt, tfo: false}
-  - {name: "[SS] 🇷🇺 RU🇷🇺 | 212.192.14.73-65330 | 158.32ms", server: 212.192.14.73, port: 65330, type: ss, cipher: chacha20-ietf-poly1305, password: b9zdJ5Jdth3j9O4qKAFtgS, tfo: false}
-  - {name: "[SS] 🇬🇧 GB🇬🇧 | azjnac1.uksouth.cloudapp.azure.com-443 | 153.12ms", server: azjnac1.uksouth.cloudapp.azure.com, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: b2EJuconC460KllN, tfo: false}
-  - {name: "[SS] 🇺🇦 UA🇺🇦 | 130.0.233.100-33610 | 173.4ms", server: 130.0.233.100, port: 33610, type: ss, cipher: chacha20-ietf-poly1305, password: aRNFYKtLOnaPE5FCHI9ylr, tfo: false}
-  - {name: "[SS] FI🇫🇮 | 93.152.207.248-34242 | 148.02ms", server: 93.152.207.248, port: 34242, type: ss, cipher: chacha20-ietf-poly1305, password: ZMCV3ECpby85V6wP9NMfkm, tfo: false}
-  - {name: "[SS] TR🇹🇷 | 83.217.9.17-25232 | 173.01ms", server: 83.217.9.17, port: 25232, type: ss, cipher: chacha20-ietf-poly1305, password: YHtXD4pojvormVWRiHgIfv, tfo: false}
-  - {name: "[SS] 🇷🇺 RU🇷🇺 | 145.249.109.108-18740 | 138.2ms", server: 145.249.109.108, port: 18740, type: ss, cipher: chacha20-ietf-poly1305, password: YHalDvP1z5RriU6l4LngKi, tfo: false}
-  - {name: "[SS] TR🇹🇷 | 62.60.233.226-62763 | 171.66ms", server: 62.60.233.226, port: 62763, type: ss, cipher: chacha20-ietf-poly1305, password: XG7MMevfyz7jA3IteAA8Qn, tfo: false}
-  - {name: "[SS] 🇩🇪 DE🇩🇪 | 147.45.178.24-56259 | 132.48ms", server: 147.45.178.24, port: 56259, type: ss, cipher: chacha20-ietf-poly1305, password: XEgifzBjI9TWGZzzOU6XOg, tfo: false}
-  - {name: "[SS] 🇩🇪 DE🇩🇪 | 147.45.178.24-56259 | 141.17ms", server: 147.45.178.24, port: 56259, type: ss, cipher: chacha20-ietf-poly1305, password: XEgifzBjI9TWGZzzOU6XOg, tfo: false}
-  - {name: "[SS] HR🇭🇷 | 5.181.2.73-43248 | 153.61ms", server: 5.181.2.73, port: 43248, type: ss, cipher: chacha20-ietf-poly1305, password: WavHeSGFxfvrkkbQd48PrB, tfo: false}
-  - {name: "[SS] 🇬🇧 GB🇬🇧 | series-a2.samanehha.co-443 | 324.47ms", server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
-  - {name: "[SS] 🇬🇧 GB🇬🇧 | series-a1.samanehha.co-443 | 175.71ms", server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
-  - {name: "[SS] 🇬🇧 GB🇬🇧 | 4.158.0.51-443 | 136.2ms", server: 4.158.0.51, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
-  - {name: "[SS] 🇫🇷 FR🇫🇷 | 162.19.175.40-7425 | 131.03ms", server: 162.19.175.40, port: 7425, type: ss, cipher: chacha20-ietf-poly1305, password: VeUJj6HWCyDZeSaqpmf8AM, tfo: false}
-  - {name: "[SS] TR🇹🇷 | 62.133.63.169-37096 | 170.65ms", server: 62.133.63.169, port: 37096, type: ss, cipher: chacha20-ietf-poly1305, password: Ul0rGyAAed5HRDpvFqr2C0, tfo: false}
-  - {name: "[SS] TR🇹🇷 | 62.133.63.169-37096 | 174.78ms", server: 62.133.63.169, port: 37096, type: ss, cipher: chacha20-ietf-poly1305, password: Ul0rGyAAed5HRDpvFqr2C0, tfo: false}
-  - {name: "[SS] FI🇫🇮 | 195.133.2.2-34898 | 151.11ms", server: 195.133.2.2, port: 34898, type: ss, cipher: chacha20-ietf-poly1305, password: RbIsi7QmpwbYYG9CbN40BS, tfo: false}
-  - {name: "[SS] 🇳🇱 NL🇳🇱 | 193.29.139.227-8080 | 158.12ms", server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, tfo: false}
-  - {name: "[SS] 🇷🇺 RU🇷🇺 | 212.192.14.234-24441 | 164.34ms", server: 212.192.14.234, port: 24441, type: ss, cipher: chacha20-ietf-poly1305, password: Ow8iSExQNaobZPY9bJ4EPI, tfo: false}
-  - {name: "[SS] CY🇨🇾 | 45.12.150.212-22658 | 171.39ms", server: 45.12.150.212, port: 22658, type: ss, cipher: chacha20-ietf-poly1305, password: NiPzObWODHbCoAI8f1Ty3X, tfo: false}
-  - {name: "[SS] 🇩🇪 DE🇩🇪 | 91.238.180.132-18611 | 138.5ms", server: 91.238.180.132, port: 18611, type: ss, cipher: chacha20-ietf-poly1305, password: LXHyLxtiJzJWG9DmVMwAbT, tfo: false}
-  - {name: "[SS] TR🇹🇷 | 185.39.204.189-34085 | 173.42ms", server: 185.39.204.189, port: 34085, type: ss, cipher: chacha20-ietf-poly1305, password: LFBZQIJCZGOfwhHFlOzK7r, tfo: false}
-  - {name: "[SS] BG🇧🇬 | 95.164.113.198-53829 | 159.53ms", server: 95.164.113.198, port: 53829, type: ss, cipher: chacha20-ietf-poly1305, password: Kbm3xoK04p4OhoqVpEzdlj, tfo: false}
-  - {name: "[SS] HR🇭🇷 | 5.181.2.76-36608 | 153.94ms", server: 5.181.2.76, port: 36608, type: ss, cipher: chacha20-ietf-poly1305, password: JOZ5Mb3nJCmmoKhd8Cc9aC, tfo: false}
-  - {name: "[SS] TR🇹🇷 | 83.217.9.140-1381 | 171.77ms", server: 83.217.9.140, port: 1381, type: ss, cipher: chacha20-ietf-poly1305, password: JHqptZxDVsnQf0wL2EgNuo, tfo: false}
-  - {name: "[SS] 🇺🇸 US🇺🇸 | 149.28.255.6-816 | 16.95ms", server: 149.28.255.6, port: 816, type: ss, cipher: chacha20-ietf-poly1305, password: GyZ5Xo0ht41vYmW3H4, tfo: false}
-  - {name: "[SS] 🇷🇺 RU🇷🇺 | 212.192.14.224-57995 | 161.14ms", server: 212.192.14.224, port: 57995, type: ss, cipher: chacha20-ietf-poly1305, password: GEKphmflEN6zsCX2tVVJhq, tfo: false}
-  - {name: "[SS] 🇩🇪 DE🇩🇪 | 193.43.104.125-15983 | 134.61ms", server: 193.43.104.125, port: 15983, type: ss, cipher: chacha20-ietf-poly1305, password: FB5RQoZwtEIx3cUsJeGxj2, tfo: false}
-  - {name: "[SS] 🇷🇺 RU🇷🇺 | 84.54.44.54-11270 | 161.67ms", server: 84.54.44.54, port: 11270, type: ss, cipher: chacha20-ietf-poly1305, password: EHF59cqRIPUWCdCVVesVv3, tfo: false}
-  - {name: "[SS] FI🇫🇮 | 38.244.137.202-45380 | 136.57ms", server: 38.244.137.202, port: 45380, type: ss, cipher: chacha20-ietf-poly1305, password: E6GbjW3IZ4Wokvz4VYLj4o, tfo: false}
-  - {name: "[SS] 🇳🇱 NL🇳🇱 | 195.66.27.81-11746 | 141.78ms", server: 195.66.27.81, port: 11746, type: ss, cipher: chacha20-ietf-poly1305, password: DaiJfYM6WoCXmBbF69QFR0, tfo: false}
-  - {name: "[SS] 🇷🇺 RU🇷🇺 | 93.183.94.163-32609 | 173.06ms", server: 93.183.94.163, port: 32609, type: ss, cipher: chacha20-ietf-poly1305, password: Cztwy34B07eqN6H4YoPGXZ, tfo: false}
-  - {name: "[SS] MD🇲🇩 | 185.218.3.131-60664 | 127.83ms", server: 185.218.3.131, port: 60664, type: ss, cipher: chacha20-ietf-poly1305, password: Aex4y92EluOwjtinhoxlsO, tfo: false}
-  - {name: "[SS] IQ🇮🇶 | 81.90.29.126-53672 | 136.16ms", server: 81.90.29.126, port: 53672, type: ss, cipher: chacha20-ietf-poly1305, password: yprgZbB7xDL4PSvE4wJU4m, tfo: false}
-  - {name: "[SS] IQ🇮🇶 | 81.90.29.126-53672 | 153.1ms", server: 81.90.29.126, port: 53672, type: ss, cipher: chacha20-ietf-poly1305, password: yprgZbB7xDL4PSvE4wJU4m, tfo: false}
-  - {name: "[SS] FI🇫🇮 | 193.47.60.186-28687 | 151.06ms", server: 193.47.60.186, port: 28687, type: ss, cipher: chacha20-ietf-poly1305, password: yKVMoB3AwiTEznpnoq2FYR, tfo: false}
-  - {name: "[SS] 🇷🇺 RU🇷🇺 | 145.249.109.144-15544 | 134.64ms", server: 145.249.109.144, port: 15544, type: ss, cipher: chacha20-ietf-poly1305, password: wk6lA4XRnEWfEnDrdm0NY6, tfo: false}
-  - {name: "[SS] CY🇨🇾 | 45.15.162.208-17499 | 138.03ms", server: 45.15.162.208, port: 17499, type: ss, cipher: chacha20-ietf-poly1305, password: vnxfs1r2QESzY2ZkIXQtCy, tfo: false}
-  - {name: "[SS] 🇬🇧 GB🇬🇧 | 74.177.207.175-443 | 125.83ms", server: 74.177.207.175, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, tfo: false}
-  - {name: "[SS] TR🇹🇷 | 38.180.105.12-443 | 176.49ms", server: 38.180.105.12, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tJlEWh2PzDMew8qo9YkPEA, tfo: false}
-  - {name: "[SS] 🇺🇸 US🇺🇸 | 88.210.36.106-2377 | 36.6ms", server: 88.210.36.106, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false}
-  - {name: "[SS] TR🇹🇷 | 185.39.204.161-33563 | 173.4ms", server: 185.39.204.161, port: 33563, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q7U16yGY0Jx1yGQe9Xtzp, tfo: false}
-  - {name: "[SS] 🇬🇧 GB🇬🇧 | admin.c1.webramz.co-443 | 147.94ms", server: admin.c1.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1xO2cqPazqjGfCfd, tfo: false}
-  - {name: "[SS] 🇩🇪 DE🇩🇪 | 194.59.183.1-21318 | 134.61ms", server: 194.59.183.1, port: 21318, type: ss, cipher: chacha20-ietf-poly1305, password: 1wCx73jegQqB0vxKdWONJH, tfo: false}
-  - {name: "[SS] 🇺🇸 US🇺🇸 | 185.33.84.181-21484 | 28.13ms", server: 185.33.84.181, port: 21484, type: ss, cipher: chacha20-ietf-poly1305, password: 1jCMNPLyZb7it1IQJpqbXT, tfo: false}
-  - {name: "[SS] CY🇨🇾 | 45.15.162.92-64351 | 140.68ms", server: 45.15.162.92, port: 64351, type: ss, cipher: chacha20-ietf-poly1305, password: 1SlIjDKpIlpzZPgT33x6Eb, tfo: false}
-  - {name: "[SS] 🇳🇱 NL🇳🇱 | 213.176.16.77-7022 | 129.82ms", server: 213.176.16.77, port: 7022, type: ss, cipher: chacha20-ietf-poly1305, password: 8HtC7rj6NfZncXYvAjDV5t, tfo: false}
-  - {name: "[SS] TR🇹🇷 | 185.39.204.189-34085 | 174.07ms", server: 185.39.204.189, port: 34085, type: ss, cipher: chacha20-ietf-poly1305, password: 7IopnX0wzEkrc3ZcVQ978z, tfo: false}
-  - {name: "[SS] 🇷🇺 RU🇷🇺 | 45.144.31.24-443 | 159.84ms", server: 45.144.31.24, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 7HQ8w1YWMdNjq68bZt1tNfpDHLFA1BPA, tfo: false}
-  - {name: "[SS] 🇳🇱 NL🇳🇱 | 62.84.102.28-26923 | 139.04ms", server: 62.84.102.28, port: 26923, type: ss, cipher: chacha20-ietf-poly1305, password: 5yOoUqBpwEevaGQ7gMxC0F, tfo: false}
-  - {name: "[SS] 🇷🇺 RU🇷🇺 | 95.142.47.40-62238 | 160.52ms", server: 95.142.47.40, port: 62238, type: ss, cipher: chacha20-ietf-poly1305, password: 5y5cwrCR8Iun5nlMSFS8uJ, tfo: false}
-  - {name: "[SS] 🇷🇺 RU🇷🇺 | 212.192.14.227-56686 | 159.37ms", server: 212.192.14.227, port: 56686, type: ss, cipher: chacha20-ietf-poly1305, password: 4vf1xwYpWV85SDuuzrnQ0l, tfo: false}
-  - {name: "[SS] 🇫🇷 FR🇫🇷 | 162.19.208.118-50285 | 131.09ms", server: 162.19.208.118, port: 50285, type: ss, cipher: chacha20-ietf-poly1305, password: 4anGtou86vGB7r1lOm5n8g, tfo: false}
-  - {name: "[SS] FI🇫🇮 | 38.244.137.202-45380 | 222.92ms", server: 38.244.137.202, port: 45380, type: ss, cipher: chacha20-ietf-poly1305, password: 43fXf1uMKbIKkxoNYGQMtt, tfo: false}
-  - {name: "[SS] IR🇮🇷 | 185.206.95.216-23201 | 218.63ms", server: 185.206.95.216, port: 23201, type: ss, cipher: 2022-blake3-aes-256-gcm, password: kMZ6ZJb3/KLTj5ZpzVUGdRbncqIGt+dChKgVA3S7plY=, tfo: false}
-  - {name: "[SS] IR🇮🇷 | 188.121.124.75-2095 | 244.62ms", server: 188.121.124.75, port: 2095, type: ss, cipher: 2022-blake3-aes-128-gcm, password: bM7oNtOWU6N4CgenbB+W7g==, tfo: false}
+  - {name: "[SS] 🇺🇸 US🇺🇸 | 154.53.57.143-443 | 73.72ms", server: 154.53.57.143, port: 443, type: ss, cipher: aes-256-gcm, password: uwmRUOVM5ljNAtPj, tfo: false}
+  - {name: "[SS] 🇺🇸 US🇺🇸 | llc.v2sub.ir-2082 | 333.44ms", server: llc.v2sub.ir, port: 2082, type: ss, cipher: aes-256-gcm, password: nasir, tfo: false}
+  - {name: "[SS] 🇺🇸 US🇺🇸 | 94.72.127.58-443 | 28.25ms", server: 94.72.127.58, port: 443, type: ss, cipher: aes-256-gcm, password: jJHq807bQ7TM0yOh, tfo: false}
+  - {name: "[SS] IE🇮🇪 | 38.180.152.210-8881 | 123.65ms", server: 38.180.152.210, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 94.156.250.148-7001 | 124.33ms", server: 94.156.250.148, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, tfo: false}
+  - {name: "[SS] 🇸🇬 SG🇸🇬 | 47.82.148.244-39715 | 182.49ms", server: 47.82.148.244, port: 39715, type: ss, cipher: aes-256-gcm, password: IYgdNNDTvWPtQ2XtycquZONq2iEz4ZtEIIpHayAPUAMS, tfo: false}
+  - {name: "[SS] AT🇦🇹 | 38.180.197.41-8080 | 147.06ms", server: 38.180.197.41, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, tfo: false}
+  - {name: "[SS] IR🇮🇷 | vip.tekcloud.site-24361 | 262.74ms", server: vip.tekcloud.site, port: 24361, type: ss, cipher: aes-256-gcm, password: 1sQF9txfKq4a9kTPYP5jQue7rEDKibo4TzXXMCJt030=, tfo: false}
+  - {name: "[SS] 🇨🇳 TW🇹🇼 | 185.189.160.105-41632 | 155.86ms", server: 185.189.160.105, port: 41632, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
+  - {name: "[SS] 🇭🇰 HK🇭🇰 | 216.250.97.82-38388 | 172.87ms", server: 216.250.97.82, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 141.98.101.182-443 | 123.17ms", server: 141.98.101.182, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 141.98.101.178-443 | 125.05ms", server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 US🇺🇸 | 156.146.38.169-443 | 17.68ms", server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇨🇦 CA🇨🇦 | 149.22.95.183-443 | 56.49ms", server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇨🇦 CA🇨🇦 | 149.22.95.183-443 | 57.29ms", server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇯🇵 JP🇯🇵 | 149.22.87.241-443 | 121.56ms", server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇯🇵 JP🇯🇵 | 149.22.87.241-443 | 118.99ms", server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇯🇵 JP🇯🇵 | 149.22.87.240-443 | 119.59ms", server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇯🇵 JP🇯🇵 | 149.22.87.204-443 | 121.16ms", server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 141.98.101.179-443 | 125.27ms", server: 141.98.101.179, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 141.98.101.178-443 | 125.11ms", server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 141.98.101.178-443 | 123.45ms", server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇳🇱 NL🇳🇱 | 109.201.152.181-443 | 129.46ms", server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇷🇺 RU🇷🇺 | 145.249.109.121-25512 | 139.15ms", server: 145.249.109.121, port: 25512, type: ss, cipher: chacha20-ietf-poly1305, password: smSMfR9jqLgMkHuQtxSIWh, tfo: false}
+  - {name: "[SS] 🇩🇪 DE🇩🇪 | 193.43.104.64-32941 | 133.54ms", server: 193.43.104.64, port: 32941, type: ss, cipher: chacha20-ietf-poly1305, password: ryemW70bc7ejzSjmYhFZav, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 62.133.63.167-61377 | 175.59ms", server: 62.133.63.167, port: 61377, type: ss, cipher: chacha20-ietf-poly1305, password: rXNC8o1Q6JcACLL3WTd405, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 62.60.233.220-18685 | 174.1ms", server: 62.60.233.220, port: 18685, type: ss, cipher: chacha20-ietf-poly1305, password: qXsc4kwL4QFPd2PymKd06w, tfo: false}
+  - {name: "[SS] 🇳🇱 NL🇳🇱 | 147.45.50.104-443 | 133.4ms", server: 147.45.50.104, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: peXQgYL8ALz2W4umIQuvFF, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 82.38.31.35-8080 | 136.35ms", server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 82.38.31.155-8080 | 148.79ms", server: 82.38.31.155, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇳🇱 NL🇳🇱 | 193.29.139.235-8080 | 140.12ms", server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇳🇱 NL🇳🇱 | 193.29.139.235-8080 | 145.33ms", server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇳🇱 NL🇳🇱 | 193.29.139.144-8080 | 138.79ms", server: 193.29.139.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 62.133.63.169-37096 | 168.97ms", server: 62.133.63.169, port: 37096, type: ss, cipher: chacha20-ietf-poly1305, password: oGmgmQoKE3xqSQFhU4Isuw, tfo: false}
+  - {name: "[SS] 🇷🇺 RU🇷🇺 | 178.130.46.148-47345 | 138.08ms", server: 178.130.46.148, port: 47345, type: ss, cipher: chacha20-ietf-poly1305, password: nGSRvZ5IsYcRNDpDtNVrkV, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | series-a2.varzesh360.co-443 | 176.53ms", server: series-a2.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | series-a2.samanehha.co-443 | 319.47ms", server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 20.108.15.110-443 | 213.56ms", server: 20.108.15.110, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, tfo: false}
+  - {name: "[SS] AM🇦🇲 | 194.156.103.148-443 | 187.89ms", server: 194.156.103.148, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kWw0m2kVzDJoLn3n9dfYem, tfo: false}
+  - {name: "[SS] 🇺🇸 US🇺🇸 | 92.118.112.125-443 | 36.85ms", server: 92.118.112.125, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kClspDlhEC4VwTVWjRWlee, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 57.129.140.88-8388 | 121.52ms", server: 57.129.140.88, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: k1v5g9FefdoO, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 82.38.31.210-8080 | 142.95ms", server: 82.38.31.210, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 82.38.31.199-8080 | 145.75ms", server: 82.38.31.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 82.38.31.189-8080 | 129.45ms", server: 82.38.31.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 82.38.31.176-8080 | 149.15ms", server: 82.38.31.176, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 62.60.233.220-18685 | 174.04ms", server: 62.60.233.220, port: 18685, type: ss, cipher: chacha20-ietf-poly1305, password: ixfXBq6dfMQQFiEz6PBcTy, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 138.68.153.223-46576 | 132.44ms", server: 138.68.153.223, port: 46576, type: ss, cipher: chacha20-ietf-poly1305, password: idMvoewrSyLLvEvP03k9zR, tfo: false}
+  - {name: "[SS] 🇫🇷 FR🇫🇷 | 91.239.208.204-17477 | 125.6ms", server: 91.239.208.204, port: 17477, type: ss, cipher: chacha20-ietf-poly1305, password: hzxQofNAcTk2xo2drzxpIE, tfo: false}
+  - {name: "[SS] 🇷🇺 RU🇷🇺 | 212.192.14.73-65330 | 158.5ms", server: 212.192.14.73, port: 65330, type: ss, cipher: chacha20-ietf-poly1305, password: hyeRslWhyBanRDW6PyTiSC, tfo: false}
+  - {name: "[SS] SI🇸🇮 | 45.83.130.97-53292 | 140.93ms", server: 45.83.130.97, port: 53292, type: ss, cipher: chacha20-ietf-poly1305, password: hfSE3thwAQqvSIac5xLpUD, tfo: false}
+  - {name: "[SS] SI🇸🇮 | 45.83.130.97-53292 | 139.23ms", server: 45.83.130.97, port: 53292, type: ss, cipher: chacha20-ietf-poly1305, password: hfSE3thwAQqvSIac5xLpUD, tfo: false}
+  - {name: "[SS] SE🇸🇪 | 46.246.96.30-31561 | 133.78ms", server: 46.246.96.30, port: 31561, type: ss, cipher: chacha20-ietf-poly1305, password: hc8LMJew3Fl9MbcFCoFgT0, tfo: false}
+  - {name: "[SS] 🇺🇸 US🇺🇸 | tinkered-pennies-puppies.freesocks.work-443 | 329.52ms", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 🇺🇸 US🇺🇸 | 38.135.24.131-443 | 60.31ms", server: 38.135.24.131, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 🇳🇱 NL🇳🇱 | 195.66.27.148-28709 | 139.4ms", server: 195.66.27.148, port: 28709, type: ss, cipher: chacha20-ietf-poly1305, password: hShp1Km0NcFSmSigc8ozky, tfo: false}
+  - {name: "[SS] 🇷🇺 RU🇷🇺 | 145.249.109.148-16548 | 139.77ms", server: 145.249.109.148, port: 16548, type: ss, cipher: chacha20-ietf-poly1305, password: ge0S0k9UQZuJS4N5pEH80E, tfo: false}
+  - {name: "[SS] 🇷🇺 RU🇷🇺 | 212.192.14.226-41968 | 157.43ms", server: 212.192.14.226, port: 41968, type: ss, cipher: chacha20-ietf-poly1305, password: gC7aQv9DsENaVfKzTPDKYV, tfo: false}
+  - {name: "[SS] SE🇸🇪 | 46.246.96.191-15721 | 134.62ms", server: 46.246.96.191, port: 15721, type: ss, cipher: chacha20-ietf-poly1305, password: fkZZaQfxglQEbFpiDyKEdN, tfo: false}
+  - {name: "[SS] 🇩🇪 DE🇩🇪 | 95.164.123.39-32821 | 139.84ms", server: 95.164.123.39, port: 32821, type: ss, cipher: chacha20-ietf-poly1305, password: fBTl409Xqg3DwqKili0NQF, tfo: false}
+  - {name: "[SS] 🇩🇪 DE🇩🇪 | 95.164.123.196-57493 | 144.03ms", server: 95.164.123.196, port: 57493, type: ss, cipher: chacha20-ietf-poly1305, password: evFIqXOc55xLHMluu5zX31, tfo: false}
+  - {name: "[SS] 🇫🇷 FR🇫🇷 | 162.19.214.191-59724 | 131.31ms", server: 162.19.214.191, port: 59724, type: ss, cipher: chacha20-ietf-poly1305, password: e7yQKOelKM4UIJCZYLrzQX, tfo: false}
+  - {name: "[SS] 🇫🇷 FR🇫🇷 | 162.19.214.191-59724 | 133.19ms", server: 162.19.214.191, port: 59724, type: ss, cipher: chacha20-ietf-poly1305, password: e7yQKOelKM4UIJCZYLrzQX, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 185.39.204.189-34085 | 172.31ms", server: 185.39.204.189, port: 34085, type: ss, cipher: chacha20-ietf-poly1305, password: depjSbjv2Uql6W4Vge7sDf, tfo: false}
+  - {name: "[SS] TH🇹🇭 | 102.129.229.85-31700 | 203.88ms", server: 102.129.229.85, port: 31700, type: ss, cipher: chacha20-ietf-poly1305, password: d7zh2lMrXNH5+8+8pKzlxiCU9NN022ih+uAyxj5d4qo=, tfo: false}
+  - {name: "[SS] TH🇹🇭 | 102.129.229.85-31700 | 305.18ms", server: 102.129.229.85, port: 31700, type: ss, cipher: chacha20-ietf-poly1305, password: d7zh2lMrXNH5+8+8pKzlxiCU9NN022ih+uAyxj5d4qo=, tfo: false}
+  - {name: "[SS] 🇳🇱 NL🇳🇱 | 193.29.139.164-8080 | 134.7ms", server: 193.29.139.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, tfo: false}
+  - {name: "[SS] 🇳🇱 NL🇳🇱 | 193.29.139.164-8080 | 147.59ms", server: 193.29.139.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, tfo: false}
+  - {name: "[SS] ZA🇿🇦 | 20.87.107.99-443 | 264.25ms", server: 20.87.107.99, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: cusSjpT8aJWXP86x, tfo: false}
+  - {name: "[SS] 🇺🇸 US🇺🇸 | 92.118.112.125-443 | 36.75ms", server: 92.118.112.125, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: cGbaGhD88Tz89Bd2UjzWBC, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 83.217.9.17-25232 | 173.55ms", server: 83.217.9.17, port: 25232, type: ss, cipher: chacha20-ietf-poly1305, password: bgvLZUfs8sivoB9A7wkYdm, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 185.39.204.161-33563 | 174.32ms", server: 185.39.204.161, port: 33563, type: ss, cipher: chacha20-ietf-poly1305, password: bSlgCoGhApOb55tIMD0zxY, tfo: false}
+  - {name: "[SS] HR🇭🇷 | 5.181.2.73-43248 | 147.87ms", server: 5.181.2.73, port: 43248, type: ss, cipher: chacha20-ietf-poly1305, password: bSFMvNLHapp4ZrcGIXy9Vt, tfo: false}
+  - {name: "[SS] 🇷🇺 RU🇷🇺 | 212.192.14.73-65330 | 157.3ms", server: 212.192.14.73, port: 65330, type: ss, cipher: chacha20-ietf-poly1305, password: b9zdJ5Jdth3j9O4qKAFtgS, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | azjnac1.uksouth.cloudapp.azure.com-443 | 135.24ms", server: azjnac1.uksouth.cloudapp.azure.com, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: b2EJuconC460KllN, tfo: false}
+  - {name: "[SS] 🇺🇦 UA🇺🇦 | 130.0.233.100-33610 | 170.45ms", server: 130.0.233.100, port: 33610, type: ss, cipher: chacha20-ietf-poly1305, password: aRNFYKtLOnaPE5FCHI9ylr, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 138.124.125.249-1443 | 131.05ms", server: 138.124.125.249, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: ZjM2N, tfo: false}
+  - {name: "[SS] FI🇫🇮 | 93.152.207.248-34242 | 140.41ms", server: 93.152.207.248, port: 34242, type: ss, cipher: chacha20-ietf-poly1305, password: ZMCV3ECpby85V6wP9NMfkm, tfo: false}
+  - {name: "[SS] 🇺🇸 US🇺🇸 | 92.118.112.125-443 | 36.7ms", server: 92.118.112.125, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: YdELsVTdkjabcv7UjvRA8K, tfo: false}
+  - {name: "[SS] 🇺🇸 US🇺🇸 | 92.118.112.125-443 | 36.78ms", server: 92.118.112.125, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: YdELsVTdkjabcv7UjvRA8K, tfo: false}
+  - {name: "[SS] 🇷🇺 RU🇷🇺 | 212.192.14.226-41968 | 156.91ms", server: 212.192.14.226, port: 41968, type: ss, cipher: chacha20-ietf-poly1305, password: YQFmjKaamSrPqVy1jtXEX4, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 83.217.9.17-25232 | 170.98ms", server: 83.217.9.17, port: 25232, type: ss, cipher: chacha20-ietf-poly1305, password: YHtXD4pojvormVWRiHgIfv, tfo: false}
+  - {name: "[SS] 🇷🇺 RU🇷🇺 | 145.249.109.108-18740 | 134.01ms", server: 145.249.109.108, port: 18740, type: ss, cipher: chacha20-ietf-poly1305, password: YHalDvP1z5RriU6l4LngKi, tfo: false}
+  - {name: "[SS] 🇺🇸 US🇺🇸 | hackney-latest-strike.freesocks.work-443 | 119.55ms", server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, tfo: false}
+  - {name: "[SS] HR🇭🇷 | 5.181.2.73-43248 | 141.56ms", server: 5.181.2.73, port: 43248, type: ss, cipher: chacha20-ietf-poly1305, password: WavHeSGFxfvrkkbQd48PrB, tfo: false}
+  - {name: "[SS] 🇳🇱 NL🇳🇱 | 159.223.236.36-19582 | 129.61ms", server: 159.223.236.36, port: 19582, type: ss, cipher: chacha20-ietf-poly1305, password: WC0GbiCk67K8nHDaDHmYIX, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | series-a2.samanehha.co-443 | 315.89ms", server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | series-a1.samanehha.co-443 | 235.79ms", server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 4.158.0.51-443 | 125.92ms", server: 4.158.0.51, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
+  - {name: "[SS] 🇫🇷 FR🇫🇷 | 162.19.175.40-7425 | 134.05ms", server: 162.19.175.40, port: 7425, type: ss, cipher: chacha20-ietf-poly1305, password: VeUJj6HWCyDZeSaqpmf8AM, tfo: false}
+  - {name: "[SS] 🇷🇺 RU🇷🇺 | 90.156.203.62-5112 | 166.17ms", server: 90.156.203.62, port: 5112, type: ss, cipher: chacha20-ietf-poly1305, password: VVlAff77CnAU43Aoc5j15Y, tfo: false}
+  - {name: "[SS] 🇩🇪 DE🇩🇪 | 144.31.96.174-8388 | 139.71ms", server: 144.31.96.174, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: VEFFUGZkNtbTGAGde4vUQjqnGST-bgTP, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 62.133.63.169-37096 | 176.04ms", server: 62.133.63.169, port: 37096, type: ss, cipher: chacha20-ietf-poly1305, password: Ul0rGyAAed5HRDpvFqr2C0, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 62.133.63.169-37096 | 177.09ms", server: 62.133.63.169, port: 37096, type: ss, cipher: chacha20-ietf-poly1305, password: Ul0rGyAAed5HRDpvFqr2C0, tfo: false}
+  - {name: "[SS] FI🇫🇮 | 195.133.2.2-34898 | 146.17ms", server: 195.133.2.2, port: 34898, type: ss, cipher: chacha20-ietf-poly1305, password: RbIsi7QmpwbYYG9CbN40BS, tfo: false}
+  - {name: "[SS] ZA🇿🇦 | 20.87.107.99-443 | 263.69ms", server: 20.87.107.99, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: P6zh8Iugo0sFC2fJ, tfo: false}
+  - {name: "[SS] 🇷🇺 RU🇷🇺 | 212.192.14.234-24441 | 158.21ms", server: 212.192.14.234, port: 24441, type: ss, cipher: chacha20-ietf-poly1305, password: Ow8iSExQNaobZPY9bJ4EPI, tfo: false}
+  - {name: "[SS] 🇫🇷 FR🇫🇷 | 45.95.233.55-443 | 237.55ms", server: 45.95.233.55, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Oign3nIHniYcfde1rlxmYA, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | mx2.drawnrisha.one-55988 | 639.75ms", server: mx2.drawnrisha.one, port: 55988, type: ss, cipher: chacha20-ietf-poly1305, password: NRKiRKbFdENKGAB1Dtk3asvtimbQnmDS4qVG8YQeeggj92VKDxejBu98VEcWn2DG6afNaYMBmQ36WruT9RUgqxWXx5VkwW3X, tfo: false}
+  - {name: "[SS] 🇩🇪 DE🇩🇪 | 198.105.115.100-1080 | 134.08ms", server: 198.105.115.100, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: MlZvyOJKVINSopKB6I6sTg, tfo: false}
+  - {name: "[SS] 🇳🇱 NL🇳🇱 | 147.45.50.104-443 | 135.09ms", server: 147.45.50.104, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: LouWLUa7g9tyRMqRc5Wzdt, tfo: false}
+  - {name: "[SS] 🇩🇪 DE🇩🇪 | 91.238.180.132-18611 | 128.69ms", server: 91.238.180.132, port: 18611, type: ss, cipher: chacha20-ietf-poly1305, password: LXHyLxtiJzJWG9DmVMwAbT, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 185.39.204.189-34085 | 170.77ms", server: 185.39.204.189, port: 34085, type: ss, cipher: chacha20-ietf-poly1305, password: LFBZQIJCZGOfwhHFlOzK7r, tfo: false}
+  - {name: "[SS] ZA🇿🇦 | 20.87.107.99-443 | 264.09ms", server: 20.87.107.99, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: KNWTeJ1EjZU3z7EQ, tfo: false}
+  - {name: "[SS] HR🇭🇷 | 5.181.2.76-36608 | 149.94ms", server: 5.181.2.76, port: 36608, type: ss, cipher: chacha20-ietf-poly1305, password: JOZ5Mb3nJCmmoKhd8Cc9aC, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 83.217.9.140-1381 | 171.33ms", server: 83.217.9.140, port: 1381, type: ss, cipher: chacha20-ietf-poly1305, password: JHqptZxDVsnQf0wL2EgNuo, tfo: false}
+  - {name: "[SS] 🇺🇸 US🇺🇸 | 149.28.255.6-816 | 17.58ms", server: 149.28.255.6, port: 816, type: ss, cipher: chacha20-ietf-poly1305, password: GyZ5Xo0ht41vYmW3H4, tfo: false}
+  - {name: "[SS] 🇫🇷 FR🇫🇷 | 45.95.233.55-443 | 235.48ms", server: 45.95.233.55, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: GeeISDQ3tvUaLMiiNdfeN0, tfo: false}
+  - {name: "[SS] 🇷🇺 RU🇷🇺 | 212.192.14.224-57995 | 155.57ms", server: 212.192.14.224, port: 57995, type: ss, cipher: chacha20-ietf-poly1305, password: GEKphmflEN6zsCX2tVVJhq, tfo: false}
+  - {name: "[SS] 🇺🇸 US🇺🇸 | 108.181.0.177-8388 | 37.37ms", server: 108.181.0.177, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: G5p6ww4o67HB, tfo: false}
+  - {name: "[SS] 🇩🇪 DE🇩🇪 | 5.230.184.171-443 | 127.43ms", server: 5.230.184.171, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Fh0TVw64B57wDPoJ2VLsog, tfo: false}
+  - {name: "[SS] 🇩🇪 DE🇩🇪 | 193.43.104.125-15983 | 131.72ms", server: 193.43.104.125, port: 15983, type: ss, cipher: chacha20-ietf-poly1305, password: FB5RQoZwtEIx3cUsJeGxj2, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 62.60.233.226-62763 | 168.05ms", server: 62.60.233.226, port: 62763, type: ss, cipher: chacha20-ietf-poly1305, password: ER2xCcJkmR1pftmN300CNJ, tfo: false}
+  - {name: "[SS] 🇷🇺 RU🇷🇺 | 84.54.44.54-11270 | 174.27ms", server: 84.54.44.54, port: 11270, type: ss, cipher: chacha20-ietf-poly1305, password: EHF59cqRIPUWCdCVVesVv3, tfo: false}
+  - {name: "[SS] FI🇫🇮 | 38.244.137.202-45380 | 136.46ms", server: 38.244.137.202, port: 45380, type: ss, cipher: chacha20-ietf-poly1305, password: E6GbjW3IZ4Wokvz4VYLj4o, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 62.133.63.167-61377 | 167.67ms", server: 62.133.63.167, port: 61377, type: ss, cipher: chacha20-ietf-poly1305, password: E12yZBPC7y8SnmkSYjf0Wl, tfo: false}
+  - {name: "[SS] 🇳🇱 NL🇳🇱 | 195.66.27.81-11746 | 158.97ms", server: 195.66.27.81, port: 11746, type: ss, cipher: chacha20-ietf-poly1305, password: DaiJfYM6WoCXmBbF69QFR0, tfo: false}
+  - {name: "[SS] 🇷🇺 RU🇷🇺 | 93.183.94.163-32609 | 166.65ms", server: 93.183.94.163, port: 32609, type: ss, cipher: chacha20-ietf-poly1305, password: Cztwy34B07eqN6H4YoPGXZ, tfo: false}
+  - {name: "[SS] SE🇸🇪 | 78.40.117.161-34633 | 151.62ms", server: 78.40.117.161, port: 34633, type: ss, cipher: chacha20-ietf-poly1305, password: CZjvepQLlrEC9sVxkFfnlK, tfo: false}
+  - {name: "[SS] 🇳🇱 NL🇳🇱 | 108.181.126.122-8388 | 132.13ms", server: 108.181.126.122, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: CJmTCCx7Ltud7, tfo: false}
+  - {name: "[SS] AZ🇦🇿 | 94.20.80.94-8443 | 204.71ms", server: 94.20.80.94, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: Azl8551bffF8MIv8B86Rom, tfo: false}
+  - {name: "[SS] MD🇲🇩 | 185.218.3.131-60664 | 129.21ms", server: 185.218.3.131, port: 60664, type: ss, cipher: chacha20-ietf-poly1305, password: Aex4y92EluOwjtinhoxlsO, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 89.185.84.34-31348 | 121.35ms", server: 89.185.84.34, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: AQGAAMQLZoxMT4EUxNPuFwKImsAviZTHTEMmHFlRrDKJpMnS, tfo: false}
+  - {name: "[SS] IQ🇮🇶 | 81.90.29.126-53672 | 139.07ms", server: 81.90.29.126, port: 53672, type: ss, cipher: chacha20-ietf-poly1305, password: yprgZbB7xDL4PSvE4wJU4m, tfo: false}
+  - {name: "[SS] IQ🇮🇶 | 81.90.29.126-53672 | 137.51ms", server: 81.90.29.126, port: 53672, type: ss, cipher: chacha20-ietf-poly1305, password: yprgZbB7xDL4PSvE4wJU4m, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 62.60.233.226-62763 | 167.97ms", server: 62.60.233.226, port: 62763, type: ss, cipher: chacha20-ietf-poly1305, password: yRdxvK32gcKq8xxNguwU99, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 62.60.233.226-62763 | 174.17ms", server: 62.60.233.226, port: 62763, type: ss, cipher: chacha20-ietf-poly1305, password: yRdxvK32gcKq8xxNguwU99, tfo: false}
+  - {name: "[SS] FI🇫🇮 | 193.47.60.186-28687 | 144.1ms", server: 193.47.60.186, port: 28687, type: ss, cipher: chacha20-ietf-poly1305, password: yKVMoB3AwiTEznpnoq2FYR, tfo: false}
+  - {name: "[SS] 🇷🇺 RU🇷🇺 | 145.249.109.144-15544 | 139.3ms", server: 145.249.109.144, port: 15544, type: ss, cipher: chacha20-ietf-poly1305, password: wk6lA4XRnEWfEnDrdm0NY6, tfo: false}
+  - {name: "[SS] CY🇨🇾 | 45.15.162.208-17499 | 143.28ms", server: 45.15.162.208, port: 17499, type: ss, cipher: chacha20-ietf-poly1305, password: vnxfs1r2QESzY2ZkIXQtCy, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | 74.177.207.175-443 | 118.32ms", server: 74.177.207.175, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 38.180.105.12-443 | 163.93ms", server: 38.180.105.12, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tJlEWh2PzDMew8qo9YkPEA, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 185.39.204.161-33563 | 168.3ms", server: 185.39.204.161, port: 33563, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q7U16yGY0Jx1yGQe9Xtzp, tfo: false}
+  - {name: "[SS] 🇬🇧 GB🇬🇧 | admin.c1.webramz.co-443 | 131.46ms", server: admin.c1.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1xO2cqPazqjGfCfd, tfo: false}
+  - {name: "[SS] 🇩🇪 DE🇩🇪 | 194.59.183.1-21318 | 131.37ms", server: 194.59.183.1, port: 21318, type: ss, cipher: chacha20-ietf-poly1305, password: 1wCx73jegQqB0vxKdWONJH, tfo: false}
+  - {name: "[SS] 🇺🇸 US🇺🇸 | 185.33.84.181-21484 | 27.58ms", server: 185.33.84.181, port: 21484, type: ss, cipher: chacha20-ietf-poly1305, password: 1jCMNPLyZb7it1IQJpqbXT, tfo: false}
+  - {name: "[SS] CY🇨🇾 | 45.15.162.92-64351 | 141.39ms", server: 45.15.162.92, port: 64351, type: ss, cipher: chacha20-ietf-poly1305, password: 1SlIjDKpIlpzZPgT33x6Eb, tfo: false}
+  - {name: "[SS] 🇳🇱 NL🇳🇱 | 213.176.16.77-7022 | 138.42ms", server: 213.176.16.77, port: 7022, type: ss, cipher: chacha20-ietf-poly1305, password: 8HtC7rj6NfZncXYvAjDV5t, tfo: false}
+  - {name: "[SS] 🇨🇳 TW🇹🇼 | 61.231.15.57-50099 | 151.76ms", server: 61.231.15.57, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, tfo: false}
+  - {name: "[SS] 🇨🇳 TW🇹🇼 | 111.248.87.83-50099 | 150.3ms", server: 111.248.87.83, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, tfo: false}
+  - {name: "[SS] TR🇹🇷 | 185.39.204.189-34085 | 174.46ms", server: 185.39.204.189, port: 34085, type: ss, cipher: chacha20-ietf-poly1305, password: 7IopnX0wzEkrc3ZcVQ978z, tfo: false}
+  - {name: "[SS] 🇷🇺 RU🇷🇺 | 45.144.31.24-443 | 157.27ms", server: 45.144.31.24, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 7HQ8w1YWMdNjq68bZt1tNfpDHLFA1BPA, tfo: false}
+  - {name: "[SS] 🇳🇱 NL🇳🇱 | 62.84.102.28-26923 | 143.82ms", server: 62.84.102.28, port: 26923, type: ss, cipher: chacha20-ietf-poly1305, password: 5yOoUqBpwEevaGQ7gMxC0F, tfo: false}
+  - {name: "[SS] 🇷🇺 RU🇷🇺 | 95.142.47.40-62238 | 164.04ms", server: 95.142.47.40, port: 62238, type: ss, cipher: chacha20-ietf-poly1305, password: 5y5cwrCR8Iun5nlMSFS8uJ, tfo: false}
+  - {name: "[SS] 🇷🇺 RU🇷🇺 | 212.192.14.227-56686 | 155.86ms", server: 212.192.14.227, port: 56686, type: ss, cipher: chacha20-ietf-poly1305, password: 4vf1xwYpWV85SDuuzrnQ0l, tfo: false}
+  - {name: "[SS] 🇫🇷 FR🇫🇷 | 162.19.208.118-50285 | 132.02ms", server: 162.19.208.118, port: 50285, type: ss, cipher: chacha20-ietf-poly1305, password: 4anGtou86vGB7r1lOm5n8g, tfo: false}
+  - {name: "[SS] 🇳🇱 NL🇳🇱 | 193.29.139.217-8080 | 140.04ms", server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, tfo: false}
+  - {name: "[SS] 🇺🇸 US🇺🇸 | 79.141.163.21-4668 | 48.46ms", server: 79.141.163.21, port: 4668, type: ss, cipher: chacha20-ietf-poly1305, password: 4LwjNxZEaMDsT26xKjcNmo, tfo: false}
+  - {name: "[SS] 🇺🇸 US🇺🇸 | 79.141.163.21-4668 | 46.13ms", server: 79.141.163.21, port: 4668, type: ss, cipher: chacha20-ietf-poly1305, password: 4LwjNxZEaMDsT26xKjcNmo, tfo: false}
+  - {name: "[SS] FI🇫🇮 | 38.244.137.202-45380 | 139.05ms", server: 38.244.137.202, port: 45380, type: ss, cipher: chacha20-ietf-poly1305, password: 43fXf1uMKbIKkxoNYGQMtt, tfo: false}
+  - {name: "[SS] 🇩🇪 DE🇩🇪 | 91.107.247.25-8083 | 141.5ms", server: 91.107.247.25, port: 8083, type: ss, cipher: 2022-blake3-aes-256-gcm, password: NWRbLv+NIz5+zssu7nxk+fCw7wDHYLFbWy4m3Ey7Oo0=, tfo: false}
+  - {name: "[SS] 🇩🇪 DE🇩🇪 | 91.107.247.25-8083 | 135.27ms", server: 91.107.247.25, port: 8083, type: ss, cipher: 2022-blake3-aes-256-gcm, password: NWRbLv+NIz5+zssu7nxk+fCw7wDHYLFbWy4m3Ey7Oo0=, tfo: false}
+  - {name: "[SS] 🇭🇰 HK🇭🇰 | hk03.jgpy.help-10088 | 378.84ms", server: hk03.jgpy.help, port: 10088, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NDk2MGZhYzQ3MmE0NWM1OQ==, tfo: false}
+  - {name: "[SS] 🇭🇰 HK🇭🇰 | hk01.jgpy.help-10084 | 240.16ms", server: hk01.jgpy.help, port: 10084, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NDk2MGZhYzQ3MmE0NWM1OQ==, tfo: false}
+  - {name: "[SS] 🇯🇵 JP🇯🇵 | jp03.jgpy.help-10081 | 191.99ms", server: jp03.jgpy.help, port: 10081, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NDg4N2ZjMjE2OWM3MWRlNA==, tfo: false}
+  - {name: "[SS] 🇯🇵 JP🇯🇵 | jp01.jgpy.help-10087 | 335.54ms", server: jp01.jgpy.help, port: 10087, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NDg4N2ZjMjE2OWM3MWRlNA==, tfo: false}
