@@ -1,81 +1,90 @@
 proxies:
-  - {name: "[SS] 🇳🇱KitKat", server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, tfo: false}
-  - {name: "[Hysteria2] 🇩🇪 🇩🇪DE  ROSE—02", server: reddeadfan.rd-team.ru, port: 2026, type: hysteria2, ports: 2026, password: rstnnl2705:QtmSqzxgO95zXwNcgVYSjDl02aRsjrrl, obfs: salamander, obfs-password: FxZylbqClUqVqAs2nezW9kPyFb2edZ2, sni: reddeadfan.rd-team.ru, skip-cert-verify: true, tfo: false}
-  - {name: "[Hysteria2] 🇩🇪 🇩🇪DE  ROSE—03", server: 130.61.50.75, port: 6443, type: hysteria2, ports: 6443, password: zhangyang, sni: dash.cloudflare.com, skip-cert-verify: true, tfo: false}
-  - {name: "[Hysteria2] 🇺🇸 🇺🇸US  ROSE—04", server: 155.248.209.237, port: 33333, type: hysteria2, ports: 33333, password: bce6c821-200d-421f-bf3d-7159e5246ea0, skip-cert-verify: true, tfo: false}
-  - {name: "[Hysteria2] 🇺🇸 🇺🇸US  ROSE—05", server: hy2.123266.xyz, port: 33333, type: hysteria2, ports: 33333, password: bce6c821-200d-421f-bf3d-7159e5246ea0, sni: hy2.123266.xyz, skip-cert-verify: true, tfo: false}
-  - {name: "[Hysteria2] 🇨🇭CH  ROSE—06", server: 45.140.205.161, port: 1935, type: hysteria2, ports: 1935, password: switzerland_2_hysteria2_fastlane_c084pzcdu:MK77JlUBs60utA02TSFRotrAn6wC7IlV, sni: ch2.h.fastlanehosting.ru, skip-cert-verify: true, tfo: false}
-  - {name: "[Hysteria2] 🇩🇪 🇩🇪DE  ROSE—07", server: 185.228.139.247, port: 4433, type: hysteria2, ports: 4433, password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e, sni: de2.xiaoliyu.cyou, skip-cert-verify: true, tfo: false}
-  - {name: "[Hysteria2] 🇩🇪 🇩🇪DE  ROSE—08", server: 202.61.205.86, port: 4433, type: hysteria2, ports: 4433, password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e, sni: de1.xiaoliyu.cyou, skip-cert-verify: true, tfo: false}
-  - {name: "[Hysteria2] 🇫🇮FI  ROSE—09", server: musicclips.videolinks.ru, port: 8443, type: hysteria2, ports: 8443, password: rstnnl2705:56Uhk1CcaR5mCmGpaN0AsOAmRscZSIaM, obfs: salamander, obfs-password: hH0l2Acqz3RtodoSCNCpNJqDSZtp4Qw, sni: musicclips.videolinks.ru, skip-cert-verify: true, tfo: false}
-  - {name: "[Hysteria2] 🇳🇱 🇳🇱NL  ROSE—10", server: nrealistic.nn-foto.ru, port: 8932, type: hysteria2, ports: 8932, password: rstnnl2705:ZmRjX7MkeEqZ5GQUIT5VO53ARuy6nrmQ, obfs: salamander, obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W, sni: nrealistic.nn-foto.ru, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—11", server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—12", server: 82.38.31.208, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—13", server: 82.38.31.218, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—14", server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—15", server: 82.38.31.155, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—16", server: 108.181.58.239, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: CJmTCCx7Ltud, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US  ROSE—17", server: 107.172.250.161, port: 59556, type: ss, cipher: chacha20-ietf-poly1305, password: QTmLViU4VEmuwbOxUw4IXd, tfo: false}
-  - {name: "[SS] 🇯🇵 🇯🇵JP  ROSE—18", server: 103.106.228.175, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, tfo: false}
-  - {name: "[SS] 🇫🇮FI  ROSE—19", server: 193.47.60.186, port: 28687, type: ss, cipher: chacha20-ietf-poly1305, password: yKVMoB3AwiTEznpnoq2FYR, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US  ROSE—20", server: 108.181.0.177, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: G5p6ww4o67HB, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—21", server: 195.93.253.245, port: 49137, type: ss, cipher: chacha20-ietf-poly1305, password: FDeCHSu4lt8qflCS5zDOy8, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US  ROSE—22", server: 62.146.231.112, port: 12012, type: ss, cipher: chacha20-ietf-poly1305, password: 4e287631dc4fc8fc, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—23", server: 82.38.31.176, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—24", server: 82.38.31.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—25", server: 82.38.31.205, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—26", server: 82.38.31.190, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—27", server: 82.38.31.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—28", server: 82.38.31.210, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—29", server: 82.38.31.214, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—30", server: 195.93.253.240, port: 14130, type: ss, cipher: chacha20-ietf-poly1305, password: bvGa054MauyCOmaeYtWuOJ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—31", server: 82.38.31.149, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇭🇰 🇭🇰HK  ROSE—32", server: 212.192.15.225, port: 20129, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—33", server: 82.38.31.184, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US  ROSE—34", server: 216.105.168.18, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hCCWOcIsK5wrFz4OX70rWf, tfo: false}
-  - {name: "[SS] 🇯🇵 🇯🇵JP  ROSE—35", server: 147.90.234.133, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 🇫🇮FI  ROSE—36", server: 195.133.2.2, port: 34898, type: ss, cipher: chacha20-ietf-poly1305, password: v2LIewZzNUsIrqODr22FVc, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—37", server: 82.38.31.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷KR  ROSE—38", server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[SS] 🇨🇴CO  ROSE—39", server: 154.223.16.41, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, tfo: false}
-  - {name: "[SS] 🇯🇵 🇯🇵JP  ROSE—40", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US  ROSE—41", server: 92.118.112.203, port: 41348, type: ss, cipher: chacha20-ietf-poly1305, password: 66iAPUHyyA3YxBb3DmloTuArM0IiPeY2HCoH3m, tfo: false}
-  - {name: "[SS] 🇫🇮FI  ROSE—42", server: 109.107.182.229, port: 51544, type: ss, cipher: chacha20-ietf-poly1305, password: MZeSTvpl2uoey1R0frhPyJ, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷KR  ROSE—43", server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷KR  ROSE—44", server: 211.178.105.134, port: 6123, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[SS] 🇧🇷BR  ROSE—45", server: 109.104.155.45, port: 41348, type: ss, cipher: chacha20-ietf-poly1305, password: NVcw9OTGwmThWmhs1uh7rrIJcVz7ln96ifYZiv4zsWvToTjg, tfo: false}
-  - {name: "[SS] 🇮🇳 🇮🇳IN  ROSE—46", server: 103.120.178.193, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: EBDRo9THx4CqiFU7h5gfov76oNwzZURAh0ZwbWjBKddtUhvz, tfo: false}
-  - {name: "[SS] 🇸🇦SA  ROSE—47", server: 156.244.8.155, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, tfo: false}
-  - {name: "[SS] 🇭🇰 🇭🇰HK  ROSE—48", server: 112.213.102.188, port: 41632, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[SS] 🇨🇳 🇹🇼TW  ROSE—49", server: 185.189.160.105, port: 41632, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB  ROSE—50", server: 57.129.129.247, port: 19308, type: ss, cipher: chacha20-ietf-poly1305, password: 4a055e9e903128a1, tfo: false}
-  - {name: "[SS] 🇮🇹IT  ROSE—51", server: 185.213.20.110, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷KR  ROSE—52", server: 221.139.79.57, port: 13979, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[SS] 🇭🇰 🇭🇰HK  ROSE—53", server: 216.250.97.82, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: "[SS] 🇫🇷 🇫🇷FR  ROSE—54", server: 45.95.233.55, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1aGtCco8UuisW3vnFvtNls, tfo: false}
-  - {name: "[SS] 🇵🇱 🇵🇱PL  ROSE—55", server: 54.36.174.134, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8zw5j9h, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—56", server: 193.29.139.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—57", server: 185.18.54.70, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: MPS4QxIySO20yGnFTGEbyYTOwd2HlEmcC0ksqogxZtLyLYRl, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—58", server: 82.38.31.194, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—59", server: 193.29.139.143, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—60", server: 82.38.31.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US  ROSE—61", server: 38.135.24.131, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—62", server: 82.38.31.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—63", server: 82.38.31.187, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—64", server: 82.38.31.191, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—65", server: 82.38.31.186, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇨🇦 🇨🇦CA  ROSE—66", server: 79.141.166.54, port: 41348, type: ss, cipher: chacha20-ietf-poly1305, password: 8r2HCHTRXSqDcOvIXnssDuguU74msDjEu5XhlkkuydW7is75, tfo: false}
-  - {name: "[SS] 🇹🇷TR  ROSE—67", server: 193.124.46.134, port: 8444, type: ss, cipher: chacha20-ietf-poly1305, password: tunnel-fbrof, tfo: false}
-  - {name: "[SS] 🇵🇱 🇵🇱PL  ROSE—68", server: 217.30.10.70, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, tfo: false}
-  - {name: "[SS] 🇵🇱 🇵🇱PL  ROSE—69", server: 217.30.10.70, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, tfo: false}
-  - {name: "[SS] 🇵🇱 🇵🇱PL  ROSE—70", server: 217.30.10.70, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, tfo: false}
-  - {name: "[SS] 🇵🇱 🇵🇱PL  ROSE—71", server: 217.30.10.70, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US  ROSE—72", server: 107.172.219.230, port: 2096, type: ss, cipher: chacha20-ietf-poly1305, password: 768b923a-4918-46ad-96e7-9cf5543ddc4c, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB  ROSE—73", server: uk1.ssobfs.site, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: MWRlM, tfo: false}
-  - {name: "[SS] 🇵🇱 🇵🇱PL  ROSE—74", server: 217.30.10.70, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, tfo: false}
-  - {name: "[SS] 🇵🇱 🇵🇱PL  ROSE—75", server: 217.30.10.70, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, tfo: false}
-  - {name: "[SS] 🇵🇱 🇵🇱PL  ROSE—76", server: 217.30.10.70, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, tfo: false}
-  - {name: "[SS] 🇨🇳 🇨🇳CN  ROSE—77", server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: !<str> 123, tfo: false}
-  - {name: "[SS] 🇭🇰 🇭🇰HK  ROSE—78", server: 103.141.221.124, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, tfo: false}
-  - {name: "[SS] 🇭🇰 🇭🇰HK  ROSE—79", server: 103.141.221.101, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, tfo: false}
-  - {name: "[SS] 🇭🇰 🇭🇰HK  ROSE—80", server: 103.149.182.105, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—01", server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB  ROSE—02", server: 141.98.101.182, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB  ROSE—03", server: 141.98.101.179, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB  ROSE—04", server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[Hysteria2] 🇳🇱 🇳🇱NL  ROSE—05", server: 144.31.224.163, port: 8932, type: hysteria2, ports: 8932, password: rstnnl2705%3AZmRjX7MkeEqZ5GQUIT5VO53ARuy6nrmQ, obfs: salamander, obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W, sni: nrealistic.nn-foto.ru, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 🇩🇪 🇩🇪DE  ROSE—06", server: 18.157.222.169, port: 1040, type: hysteria2, ports: 1040, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid.shop, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 🇩🇪 🇩🇪DE  ROSE—07", server: 18.157.51.145, port: 443, type: hysteria2, ports: 443, password: masir_sefid, obfs: salamander, obfs-password: masir_sefid, sni: content.masir-sefid.shop, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 🇫🇷 🇫🇷FR  ROSE—08", server: 62.210.26.173, port: 64772, type: hysteria2, ports: 64772, password: github.com%2FAlvin9999-newpac%2Ffanqiang, sni: bing.com, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 🇭🇰 🇭🇰HK  ROSE—09", server: 89.251.26.111, port: 55555, type: hysteria2, ports: 55555, password: e3a5bb40be52de65, sni: apps.apple.com, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 🇩🇪 🇩🇪DE  ROSE—10", server: 185.227.108.195, port: 11000, type: hysteria2, ports: 11000, password: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2, sni: de-node.farnet.top, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 🇺🇸 🇺🇸US  ROSE—11", server: aestheticperforator.ru, port: 8443, type: hysteria2, ports: 8443, password: b880e510-8196-44bb-b715-781a9461b4a0, sni: aestheticperforator.ru, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 🇺🇸 🇺🇸US  ROSE—12", server: reddeadfan.rd-team.ru, port: 2026, type: hysteria2, ports: 2026, password: rstnnl2705%3AQtmSqzxgO95zXwNcgVYSjDl02aRsjrrl, obfs: salamander, obfs-password: FxZylbqClUqVqAs2nezW9kPyFb2edZ2, sni: reddeadfan.rd-team.ru, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 🇩🇪 🇩🇪DE  ROSE—13", server: 130.61.50.75, port: 6443, type: hysteria2, ports: 6443, password: zhangyang, sni: dash.cloudflare.com, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 🇺🇸 🇺🇸US  ROSE—14", server: 155.248.209.237, port: 33333, type: hysteria2, ports: 33333, password: bce6c821-200d-421f-bf3d-7159e5246ea0, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 🇺🇸 🇺🇸US  ROSE—15", server: hy2.123266.xyz, port: 33333, type: hysteria2, ports: 33333, password: bce6c821-200d-421f-bf3d-7159e5246ea0, sni: hy2.123266.xyz, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 🇨🇭CH  ROSE—16", server: 45.140.205.161, port: 1935, type: hysteria2, ports: 1935, password: switzerland_2_hysteria2_fastlane_c084pzcdu%3AMK77JlUBs60utA02TSFRotrAn6wC7IlV, sni: ch2.h.fastlanehosting.ru, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 🇩🇪 🇩🇪DE  ROSE—17", server: 185.228.139.247, port: 4433, type: hysteria2, ports: 4433, password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e, sni: de2.xiaoliyu.cyou, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 🇩🇪 🇩🇪DE  ROSE—18", server: 202.61.205.86, port: 4433, type: hysteria2, ports: 4433, password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e, sni: de1.xiaoliyu.cyou, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 🇫🇮FI  ROSE—19", server: musicclips.videolinks.ru, port: 8443, type: hysteria2, ports: 8443, password: rstnnl2705%3A56Uhk1CcaR5mCmGpaN0AsOAmRscZSIaM, obfs: salamander, obfs-password: hH0l2Acqz3RtodoSCNCpNJqDSZtp4Qw, sni: musicclips.videolinks.ru, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] 🇳🇱 🇳🇱NL  ROSE—20", server: nrealistic.nn-foto.ru, port: 8932, type: hysteria2, ports: 8932, password: rstnnl2705%3AZmRjX7MkeEqZ5GQUIT5VO53ARuy6nrmQ, obfs: salamander, obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W, sni: nrealistic.nn-foto.ru, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—21", server: 82.38.31.208, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—22", server: 82.38.31.218, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—23", server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—24", server: 82.38.31.155, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—25", server: 108.181.58.239, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: CJmTCCx7Ltud, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US  ROSE—26", server: 107.172.250.161, port: 59556, type: ss, cipher: chacha20-ietf-poly1305, password: QTmLViU4VEmuwbOxUw4IXd, tfo: false}
+  - {name: "[SS] 🇯🇵 🇯🇵JP  ROSE—27", server: 103.106.228.175, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, tfo: false}
+  - {name: "[SS] 🇫🇮FI  ROSE—28", server: 193.47.60.186, port: 28687, type: ss, cipher: chacha20-ietf-poly1305, password: yKVMoB3AwiTEznpnoq2FYR, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US  ROSE—29", server: 108.181.0.177, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: G5p6ww4o67HB, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—30", server: 195.93.253.245, port: 49137, type: ss, cipher: chacha20-ietf-poly1305, password: FDeCHSu4lt8qflCS5zDOy8, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US  ROSE—31", server: 62.146.231.112, port: 12012, type: ss, cipher: chacha20-ietf-poly1305, password: 4e287631dc4fc8fc, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—32", server: 82.38.31.176, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—33", server: 82.38.31.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—34", server: 82.38.31.205, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—35", server: 82.38.31.190, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—36", server: 82.38.31.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—37", server: 82.38.31.210, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—38", server: 82.38.31.214, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—39", server: 195.93.253.240, port: 14130, type: ss, cipher: chacha20-ietf-poly1305, password: bvGa054MauyCOmaeYtWuOJ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—40", server: 82.38.31.149, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇭🇰 🇭🇰HK  ROSE—41", server: 212.192.15.225, port: 20129, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—42", server: 82.38.31.184, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US  ROSE—43", server: 216.105.168.18, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hCCWOcIsK5wrFz4OX70rWf, tfo: false}
+  - {name: "[SS] 🇯🇵 🇯🇵JP  ROSE—44", server: 147.90.234.133, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 🇫🇮FI  ROSE—45", server: 195.133.2.2, port: 34898, type: ss, cipher: chacha20-ietf-poly1305, password: v2LIewZzNUsIrqODr22FVc, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—46", server: 82.38.31.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇰🇷 🇰🇷KR  ROSE—47", server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
+  - {name: "[SS] 🇨🇴CO  ROSE—48", server: 154.223.16.41, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, tfo: false}
+  - {name: "[SS] 🇯🇵 🇯🇵JP  ROSE—49", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US  ROSE—50", server: 92.118.112.203, port: 41348, type: ss, cipher: chacha20-ietf-poly1305, password: 66iAPUHyyA3YxBb3DmloTuArM0IiPeY2HCoH3m, tfo: false}
+  - {name: "[SS] 🇫🇮FI  ROSE—51", server: 109.107.182.229, port: 51544, type: ss, cipher: chacha20-ietf-poly1305, password: MZeSTvpl2uoey1R0frhPyJ, tfo: false}
+  - {name: "[SS] 🇰🇷 🇰🇷KR  ROSE—52", server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
+  - {name: "[SS] 🇰🇷 🇰🇷KR  ROSE—53", server: 211.178.105.134, port: 6123, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
+  - {name: "[SS] 🇧🇷BR  ROSE—54", server: 109.104.155.45, port: 41348, type: ss, cipher: chacha20-ietf-poly1305, password: NVcw9OTGwmThWmhs1uh7rrIJcVz7ln96ifYZiv4zsWvToTjg, tfo: false}
+  - {name: "[SS] 🇮🇳 🇮🇳IN  ROSE—55", server: 103.120.178.193, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: EBDRo9THx4CqiFU7h5gfov76oNwzZURAh0ZwbWjBKddtUhvz, tfo: false}
+  - {name: "[SS] 🇸🇦SA  ROSE—56", server: 156.244.8.155, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, tfo: false}
+  - {name: "[SS] 🇭🇰 🇭🇰HK  ROSE—57", server: 112.213.102.188, port: 41632, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
+  - {name: "[SS] 🇨🇳 🇹🇼TW  ROSE—58", server: 185.189.160.105, port: 41632, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB  ROSE—59", server: 57.129.129.247, port: 19308, type: ss, cipher: chacha20-ietf-poly1305, password: 4a055e9e903128a1, tfo: false}
+  - {name: "[SS] 🇮🇹IT  ROSE—60", server: 185.213.20.110, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, tfo: false}
+  - {name: "[SS] 🇰🇷 🇰🇷KR  ROSE—61", server: 221.139.79.57, port: 13979, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
+  - {name: "[SS] 🇭🇰 🇭🇰HK  ROSE—62", server: 216.250.97.82, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: "[SS] 🇫🇷 🇫🇷FR  ROSE—63", server: 45.95.233.55, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1aGtCco8UuisW3vnFvtNls, tfo: false}
+  - {name: "[SS] 🇵🇱 🇵🇱PL  ROSE—64", server: 54.36.174.134, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8zw5j9h, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—65", server: 193.29.139.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—66", server: 185.18.54.70, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: MPS4QxIySO20yGnFTGEbyYTOwd2HlEmcC0ksqogxZtLyLYRl, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—67", server: 82.38.31.194, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—68", server: 193.29.139.143, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—69", server: 82.38.31.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US  ROSE—70", server: 38.135.24.131, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—71", server: 82.38.31.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—72", server: 82.38.31.187, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—73", server: 82.38.31.191, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL  ROSE—74", server: 82.38.31.186, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇨🇦 🇨🇦CA  ROSE—75", server: 79.141.166.54, port: 41348, type: ss, cipher: chacha20-ietf-poly1305, password: 8r2HCHTRXSqDcOvIXnssDuguU74msDjEu5XhlkkuydW7is75, tfo: false}
+  - {name: "[SS] 🇹🇷TR  ROSE—76", server: 193.124.46.134, port: 8444, type: ss, cipher: chacha20-ietf-poly1305, password: tunnel-fbrof, tfo: false}
+  - {name: "[SS] 🇵🇱 🇵🇱PL  ROSE—77", server: 217.30.10.70, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, tfo: false}
+  - {name: "[SS] 🇵🇱 🇵🇱PL  ROSE—78", server: 217.30.10.70, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, tfo: false}
+  - {name: "[SS] 🇵🇱 🇵🇱PL  ROSE—79", server: 217.30.10.70, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, tfo: false}
+  - {name: "[SS] 🇵🇱 🇵🇱PL  ROSE—80", server: 217.30.10.70, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US  ROSE—81", server: 107.172.219.230, port: 2096, type: ss, cipher: chacha20-ietf-poly1305, password: 768b923a-4918-46ad-96e7-9cf5543ddc4c, tfo: false}
+  - {name: "[SS] 🇬🇧 #🇬🇧GB  ROSE—82", server: uk1.ssobfs.site, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: MWRlM, tfo: false}
+  - {name: "[SS] 🇵🇱 🇵🇱PL  ROSE—83", server: 217.30.10.70, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, tfo: false}
+  - {name: "[SS] 🇵🇱 🇵🇱PL  ROSE—84", server: 217.30.10.70, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, tfo: false}
+  - {name: "[SS] 🇵🇱 🇵🇱PL  ROSE—85", server: 217.30.10.70, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, tfo: false}
+  - {name: "[SS] 🇨🇳 🇨🇳CN  ROSE—86", server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: !<str> 123, tfo: false}
+  - {name: "[SS] 🇭🇰 🇭🇰HK  ROSE—87", server: 103.141.221.124, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, tfo: false}
+  - {name: "[SS] 🇭🇰 🇭🇰HK  ROSE—88", server: 103.141.221.101, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, tfo: false}
+  - {name: "[SS] 🇭🇰 🇭🇰HK  ROSE—89", server: 103.149.182.105, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, tfo: false}
