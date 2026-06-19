@@ -1,4 +1,5 @@
 proxies:
+  - {name: "[Trojan] V2rayng_Fast", server: 45.131.4.118, port: 443, type: trojan, password: MiTiVPN, sni: linkkon-w.ir, skip-cert-verify: true, network: ws, ws-opts: {path: /ed=mitivpn, headers: {Host: linkkon-w.ir}}, tfo: false}
   - {name: "[Trojan] @mehrosaboran", server: 172.67.210.215, port: 443, type: trojan, password: MiTiVPN, sni: linkkon-w.ir, skip-cert-verify: true, network: ws, ws-opts: {path: /ed=mitivpn, headers: {Host: linkkon-w.ir}}, tfo: false}
   - {name: "[VMess] [🇨🇦]t.me/ConfigsHub", server: 158.51.121.63, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: seribus.org, network: ws, ws-opts: {path: linkvws, headers: {Host: seribus.org}}, tfo: false}
   - {name: "[VMess] 🇨🇦 t.me/v2Line | Free | 3191 | Canada", server: 158.51.121.63, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: seribus.org, network: ws, ws-opts: {path: linkvws}, tfo: false}
