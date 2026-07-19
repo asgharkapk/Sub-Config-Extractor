@@ -1,10 +1,9 @@
 proxies:
-  - {name: "[Trojan] 🇺🇸 🇺🇸 美国 CloudFlare节点", server: 172.66.47.69, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.multiplydose.com}}, tfo: false}
-  - {name: "[SS] 🇮🇳 🇮🇳 印度 V2CROSS.COM", server: 103.111.114.71, port: 28061, type: ss, cipher: chacha20-ietf-poly1305, password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm, tfo: false}
-  - {name: "[Trojan] 🇺🇸 🇺🇸 美国 CloudFlare节点 2", server: 162.159.38.183, port: 443, type: trojan, password: VPNCUSTOMIZE, sni: ww.offers.de5.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇷🇴 🇷🇴 罗马尼亚 V2CROSS.COM", server: 185.137.157.142, port: 443, type: trojan, password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q, sni: 185.137.157.142, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸 🇺🇸 美国 V2CROSS.COM", server: 149.104.104.58, port: 443, type: trojan, password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix, sni: 149.104.104.58, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸 🇺🇸 美国 CloudFlare节点 3", server: 104.20.6.134, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F%2Fassignment", headers: {Host: www.multiplydose.com}}, tfo: false}
+  - {name: "[VMess] 🇩🇪 🇩🇪 德国 法尔肯施泰因HETZNER", server: me.echo-license.gr, port: 14991, type: vmess, uuid: fbd2b2f1-af4a-4e5f-9556-af37edea9db5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇷🇴 🇷🇴 罗马尼亚 V2CROSS.COM", server: 185.137.157.149, port: 443, type: trojan, password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇷🇴 🇷🇴 罗马尼亚 V2CROSS.COM 2", server: 185.137.157.151, port: 443, type: trojan, password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q, sni: 185.137.157.151, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸 🇺🇸 美国 CloudFlare节点", server: 172.64.146.28, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.gossipglove.com}}, tfo: false}
+  - {name: "[VMess] 🇬🇧 🇬🇧 英国 V2CROSS.COM", server: 93.180.134.52, port: 2078, type: vmess, uuid: 1c18da66-a912-40af-b90d-787574efe6d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: "[VMess] 🇭🇰 🇭🇰 香港|@ripaojiedian", server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: "[Trojan] 🇭🇰 🇭🇰 香港3|@ripaojiedian", server: 18.166.74.220, port: 47867, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
   - {name: "[Trojan] 🇭🇰 🇭🇰 香港4|@ripaojiedian", server: 16.163.145.248, port: 7674, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
@@ -18,32 +17,9 @@ proxies:
   - {name: "[Trojan] 🇺🇸 🇺🇸 美国|@ripaojiedian", server: 16.163.108.33, port: 49277, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
   - {name: "[Trojan] 🇺🇸 🇺🇸 美国2|@ripaojiedian", server: 16.163.108.33, port: 17005, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
   - {name: "[Trojan] 🇺🇸 🇺🇸 美国3|@ripaojiedian", server: 43.199.202.34, port: 25651, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 美國丨yoyapai.com\\r", server: www.ignitelimit.com, port: 443, type: trojan, password: humanity, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 美國丨yoyapai.com\\r 2", server: www.ignitelimit.com, port: 443, type: trojan, password: humanity, skip-cert-verify: true, tfo: false}
   - {name: "[SS] 美國節點丨yoyapai.com\\r", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國節點丨yoyapai.com\\r 2", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US美國丨yoyapai.com\\r", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國丨yoyapai.com\\r", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國丨yoyapai.com\\r 2", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國節點丨yoyapai.com\\r 3", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國丨yoyapai.com\\r 3", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸 US美國丨yoyapai.com\\r", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國丨yoyapai.com\\r 4", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸 US美國丨yoyapai.com\\r 2", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國丨yoyapai.com\\r 5", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國丨yoyapai.com\\r 6", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國節點丨yoyapai.com\\r 4", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國丨yoyapai.com\\r 7", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸 US美國丨yoyapai.com\\r 3", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國丨yoyapai.com\\r 8", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國節點丨yoyapai.com\\r 5", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國丨yoyapai.com\\r 9", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國節點丨yoyapai.com\\r 6", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國節點丨yoyapai.com\\r 7", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國丨yoyapai.com\\r 10", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US美國丨yoyapai.com\\r 2", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國丨yoyapai.com\\r 11", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國丨yoyapai.com\\r 12", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US美國丨yoyapai.com\\r 3", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[SS] 美國丨yoyapai.com\\r 13", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
   - {name: "[VMess] 英國", server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: "[VMess] 🇯🇵 日本節點", server: 2a02:6ea0:d32f::f8fe:349b, port: 24202, type: vmess, uuid: b20a7042-70ff-4376-a79f-b68f9edb7519, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang, headers: {Host: 2a02:6ea0:d32f::f8fe:349b}}, tfo: false}
   - {name: "[SS] 臺灣節點丨yoyapai.com\\r", server: r3mrcg007117fb8.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, tfo: false}
@@ -60,6 +36,7 @@ proxies:
   - {name: "[VMess] 美國節點 4", server: 2a02:6ea0:d32f::f8fe:349b, port: 24202, type: vmess, uuid: b20a7042-70ff-4376-a79f-b68f9edb7519, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang, headers: {Host: 2a02:6ea0:d32f::f8fe:349b}}, tfo: false}
   - {name: "[SS] 德國節點丨yoyapai.com\\r", server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, tfo: false}
   - {name: "[SS] 德國丨yoyapai.com\\r", server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, tfo: false}
+  - {name: "[SS] 美國節點丨yoyapai.com\\r 2", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
   - {name: "[Trojan] 🇭🇰 香港丨yoyapai.com\\r", server: au-4.tr202605.com, port: 443, type: trojan, password: 65fQmPHHbPcBCfvSHt, skip-cert-verify: true, tfo: false}
   - {name: "[VMess] 亞太地區", server: 103.181.164.145, port: 51556, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: "[VMess] 亞太地區 2", server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
@@ -72,55 +49,75 @@ proxies:
   - {name: "[Trojan] 臺灣省丨yoyapai.com\\r 2", server: 211.76.176.98, port: 19128, type: trojan, password: gcuCpQfaiVeDBdWG, sni: yazhou10.dynu.net, skip-cert-verify: true, tfo: false}
   - {name: "[Trojan] 亞太地區丨yoyapai.com\\r 2", server: 103.45.245.208, port: 2053, type: trojan, password: rYuChHcwQZskq9E0zdoR, sni: vpn5.rnmcnm.com, skip-cert-verify: true, tfo: false}
   - {name: "[VMess] 俄羅斯", server: renderer-stream-1-411.mirra.now, port: 443, type: vmess, uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v1/gpu-stream/socket, headers: {Host: renderer-stream-1-411.mirra.now}}, tfo: false}
-  - {name: "[SS] 美國節點丨yoyapai.com\\r 8", server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, tfo: false}
+  - {name: "[SS] 美國節點丨yoyapai.com\\r 3", server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, tfo: false}
   - {name: "[VMess] 英國節點", server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: "[SS] 德國節點丨yoyapai.com\\r 2", server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, tfo: false}
+  - {name: "[SS] 美國節點丨yoyapai.com\\r 4", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
   - {name: "[SS] 🇨🇳 台湾省台北市丨yoyapai.com\\r", server: r3mrcg001286ek2.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, tfo: false}
+  - {name: "[SS] 美國節點丨yoyapai.com\\r 5", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
   - {name: "[SS] 🇯🇵 日本節點丨yoyapai.com\\r", server: 54.250.165.160, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false}
+  - {name: "[SS] 美國丨yoyapai.com\\r", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 美國節點丨yoyapai.com\\r 6", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 美國節點丨yoyapai.com\\r 7", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
   - {name: "[Trojan] 🇧🇷 巴西聖保羅丨yoyapai.com\\r", server: 188.114.97.6, port: 443, type: trojan, password: mitivpn, sni: 2.1.mitivpn.dee.srfsl.gleobal.fastl3y.n3et.mitivpn.site, skip-cert-verify: true, tfo: false}
   - {name: "[VMess] 美國", server: 2a02:6ea0:d32f::f8fe:349b, port: 24202, type: vmess, uuid: b20a7042-70ff-4376-a79f-b68f9edb7519, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang, headers: {Host: 2a02:6ea0:d32f::f8fe:349b}}, tfo: false}
   - {name: "[SS] 🇹🇷 土耳其丨yoyapai.com\\r", server: 103.130.147.40, port: 1122, type: ss, cipher: aes-256-gcm, password: wc/eqRPrYjnxfAJ2JKnio7cG2Ko9K9DiMwzonRjU3LI=, tfo: false}
   - {name: "[SS] 德國丨yoyapai.com\\r 2", server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, tfo: false}
+  - {name: "[SS] 美國丨yoyapai.com\\r 2", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 美國節點丨yoyapai.com\\r 8", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 美國丨yoyapai.com\\r 3", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 美國丨yoyapai.com\\r 4", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
   - {name: "[Trojan] 🇰🇷 韓國丨yoyapai.com\\r 3", server: 211.49.57.175, port: 443, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: hhcm.hhxaf.cc.cd, skip-cert-verify: true, tfo: false}
   - {name: "[VMess] 法國節點", server: 69.84.182.49, port: 80, type: vmess, uuid: f8975871-a7a0-4906-8835-a23c1258ca1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.}}, tfo: false}
+  - {name: "[SS] 美國丨yoyapai.com\\r 5", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 美國丨yoyapai.com\\r 6", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
   - {name: "[VMess] 亞太地區 5", server: 160.250.247.70, port: 49178, type: vmess, uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 免費節點", server: 160.250.247.70, port: 49178, type: vmess, uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: "[Trojan] 🇺🇸 US美國丨yoyapai.com\\r", server: 211.49.57.178, port: 443, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: hhcm.hhxaf.cc.cd, skip-cert-verify: true, tfo: false}
   - {name: "[Trojan] 🇰🇷 KR韓國丨yoyapai.com\\r", server: 211.49.57.179, port: 443, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: tjsp.hhxaf.cc.cd, skip-cert-verify: true, tfo: false}
   - {name: "[SS] 美國節點丨yoyapai.com\\r 9", server: chengbai02.ascwt179.com, port: 13223, type: ss, cipher: aes-128-gcm, password: JVrsLLN1tkN8oXZO, tfo: false}
   - {name: "[SS] 美國節點丨yoyapai.com\\r 10", server: chengbai02.ascwt179.com, port: 13223, type: ss, cipher: aes-128-gcm, password: JVrsLLN1tkN8oXZO, tfo: false}
-  - {name: "[SS] 美國丨yoyapai.com\\r 14", server: chengbai02.ascwt179.com, port: 13223, type: ss, cipher: aes-128-gcm, password: JVrsLLN1tkN8oXZO, tfo: false}
-  - {name: "[Trojan] 🇮🇹 意大利丨yoyapai.com\\r", server: 151.101.242.172, port: 80, type: trojan, password: Mitivpn, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇸🇪 瑞典丨yoyapai.com\\r", server: 146.75.116.190, port: 80, type: trojan, password: Mitivpn, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 美國丨yoyapai.com\\r", server: 167.82.101.251, port: 443, type: trojan, password: Mitivpn, sni: ssl.fastly.com, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 美國丨yoyapai.com\\r 2", server: 167.82.101.251, port: 443, type: trojan, password: Mitivpn, sni: ssl.fastly.com, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 美國丨yoyapai.com\\r 3", server: www.ignitelimit.com, port: 443, type: trojan, password: humanity, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 美國丨yoyapai.com\\r 7", server: chengbai02.ascwt179.com, port: 13223, type: ss, cipher: aes-128-gcm, password: JVrsLLN1tkN8oXZO, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸 US美國丨yoyapai.com\\r", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸 US美國丨yoyapai.com\\r 2", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[Trojan] 美國丨yoyapai.com\\r 3", server: 167.82.101.251, port: 443, type: trojan, password: Mitivpn, sni: ssl.fastly.com, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 美國丨yoyapai.com\\r 8", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
   - {name: "[SS] 🇷🇺 🇷🇺 RU俄羅斯丨yoyapai.com\\r", server: 212.192.13.91, port: 30129, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸 US美國丨yoyapai.com\\r 3", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US美國丨yoyapai.com\\r", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US美國丨yoyapai.com\\r 2", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
   - {name: "[Trojan] 美國+CloudFlare节点丨yoyapai.com\\r", server: 104.25.108.147, port: 8080, type: trojan, password: 9c521e24-7326-acd3-acec-d0afac2b465d, sni: red-cell-47f9.milaniomilan9.workers.dev, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US美國丨yoyapai.com\\r 4", server: chengbai02.ascwt179.com, port: 13223, type: ss, cipher: aes-128-gcm, password: JVrsLLN1tkN8oXZO, tfo: false}
+  - {name: "[SS] 美國丨yoyapai.com\\r 9", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 美國丨yoyapai.com\\r 10", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 美國丨yoyapai.com\\r 11", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US美國丨yoyapai.com\\r 3", server: chengbai02.ascwt179.com, port: 13223, type: ss, cipher: aes-128-gcm, password: JVrsLLN1tkN8oXZO, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US美國丨yoyapai.com\\r 4", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
   - {name: "[SS] 🇳🇱_NL荷蘭丨yoyapai.com\\r", server: 82.38.31.35, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[Trojan] 美國丨yoyapai.com\\r 4", server: www.ignitelimit.com, port: 443, type: trojan, password: humanity, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 美國丨yoyapai.com\\r 12", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
   - {name: "[Trojan] 美國佐治亞州亞特蘭大丨yoyapai.com\\r", server: 151.101.56.6, port: 443, type: trojan, password: Mitivpn, sni: ssl.fastly.com, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇵🇱 🇵🇱 PL波兰(mibei77.com 米贝节点分享)", server: kind-unicorn.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: kind-unicorn.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇺🇸 🇺🇸 US美国(mibei77.com 米贝节点分享)", server: 104.16.174.34, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.ignitelimit.com}}, tfo: false}
+  - {name: "[Trojan] 🇺🇸 🇺🇸 US美国(mibei77.com 米贝节点分享)", server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.ignitelimit.com}}, tfo: false}
+  - {name: "[Trojan] 🇺🇸 🇺🇸 US美国(mibei77.com 米贝节点分享) 2", server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.calmlunch.com}}, tfo: false}
+  - {name: "[Trojan] 🇫🇮 🇫🇮 芬兰(mibei77.com 米贝节点分享)", server: 104.19.230.21, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.multiplydose.com}}, tfo: false}
+  - {name: "[Trojan] 🇫🇷 🇫🇷 FR法国(mibei77.com 米贝节点分享)", server: ip4.vpean2.qzz.io, port: 443, type: trojan, password: rYuChHcwQZskq9E0zdoR, sni: vpn5.rnmcnm.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fws-79dffb8106db", headers: {Host: vpn5.rnmcnm.com}}, tfo: false}
+  - {name: "[SS] 🇫🇷 🇫🇷 FR法国(mibei77.com 米贝节点分享)", server: 156.146.40.84, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: Vr06rU_v1vFPYeXq9zbsAA, tfo: false}
   - {name: "[SS] 🇺🇸 🇺🇸 US美国(mibei77.com 米贝节点分享)", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, tfo: false}
-  - {name: "[Trojan] 🇺🇸 🇺🇸 US美国(mibei77.com 米贝节点分享) 2", server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.creationlong.org}}, tfo: false}
-  - {name: "[Trojan] 🇺🇸 🇺🇸 US美国(mibei77.com 米贝节点分享) 3", server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.ignitelimit.com}}, tfo: false}
-  - {name: "[Trojan] 🇮🇪 🇮🇪 爱尔兰(mibei77.com 米贝节点分享)", server: correct-starfish.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: correct-starfish.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸 US美国(mibei77.com 米贝节点分享) 2", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: gaM3vd5zfR1ay1v7hfn4X6, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸 US美国(mibei77.com 米贝节点分享) 3", server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ebEfGowZtV1BEFXZOtgAXi, tfo: false}
+  - {name: "[Trojan] 🇺🇸 🇺🇸 US美国(mibei77.com 米贝节点分享) 3", server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.creationlong.org}}, tfo: false}
   - {name: "[Trojan] 🇺🇸 🇺🇸 US美国(mibei77.com 米贝节点分享) 4", server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.calmlunch.com}}, tfo: false}
-  - {name: "[Trojan] 🇮🇪 🇮🇪 爱尔兰(mibei77.com 米贝节点分享) 2", server: thankful-piranha.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: thankful-piranha.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇭🇰 🇭🇰 HK香港(mibei77.com 米贝节点分享)", server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: OccIqeORGQwiNkwS, sni: yazhou10.dynu.net, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇰🇷 🇰🇷 KR韩国(mibei77.com 米贝节点分享)", server: sensible-mongrel.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: sensible-mongrel.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇰🇷 🇰🇷 KR韩国(mibei77.com 米贝节点分享) 2", server: sensible-mongrel.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: sensible-mongrel.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵 JP日本(mibei77.com 米贝节点分享)", server: adapting-spider.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: adapting-spider.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵 JP日本(mibei77.com 米贝节点分享) 2", server: optimal-penguin.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: optimal-penguin.rooster465.autos, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇨🇳_CN_中国->🇭🇰_HK_中国香港", server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰_HK_中国香港", server: 47.76.127.88, port: 5566, type: vmess, uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇺🇸 🇨🇳_CN_中国->🇺🇸_US_美国", server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇺🇸 🇺🇸_US_美国->🇫🇷_FR_法国", server: 4cdn.njkrpl.com, port: 443, type: vmess, uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 4cdn.njkrpl.com}}, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰_HK_中国香港 2", server: n1747624260.4u9ma.icu, port: 443, type: vmess, uuid: eee8cb72-7eab-4034-a308-ed06cb07e003, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1747624260.4u9ma.icu}}, tfo: false}
-  - {name: "[VMess] 🇺🇸 🇺🇸_US_美国", server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇸🇰 🇸🇰_SK_斯洛伐克", server: 156.146.40.84, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: Vr06rU_v1vFPYeXq9zbsAA, tfo: false}
+  - {name: "[SS] 🇺🇦 🇺🇦 乌克兰(mibei77.com 米贝节点分享)", server: 194.54.80.37, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: Vr06rU_v1vFPYeXq9zbsAA, tfo: false}
+  - {name: "[VMess] 🇭🇰 🇭🇰_HK_中国香港", server: n1747624260.4u9ma.icu, port: 443, type: vmess, uuid: eee8cb72-7eab-4034-a308-ed06cb07e003, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1747624260.4u9ma.icu}}, tfo: false}
+  - {name: "[VMess] 🇭🇰 🇭🇰_HK_中国香港 2", server: v10.zgtfqs.click, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇸🇬 🇸🇬_SG_新加坡", server: pro-mako.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: pro-mako.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇺🇸 🇨🇳_CN_中国->🇺🇸_US_美国", server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇩🇪 🇨🇳_CN_中国->🇩🇪_DE_德国", server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇸🇬 🇸🇬_SG_新加坡 2", server: 13.212.210.184, port: 443, type: trojan, password: JA96378052, sni: WangCai.rooster465.autos, skip-cert-verify: true, tfo: false}
   - {name: "[VMess] 🇭🇰 🇭🇰_HK_中国香港 3", server: n1747624274.4u9ma.icu, port: 443, type: vmess, uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1747624274.4u9ma.icu}}, tfo: false}
-  - {name: "[Trojan] 🇩🇪 🇩🇪_DE_德国", server: mahsa246qub5.mahsaaminivpn.com, port: 27068, type: trojan, password: 5X8o4K1Ybu, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇩🇪 🇩🇪_DE_德国", server: 3.75.172.120, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: "[VMess] 🇺🇸 🇨🇳_CN_中国->🇺🇸_US_美国 2", server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇺🇸 🇨🇳_CN_中国->🇺🇸_US_美国 3", server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇸🇬 🇸🇬_SG_新加坡 3", server: inspired-goshawk.rooster465.autos, port: 443, type: trojan, password: JA96378052, sni: inspired-goshawk.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇯🇵 🇨🇳_CN_中国->🇯🇵_JP_日本", server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇺🇸 🇺🇸_US_美国", server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇭🇰 🇨🇳_CN_中国->🇭🇰_HK_中国香港", server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵_JP_日本", server: 52.195.11.84, port: 443, type: trojan, password: JA96378052, sni: WangCai.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸 🇺🇸_US_美国", server: dashing-possum.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: dashing-possum.rooster465.autos, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵_JP_日本 2", server: casual-bee.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: casual-bee.rooster465.autos, skip-cert-verify: true, tfo: false}
