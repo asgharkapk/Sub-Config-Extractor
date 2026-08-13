@@ -1,18 +1,26 @@
 proxies:
-  - {name: "[VLESS] 🇷🇺 🇷🇺_RU_俄罗斯", server: 201.51.5.253, port: 2200, type: vless, tls: true, uuid: ed1cd50f-ead9-4e01-b5ae-b7d2dfb532fc, network: ws, ws-opts: {path: /v1, headers: {Host: rzd.ru}}, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇨🇳_CN_中国->🇭🇰_HK_中国香港", server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VMess] 🇺🇸 🇺🇸_US_美国", server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰_HK_中国香港", server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VLESS] 🇺🇸 🇺🇸_US_美国_1", server: 104.26.1.195, port: 8080, type: vless, tls: true, uuid: 59eefc04-b831-45cf-8d68-63ca23381171, network: ws, ws-opts: {path: /ws-hTopcF3L, headers: {Host: premium-us-az-01-hostinger.efgwf.online}}, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VLESS] 🇺🇸 🇺🇸_US_美国->🇹🇭_TH_泰国", server: 18.238.109.17, port: 443, type: vless, tls: true, uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53, servername: d1yxsk0zprgivr.cloudfront.net, network: ws, ws-opts: {path: /, headers: {Host: d1yxsk0zprgivr.cloudfront.net}}, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VLESS] 🇫🇷 🇫🇷_FR_法国", server: fr199.mechvpn.online, port: 443, type: vless, tls: true, uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VMess] 🇮🇪 🇨🇳_CN_中国->🇮🇪_IE_爱尔兰", server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VMess] 🇺🇸 🇨🇳_CN_中国->🇺🇸_US_美国", server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[SS] 🇨🇦 🇨🇦_CA_加拿大", server: 212.193.6.107, port: 30331, type: ss, cipher: aes-256-gcm, password: fbcec76953a2d173, udp: true, tfo: false}
+  - {name: "[Trojan] 🇭🇰 🇭🇰_HK_中国香港->🇯🇵_JP_日本", server: oplosgru-c.catcat321.com, port: 20004, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵_JP_日本", server: supreme-lobster.rooster465.autos, port: 443, type: trojan, password: AE62539071, sni: supreme-lobster.rooster465.autos, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇮🇪 🇮🇪_IE_爱尔兰", server: kind-stork.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇮🇪 🇮🇪_IE_爱尔兰_1", server: unbiased-garfish.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇸🇬 🇸🇬_SG_新加坡", server: integral-quetzal.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵_JP_日本_1", server: premium-weevil.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇦🇺 🇦🇺_AU_澳大利亚", server: together-dingo.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇫🇷 🇫🇷_FR_法国", server: distinct-quail.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵_JP_日本_2", server: polished-imp.rooster465.autos, port: 443, type: trojan, password: AE62539071, sni: polished-imp.rooster465.autos, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[SS] 🇷🇺 🇷🇺_RU_俄罗斯", server: 195.133.23.200, port: 30331, type: ss, cipher: aes-256-gcm, password: 81a20429165df87e, udp: true, tfo: false}
   - {name: "[VMess] 🇯🇵 🇨🇳_CN_中国->🇯🇵_JP_日本", server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VLESS] 🇧🇷 🇩🇪_DE_德国->🇧🇷_BR_巴西", server: 18.198.227.161, port: 443, type: vless, tls: true, uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c, servername: titandarkness.mooo.com, network: ws, ws-opts: {path: /21381/0kO2id8FMQ, headers: {Host: titandarkness.mooo.com}}, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VMess] 🇩🇪 🇩🇪_DE_德国", server: 178.83.45.29, port: 38998, type: vmess, uuid: 48422300-458f-4dbb-b0f5-96f45450ab9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VLESS] 🇷🇺 🇷🇺_RU_俄罗斯_1", server: 104.171.137.141, port: 2200, type: vless, tls: true, uuid: d5d72f0a-42b0-4f43-b568-9cf7fbff073d, network: ws, ws-opts: {path: /v1, headers: {Host: rzd.ru}}, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VLESS] 🇨🇳_CN_中国", server: 120.227.1.43, port: 12528, type: vless, tls: true, uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱_NL_荷兰", server: 193.124.203.144, port: 443, type: ss, cipher: 2022-blake3-aes-256-gcm, password: mkKfxndCZ9c3YIkAAmANrtfI/mlGJwwV9/GdVTYgW3M=:JazxiYc3Mc5tLn/Te3T59W6Zw4Z/BPuepQ0VlVD/cZ8=, udp: true, tfo: false}
-  - {name: "[VLESS] 🇩🇪 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国", server: 46.8.220.182, port: 443, type: vless, tls: true, uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e, servername: media2.tcpdoor.net, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, reality-opts: {public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8, short-id: 3303c7a5}, client-fingerprint: firefox, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VLESS] 🇷🇺 🇷🇺_RU_俄罗斯_2", server: 201.51.5.253, port: 4100, type: vless, tls: true, uuid: ed1cd50f-ead9-4e01-b5ae-b7d2dfb532fc, network: ws, ws-opts: {path: /v1, headers: {Host: live.ok.ru}}, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇦🇺 🇦🇺_AU_澳大利亚_1", server: darling-mutt.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵_JP_日本_3", server: literate-cow.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇰🇷 🇰🇷_KR_韩国", server: sacred-hound.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[SS] 🇵🇱 🇵🇱_PL_波兰", server: 194.61.121.93, port: 7538, type: ss, cipher: chacha20-ietf-poly1305, password: U9YAoqBgg5VyGBc6vQv1sN, udp: true, tfo: false}
+  - {name: "[VMess] 🇺🇸 🇺🇸_US_美国", server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇩🇪 🇩🇪_DE_德国", server: sterling-macaw.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇳🇱 🇳🇱_NL_荷兰", server: thorough-falcon.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇵🇱 🇵🇱_PL_波兰_1", server: tolerant-mosquito.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇩🇪 🇩🇪_DE_德国_1", server: moved-bluegill.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VLESS] 🇫🇮 🇷🇺_RU_俄罗斯->🇫🇮_FI_芬兰", server: ru211.mechvpn.online, port: 443, type: vless, tls: true, uuid: 1c6824de-312c-4876-aa3f-5a30e3df2de7, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵_JP_日本_4", server: main-impala.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇭🇰 🇭🇰_HK_中国香港", server: upright-bedbug.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇵🇱 🇵🇱_PL_波兰_2", server: relative-locust.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true, tfo: false}
