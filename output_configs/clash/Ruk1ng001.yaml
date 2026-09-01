@@ -1,454 +1,455 @@
 proxies:
-  - {name: "[HTTP] U⚪🏳️[🎞️]_dokng.com_21b3202d", server: 58.254.153.146, port: 17981, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_da7c41d8", server: 47.239.116.165, port: 1080, type: socks5, username: admin, password: admin, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] A🟢🇨🇳[🧠🎞️📦]_dokng.com_cc18555b", server: 150.242.244.116, port: 2648, type: vmess, uuid: ad298d1d-2ae9-46fa-895c-f0401f38b02c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: "[VMess] A🟢🇨🇳[🧠🎞️📦]_dokng.com_0da15920", server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[HTTP] A🟢🇨🇳_dokng.com_96deb268", server: 112.64.135.45, port: 8080, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] U⚪🏳️_dokng.com_21b3202d", server: 58.254.153.146, port: 17981, type: http, tls: false, skip-cert-verify: true, tfo: false}
   - {name: "[HTTP] U⚪🏳️[🎞️]_dokng.com_23257430", server: 120.232.115.170, port: 17981, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] U⚪🏳️_dokng.com_42045980", server: 122.246.4.6, port: 17981, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇸🇬[🎬📺🎭🎪]_dokng.com_ea2b423a", server: sg1-r.link-t7.com, port: 10036, type: vless, tls: true, uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F, servername: s0.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: update}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] C🟠🇭🇰[📺🎭🎪🎞️]_dokng.com_d8a84f16", server: 47.239.98.42, port: 1080, type: socks5, username: abc123, password: abc123, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] U⚪🏳️[🎞️]_dokng.com_40b4073a", server: 119.188.131.55, port: 17981, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇸🇬[📺🎭🎪✨]_dokng.com_2f3a030b", server: sg5-r.link-t7.com, port: 10040, type: vless, tls: true, packet-encoding: xudp, uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F, servername: d1.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: update}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇸🇬[🎬📺🎭🎪]_dokng.com_622ca83c", server: sg4-r.link-t7.com, port: 10039, type: vless, tls: true, uuid: F2987FBA-B653-444D-8057-6B6474E448C6, servername: d1.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: update}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_ddef55d2", server: cn08.somethingstranges.com, port: 8211, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 37949-LD4JNZAf.download.microsoft.com}, tfo: false}
-  - {name: "[SSR] A🟢🇸🇬[🎬🎭]_dokng.com_794a928a", server: api.meituan88.com, port: 2202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 36143:GWgpVE, obfs-param: 62936143.douyin.com, tfo: false}
-  - {name: "[SOCKS5] U⚪🏳️_dokng.com_054bd55d", server: 123.58.219.171, port: 10808, type: socks5, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇭🇰[🧠📺🎭🎪]_dokng.com_0effc3db", server: hk4-r.link-t7.com, port: 10129, type: vless, tls: true, packet-encoding: xudp, uuid: F2987FBA-B653-444D-8057-6B6474E448C6, servername: s0.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: movie}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇭🇰[🎬🤖🧠📺]_dokng.com_2edee044", server: hk5-r.link-t7.com, port: 10130, type: vless, tls: true, packet-encoding: xudp, uuid: F2987FBA-B653-444D-8057-6B6474E448C6, servername: s0.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: movie}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_8cb372cb", server: hk40.240104.xyz, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇭🇰[🎬🤖🧠📺]_dokng.com_00c2d7a1", server: hk3-r.link-t7.com, port: 10128, type: vless, tls: true, packet-encoding: xudp, uuid: F2987FBA-B653-444D-8057-6B6474E448C6, servername: s0.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: movie}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] A🟢🇻🇳[🎬🤖📺🎪]_dokng.com_f5bf4ac5", server: wwa.zzymyc.eu.cc, port: 443, type: vless, tls: true, uuid: a44367a4-e8a2-4951-a5e2-0731635b6bbd, servername: huddles.amazon.com, flow: xtls-rprx-vision, reality-opts: {public-key: HE_JCZ2OcEDYb4zeKTEfSHu5pxkXP-ZdKtKi_dNgVW8, short-id: 914ffda13a}, client-fingerprint: firefox, skip-cert-verify: true, tfo: false}
-  - {name: "[SSR] A🟢🇻🇳[🎬🤖📺🎪]_dokng.com_462f633a", server: api.meituan88.com, port: 14048, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 116735:zssrOQ, obfs-param: 14e116735.douyin.com, tfo: false}
-  - {name: "[SS] D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_117f6ba1", server: cn07.somethingstranges.com, port: 8206, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 37949-LD4JNZAf.download.microsoft.com}, tfo: false}
-  - {name: "[Trojan] U⚪🏳️_dokng.com_79f3708c", server: 185.220.238.77, port: 11543, type: trojan, password: HutaoCloud, sni: 185.220.238.77, skip-cert-verify: true, network: ws, ws-opts: {path: /api, headers: {Host: 185.220.238.77}}, udp: true, tfo: false}
-  - {name: "[VLESS] C🟠🇭🇰[🎬🧠📺🎪]_dokng.com_d59ca89c", server: hk6-r.link-t7.com, port: 10136, type: vless, tls: true, packet-encoding: xudp, uuid: F2987FBA-B653-444D-8057-6B6474E448C6, servername: s0.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: movie}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_c980b4b4", server: 121.46.230.232, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
-  - {name: "[SS] A🟢🇯🇵[🎬🤖📺🎭]_dokng.com_e8a97670", server: cn12.somethingstranges.com, port: 8406, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 37949-LD4JNZAf.download.microsoft.com}, tfo: false}
-  - {name: "[SOCKS5] D🔴🇰🇷[🎬🤖📺🎭]_dokng.com_07e047d3", server: 43.164.136.189, port: 1080, type: socks5, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_622ca83c", server: sg4-r.link-t7.com, port: 10039, type: vless, tls: true, uuid: F2987FBA-B653-444D-8057-6B6474E448C6, servername: d1.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: update}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇸🇬[🎬📺🎭🎪]_dokng.com_2f3a030b", server: sg5-r.link-t7.com, port: 10040, type: vless, tls: true, packet-encoding: xudp, uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F, servername: d1.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: update}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇸🇬[📺🎭🎪✨]_dokng.com_ea2b423a", server: sg1-r.link-t7.com, port: 10036, type: vless, tls: true, uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F, servername: s0.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: update}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] C🟠🇸🇬[📺🎭🎪✨]_dokng.com_ad3c4b80", server: c4.bestai.beauty, port: 3488, type: hysteria2, password: bfab079f-6028-4e80-b4d8-f7ba0871cbf8, sni: c4.bestai.beauty, skip-cert-verify: true, udp: true, tfo: false}
   - {name: "[HTTP] A+🟢🇨🇳_dokng.com_0c5403d7", server: 112.64.135.45, port: 8080, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] D🔴🇰🇷[🎬🤖📺🎭]_dokng.com_5b8e1a9b", server: 121.169.46.116, port: 1090, type: socks5, username: Og%3D%3D, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] A🟢🇺🇸[🎬📺🎭🎪]_dokng.com_051ffd09", server: 168.222.194.138, port: 9880, type: vless, tls: true, xudp: true, uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511, servername: dl.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc-tunnel}, reality-opts: {public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU, short-id: aabbccdd}, client-fingerprint: chrome, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VLESS] C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_be341364", server: 134.98.129.48, port: 62145, type: vless, tls: true, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] B🟡🇺🇸[🎬🤖📺🎭]_dokng.com_7db19f0f", server: 3ce8ee8.hb.gladns.com, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c47ab06:133288}, udp: true, tfo: false}
-  - {name: "[HTTP] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_4da269dd", server: 154.21.89.32, port: 12344, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_65a5452e", server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇳🇱[🎬🤖📺🎭]_dokng.com_4f429283", server: 82.115.6.209, port: 16668, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_d37d66fb", server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true, tfo: false}
-  - {name: "[SS] C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_54894c69", server: 35.179.104.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true, tfo: false}
-  - {name: "[HTTP] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_a88e970f", server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_646536e4", server: 213.109.162.200, port: 9099, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] D🔴🇨🇭[🤖📺✨🎞️]_dokng.com_d4e6f7fb", server: 159.200.230.117, port: 443, type: vless, tls: true, packet-encoding: xudp, xudp: true, uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb, servername: d.tranzit-net.ru, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VMess] C🟠🇭🇰[📺]_dokng.com_8b9a2906", server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2498a366-dd3c-4f0b-832c-f2df12f7ee27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 791f9b5b1318471268a2dc21098376cc.mobgslb.tbcache.com}}, tfo: false}
-  - {name: "[HTTPS] A🟢🇸🇬[🎬🤖📺🎭]_dokng.com_e2867af1", server: 149.88.99.209, port: 9443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] C🟠🇨🇦[🎬🤖🎭🎪]_dokng.com_65f6a788", server: 3.96.144.93, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇩🇪[🎬🤖📺🎪]_dokng.com_cb4b704b", server: 149.36.50.157, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_de4eaa15", server: fan.240104.xyz, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_761c891b", server: 38.246.226.240, port: 36451, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_7204598f", server: 103.237.102.191, port: 11111, type: http, password: None, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] U⚪🏳️[✨✈️]_dokng.com_7169e124", server: 2.59.134.226, port: 443, type: vless, tls: true, xudp: true, uuid: 88281d02-b387-4fe3-918e-26ed331e6d08, servername: rich-falcon.cdn.cachefleet.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_e3642aa7", server: 103.82.101.44, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] D🔴🇰🇷[🎬🤖📺🎭]_dokng.com_65ce979d", server: 104.18.39.218, port: 2086, type: vless, tls: true, packet-encoding: xudp, uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e, servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr}}, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_c8fcad15", server: 85.208.51.228, port: 1443, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇩🇪[🤖📺🎪✨]_dokng.com_dd701156", server: 87.249.132.97, port: 9443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_cf485dc2", server: 140.245.102.94, port: 56927, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: p9VRHXrsWbBsNp8Vy1KbOuvUOR9f/aesFbZ/SLfJN54=, tfo: false}
-  - {name: "[AnyTLS] D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_fe74c83b", server: ip4.934618.xyz, port: 51133, type: anytls, password: github.com/Alvin9999-newpac/fanqiang, sni: ip4.934618.xyz, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_2e1f53fe", server: 185.235.0.66, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇦🇹[🎬🤖📺🎭]_dokng.com_38c4dd6a", server: 146.70.244.18, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] C🟠🇮🇳[📺📦🔍]_dokng.com_4d0847ad", server: planb.mojcn.com.linuxlh.xin, port: 16626, type: vmess, uuid: 302cf141-f8e2-448d-aca5-3ad9e9f1b4c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d2c315853d201942b93c6d6de56fec5d.mobgslb.tbcache.com}}, tfo: false}
-  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_da8c1157", server: fr012.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_aecf5208", server: 51.159.225.196, port: 23856, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_5e99cdb8", server: fan.596189.xyz, port: 443, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_1f4c2c73", server: fr003.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] U⚪🏳️[✈️]_dokng.com_a8482bc1", server: 176.96.138.122, port: 443, type: vless, tls: true, xudp: true, uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c, servername: plucky-xenon.cdn.cachefleet.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[SOCKS5] D🔴🇯🇵[🤖📺🎭🎪]_dokng.com_8b89618a", server: 101.36.104.239, port: 10808, type: socks5, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_26e7e011", server: 37.59.125.131, port: 8888, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] D🔴🇩🇪[🎬📺🎪✨]_dokng.com_de50c9af", server: 152.89.104.11, port: 1080, type: socks5, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] C🟠🇨🇦[🤖🎭🎪🎞️]_dokng.com_8e2d4a4a", server: 35.182.226.121, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true, tfo: false}
-  - {name: "[VMess] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_343a3333", server: us7-nzndydh4.skynode.me, port: 80, type: vmess, uuid: 588ced63-e299-381b-88f7-c18a4b9b8a3d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: node-36-250-1-90.speedtest.cn, network: ws, ws-opts: {path: "/download?ed=2560", headers: {Host: node-36-250-1-90.speedtest.cn}}, udp: true, tfo: false}
-  - {name: "[VLESS] A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_728e784d", server: 140.174.25.216, port: 27533, type: vless, tls: true, uuid: 2e69a1a6-b2ef-4b6d-838e-c61ea7c6936d, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_b218a6a3", server: 37.120.233.34, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] A🟢🇭🇰[🎬🧠📺🎭]_dokng.com_a1b6c46a", server: hk04.qianmoip.win, port: 52224, type: trojan, password: 302cf77d-6fb7-4ac8-ae61-88e286340d59, sni: taobao.com, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_0b79ac8a", server: 37.120.233.18, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_868855c9", server: fan.365747.xyz, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_e75416e0", server: 84.17.47.148, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇧🇪[🎬🤖📺🎭]_dokng.com_4f224227", server: 146.70.176.242, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_b74edc3f", server: 185.246.153.42, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7569cc30", server: jewelscollecti.icu, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_76edf478", server: 84.17.47.150, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_9b573d8c", server: purposebydesig.club, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇦🇹[🎬🤖📺🎭]_dokng.com_8c7ae75e", server: 146.70.244.2, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_ff5d6731", server: 138.199.35.195, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_ba9256ca", server: 35.182.129.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇧🇪[🎬🤖📺🎭]_dokng.com_eb58b20a", server: 146.70.176.242, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_fcc63609", server: berniesbodybla.fun, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_412dd6e0", server: zebpay.site, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_66f39de8", server: jewelscollecti.icu, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_c8de15d9", server: 116.202.172.187, port: 11000, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_8728a887", server: fullmanfirm.icu, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_1c3c73a3", server: purecambogiasl.live, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_85c4b9fa", server: crosscards.site, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇭🇺[🎬🤖📺🎭]_dokng.com_a5141b87", server: 146.70.203.18, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_dbb3b69c", server: 54.174.5.216, port: 4447, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_2b221c73", server: 138.199.35.217, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_00aa40ae", server: 185.235.0.34, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_596fc241", server: 138.199.35.202, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_2cadc6f0", server: 149.36.51.129, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_ff3d6be6", server: 138.199.35.200, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇷🇺[🎪📦🔍]_dokng.com_9af66ad2", server: 45.159.0.194, port: 5050, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_f0d2e0c5", server: 91.228.89.45, port: 7, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_1b0c8e57", server: goedkoopgeluid.icu, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] U⚪🏳️[🎬📺🎭🎪]_dokng.com_686b169b", server: nl207.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇧🇪[🎬🤖📺🎭]_dokng.com_9b9cf48b", server: 146.70.123.98, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_b01fc6dc", server: 138.199.35.208, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] C🟠🇯🇵_dokng.com_dcf5cfaf", server: 54.65.194.186, port: 8319, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true, tfo: false}
+  - {name: "[Hysteria2] D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_ead88152", server: 13.212.10.50, port: 443, type: hysteria2, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_c1d6e07d", server: sg2-r.link-t7.com, port: 10037, type: vless, tls: true, uuid: F2987FBA-B653-444D-8057-6B6474E448C6, servername: s0.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: update}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] U⚪🏳️_dokng.com_42045980", server: 122.246.4.6, port: 17981, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_dc86a3bc", server: 138.3.208.26, port: 50160, type: hysteria2, password: 184cdec28da5a09450803c8debcd2cc9, sni: www.bing.com, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTP] A🟢🇨🇳_dokng.com_96deb268", server: 112.64.135.45, port: 8080, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_8cb372cb", server: hk40.240104.xyz, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] U⚪🏳️[🎞️]_dokng.com_40b4073a", server: 119.188.131.55, port: 17981, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_5fd25288", server: node3.jjjjjj.eu.cc, port: 443, type: vless, tls: true, uuid: 75bc1bab-ff62-4c7c-a946-ec49fd53f89f, servername: h1.jjjjjj.eu.cc, network: ws, ws-opts: {path: "/jige?ed=2048", headers: {Host: h1.jjjjjj.eu.cc}}, flow: "", skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[SOCKS5] C🟠🇯🇵[🤖📺🎪🔍]_dokng.com_16f5ab4e", server: 8.209.236.192, port: 1080, type: socks5, username: 123456, password: !<str> 123456, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] U⚪🏳️_dokng.com_39055ec9", server: ti4lkp8-g06.jp01-nn-vm0.entry.fr0528.art, port: 21586, type: vmess, uuid: 2375151e-88f8-3a69-bf57-c462ff20c6d8, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VLESS] C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_00c2d7a1", server: hk3-r.link-t7.com, port: 10128, type: vless, tls: true, packet-encoding: xudp, uuid: F2987FBA-B653-444D-8057-6B6474E448C6, servername: s0.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: movie}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_faf46764", server: c2.bestai.beauty, port: 3488, type: hysteria2, password: bfab079f-6028-4e80-b4d8-f7ba0871cbf8, sni: c2.bestai.beauty, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VLESS] C🟠🇯🇵[🎬📺🎪✨]_dokng.com_f85029f0", server: jp2-r.link-t7.com, port: 10032, type: vless, tls: true, uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232, servername: s0.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: update}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇭🇰[🎬🧠📺🎪]_dokng.com_ddcae44c", server: hk1-r.link-t7.com, port: 10126, type: vless, tls: true, uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F, servername: s0.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: update}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] D🔴🇰🇷[🎬🤖📺🎭]_dokng.com_15ee4ed9", server: 43.164.136.189, port: 1080, type: socks5, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇭🇰[🤖🧠📺🎭]_dokng.com_d4367aa9", server: hk2-r.link-t7.com, port: 10127, type: vless, tls: true, uuid: F2987FBA-B653-444D-8057-6B6474E448C6, servername: s0.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: update}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] U⚪🏳️_dokng.com_93b7fda7", server: m3zikxe-g06.jp06-jz-vm0.entry.fr0528.art, port: 28788, type: vmess, uuid: 2375151e-88f8-3a69-bf57-c462ff20c6d8, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VLESS] C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_845dbb70", server: hk5-r.link-t7.com, port: 10130, type: vless, tls: true, packet-encoding: xudp, uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F, servername: s0.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: movie}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_e20dd560", server: qp.lichao0223.cn, port: 49152, type: vless, tls: true, uuid: 71b460a1-8f78-45c5-fb3c-ab26a2a1f7b9, servername: qp.lichao0223.cn, network: ws, ws-opts: {path: /}, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] C🟠🇭🇰[🎬📺]_dokng.com_db363b3a", server: 47.242.19.215, port: 8899, type: socks5, username: admin, password: admin, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] U⚪🏳️_dokng.com_5786b0ec", server: ahzdqxs-g04.jp01-nn-vm0.entry.fr0528.art, port: 21584, type: vmess, uuid: d687b024-a5cf-3433-8d06-1c99e2e28821, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VLESS] C🟠🇭🇰[🎬🤖🧠📺]_dokng.com_d59ca89c", server: hk6-r.link-t7.com, port: 10136, type: vless, tls: true, packet-encoding: xudp, uuid: F2987FBA-B653-444D-8057-6B6474E448C6, servername: s0.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: movie}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] U⚪🏳️[🤖✨🎞️📦]_dokng.com_b0443aaf", server: ox4bqpk-g04.jp06-jz-vm0.entry.fr0528.art, port: 28786, type: vmess, uuid: d687b024-a5cf-3433-8d06-1c99e2e28821, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VMess] C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_0d73188e", server: fduysry-g05.jp01-nn-vm0.entry.fr0528.art, port: 21585, type: vmess, uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VMess] U⚪🏳️_dokng.com_eb4ec7e9", server: miav3x8-g06.jp06-jz-vm0.entry.fr0528.art, port: 28788, type: vmess, uuid: 2375151e-88f8-3a69-bf57-c462ff20c6d8, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VLESS] C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_0effc3db", server: hk4-r.link-t7.com, port: 10129, type: vless, tls: true, packet-encoding: xudp, uuid: F2987FBA-B653-444D-8057-6B6474E448C6, servername: s0.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: movie}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_d6b21fa1", server: g06.jp01-nn-vm0.entry.fr0528.art, port: 21586, type: vmess, uuid: 9c955dfc-c1d6-3de3-8230-deac3bd9c1a2, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Hysteria2] A🟢🇨🇳[🧠📺🎪✨]_dokng.com_4accb5eb", server: xg1.mangshe.xyz, port: 2056, type: hysteria2, password: 41f0d6d3-4a45-4635-8225-2abd2284189b, sni: hdlb1.mangshe.xyz, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] U⚪🏳️_dokng.com_c76e111d", server: mi4lkpu-g06.jp06-jz-vm0.entry.fr0528.art, port: 28788, type: vmess, uuid: 2375151e-88f8-3a69-bf57-c462ff20c6d8, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[SS] C🟠🇬🇧[🎬📺🎭🎪]_dokng.com_5cec019e", server: 18.175.119.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true, tfo: false}
+  - {name: "[VMess] U⚪🏳️_dokng.com_0ceb5fa2", server: ou79bps-g04.jp01-nn-vm0.entry.fr0528.art, port: 21584, type: vmess, uuid: d687b024-a5cf-3433-8d06-1c99e2e28821, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[SS] C🟠🇺🇸_dokng.com_c980b4b4", server: 121.46.230.232, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
+  - {name: "[VMess] U⚪🏳️_dokng.com_d11b84c3", server: m3z634e-g06.jp01-nn-vm0.entry.fr0528.art, port: 21586, type: vmess, uuid: 2375151e-88f8-3a69-bf57-c462ff20c6d8, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VMess] C🟠🇯🇵_dokng.com_ae6e91cb", server: k3z6cp7-g06.jp01-nn-vm0.entry.fr0528.art, port: 21586, type: vmess, uuid: 2375151e-88f8-3a69-bf57-c462ff20c6d8, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VMess] U⚪🏳️_dokng.com_fb1c4566", server: mk4ic47-g06.jp06-jz-vm0.entry.fr0528.art, port: 28788, type: vmess, uuid: 2375151e-88f8-3a69-bf57-c462ff20c6d8, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VMess] U⚪🏳️_dokng.com_ba00b831", server: f4fyor1-g05.jp01-nn-vm0.entry.fr0528.art, port: 21585, type: vmess, uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VMess] U⚪🏳️_dokng.com_fdd5143e", server: xgfyxry-g05.jp01-nn-vm0.entry.fr0528.art, port: 21585, type: vmess, uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VLESS] C🟠🇰🇷[🎬📺🎪✨]_dokng.com_c91b7870", server: kr2-r.link-t7.com, port: 10047, type: vless, tls: true, uuid: 745A6079-6A61-423D-BDD9-B344C1D26E62, servername: s0.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: update}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇰🇷[🎬📺🎭🎪]_dokng.com_f3bc68e2", server: kr3-r.link-t7.com, port: 10048, type: vless, tls: true, uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232, servername: s0.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: update}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VMess] U⚪🏳️_dokng.com_0ee867fd", server: fgfyxr1-g05.jp06-jz-vm0.entry.fr0528.art, port: 28787, type: vmess, uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
   - {name: "[HTTPS] D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_404a572e", server: fan.571589.xyz, port: 443, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] C🟠🇮🇹[🎬🤖📺🎭]_dokng.com_197221d7", server: 185.201.65.242, port: 1999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇨🇴[🎬🤖📺🎭]_dokng.com_d81227f2", server: 157.137.237.11, port: 62145, type: vless, tls: true, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_c745045d", server: 185.246.153.28, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇧🇬[🎬🤖📺🎭]_dokng.com_f1d5fbe8", server: 88.87.6.135, port: 3030, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇦🇹[🎬🤖📺🎭]_dokng.com_bd68bfa4", server: 146.70.244.2, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_e3414a29", server: 138.199.35.216, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇮🇹[🎬🤖📺🎭]_dokng.com_595d4b27", server: 185.183.105.130, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_a820c2d3", server: 37.120.233.50, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_63c86561", server: nl205.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] U⚪🏳️[✈️]_dokng.com_cf3c3780", server: 89.34.90.68, port: 8443, type: vless, tls: true, xudp: true, uuid: fe8e2ffb-8796-408c-af5b-0d4774215e00, servername: 360.yandex.ru, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, reality-opts: {public-key: dTdncizxtVTqDZDkQoYdRTkf2Mn6XuKtkzg8vZhrkzA, short-id: 6ba85179e30d4fc2}, client-fingerprint: chrome, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_c63863fd", server: 138.199.35.212, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7c1cdf0b", server: crosscards.site, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_578adde4", server: zebpay.site, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_2b514860", server: 149.36.50.157, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_2a3ab6a1", server: jgwynphotoarts.pro, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_63e28654", server: purecambogiasl.live, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7bfc9aaf", server: 138.199.35.206, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6948765a", server: berniesbodybla.fun, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_c6f7e82e", server: 193.176.84.29, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_e832c82d", server: 178.62.83.124, port: 32766, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_19f240f6", server: fullmanfirm.icu, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7f99624e", server: voteshirleysew.club, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇮🇪[🎬🤖📺🎭]_dokng.com_d9f9993e", server: 149.88.96.1, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_262714de", server: crosscards.site, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_61140d14", server: purecambogiasl.live, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_32be3eff", server: 138.199.35.199, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇦🇱[🤖📺🎭🎪]_dokng.com_35f9b19f", server: 87.120.103.226, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] A🟢🇮🇹[🤖📺🎭🎪]_dokng.com_8d725197", server: 178.237.4.200, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇸[🎬🤖📺🎭]_dokng.com_24d941b9", server: 146.70.221.34, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_14636416", server: webdrone.club, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_aed04841", server: nl209.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_18ecaa3e", server: 37.120.156.34, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_c66af7d3", server: 138.199.35.213, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇧🇬[🎬🤖📺🎭]_dokng.com_46213476", server: 185.94.192.210, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7806b8cf", server: 138.199.35.211, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_0eed9624", server: 138.199.35.207, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇺🇦[🎬🤖📺🎪]_dokng.com_1fedb69a", server: 91.203.61.52, port: 6789, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_5b9a32da", server: 193.36.118.210, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_0f8d1baa", server: 138.199.35.197, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_bdaa0f87", server: 54.235.192.64, port: 442, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_449f82be", server: 84.17.47.149, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7c4c4168", server: purecambogiasl.live, port: 443, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_4059ce28", server: 84.17.47.146, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_f5a5e73c", server: purposebydesig.club, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇧🇬[🎬🤖📺🎭]_dokng.com_1c6cb296", server: 185.94.192.210, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_fed9fc96", server: 37.120.233.50, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_469aecea", server: 138.199.35.214, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_65403f87", server: 187.134.71.216, port: 80, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6c932673", server: jgwynphotoarts.pro, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_3eea6840", server: fullmanfirm.icu, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] A🟢🇬🇧[📺🎪📦]_dokng.com_7858cb40", server: 31.76.39.194, port: 443, type: vless, tls: true, uuid: 65329316-aca9-4825-8118-f85786865f0f, servername: ads.x5.ru, flow: xtls-rprx-vision, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] U⚪🏳️_dokng.com_bde6f29e", server: 201.164.44.50, port: 8080, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_c41378dc", server: 138.199.35.218, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_11ff4f56", server: 138.199.35.198, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_817b711f", server: 52.168.83.190, port: 25252, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_81badd77", server: 138.199.35.220, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_ff66ef7c", server: 193.176.84.33, port: 9002, type: http, username: "null", password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_a108a37f", server: 24.153.226.234, port: 8056, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7c52cc78", server: 138.199.35.209, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_f51f6e12", server: jgwynphotoarts.pro, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_dd29892f", server: 193.176.84.27, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_0d05a50c", server: 47.251.15.156, port: 40000, type: socks5, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🤖📺🎭🎪]_dokng.com_f41808b3", server: 138.199.35.203, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_6dda1640", server: 193.176.84.36, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_51882f9d", server: 193.176.84.16, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_776d6bea", server: 138.199.35.201, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_aafa3b9f", server: 24.52.147.103, port: 5999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_ff929cd7", server: 138.199.35.196, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_c1f9114b", server: 193.176.84.38, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_0d5bc13d", server: 51.158.243.91, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] U⚪🏳️[🤖📺🎭🎪]_dokng.com_dcc860cd", server: nl203.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6e9418e8", server: 138.199.35.205, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_b15a488a", server: 193.176.84.23, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_3060e843", server: kimberlymilano.icu, port: 443, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_256dedbc", server: 138.199.35.215, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_b2a204d9", server: 187.188.171.231, port: 10101, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_6de70491", server: nl201.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇧🇪[🎬🤖📺🎭]_dokng.com_895a114b", server: 146.70.176.242, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_47775503", server: 138.199.35.219, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_1670ce88", server: 138.199.35.210, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_03b9018d", server: 73.109.227.116, port: 8081, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_1fb07b97", server: kimberlymilano.icu, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_c65e2206", server: 84.17.47.125, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_c942411f", server: 23.95.112.143, port: 6005, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_3f82d6be", server: kimberlymilano.icu, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_8daa0bd7", server: hks.008819.xyz, port: 30701, type: vless, tls: true, packet-encoding: xudp, uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e, network: ws, ws-opts: {path: /}, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇸🇪[🎬🤖📺🎭]_dokng.com_b75ac7cc", server: 79.142.77.63, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_ec95baf0", server: 185.235.0.34, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_46227203", server: 193.37.70.182, port: 80, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇷🇴[🎬🤖📺🎭]_dokng.com_ff494e0f", server: 94.53.24.61, port: 54321, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇷🇸[🤖📺🎭🎪]_dokng.com_343aad9c", server: 178.217.12.193, port: 6669, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] U⚪🏳️_dokng.com_79f3708c", server: 185.220.238.77, port: 11543, type: trojan, password: HutaoCloud, sni: 185.220.238.77, skip-cert-verify: true, network: ws, ws-opts: {path: /api, headers: {Host: 185.220.238.77}}, udp: true, tfo: false}
+  - {name: "[VMess] C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_d976d638", server: wd35xrc-g05.jp06-jz-vm0.entry.fr0528.art, port: 28787, type: vmess, uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Hysteria2] C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_82082e67", server: 138.2.8.249, port: 50160, type: hysteria2, password: 4d6d97a82ddf959252e2ada36c3c3053, sni: www.bing.com, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[SS] C🟠🇺🇸_dokng.com_d37d66fb", server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true, tfo: false}
+  - {name: "[VMess] U⚪🏳️_dokng.com_08eb0a14", server: ouab5xk-g04.jp01-nn-vm0.entry.fr0528.art, port: 21584, type: vmess, uuid: d687b024-a5cf-3433-8d06-1c99e2e28821, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VLESS] C🟠🇭🇰_dokng.com_e3da655c", server: nian.001.url111.kcloud02.top, port: 15003, type: vless, tls: true, xudp: true, uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86, servername: www.cloudflare.com, flow: xtls-rprx-vision, reality-opts: {public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8, short-id: 4c517b9e}, client-fingerprint: chrome, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTP] A🟢🇳🇱[🎬🤖📺🎭]_dokng.com_4f429283", server: 82.115.6.209, port: 16668, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_c27a09a6", server: 192.243.114.176, port: 50159, type: vless, tls: true, uuid: c8f8b628-f984-4449-bfa1-481d865ac728, servername: www.ibm.com, flow: xtls-rprx-vision, reality-opts: {public-key: y0H3WXwfSsM7Ux1G8V0knwVRs8QTZ3RRM8X9lWKMj2o, short-id: 196313aca4449459}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_f012372a", server: 116.202.172.187, port: 11000, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] U⚪🏳️[✨✈️]_dokng.com_7169e124", server: 2.59.134.226, port: 443, type: vless, tls: true, xudp: true, uuid: 88281d02-b387-4fe3-918e-26ed331e6d08, servername: rich-falcon.cdn.cachefleet.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTPS] A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_65a5452e", server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_8a553c8c", server: 38.246.226.240, port: 36451, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] A🟢🇳🇱[🎬🤖📺🎭]_dokng.com_9bb994fa", server: 45.88.14.120, port: 443, type: hysteria2, password: 252bb78f404ff43efa42808e98cc4ae9, sni: cloud.mail.ru, skip-cert-verify: true, alpn: ["h3,h2,http/1.1"], tfo: false}
+  - {name: "[VLESS] C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_5344266d", server: 88.216.190.206, port: 443, type: vless, tls: true, xudp: true, uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55, servername: app4.goonars.com, flow: xtls-rprx-vision, reality-opts: {public-key: u51rZT5vJj8nO80QBBHVW2-WA5OzzQ1eL6euvszWLQI, short-id: 09ef88a6}, client-fingerprint: firefox, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTPS] A🟢🇸🇬[🎬🤖📺🎭]_dokng.com_e2867af1", server: 149.88.99.209, port: 9443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_bd95cf31", server: 51.38.129.42, port: 3169, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_a88e970f", server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] D🔴🇰🇷[🎬📺🎭🎪]_dokng.com_a3677e9a", server: 104.18.39.218, port: 2052, type: vless, tls: true, xudp: true, uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e, servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr}}, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_1f4c2c73", server: fr003.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_5917a689", server: 103.237.102.191, port: 11111, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_de4eaa15", server: fan.240104.xyz, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇩🇪[🤖📺🎪✨]_dokng.com_dd701156", server: 87.249.132.97, port: 9443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] B🟡🇹🇭[🎬🤖📺🎭]_dokng.com_aa18a91a", server: 103.169.67.34, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_e3642aa7", server: 103.82.101.44, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_5e99cdb8", server: fan.596189.xyz, port: 443, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] C🟠🇮🇹[🎬🤖📺🎭]_dokng.com_759dba06", server: 89.46.78.17, port: 3133, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_ba9256ca", server: 35.182.129.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true, tfo: false}
   - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_84533e8a", server: fan.365747.xyz, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇬🇧[🤖📺🎭🎪]_dokng.com_31fdb5da", server: 193.36.118.210, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_06c11c91", server: efr-marktplatz.club, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇮🇩[🎬🤖📺🎭]_dokng.com_4628e154", server: efr-marktplatz.club, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇫🇷[🤖📺🎭🎪]_dokng.com_13bb1fbc", server: 103.82.101.43, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇬🇷[🎬🤖📺🎭]_dokng.com_bd621a63", server: 149.22.85.65, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇱🇻[🎬🤖📺🎭]_dokng.com_6ad1b6ae", server: 109.248.149.34, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇷🇺[✨🎞️📦🔍]_dokng.com_965e2a11", server: 185.21.156.73, port: 4080, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_0db00e0d", server: 149.36.50.1, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_16307951", server: 138.201.56.241, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇱🇻[🎬🤖📺🎭]_dokng.com_fbede378", server: 109.248.147.66, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_77af3632", server: 38.28.193.188, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_37c76867", server: 193.176.84.34, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_045fb906", server: 37.120.233.34, port: 9443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇮🇪[🎬🤖📺🎭]_dokng.com_459ec25d", server: 149.88.96.1, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_6ad94d61", server: 5b33bfe4-tdups0-tf8z9r-1pr35.uk.oshuawei.com, port: 443, type: http, username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b, password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_c281394e", server: 187.249.120.139, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_8074dc82", server: 185.235.0.2, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_188bbe68", server: 52.55.81.168, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_c09c3f93", server: 162.243.146.243, port: 443, type: http, username: testuser1, password: e4b72b531a2d10900519, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇨🇿[🎬🤖📺🎭]_dokng.com_9a9bd413", server: 185.71.233.84, port: 800, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇲🇽[🤖📺🎭🎪]_dokng.com_15be1260", server: 189.51.168.164, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇨🇿[🎬🤖📺🎭]_dokng.com_232b47f5", server: 185.216.35.130, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇸🇪[🎬🤖📺🎪]_dokng.com_6c7ec50c", server: 146.70.242.146, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] C🟠🇫🇷[🤖📺🎪✈️]_dokng.com_8c55dcfd", server: 51.178.49.241, port: 1088, type: socks5, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇮🇩[🎬🤖📺🎭]_dokng.com_112b6b35", server: webdrone.club, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_95f62f7e", server: 128.140.82.50, port: 8443, type: socks5, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇨🇭[🎬🤖📺🎭]_dokng.com_b962c342", server: 31.7.62.50, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_70bbae38", server: 194.110.4.164, port: 2053, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_d82a0f2e", server: 185.235.0.2, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_c8c42a57", server: 37.120.156.18, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_400cf18e", server: 84.17.47.147, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇪🇸[🎬🤖📺🎭]_dokng.com_297df47d", server: 130.195.250.18, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇭🇺[🤖📺🎪✨]_dokng.com_2400de7f", server: 146.70.203.18, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_8005ad86", server: 144.31.179.21, port: 8443, type: vless, tls: true, uuid: 2569614f-879b-43de-9cd9-9bb304b68856, servername: get4s.skystreamgame.com, flow: xtls-rprx-vision, reality-opts: {public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0, short-id: 4326}, client-fingerprint: edge, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_731adfcd", server: 163.8.195.241, port: 2087, type: vless, tls: true, uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54, network: ws, ws-opts: {path: /29c8fed7ca22}, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇩🇪[🤖📺🎪✨]_dokng.com_005f0e9b", server: 87.249.132.97, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] D🔴🇭🇰[📺🎭🔍]_dokng.com_054bd55d", server: 123.58.219.171, port: 10808, type: socks5, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] D🔴🇸🇪[🎬🤖📺🎭]_dokng.com_a197e7f4", server: sw.deeplcdn.com, port: 40443, type: vless, tls: true, uuid: ed2c5f6c-8383-4f7a-a231-c28916489f76, servername: tv.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: -cxFcuI9vCkNZvlwGFms4bENl_cZbOz2pUMOVCKB4j0, short-id: e6bbe5cbfd3a1c9f}, client-fingerprint: firefox, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] A🟢🇺🇸[📺🎪📦✈️]_dokng.com_bb793788", server: us5-r.link-t7.com, port: 10242, type: vless, tls: true, uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232, servername: s0.awsstatic.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: movie}, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] C🟠🇲🇾[🎬🤖📺🎭]_dokng.com_d6bba6b3", server: 118.107.222.231, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_0b79ac8a", server: 37.120.233.18, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇸🇪[🎬📺🎭📦]_dokng.com_2e4a36cf", server: 142.111.244.128, port: 443, type: vless, tls: true, xudp: true, uuid: 65329316-aca9-4825-8118-f85786865f0f, servername: ads.x5.ru, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_00aa40ae", server: 185.235.0.34, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_6623638c", server: 3.97.16.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true, tfo: false}
   - {name: "[HTTPS] D🔴🇦🇹[🎬🤖📺🎭]_dokng.com_ad2e47da", server: 146.70.244.18, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
   - {name: "[HTTPS] D🔴🇨🇭[🎬🤖📺🎭]_dokng.com_c3243a72", server: 37.120.213.210, port: 9443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_b1448db8", server: 216.107.139.82, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_549727c0", server: nl206.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇪🇸[🤖📺🎭🎪]_dokng.com_148d2ee2", server: 130.195.250.34, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_646648d8", server: dl1-us.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇨🇿[🎬🤖📺🎭]_dokng.com_3252dd52", server: 194.87.26.137, port: 3121, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7a1884f3", server: mmgr.club, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] U⚪🏳️_dokng.com_4a4bb674", server: 45.90.58.216, port: 443, type: vless, tls: true, xudp: true, uuid: 2e8077d9-7bd9-444b-b2e3-de940d2eb35e, servername: www.cloudflare.com, flow: xtls-rprx-vision, reality-opts: {public-key: PMYLdOtnvW-ca8Zf6u7CFgGXoGXCvmCMPerPjGY3AAc, short-id: 77d7abe2c55892f1}, client-fingerprint: firefox, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_7886d398", server: 151.115.54.133, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_39b9ca70", server: 200.94.38.46, port: 2604, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇩🇪[🤖📺🎪✨]_dokng.com_cb6cfa3e", server: 87.249.132.97, port: 9443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_6dcdf6ed", server: fan.132031.xyz, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_12512f43", server: 37.120.156.34, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇸[🎬🤖📺🎭]_dokng.com_b047514a", server: 146.70.221.34, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] C🟠🇯🇵[🔍]_dokng.com_16f5ab4e", server: 8.209.236.192, port: 1080, type: socks5, username: 123456, password: !<str> 123456, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_b8f46ac7", server: 185.140.209.235, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_1f406845", server: 193.176.84.20, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_e73d582a", server: 149.102.245.65, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇸🇪[🤖📺🎭🎪]_dokng.com_0e98105a", server: 149.50.216.65, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_d407cced", server: 148.230.110.203, port: 443, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] A🟢🇬🇷[🎬🤖📺🎭]_dokng.com_fffddf6e", server: 83.147.216.208, port: 1080, type: socks5, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_40db5eb6", server: nl202.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_303b4e21", server: ca01.vletun.qianmoxingyun.com, port: 10006, type: vless, tls: true, uuid: 302cf77d-6fb7-4ac8-ae61-88e286340d59, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: O8Av8GXWVqj7FOxUyStmrTLWv5EtvQ1ZnMOVVLb1V3s, short-id: 1bc2c1ef1c}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_111a989f", server: 193.176.84.19, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] U⚪🏳️[✨]_dokng.com_6cc12663", server: 8.219.97.248, port: 80, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇦🇺[🎬🤖📺🎭]_dokng.com_6a11339c", server: 159.13.44.228, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_49e2e376", server: 193.176.84.35, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] C🟠🇭🇰[📺🎭📦]_dokng.com_db363b3a", server: 47.242.19.215, port: 8899, type: socks5, username: admin, password: admin, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_0b11cb68", server: 104.251.93.55, port: 16062, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇵🇱[🤖📺🎭🎪]_dokng.com_77d50efa", server: 62.113.106.165, port: 5012, type: vless, tls: true, xudp: true, uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085, servername: pl.aeternavpn.space, flow: xtls-rprx-vision, reality-opts: {public-key: S-hF71pRzH9xT1zd3spq6RGlXCrpzyWpTmVKHbdTERg, short-id: a1b2c3d4}, client-fingerprint: qq, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇱🇻[🎬🤖📺🎭]_dokng.com_79d62288", server: 109.248.149.34, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_b428c29d", server: jewelscollecti.icu, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_befda1c8", server: uk01.vletun.qianmoxingyun.com, port: 10041, type: vless, tls: true, uuid: d742752c-4231-4695-801e-f06d77f0f277, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: O8Av8GXWVqj7FOxUyStmrTLWv5EtvQ1ZnMOVVLb1V3s, short-id: 1bc2c1ef1c}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] U⚪🏳️_dokng.com_074c7322", server: 159.194.234.196, port: 16445, type: vless, tls: true, xudp: true, uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085, servername: fr.aeternavpn.space, flow: xtls-rprx-vision, reality-opts: {public-key: BfWH0Semc11YkTslIO_Igss921A5J3JMmq_i2FaZxDo, short-id: a1b2c3d4}, client-fingerprint: edge, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[HTTP] A🟢🇬🇧[🎬🤖📺🎭]_dokng.com_b34d168c", server: 154.61.56.215, port: 3118, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_11acc36f", server: 193.176.84.39, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_7d7f3a77", server: 5.101.149.245, port: 8443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🤖📺🎭🎪]_dokng.com_3b6bf33f", server: 193.176.84.32, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_fb736f0e", server: 185.235.0.66, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇦🇹[🎬🤖📺🎭]_dokng.com_fabf5584", server: 80.64.143.173, port: 31337, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_1e378dfb", server: 96.84.121.105, port: 8023, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] U⚪🏳️[🎬🤖📺🎭]_dokng.com_3285df17", server: 208.95.22.65, port: 8282, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_0464a06d", server: fr017.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_0d5a8c69", server: 193.176.84.25, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇵🇹[🤖📺🎭🎪]_dokng.com_a2cc7036", server: 149.22.86.14, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_47ce18fe", server: 128.199.254.13, port: 9090, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇳🇱[🎬📺🎭🎪]_dokng.com_41fecd01", server: 185.53.129.141, port: 9090, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_16f5e206", server: 187.249.89.39, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_bd192656", server: 212.102.63.31, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] D🔴🇪🇨[🎬🤖📺🎭]_dokng.com_8104ffd5", server: 181.39.25.196, port: 8118, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_d92378d8", server: 104.218.199.152, port: 16062, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_805ac382", server: 91.238.54.189, port: 7778, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇸🇪[🎬🤖📺🎪]_dokng.com_05f2c07c", server: 146.70.242.130, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_238da015", server: 193.176.84.26, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_5b5b1d54", server: 138.199.35.204, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_f4286256", server: 52.55.81.168, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_d8a3c82e", server: neth8.lunariai.ru, port: 443, type: vless, tls: true, uuid: c21631d5-36c9-4664-b575-97eca17456be, network: ws, ws-opts: {path: /, headers: {Host: neth8.lunariai.ru}}, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇵🇹[🎬🤖📺🎭]_dokng.com_3e2c6a58", server: 149.22.86.1, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇨🇭[🎬🤖📺🎭]_dokng.com_a74c39f7", server: 31.7.62.50, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_b03e95c9", server: 193.176.84.21, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇮🇹[🤖📺🎪✨]_dokng.com_74e83c9e", server: 95.229.15.89, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇸🇪[📺🎪]_dokng.com_a4545a3b", server: 202.155.11.249, port: 443, type: vless, tls: true, uuid: 0a2dde28-70da-4863-a06f-35d007d94d35, servername: cf2.rumedia-cdn.com, network: ws, ws-opts: {path: /cdn/v3/live, headers: {Host: cf2.rumedia-cdn.com}}, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] U⚪🏳️_dokng.com_0d50b27a", server: 43.156.228.168, port: 80, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] C🟠🇧🇷[🎬🤖📺🎭]_dokng.com_e3701917", server: 54.94.76.50, port: 4567, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_f467085f", server: 185.44.107.166, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇿🇦[🎬📺🎪📦]_dokng.com_2ef95f65", server: 160.124.240.188, port: 39771, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_ca7e9805", server: nl199.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_26d0e430", server: 146.70.29.45, port: 443, type: http, username: testuser1, password: e4b72b531a2d10900519, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] U⚪🏳️[✈️]_dokng.com_483670b0", server: 91.210.169.181, port: 443, type: vless, tls: true, xudp: true, uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615, network: ws, ws-opts: {path: /api/connect, headers: {Host: wstg.datasynctrue.online}}, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[HTTP] C🟠🇧🇷[🎬🤖📺🎭]_dokng.com_953117d0", server: 18.229.23.172, port: 4567, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_aabc5d30", server: 212.102.63.61, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🤖📺🎭🎪]_dokng.com_4f3ee96c", server: 193.176.84.22, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_5dd3a037", server: 51.38.129.42, port: 3169, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇩🇴[🔍]_dokng.com_cdc1c1b9", server: 154.88.164.160, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] C🟠🇱🇹[📦]_dokng.com_521aada3", server: 212.24.108.20, port: 11920, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇦🇱[🤖📺🎭🎪]_dokng.com_5bb324a2", server: 87.120.103.242, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇮🇹[📺🎭🎪]_dokng.com_d1cc6278", server: 91.243.118.217, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇷🇺[📺🎪]_dokng.com_a5cd57da", server: 45.9.15.206, port: 443, type: vless, tls: true, uuid: a289a3d3-5833-4b28-8809-ae72898a98d0, servername: ru05.abvpn.ru, network: ws, ws-opts: {path: /websocket, headers: {Host: ru05.abvpn.ru}}, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇻🇪[🎬📺🎭🎪]_dokng.com_dc9c4eb6", server: 154.3.76.14, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇪🇨[🤖📺🎭🎪]_dokng.com_c1c5ad72", server: 38.165.231.71, port: 9443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇬🇹[🎬🤖📺🎭]_dokng.com_9711d34d", server: 181.119.177.229, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇫🇮[🎬📺🎞️]_dokng.com_8d6631c6", server: 94.228.166.247, port: 2053, type: vless, tls: true, xudp: true, uuid: 9f5b9ca7-d0bb-4e50-a3ca-acf5968027fc, servername: fi-one.quiet-rogue.site, flow: xtls-rprx-vision, reality-opts: {public-key: AKUQO-fKsD19FFBxNq5XTFCRXWDZfes4zJjRINY1KUI, short-id: beff3ff061a64cfd}, client-fingerprint: chrome, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[HTTP] A🟢🇨🇴[🎬🤖🎭🎪]_dokng.com_c2100b96", server: 190.145.193.46, port: 8089, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] U⚪🏳️[🤖📺🎭🎪]_dokng.com_342f3e57", server: br3-tr.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] U⚪🏳️[🤖📺🎪✨]_dokng.com_89e7191b", server: sr2-id.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_12424552", server: 31.77.183.88, port: 5001, type: vless, tls: true, uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085, servername: max.ru, flow: xtls-rprx-vision, reality-opts: {public-key: D-G2rTpSUTAF6Rj0C6Gxnk-uzsaGzM6MSbJX3jCyBBk, short-id: a1b2c3d4}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🤖📺🎭🎪]_dokng.com_ffc53cc9", server: 193.176.84.40, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇻🇪[🎬📺🎭🎪]_dokng.com_0b439e65", server: 38.41.188.20, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇺🇸[🤖📺🎭🎪]_dokng.com_1577b38e", server: 63.175.157.2, port: 30005, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_1af479e3", server: 193.176.84.24, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇵🇹[🎬🤖📺🎭]_dokng.com_1db5bd58", server: 149.22.86.14, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇻🇪_dokng.com_1c5937ea", server: 200.8.235.139, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇻🇪[🎬📺🎭🎪]_dokng.com_f9e51be1", server: 186.167.53.178, port: 8282, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇻🇪[🎬📺🎭🎪]_dokng.com_44c37297", server: 181.233.89.128, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_9e6b38b9", server: goedkoopgeluid.icu, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇨🇴[🎬🤖📺🎭]_dokng.com_1d3bde41", server: 190.14.231.137, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] U⚪🏳️[🎬🤖📺🎭]_dokng.com_1258f05e", server: 176.111.37.5, port: 39811, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_c92fe931", server: 212.192.13.233, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 302cf77d-6fb7-4ac8-ae61-88e286340d59, servername: www.cathaypacific.com, alpn: [h2], flow: xtls-rprx-vision, reality-opts: {public-key: O8Av8GXWVqj7FOxUyStmrTLWv5EtvQ1ZnMOVVLb1V3s, short-id: 1bc2c1ef1c}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇸🇪[🎬🤖📺🎭]_dokng.com_2fd7cd8b", server: 46.59.120.87, port: 81, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇨🇱[🤖📺✨📦]_dokng.com_2cefb334", server: 190.93.229.1, port: 18080, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇪🇨[🤖📺🎭🎪]_dokng.com_169c6ac9", server: 45.173.228.217, port: 1550, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇵🇪[🎬🤖📺🎭]_dokng.com_4a0c33ea", server: 209.45.65.55, port: 1011, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] D🔴🇮🇹[🎬🤖📺🎭]_dokng.com_f596b9da", server: 67.159.46.42, port: 8899, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇪🇨[🎬🤖📺🎭]_dokng.com_ef75b4ae", server: 45.183.100.105, port: 8588, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] A🟢🇩🇪[🤖📺🎭🎪]_dokng.com_3ec79ed3", server: 141.17.83.73, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇧🇷[🤖📺🎭🎪]_dokng.com_27765889", server: 177.54.239.5, port: 2138, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_b4b7d066", server: 45.134.9.41, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_0cb603c3", server: 193.176.84.37, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇵🇪[🎬🤖📺🎭]_dokng.com_24011515", server: 179.63.6.239, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇵🇪[🎬🤖📺🎭]_dokng.com_7a9b9637", server: 45.177.20.243, port: 65535, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇩🇪[🤖📺🎭🎪]_dokng.com_62113475", server: 167.172.172.190, port: 443, type: http, username: testuser1, password: e4b72b531a2d10900519, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] C🟠🇫🇮_dokng.com_6b6eea02", server: 135.181.116.225, port: 3001, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_2e49200d", server: 45.163.116.86, port: 3900, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] C🟠🇰🇷[🎬🤖📺🎭]_dokng.com_f9dd3272", server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true, tfo: false}
-  - {name: "[HTTP] A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_b1a61230", server: 200.95.192.61, port: 9292, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇻🇪[📺🎭🎪]_dokng.com_12cd8b36", server: 38.225.40.143, port: 465, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇵🇪[🎬🤖📺🎭]_dokng.com_1107011e", server: 38.172.129.23, port: 8800, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇧🇷[🤖📺🎭🎪]_dokng.com_ca3b1afa", server: 164.163.237.196, port: 9091, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] U⚪🏳️[📺✨📦✈️]_dokng.com_d66d3f2e", server: br4-tr.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] C🟠🇦🇹[🎬🤖🎭🎪]_dokng.com_36f61da8", server: 193.233.232.49, port: 3131, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_30ef0ff2", server: 193.176.84.17, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇨🇴[🎬🤖📺🎭]_dokng.com_2a324b65", server: 181.205.134.125, port: 8080, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_75602843", server: 179.184.163.133, port: 44443, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇨🇴[🎬🤖📺🎭]_dokng.com_9bf5de09", server: 177.93.57.82, port: 12345, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[📦🔍]_dokng.com_b270d055", server: 209.148.53.153, port: 8090, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] D🔴🇩🇪[📺🎪]_dokng.com_180c6698", server: 45.61.129.165, port: 9050, type: socks5, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] C🟠🇫🇷[🤖📺🎭🎪]_dokng.com_2457ab68", server: 176.97.66.175, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "[HTTP] A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_9782d82b", server: 128.201.29.12, port: 8666, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇧🇷[🤖📺🎭🎪]_dokng.com_afc9c322", server: 187.103.125.104, port: 61234, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇨🇴[🎬🤖📺🎭]_dokng.com_2dccb3c1", server: 200.118.71.12, port: 8080, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🤖📺🎭🎪]_dokng.com_87eec561", server: 147.182.216.4, port: 443, type: http, username: testuser1, password: e4b72b531a2d10900519, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] A🟢🇯🇵[🎬🤖📺🎭]_dokng.com_17b2188c", server: hks.008819.xyz, port: 31696, type: vless, tls: true, packet-encoding: xudp, uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e, network: ws, ws-opts: {path: /}, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6f1d61d8", server: 104.218.199.16, port: 16062, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_8014db02", server: ma1-gb.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇮🇹[🤖📺🎭🎪]_dokng.com_8a2d7b99", server: 93.42.177.250, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] C🟠🇺🇸[🔍]_dokng.com_24a6e4b9", server: 104.168.249.36, port: 1080, type: socks5, username: test123, password: test123, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] U⚪🏳️_dokng.com_bdcb20f7", server: wstg.datasynctrue.online, port: 443, type: vless, tls: true, xudp: true, uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615, network: ws, ws-opts: {path: /api/connect, headers: {Host: wstg.datasynctrue.online}}, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[HTTP] D🔴🇹🇭[🎬🤖📺🎪]_dokng.com_46d8ebd8", server: 202.28.194.139, port: 31280, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇫🇷[🤖🎞️📦]_dokng.com_689e75ba", server: 45.95.96.225, port: 443, type: vless, tls: true, xudp: true, uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90, servername: germany.superbuba.top, flow: xtls-rprx-vision, reality-opts: {public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs, short-id: 4fa44664f6a566d3}, client-fingerprint: firefox, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[HTTP] A🟢🇪🇨[🎬🤖📺🎭]_dokng.com_714b1721", server: 181.188.203.40, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] C🟠🇱🇻[🎬🤖📺🎭]_dokng.com_c201804d", server: 195.123.212.87, port: 3056, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] D🔴🇹🇭[📺🔍]_dokng.com_dbf875fe", server: 43.164.3.124, port: 1080, type: socks5, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] B🟡🇺🇸[🎬🤖📺🎭]_dokng.com_cd15873e", server: 148.100.84.192, port: 5252, type: http, password: None, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[Hysteria2] D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_1dc078ee", server: sg1.xiaoliyu.cyou, port: 1933, type: hysteria2, password: 19f72087-4591-4d72-930b-2697078ec2be, sni: sg1.xiaoliyu.cyou, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] D🔴🇪🇨[🎬🤖📺🎭]_dokng.com_956079b4", server: 181.39.35.94, port: 9100, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_96b28fc9", server: 167.148.201.173, port: 443, type: vless, tls: true, uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f, servername: america.cendora.ru, flow: xtls-rprx-vision, reality-opts: {public-key: v1hVg2Uc7Wsc_bhlLfKkML_HUGogQA9O9n9uZFwzQSM, short-id: 065cf4f1c7d83e79}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] D🔴🇸🇪[🎭🎪]_dokng.com_5533c299", server: 171.25.158.95, port: 1080, type: socks5, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇵🇪[🤖📺🎭🎪]_dokng.com_8cd9548a", server: 200.62.236.154, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] U⚪🏳️[🤖📺🎪✨]_dokng.com_71def8ce", server: 42.96.18.62, port: 1311, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇧🇷[📺🎭🎪]_dokng.com_84cf438e", server: 138.204.95.193, port: 8989, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_31230420", server: 193.176.84.31, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] D🔴🇭🇰[🎬🧠📺🎭]_dokng.com_6598b91f", server: hk03.qianmoip.win, port: 50222, type: trojan, password: 302cf77d-6fb7-4ac8-ae61-88e286340d59, sni: taobao.com, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] C🟠🇬🇷[🎬🤖📺🎭]_dokng.com_be23e82e", server: 149.22.85.65, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] D🔴🇫🇷[✨]_dokng.com_e9282652", server: 109.172.55.177, port: 1082, type: socks5, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] A🟢🇩🇰[🎭🎪]_dokng.com_43362a6b", server: 46.29.235.9, port: 443, type: vless, tls: true, xudp: true, uuid: d67af820-f54c-48ab-862c-19086357f276, servername: telegraf.lv, flow: xtls-rprx-vision, reality-opts: {public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI, short-id: a1b2c3d4}, client-fingerprint: firefox, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VLESS] C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_5397da52", server: 82.118.20.109, port: 443, type: vless, tls: true, xudp: true, uuid: e459d26c-0957-4695-b1ac-0719e8df64f6, servername: www.cloudflare.com, flow: xtls-rprx-vision, reality-opts: {public-key: U1X__Tg779LinTpcP65AVLHtxAGPSKzr04K1Fq_mDy8, short-id: 146c918c71da5d81}, client-fingerprint: firefox, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[SOCKS5] D🔴🇫🇷_dokng.com_84374931", server: 109.123.251.109, port: 1080, type: socks5, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎪]_dokng.com_54a270d5", server: cr2-id.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6e6a2c6c", server: 193.25.215.182, port: 22222, type: socks5, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] U⚪🏳️_dokng.com_1de7d129", server: 190.60.42.141, port: 555, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_35b157c8", server: 45.232.76.98, port: 9292, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇬🇧[🎬🤖📺🎪]_dokng.com_485cc62b", server: 212.102.63.31, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇵🇹[🎬🤖📺🎭]_dokng.com_b3f34a76", server: 149.22.86.1, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] A🟢🇨🇿[🤖📺🎭🎪]_dokng.com_d0576f5e", server: 193.35.104.196, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇫🇮[🎬📺]_dokng.com_cb2c22fe", server: 31.77.183.88, port: 5000, type: vless, tls: true, xudp: true, uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085, servername: max.ru, flow: xtls-rprx-vision, reality-opts: {public-key: cpoZcpYNYSvFXGGB21tByHUoNd7-FYrJ0UP7ZDfSFCs, short-id: a1b2c3d4}, client-fingerprint: chrome, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[HTTP] U⚪🏳️_dokng.com_232d243b", server: 88.203.131.197, port: 95, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇧🇷[🤖📺🎭🎪]_dokng.com_ba5e8e2f", server: 45.70.87.228, port: 92, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] A🟢🇭🇰[🎬🧠📺🎭]_dokng.com_224b2a1d", server: 152.175.28.15, port: 28443, type: trojan, password: 04e30e9f-661a-4a40-9973-4f2961298e99, sni: vpn-node.internal, skip-cert-verify: true, network: ws, ws-opts: {path: /xVpnTrojanWsSvc7f3a, headers: {Host: vpn-node.internal}}, tfo: false}
-  - {name: "[HTTP] A🟢🇪🇨[🎬🤖📺🎭]_dokng.com_ad093202", server: 177.53.215.196, port: 1812, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_ce9e1b37", server: tzoa.fun, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] D🔴🇻🇳_dokng.com_701d262f", server: 163.181.207.213, port: 9999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_919b7764", server: 131.0.120.162, port: 9292, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_1d385d2c", server: 107.151.238.27, port: 443, type: http, username: testuser1, password: e4b72b531a2d10900519, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] D🔴🇺🇸[📺]_dokng.com_7f59cd1e", server: 45.61.129.165, port: 9050, type: socks5, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] D🔴🇫🇷[📺]_dokng.com_076b7e94", server: 2.144.21.112, port: 40443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "[HTTP] A🟢🇹🇷[🎬🤖📺🎭]_dokng.com_6b20164e", server: 212.192.6.248, port: 8096, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6a692313", server: 149.88.21.129, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇳🇱[🎭🎪]_dokng.com_d85ea945", server: 199.232.78.159, port: 443, type: vless, tls: true, uuid: a1ee277e-93b7-4aa9-86a2-c7ef85a2adb0, servername: ssl.fastly.com, network: ws, ws-opts: {path: "/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER", headers: {Host: pane3.global.ssl.fastly.net}}, flow: "", skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[HTTP] U⚪🏳️[🎪]_dokng.com_6de140d5", server: 104.251.93.167, port: 16062, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_1374045a", server: 193.176.84.30, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇳🇴[🤖✨📦]_dokng.com_dd261e91", server: 194.110.207.146, port: 443, type: vless, tls: true, uuid: 9c3d8e77-82ca-48d5-9981-dfce97b20ab1, servername: kibi-institut.de, flow: xtls-rprx-vision, reality-opts: {public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY, short-id: fd55b698ee8c3629}, client-fingerprint: firefox, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] A🟢🇩🇪[📺🎭🎪📦]_dokng.com_b8f89117", server: fan.973511.xyz, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇳🇱[🤖📺🎭🎪]_dokng.com_62caac5f", server: 82.196.9.7, port: 443, type: http, username: testuser1, password: e4b72b531a2d10900519, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] U⚪🏳️_dokng.com_4f5e062e", server: 163.181.207.230, port: 9999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] A🟢🇷🇺[📺🎪]_dokng.com_eff614d6", server: 147.45.221.112, port: 1082, type: socks5, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇧🇷[📺🎭✨🔍]_dokng.com_5363a834", server: 177.222.248.54, port: 9191, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] C🟠🇩🇪_dokng.com_56c5bbea", server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[HTTP] A🟢🇨🇭[🎬🤖📺🎭]_dokng.com_ad565b9f", server: 212.65.190.199, port: 7272, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇸🇬_dokng.com_8496ce1e", server: 104.248.148.240, port: 443, type: http, username: testuser1, password: e4b72b531a2d10900519, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_a4caed03", server: cc56418e-5a4e-428b-904d-d2d8959bbd03.e28fb658-343a-45b2-8be2-1ca1966b048d.smartprivatelink.com, port: 443, type: vless, tls: true, uuid: 2ea68849-7639-4eec-8af8-102e692fa8e6, servername: mcs.zijieapi.com, flow: xtls-rprx-vision, reality-opts: {public-key: e1L9v1a3tkmHMzrdv9q5-lMXKhTtXcjot8pKFHZD8Vo, short-id: c7f12faf}, client-fingerprint: ios, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[HTTP] D🔴🇺🇸_dokng.com_834d3776", server: 104.251.93.159, port: 16062, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_ebe7d705", server: vpn-us-002.fastervpn.world, port: 443, type: hysteria2, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-us-002.fastervpn.world, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_158e7101", server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_8074dc82", server: 185.235.0.2, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_83989905", server: efr-marktplatz.club, port: 443, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_c41378dc", server: 138.199.35.218, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_c63863fd", server: 138.199.35.212, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] C🟠🇮🇹[🎬🤖📺🎭]_dokng.com_197221d7", server: 185.201.65.242, port: 1999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇧🇪[🎬🤖📺🎭]_dokng.com_2dbadf2e", server: 146.70.123.98, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇧🇪[🎬🤖📺🎭]_dokng.com_eb58b20a", server: 146.70.176.242, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇨🇿[🎬🤖📺🎭]_dokng.com_c6b2e161", server: 185.216.35.130, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_06c11c91", server: efr-marktplatz.club, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_249361ae", server: 138.199.35.219, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_06fcd7d4", server: 138.199.35.199, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_082ea2c9", server: 138.199.35.207, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_fcc63609", server: berniesbodybla.fun, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_b747b935", server: 185.235.0.34, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇦🇹[🎬🤖📺🎭]_dokng.com_38c4dd6a", server: 146.70.244.18, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_f89d41d4", server: 103.97.88.154, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_c266a32b", server: tzoa.fun, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_8d59c920", server: 84.17.47.147, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇦🇹[🎬🤖📺🎭]_dokng.com_8c7ae75e", server: 146.70.244.2, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_91e30e8f", server: 138.199.35.211, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_399742db", server: 138.199.35.197, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_bdaa0f87", server: 54.235.192.64, port: 442, type: http, tls: false, skip-cert-verify: true, tfo: false}
   - {name: "[VMess] U⚪🏳️_dokng.com_54d00832", server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gw.alicdn.com, tfo: false}
-  - {name: "[SOCKS5] U⚪🏳️[🎬🤖📺🎭]_dokng.com_e50054e0", server: 144.91.121.61, port: 1088, type: socks5, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_15a794cc", server: 45.236.65.182, port: 8085, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] D🔴🇹🇭[🎬🤖📺🎭]_dokng.com_0cbd3120", server: 47.81.56.193, port: 8888, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] U⚪🏳️_dokng.com_556bdeb1", server: 104.218.199.26, port: 16062, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] C🟠🇭🇰[📺✈️🔍]_dokng.com_099454ad", server: 47.243.173.50, port: 11211, type: socks5, username: 111, password: !<str> 111, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_f149be16", server: node1.jjjjjj.eu.cc, port: 443, type: vless, tls: true, uuid: 75bc1bab-ff62-4c7c-a946-ec49fd53f89f, servername: jpb2.jjjjjj.eu.cc, network: ws, ws-opts: {path: "/jige?ed=2048", headers: {Host: jpb2.jjjjjj.eu.cc}}, flow: "", skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[HTTP] U⚪🏳️[📺🔍]_dokng.com_6aa50cc7", server: 38.172.170.104, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_87bf668a", server: cr1-id.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] D🔴🇺🇸[🎬📺🎭🎪]_dokng.com_8fe2ffa1", server: 104.251.93.119, port: 16062, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] A🟢🇧🇬_dokng.com_ae988bd7", server: 94.26.0.78, port: 443, type: vless, tls: true, uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f, servername: eu-central.cendora.ru, flow: xtls-rprx-vision, reality-opts: {public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI, short-id: 00bca5982f82d083}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] A🟢🇻🇪_dokng.com_9f09da3b", server: 138.118.203.152, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] U⚪🏳️_dokng.com_042c029c", server: 104.218.199.86, port: 16062, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] D🔴🇯🇵_dokng.com_a341bd30", server: 112.28.149.152, port: 8443, type: socks5, username: T2c6T2c=, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] A🟢🇬🇧[📺]_dokng.com_2de855a7", server: 82.145.55.75, port: 443, type: vless, tls: true, uuid: 5c0f54f4-f3e2-4931-a3b9-b1ffc0961d70, servername: strapi.io, flow: xtls-rprx-vision, reality-opts: {public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY, short-id: fd55b698ee8c3629}, client-fingerprint: firefox, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] A🟢🇭🇰[🎬📺🎭🎪]_dokng.com_c970db79", server: 58.152.46.127, port: 28443, type: trojan, password: 0f3963f9-0530-434d-be2c-87e9b61143c8, sni: vpn-node.internal, skip-cert-verify: true, network: ws, ws-opts: {path: /xVpnTrojanWsSvc7f3a, headers: {Host: vpn-node.internal}}, tfo: false}
-  - {name: "[VLESS] D🔴🇹🇭[🎬🤖📺🎪]_dokng.com_9bd6484c", server: 18.239.134.69, port: 80, type: vless, tls: true, uuid: de27291c-15a9-4256-9ba7-ad517569877e, network: ws, ws-opts: {path: /, headers: {Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com}}, flow: "", skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VMess] C🟠🇬🇧_dokng.com_5974a235", server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[VLESS] D🔴🇯🇵[📺🎭]_dokng.com_e0bbac6c", server: nian.001.url111.kcloud02.top, port: 15007, type: vless, tls: true, xudp: true, uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86, servername: www.bing.com, flow: xtls-rprx-vision, reality-opts: {public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA, short-id: 2c4d005b}, client-fingerprint: chrome, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[SOCKS5] D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_1b81f86d", server: 101.36.104.46, port: 10808, type: socks5, skip-cert-verify: true, tfo: false}
-  - {name: "[SOCKS5] A🟢🇹🇼_dokng.com_c5568042", server: 106.107.236.110, port: 1080, type: socks5, username: 111, password: !<str> 111, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] U⚪🏳️_dokng.com_7f0f178a", server: 79.106.44.66, port: 2095, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] U⚪🏳️_dokng.com_af6e9af1", server: 172.85.99.64, port: 16062, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTPS] D🔴🇮🇹[🤖📺🎭🎪]_dokng.com_9b8722f4", server: 109.116.41.154, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] A🟢🇺🇸[🎬📺🎭🎪]_dokng.com_501959c1", server: 31.76.69.40, port: 443, type: vless, tls: true, xudp: true, uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f, servername: eu-central.cendora.ru, flow: xtls-rprx-vision, reality-opts: {public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI, short-id: 00bca5982f82d083}, client-fingerprint: qq, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[HTTP] D🔴🇷🇺[🔍]_dokng.com_bb28e8b2", server: 109.94.1.23, port: 4050, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] A🟢🇰🇬[🎬🤖📺🎪]_dokng.com_ec7d9bb3", server: 81.85.75.87, port: 8443, type: vless, tls: true, uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f, servername: auto.cendora.ru, flow: xtls-rprx-vision, reality-opts: {public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM, short-id: a7f3c91b2e6d84c0}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
-  - {name: "[HTTP] U⚪🏳️_dokng.com_48a2f205", server: 186.151.137.162, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[AnyTLS] C🟠🇭🇰[📺🔍]_dokng.com_0c40d242", server: 45.144.136.244, port: 443, type: anytls, password: 3QZglKmlgzc9zBCDD5W8tQ==, sni: www.bing.com, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] C🟠🇭🇰[📺]_dokng.com_3d82e1a6", server: 82.38.46.66, port: 15003, type: vless, tls: true, uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86, servername: www.cloudflare.com, flow: xtls-rprx-vision, reality-opts: {public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8, short-id: 4c517b9e}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6db0fc2c", server: 138.199.35.204, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_9e6b38b9", server: goedkoopgeluid.icu, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇮🇩[🎬🤖📺🎭]_dokng.com_63e28654", server: purecambogiasl.live, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇮🇹[🤖📺🎭🎪]_dokng.com_37728b98", server: 185.183.105.130, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇷🇴[🎬🤖📺🎭]_dokng.com_ff494e0f", server: 94.53.24.61, port: 54321, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] U⚪🏳️[📺]_dokng.com_22e5d4a1", server: 201.24.54.241, port: 23443, type: vless, tls: true, uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714, servername: www.cloudflare.com, flow: xtls-rprx-vision, reality-opts: {public-key: WGIBJ3eoHqBYgaklDehHUZYSAREh5HtFtcUs7MjUfxg, short-id: a432f464e0d4f65a}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_c6f7e82e", server: 193.176.84.29, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_40db5eb6", server: nl202.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_067d2b9f", server: 138.199.35.196, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_11ff4f56", server: 138.199.35.198, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_a820c2d3", server: 37.120.233.50, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_b218a6a3", server: 37.120.233.34, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_edd4d270", server: 138.199.35.208, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_6d895544", server: 37.120.156.18, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[AnyTLS] D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_fe74c83b", server: ip4.934618.xyz, port: 51133, type: anytls, password: github.com/Alvin9999-newpac/fanqiang, sni: ip4.934618.xyz, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6948765a", server: berniesbodybla.fun, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇷🇺[🎪✨📦🔍]_dokng.com_9af66ad2", server: 45.159.0.194, port: 5050, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] C🟠🇱🇻[🎬🤖📺🎭]_dokng.com_1e473b37", server: 195.123.212.87, port: 3056, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🤖📺🎭🎪]_dokng.com_0d5a8c69", server: 193.176.84.25, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇮🇹[🎬🤖📺🎭]_dokng.com_595d4b27", server: 185.183.105.130, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_63c86561", server: nl205.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_81badd77", server: 138.199.35.220, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7569cc30", server: jewelscollecti.icu, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_ca7e9805", server: nl199.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_aafa3b9f", server: 24.52.147.103, port: 5999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_076c6fa3", server: 54.174.5.216, port: 4447, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_62bb2c7c", server: 51.159.225.196, port: 23856, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_76edf478", server: 84.17.47.150, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_f0d2e0c5", server: 91.228.89.45, port: 7, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_9f49ef36", server: 138.199.35.209, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_b428c29d", server: jewelscollecti.icu, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] D🔴🇺🇸_dokng.com_2c62dab2", server: 144.24.47.42, port: 1080, type: socks5, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_da509960", server: voteshirleysew.club, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[SSR] A🟢🇻🇳[🎬🤖📺🎪]_dokng.com_462f633a", server: api.meituan88.com, port: 14048, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 116735:zssrOQ, obfs-param: 14e116735.douyin.com, tfo: false}
+  - {name: "[HTTP] A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_a108a37f", server: 24.153.226.234, port: 8056, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_3c28dcc9", server: 138.199.35.200, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] A🟢🇮🇱[🎬🤖📺🎭]_dokng.com_8a47d0e2", server: 92.118.112.132, port: 1935, type: hysteria2, password: usa_2_hysteria2_fastlane_7xd97qbds:ZO9NsnzCMk5WDLYrLMFJi8V2Dg3HRSpv, sni: us3.h.fastlanehosting.ru, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_19f240f6", server: fullmanfirm.icu, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_0cd2d06a", server: 138.199.35.195, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_6dcdf6ed", server: fan.132031.xyz, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_449f82be", server: 84.17.47.149, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_537be64e", server: 151.115.54.133, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_817b711f", server: 52.168.83.190, port: 25252, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_578adde4", server: zebpay.site, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_dcc860cd", server: nl203.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇸🇪[🎬🤖📺🎭]_dokng.com_1ba3cfe0", server: 146.70.242.130, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_31230420", server: 193.176.84.31, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_262714de", server: crosscards.site, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_469aecea", server: 138.199.35.214, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_9c9060c4", server: mmgr.club, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_c65e2206", server: 84.17.47.125, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_30fc1d37", server: 138.199.35.206, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_f41808b3", server: 138.199.35.203, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] U⚪🏳️_dokng.com_a8482bc1", server: 176.96.138.122, port: 443, type: vless, tls: true, xudp: true, uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c, servername: plucky-xenon.cdn.cachefleet.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_dd29892f", server: 193.176.84.27, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_14636416", server: webdrone.club, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_02619dd0", server: 138.199.35.201, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇸🇪[🎬🤖📺🎪]_dokng.com_05f2c07c", server: 146.70.242.130, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_e75416e0", server: 84.17.47.148, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_f51f6e12", server: jgwynphotoarts.pro, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_2b221c73", server: 138.199.35.217, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_2cadc6f0", server: 149.36.51.129, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_d3720d1d", server: 104.154.186.48, port: 80, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇧🇬[🎬🤖📺🎭]_dokng.com_27c26469", server: 87.252.163.153, port: 3090, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_55cb19bd", server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com, port: 443, type: http, username: 16955d72-1794-11f0-a035-f23c95b6f51d, password: 16955d72-1794-11f0-a035-f23c95b6f51d, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] A🟢🇺🇸[🤖🎭🎪📦]_dokng.com_051ffd09", server: 168.222.194.138, port: 9880, type: vless, tls: true, xudp: true, uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511, servername: dl.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc-tunnel}, reality-opts: {public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU, short-id: aabbccdd}, client-fingerprint: chrome, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTP] U⚪🏳️[🎬🤖📺🎭]_dokng.com_1258f05e", server: 176.111.37.5, port: 39811, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_3a778467", server: 138.199.35.202, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_f5a5e73c", server: purposebydesig.club, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] D🔴🇲🇽[🎬🤖📺🎭]_dokng.com_266fb746", server: 189.164.48.17, port: 3030, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_94c20e22", server: 84.17.47.146, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_36cad4a9", server: 138.199.35.216, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇦🇱[🤖📺🎭🎪]_dokng.com_333532c3", server: 87.120.103.242, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_1b46cd66", server: 169.40.42.223, port: 443, type: vless, tls: true, uuid: d65cc14c-f53f-4fe2-b262-97856601319c, servername: yahoo.com, flow: xtls-rprx-vision, reality-opts: {public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg, short-id: c39cc7310a}, client-fingerprint: ios, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_209eaff6", server: 138.199.35.210, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_5c4f76a8", server: purposebydesig.club, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇱🇻[🎬🤖📺🎭]_dokng.com_6ad1b6ae", server: 109.248.149.34, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_46cde1f2", server: 193.176.84.16, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇧🇬[🎬🤖📺🎭]_dokng.com_46213476", server: 185.94.192.210, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_0d3adab3", server: 138.199.35.205, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_256dedbc", server: 138.199.35.215, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6b515df2", server: fan.226278.xyz, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_b8f46ac7", server: 185.140.209.235, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_4433500a", server: 138.199.35.213, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_9742de7b", server: 193.176.84.22, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_05f4c70f", server: 138.201.56.241, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_756ee32b", server: 169.40.42.231, port: 443, type: vless, tls: true, uuid: d65cc14c-f53f-4fe2-b262-97856601319c, servername: yahoo.com, flow: xtls-rprx-vision, reality-opts: {public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg, short-id: c39cc7310a}, client-fingerprint: ios, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇬🇷[🎬🤖📺🎭]_dokng.com_bd621a63", server: 149.22.85.65, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_412dd6e0", server: zebpay.site, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_41052d2a", server: 193.176.84.36, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇧🇬[🎬🤖📺🎭]_dokng.com_1c6cb296", server: 185.94.192.210, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_2b514860", server: 149.36.50.157, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_39b9ca70", server: 200.94.38.46, port: 2604, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_da8c1157", server: fr012.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_e4a85cae", server: 169.40.42.89, port: 443, type: vless, tls: true, xudp: true, uuid: d65cc14c-f53f-4fe2-b262-97856601319c, servername: yahoo.com, flow: xtls-rprx-vision, reality-opts: {public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg, short-id: c39cc7310a}, client-fingerprint: ios, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_ec95baf0", server: 185.235.0.34, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇸🇪[🎬🤖📺🎭]_dokng.com_a4545a3b", server: 202.155.11.249, port: 443, type: vless, tls: true, uuid: 0a2dde28-70da-4863-a06f-35d007d94d35, servername: cf2.rumedia-cdn.com, network: ws, ws-opts: {path: /cdn/v3/live, headers: {Host: cf2.rumedia-cdn.com}}, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_cbba6ad1", server: 47.28.64.79, port: 802, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] A🟢🇧🇾[🎬🤖📺🎪]_dokng.com_b46de6a5", server: 144.31.129.2, port: 443, type: vless, tls: true, packet-encoding: xudp, xudp: true, uuid: 91eb52ec-e3f5-4ab9-90da-43104995aef7, servername: by1.un1.pro, flow: xtls-rprx-vision, reality-opts: {public-key: y3EIsxDGDJrBGk3j4YmjI5R_8jiCsEDRDMeL4bv5TTI, short-id: 6ba85179e30d4fc2}, client-fingerprint: firefox, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_b74edc3f", server: 185.246.153.42, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_e0ead22e", server: 169.40.42.104, port: 443, type: vless, tls: true, uuid: d65cc14c-f53f-4fe2-b262-97856601319c, servername: yahoo.com, flow: xtls-rprx-vision, reality-opts: {public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg, short-id: c39cc7310a}, client-fingerprint: ios, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_9b573d8c", server: purposebydesig.club, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_c942411f", server: 23.95.112.143, port: 6005, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_65403f87", server: 187.134.71.216, port: 80, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇮🇪[🎬🤖📺🎭]_dokng.com_d9f9993e", server: 149.88.96.1, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_f4286256", server: 52.55.81.168, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_ae57c96c", server: 193.176.84.20, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_30ef0ff2", server: 193.176.84.17, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_37c76867", server: 193.176.84.34, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_cb4b704b", server: 149.36.50.157, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇱🇻[🎬🤖📺🎭]_dokng.com_fbede378", server: 109.248.147.66, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇧🇬[🎬🤖📺🎭]_dokng.com_f1d5fbe8", server: 88.87.6.135, port: 3030, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇨🇭[🎬🤖📺🎭]_dokng.com_ad565b9f", server: 212.65.190.199, port: 7272, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7f99624e", server: voteshirleysew.club, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_dc3524c5", server: 194.110.4.164, port: 2053, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_ff7a73df", server: 104.128.72.119, port: 80, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==, udp: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇧🇪[🎬🤖📺🎭]_dokng.com_4f224227", server: 146.70.176.242, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇧🇪[🎬🤖📺🎭]_dokng.com_0b4359d3", server: 146.70.123.98, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_49e2e376", server: 193.176.84.35, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇸🇪[🎬🤖📺🎪]_dokng.com_6c7ec50c", server: 146.70.242.146, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_6de70491", server: nl201.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇵🇱[🤖📺🎭🎪]_dokng.com_18ecaa3e", server: 37.120.156.34, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇲🇽[🤖📺🎭🎪]_dokng.com_15be1260", server: 189.51.168.164, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇵🇱[🤖📺🎭🎪]_dokng.com_12512f43", server: 37.120.156.34, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇧🇪[🎬🤖📺🎭]_dokng.com_895a114b", server: 146.70.176.242, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇪🇸[🤖📺🎭🎪]_dokng.com_148d2ee2", server: 130.195.250.34, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_03b9018d", server: 73.109.227.116, port: 8081, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_812a49d6", server: 212.102.63.31, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇭🇺[🎬🤖📺🎭]_dokng.com_a5141b87", server: 146.70.203.18, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇷🇺[✨🎞️📦🔍]_dokng.com_965e2a11", server: 185.21.156.73, port: 4080, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇭🇺[🤖📺🎪✨]_dokng.com_2400de7f", server: 146.70.203.18, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] B🟡🇯🇵[🎬🤖📺🎭]_dokng.com_b34978a6", server: 121.46.230.137, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
+  - {name: "[HTTPS] C🟠🇬🇧[🤖📺🎭🎪]_dokng.com_045fb906", server: 37.120.233.34, port: 9443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_549727c0", server: nl206.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] A🟢🇮🇹[🎬🤖🎪📦]_dokng.com_8d725197", server: 178.237.4.200, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_805ac382", server: 91.238.54.189, port: 7778, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] U⚪🏳️_dokng.com_e9282652", server: 109.172.55.177, port: 1082, type: socks5, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇨🇴[🎬🤖📺🎭]_dokng.com_5a766a16", server: 157.137.219.224, port: 62145, type: vless, tls: true, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] U⚪🏳️[🎬🤖📺🎭]_dokng.com_4b4e6659", server: 140.238.43.0, port: 50160, type: hysteria2, password: 9c5be37406b6584005b8de0ee3734dd9, sni: www.bing.com, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇦🇱[🤖📺🎭🎪]_dokng.com_35f9b19f", server: 87.120.103.226, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_46227203", server: 193.37.70.182, port: 80, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇪🇸[🎬🤖📺🎭]_dokng.com_34ccbd9f", server: 130.195.250.18, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] U⚪🏳️[✈️]_dokng.com_bdcb20f7", server: wstg.datasynctrue.online, port: 443, type: vless, tls: true, xudp: true, uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615, network: ws, ws-opts: {path: /api/connect, headers: {Host: wstg.datasynctrue.online}}, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇸[🎬🤖📺🎭]_dokng.com_24d941b9", server: 146.70.221.34, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️[🎬📺🎭🎪]_dokng.com_686b169b", server: nl207.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] B🟡🇺🇸[🎬🤖📺🎭]_dokng.com_6d82d007", server: 148.100.84.192, port: 5252, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇨🇱[🤖📺🎭🎪]_dokng.com_08f39eaa", server: 190.93.229.49, port: 18080, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_b048a56d", server: 45.38.107.97, port: 6014, type: socks5, username: tgwthlvq, password: 7h66qhienbjo, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_426f07c5", server: 178.62.83.124, port: 32766, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_cc8acd7d", server: 173.205.202.241, port: 8181, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇨🇿[🎬🤖📺🎭]_dokng.com_9a9bd413", server: 185.71.233.84, port: 800, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇦🇱[🤖📺🎭🎪]_dokng.com_5bb324a2", server: 87.120.103.242, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇳🇱[🎬🤖📺🎭]_dokng.com_1fac1dff", server: 87.215.14.228, port: 65432, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_7d7f3a77", server: 5.101.149.245, port: 8443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_e73d582a", server: 149.102.245.65, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_60c7d940", server: 193.176.84.23, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_d8a84f16", server: 47.239.98.42, port: 1080, type: socks5, username: abc123, password: abc123, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇻🇪_dokng.com_44c37297", server: 181.233.89.128, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_8bd7fb72", server: 193.176.84.40, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_3b6bf33f", server: 193.176.84.32, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇬🇧[🎬🤖📺🎪]_dokng.com_485cc62b", server: 212.102.63.31, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] C🟠🇬🇧[🤖]_dokng.com_31ee3f2b", server: 18.132.203.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_11acc36f", server: 193.176.84.39, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_13bb1fbc", server: 103.82.101.43, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_566b18be", server: 212.102.63.61, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_1e378dfb", server: 96.84.121.105, port: 8023, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_0464a06d", server: fr017.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇮🇹[🎬🤖📺🎭]_dokng.com_74e83c9e", server: 95.229.15.89, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_8ab2f38c", server: 193.176.84.21, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] A🟢🇬🇧[🎬🤖📺🎭]_dokng.com_2885fd20", server: 45.85.88.194, port: 2234, type: trojan, password: tripitropa994825, sni: vps.tropicalhosting.net, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇷🇺[🎪]_dokng.com_53b3ffab", server: 81.200.146.190, port: 4100, type: vless, tls: true, xudp: true, uuid: 9c2307ba-7972-4ea5-a199-f2c80049be7f, network: ws, ws-opts: {path: /v1, headers: {Host: live.ok.ru}}, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️[🤖📺🎪✨]_dokng.com_89e7191b", server: sr2-id.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] U⚪🏳️[🎬🤖📺🎭]_dokng.com_3285df17", server: 208.95.22.65, port: 8282, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_26d0e430", server: 146.70.29.45, port: 443, type: http, username: testuser1, password: e4b72b531a2d10900519, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇵🇹[🤖📺🎭🎪]_dokng.com_a2cc7036", server: 149.22.86.14, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇨🇭[🎬🤖📺🎭]_dokng.com_5edb8d34", server: 37.120.213.210, port: 9443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇷🇺[📺🎪✨🔍]_dokng.com_68a2081e", server: ru05.abvpn.ru, port: 443, type: vless, tls: true, uuid: a289a3d3-5833-4b28-8809-ae72898a98d0, servername: ru05.abvpn.ru, network: ws, ws-opts: {path: /websocket, headers: {Host: ru05.abvpn.ru}}, flow: "", skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_0357be42", server: 193.176.84.33, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_b89abc3d", server: adheres-scruple.quick-cdn.net, port: 443, type: vless, tls: true, uuid: b2aa6d03-4d3e-478d-98aa-2447f09d4cb1, servername: adheres-scruple.quick-cdn.net, network: ws, ws-opts: {path: /ws}, flow: "", skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_1af479e3", server: 193.176.84.24, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] C🟠🇱🇹[🎬📺🎭🎪]_dokng.com_352b514e", server: 212.24.108.20, port: 11920, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇿🇦[🎬📺🎪]_dokng.com_87555364", server: 160.124.240.188, port: 89, type: http, username: aa, password: aa, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_bd192656", server: 212.102.63.31, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_6502a8f1", server: 185.204.171.230, port: 1819, type: vless, tls: true, uuid: b4a30b6a-2d8d-4652-827e-357d9d720a1e, flow: "", skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_0cb603c3", server: 193.176.84.37, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_87eec561", server: 147.182.216.4, port: 443, type: http, username: testuser1, password: e4b72b531a2d10900519, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_646648d8", server: dl1-us.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇧🇷[🤖✨🔍]_dokng.com_39e53745", server: 170.80.131.249, port: 2138, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇨🇿[🎬🤖📺🎭]_dokng.com_745155a4", server: 194.87.26.137, port: 3121, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_1303c27e", server: 59.125.62.188, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (Telegram🇨🇳 @WangCai2)7eb777f:123571}, tfo: false}
+  - {name: "[HTTPS] D🔴🇵🇹[🎬🤖📺🎭]_dokng.com_b3f34a76", server: 149.22.86.1, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇸🇪[🎬🤖📺🎭]_dokng.com_0e98105a", server: 149.50.216.65, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] A🟢🇺🇿[🤖📺]_dokng.com_cebdae97", server: 189.74.97.47, port: 2087, type: vless, tls: true, uuid: 894fe9f0-b998-49c0-8003-a5007de921e1, network: ws, ws-opts: {path: /755276b33b6f}, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇵🇹[🎬🤖📺🎭]_dokng.com_3e2c6a58", server: 149.22.86.1, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇦🇺[🎬🤖📺🎭]_dokng.com_1f579770", server: 159.13.44.228, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇬🇧[🎬🤖📺🎭]_dokng.com_2b63c5ca", server: 154.61.56.215, port: 3118, type: http, password: None, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] U⚪🏳️_dokng.com_e0dfd167", server: 185.213.211.29, port: 443, type: vless, tls: true, uuid: 47667ac5-ac51-7fc6-181f-65321ee2387b, servername: svg-2.onrender.com, network: ws, ws-opts: {path: /ws/47667ac5-ac51-7fc6-181f-65321ee2387b, headers: {Host: svg-2.onrender.com}}, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇺🇸[🤖📺🎭🎪]_dokng.com_1577b38e", server: 63.175.157.2, port: 30005, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_8014db02", server: ma1-gb.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_c2ec0a4a", server: 84.247.60.125, port: 6095, type: socks5, username: tgwthlvq, password: 7h66qhienbjo, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_f467085f", server: 185.44.107.166, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇸🇪[🎬🤖📺🎭]_dokng.com_2fd7cd8b", server: 46.59.120.87, port: 81, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_34a41e08", server: 193.176.84.38, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] D🔴🇪🇨[🎬🤖📺🎭]_dokng.com_8104ffd5", server: 181.39.25.196, port: 8118, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] U⚪🏳️[🎬🤖🎪✨]_dokng.com_701d262f", server: 163.181.207.213, port: 9999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] U⚪🏳️[🔍]_dokng.com_7e987ce7", server: 104.154.186.48, port: 80, type: http, password: None, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_238da015", server: 193.176.84.26, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_2e110cfe", server: 188.220.67.181, port: 2087, type: vless, tls: true, uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee, network: ws, ws-opts: {path: /8f2690e2d016}, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇦🇱[🤖📺📦]_dokng.com_7f0f178a", server: 79.106.44.66, port: 2095, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_54a270d5", server: cr2-id.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇨🇴[🎬🤖📺🎭]_dokng.com_9bf5de09", server: 177.93.57.82, port: 12345, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_111a989f", server: 193.176.84.19, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇫🇮[🎬🤖📺✨]_dokng.com_8d6631c6", server: 94.228.166.247, port: 2053, type: vless, tls: true, xudp: true, uuid: 9f5b9ca7-d0bb-4e50-a3ca-acf5968027fc, servername: fi-one.quiet-rogue.site, flow: xtls-rprx-vision, reality-opts: {public-key: AKUQO-fKsD19FFBxNq5XTFCRXWDZfes4zJjRINY1KUI, short-id: beff3ff061a64cfd}, client-fingerprint: chrome, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTP] A🟢🇬🇹[🤖🎪📦]_dokng.com_31b8e5a4", server: 200.35.176.154, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_fed26656", server: 149.102.245.65, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇦🇺[🎬🤖📺🎭]_dokng.com_75a616e0", server: 103.62.50.130, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇪🇨[🎬🤖📺🎭]_dokng.com_ef75b4ae", server: 45.183.100.105, port: 8588, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇨🇴[🎬🤖📺🎭]_dokng.com_2a324b65", server: 181.205.134.125, port: 8080, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇩🇴[🎬🤖📺🎭]_dokng.com_cdc1c1b9", server: 154.88.164.160, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6e6a2c6c", server: 193.25.215.182, port: 22222, type: socks5, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇵🇹[🎬🤖📺🎭]_dokng.com_1db5bd58", server: 149.22.86.14, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_c09c3f93", server: 162.243.146.243, port: 443, type: http, username: testuser1, password: e4b72b531a2d10900519, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇪🇨[🎬🤖📺🎭]_dokng.com_169c6ac9", server: 45.173.228.217, port: 1550, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇵🇪[🎬🤖📺🎭]_dokng.com_4a0c33ea", server: 209.45.65.55, port: 1011, type: http, tls: false, skip-cert-verify: true, tfo: false}
   - {name: "[SOCKS5] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_147f42c4", server: 85.17.179.81, port: 1080, type: socks5, username: M_YOU_D, password: Private, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] A🟢🇺🇸_dokng.com_4a841be9", server: 31.76.70.32, port: 443, type: vless, tls: true, xudp: true, uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f, servername: baltic.cendora.ru, flow: xtls-rprx-vision, reality-opts: {public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik, short-id: 4a46213c935e2ee4}, client-fingerprint: chrome, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[HTTP] A🟢🇪🇨_dokng.com_b6d9abc2", server: 45.4.88.89, port: 2010, type: http, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "[VLESS] D🔴🇸🇬_dokng.com_c46c93f3", server: nian.001.url111.kcloud02.top, port: 15006, type: vless, tls: true, xudp: true, uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86, servername: www.adobe.com, flow: xtls-rprx-vision, reality-opts: {public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg, short-id: 029a6cc4}, client-fingerprint: chrome, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTP] A🟢🇻🇪[🎬📺🎭🎪]_dokng.com_a344beab", server: 206.62.167.8, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇵🇸[🎬🤖📺🎪]_dokng.com_4e740cfc", server: 82.213.29.53, port: 18000, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_d66d3f2e", server: br4-tr.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇫🇮[🎬🤖📺🎪]_dokng.com_204bcf33", server: 31.77.183.88, port: 5000, type: vless, tls: true, xudp: true, uuid: 74f73fb2-49cc-4744-bd37-97c5f83963ab, servername: max.ru, flow: xtls-rprx-vision, reality-opts: {public-key: cpoZcpYNYSvFXGGB21tByHUoNd7-FYrJ0UP7ZDfSFCs, short-id: a1b2c3d4}, client-fingerprint: firefox, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTP] D🔴🇫🇷[🤖📺🎭🎪]_dokng.com_26e7e011", server: 37.59.125.131, port: 8888, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_b76991e9", server: 198.105.121.200, port: 6462, type: socks5, username: tgwthlvq, password: 7h66qhienbjo, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇻🇪_dokng.com_0b439e65", server: 38.41.188.20, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] U⚪🏳️_dokng.com_0d50b27a", server: 43.156.228.168, port: 80, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] U⚪🏳️_dokng.com_0cbd3120", server: 47.81.56.193, port: 8888, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_c745045d", server: 185.246.153.28, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇻🇪[🎬📺🎭🎪]_dokng.com_062fa5f4", server: 141.136.63.66, port: 465, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇨🇴[🤖📺🎪📦]_dokng.com_2c289b12", server: 181.174.228.175, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇷🇺[🎪✨📦🔍]_dokng.com_a2d8e877", server: 193.19.190.59, port: 8095, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] D🔴🇪🇨[🎬🤖📺🎭]_dokng.com_956079b4", server: 181.39.35.94, port: 9100, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Hysteria2] D🔴🇸🇬[🎬📺🎭🎪]_dokng.com_1dc078ee", server: sg1.xiaoliyu.cyou, port: 1933, type: hysteria2, password: 19f72087-4591-4d72-930b-2697078ec2be, sni: sg1.xiaoliyu.cyou, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️_dokng.com_1d385d2c", server: 107.151.238.27, port: 443, type: http, username: testuser1, password: e4b72b531a2d10900519, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇨🇴[🎬🤖🎭🎪]_dokng.com_c2100b96", server: 190.145.193.46, port: 8089, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_fed9fc96", server: 37.120.233.50, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇨🇴[🎬🤖📺🎭]_dokng.com_1d3bde41", server: 190.14.231.137, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_f8da7378", server: 187.103.125.104, port: 61234, type: http, password: None, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_62113475", server: 167.172.172.190, port: 443, type: http, username: testuser1, password: e4b72b531a2d10900519, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] D🔴🇹🇭[🎬🤖📺🎭]_dokng.com_46d8ebd8", server: 202.28.194.139, port: 31280, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_2e49200d", server: 45.163.116.86, port: 3900, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_c36b3d06", server: 157.22.183.72, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_b4b7d066", server: 45.134.9.41, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_62caac5f", server: 82.196.9.7, port: 443, type: http, username: testuser1, password: e4b72b531a2d10900519, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] A🟢🇪🇪[🤖📺🎭🎪]_dokng.com_7dc55055", server: 201.24.54.210, port: 24443, type: vless, tls: true, uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714, servername: www.cloudflare.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: 9d30d49278}, reality-opts: {public-key: s2uiu3GQA2SlZzsr86Z5Dav97eAFTPf7Nvr-zqzzRgg, short-id: 72ccd4a7563c2953}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] U⚪🏳️[✈️]_dokng.com_483670b0", server: 91.210.169.181, port: 443, type: vless, tls: true, xudp: true, uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615, network: ws, ws-opts: {path: /api/connect, headers: {Host: wstg.datasynctrue.online}}, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTP] A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_0c92e5d4", server: 45.228.89.114, port: 8666, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] U⚪🏳️_dokng.com_74e49428", server: 62.84.172.69, port: 443, type: vless, tls: true, uuid: 47667ac5-ac51-7fc6-181f-65321ee2387b, servername: svg-2.onrender.com, network: ws, ws-opts: {path: /ws/47667ac5-ac51-7fc6-181f-65321ee2387b, headers: {Host: svg-2.onrender.com}}, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇧🇷[🤖📺🎭🎪]_dokng.com_ca3b1afa", server: 164.163.237.196, port: 9091, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇻🇪[🎬📺🎭📦]_dokng.com_f9e51be1", server: 186.167.53.178, port: 8282, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️[📺🎪📦🔍]_dokng.com_342f3e57", server: br3-tr.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇺🇸[📺🎭🎪]_dokng.com_a1688446", server: 31.76.70.112, port: 8443, type: vless, tls: true, xudp: true, uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f, servername: auto.cendora.ru, flow: xtls-rprx-vision, reality-opts: {public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM, short-id: a7f3c91b2e6d84c0}, client-fingerprint: firefox, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTP] U⚪🏳️[✨🔍]_dokng.com_13eb0c58", server: 181.232.190.121, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_24a6e4b9", server: 104.168.249.36, port: 1080, type: socks5, username: test123, password: test123, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇪🇨[🎬🤖📺🎭]_dokng.com_ad093202", server: 177.53.215.196, port: 1812, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_76440e56", server: 172.96.161.152, port: 20090, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==, udp: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[📺🎭🎪]_dokng.com_00f6512a", server: 209.148.53.153, port: 8090, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇮🇹[🤖🎭🎪✨]_dokng.com_8a2d7b99", server: 93.42.177.250, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_39e2be1f", server: 200.225.129.110, port: 5566, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] D🔴🇪🇸[🎬🤖📺🎭]_dokng.com_9bd8f607", server: 64.137.96.74, port: 6641, type: socks5, username: tgwthlvq, password: 7h66qhienbjo, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] A🟢🇨🇿[🤖🎭🎪📦]_dokng.com_d0576f5e", server: 193.35.104.196, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇪🇨[🎬🤖📺🎭]_dokng.com_714b1721", server: 181.188.203.40, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇵🇪[🎬🤖📺🎭]_dokng.com_3460631b", server: 45.177.20.189, port: 65535, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_103dfe9d", server: 104.105.140.151, port: 41470, type: trojan, password: 25744bca-3a03-4f16-a781-80f1442572d4, sni: vpn-node.internal, skip-cert-verify: true, network: ws, ws-opts: {path: /xVpnTrojanWsSvc7f3a, headers: {Host: vpn-node.internal}}, tfo: false}
+  - {name: "[HTTPS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_b1448db8", server: 216.107.139.82, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] A🟢🇩🇪[🤖📺🎭🎪]_dokng.com_3ec79ed3", server: 141.17.83.73, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_a702328c", server: 169.40.42.229, port: 443, type: vless, tls: true, uuid: d65cc14c-f53f-4fe2-b262-97856601319c, servername: yahoo.com, flow: xtls-rprx-vision, reality-opts: {public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg, short-id: c39cc7310a}, client-fingerprint: ios, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_b2a204d9", server: 187.188.171.231, port: 10101, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇮🇹[🎬🤖📺🎭]_dokng.com_9b8722f4", server: 109.116.41.154, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] D🔴🇹🇭[🤖📺]_dokng.com_60b6c1a8", server: 43.164.3.124, port: 1080, type: socks5, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇧🇷[📺🎭🎪]_dokng.com_75602843", server: 179.184.163.133, port: 44443, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇵🇪[🎬🤖📺🎭]_dokng.com_1107011e", server: 38.172.129.23, port: 8800, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] U⚪🏳️_dokng.com_5476324f", server: 185.145.99.41, port: 1080, type: socks5, username: test123, password: test123, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇻🇪[🎬📺🎭🎪]_dokng.com_d4ff7d29", server: 154.3.76.14, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] A🟢🇩🇪[🤖📺🎭🎪]_dokng.com_cd8f0f6d", server: fan.973511.xyz, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_da7c41d8", server: 47.239.116.165, port: 1080, type: socks5, username: admin, password: admin, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇹🇷[🎬🤖📺🎭]_dokng.com_97e37ec8", server: direct-tr01.korvexe.ir, port: 21570, type: vless, tls: true, xudp: true, uuid: c7a9c7f0-4a6b-414e-bdfc-8ad8980f858b, network: ws, ws-opts: {path: /, headers: {Host: direct-tr01.korvexe.ir}}, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇳🇱[🤖📺🎭🎪]_dokng.com_ca5ed24f", server: 185.53.129.141, port: 9090, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] D🔴🇮🇹[🎬🤖📺🎭]_dokng.com_247c815d", server: 67.159.46.42, port: 8899, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎪]_dokng.com_87bf668a", server: cr1-id.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] U⚪🏳️[🎬🤖📺🎭]_dokng.com_aed04841", server: nl209.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_98e8f1da", server: 177.222.248.51, port: 9191, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_ba5e8e2f", server: 45.70.87.228, port: 92, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] D🔴🇳🇱[📺🎭🎪✨]_dokng.com_433a1132", server: 5.255.113.177, port: 1080, type: socks5, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇮🇹[🎬🤖📺🎪]_dokng.com_d1cc6278", server: 91.243.118.217, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] U⚪🏳️[🤖📺🎪✨]_dokng.com_d8fe306c", server: 42.96.18.62, port: 1311, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_f612229d", server: 72.56.81.75, port: 443, type: vless, tls: true, xudp: true, uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55, servername: app3.goonars.com, flow: xtls-rprx-vision, reality-opts: {public-key: mHlSdLyCi4y4Bit5YrV9SpNI4RxoC08gyxUJPDy2Ylg, short-id: a17b41ba}, client-fingerprint: firefox, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[SOCKS5] D🔴🇰🇷[🎬🤖📺🎭]_dokng.com_5b8e1a9b", server: 121.169.46.116, port: 1090, type: socks5, username: Og%3D%3D, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] U⚪🏳️[✈️]_dokng.com_cf3c3780", server: 89.34.90.68, port: 8443, type: vless, tls: true, xudp: true, uuid: fe8e2ffb-8796-408c-af5b-0d4774215e00, servername: 360.yandex.ru, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, reality-opts: {public-key: dTdncizxtVTqDZDkQoYdRTkf2Mn6XuKtkzg8vZhrkzA, short-id: 6ba85179e30d4fc2}, client-fingerprint: chrome, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTP] A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_15a794cc", server: 45.236.65.182, port: 8085, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_7bed2fa0", server: 31.77.183.88, port: 5001, type: vless, tls: true, xudp: true, uuid: 74f73fb2-49cc-4744-bd37-97c5f83963ab, servername: max.ru, flow: xtls-rprx-vision, reality-opts: {public-key: D-G2rTpSUTAF6Rj0C6Gxnk-uzsaGzM6MSbJX3jCyBBk, short-id: a1b2c3d4}, client-fingerprint: firefox, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VLESS] C🟠🇺🇸[🤖📺]_dokng.com_c8016af7", server: 176.111.218.212, port: 2087, type: vless, tls: true, uuid: 7c04b737-d6a7-47ec-99bf-94e668090fcf, network: ws, ws-opts: {path: /ffc10963e4f8}, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_919b7764", server: 131.0.120.162, port: 9292, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] C🟠🇺🇸[🤖📺🎪🔍]_dokng.com_8a217df2", server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VLESS] A🟢🇩🇰[📺🎭🎪]_dokng.com_43362a6b", server: 46.29.235.9, port: 443, type: vless, tls: true, xudp: true, uuid: d67af820-f54c-48ab-862c-19086357f276, servername: telegraf.lv, flow: xtls-rprx-vision, reality-opts: {public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI, short-id: a1b2c3d4}, client-fingerprint: firefox, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_0d5bc13d", server: 51.158.243.91, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇷🇸[📺🎭🎪]_dokng.com_94989f60", server: 178.217.12.89, port: 6669, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] A🟢🇭🇰[🎬📺🎭🎪]_dokng.com_224b2a1d", server: 152.175.28.15, port: 28443, type: trojan, password: 04e30e9f-661a-4a40-9973-4f2961298e99, sni: vpn-node.internal, skip-cert-verify: true, network: ws, ws-opts: {path: /xVpnTrojanWsSvc7f3a, headers: {Host: vpn-node.internal}}, tfo: false}
+  - {name: "[HTTP] A🟢🇵🇪[🎬🤖📺🎭]_dokng.com_8cd9548a", server: 200.62.236.154, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] A🟢🇲🇾[🎬🤖📺🎭]_dokng.com_0691a64f", server: 172.238.18.184, port: 42575, type: trojan, password: 21d3a3c0-c237-42d4-bc06-f86084ef9bb4, sni: vpn-node.internal, skip-cert-verify: true, network: ws, ws-opts: {path: /xVpnTrojanWsSvc7f3a, headers: {Host: vpn-node.internal}}, tfo: false}
+  - {name: "[VLESS] A🟢🇸🇨[🎬📺🎭🎪]_dokng.com_546bbd95", server: mfa.gov.ua, port: 443, type: vless, tls: true, uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5, servername: mao.kipfel.kdns.fr, network: ws, ws-opts: {path: /glasspanel/guest000_0_5de14443985f/, headers: {Host: mao.kipfel.kdns.fr}}, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇸🇬[📺🎭🎪]_dokng.com_8496ce1e", server: 104.248.148.240, port: 443, type: http, username: testuser1, password: e4b72b531a2d10900519, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇩🇴_dokng.com_a6b25016", server: 217.76.245.140, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇻🇪[🎬📺🎭🎪]_dokng.com_83d51ec6", server: 190.153.22.2, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇲🇽_dokng.com_7ca00dcc", server: 189.51.168.165, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] D🔴🇺🇸[🎪]_dokng.com_7f59cd1e", server: 45.61.129.165, port: 9050, type: socks5, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] A🟢🇺🇸[🎬🤖🎪✨]_dokng.com_3dbfbac9", server: 178.95.170.115, port: 2087, type: vless, tls: true, xudp: true, uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be, network: ws, ws-opts: {path: /4bc027a44532}, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] A🟢🇭🇰[🎬📺🎭✨]_dokng.com_c970db79", server: 58.152.46.127, port: 28443, type: trojan, password: 0f3963f9-0530-434d-be2c-87e9b61143c8, sni: vpn-node.internal, skip-cert-verify: true, network: ws, ws-opts: {path: /xVpnTrojanWsSvc7f3a, headers: {Host: vpn-node.internal}}, tfo: false}
+  - {name: "[SOCKS5] D🔴🇺🇸_dokng.com_180c6698", server: 45.61.129.165, port: 9050, type: socks5, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_9cf9cd36", server: 58.152.46.127, port: 49167, type: trojan, password: d59fc9a4-14db-49d7-b922-59976bcd49cb, sni: vpn-node.internal, skip-cert-verify: true, network: ws, ws-opts: {path: /xVpnTrojanWsSvc7f3a, headers: {Host: vpn-node.internal}}, tfo: false}
+  - {name: "[SS] C🟠🇰🇷[🎬🤖📺🎭]_dokng.com_f9dd3272", server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true, tfo: false}
+  - {name: "[HTTP] A🟢🇦🇹[🎬🤖📺🎭]_dokng.com_fabf5584", server: 80.64.143.173, port: 31337, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇧🇷_dokng.com_b1a61230", server: 200.95.192.61, port: 9292, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇩🇴_dokng.com_2f6cef71", server: 181.232.190.121, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] C🟠🇫🇷[📺🎭]_dokng.com_2457ab68", server: 176.97.66.175, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "[SOCKS5] D🔴🇫🇷[📺🎭🎪]_dokng.com_e50054e0", server: 144.91.121.61, port: 1088, type: socks5, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] U⚪🏳️_dokng.com_d008ccab", server: 164.163.188.113, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_0463f8c7", server: 131.72.230.97, port: 999, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] C🟠🇬🇧[🤖📺🎭🎪]_dokng.com_31fdb5da", server: 193.36.118.210, port: 443, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] C🟠🇭🇰[✈️🔍]_dokng.com_099454ad", server: 47.243.173.50, port: 11211, type: socks5, username: 111, password: !<str> 111, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] D🔴🇸🇪[📺🎭]_dokng.com_5533c299", server: 171.25.158.95, port: 1080, type: socks5, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] U⚪🏳️[🤖✈️]_dokng.com_6cc12663", server: 8.219.97.248, port: 80, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_8ab268ea", server: 148.230.110.203, port: 443, type: http, password: None, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] A🟢🇺🇦[🎬🤖📺🎪]_dokng.com_1fedb69a", server: 91.203.61.52, port: 6789, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] U⚪🏳️[📺🎪]_dokng.com_bb28e8b2", server: 109.94.1.23, port: 4050, type: http, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] A🟢🇹🇼_dokng.com_c5568042", server: 106.107.236.110, port: 1080, type: socks5, username: 111, password: !<str> 111, skip-cert-verify: true, tfo: false}
+  - {name: "[SOCKS5] D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_485d2d71", server: 5.255.103.55, port: 1080, type: socks5, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTPS] D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_1374045a", server: 193.176.84.30, port: 9002, type: http, tls: true, skip-cert-verify: true, tfo: false}
+  - {name: "[VLESS] D🔴🇩🇪[🤖📺🎭🎪]_dokng.com_d5526037", server: 31.76.71.140, port: 443, type: vless, tls: true, uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd, servername: rrr.windconnect.pro, flow: xtls-rprx-vision, reality-opts: {public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30, short-id: 4da5d1853f04af6d}, client-fingerprint: firefox, skip-cert-verify: true, tfo: false}
+  - {name: "[HTTP] U⚪🏳️_dokng.com_6de140d5", server: 104.251.93.167, port: 16062, type: http, tls: false, skip-cert-verify: true, tfo: false}
