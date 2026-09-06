@@ -1,103 +1,102 @@
 proxies:
-  - {name: "[SS] 🇺🇸 🇺🇸US-173.244.56.9-0108 | 266.395MB", server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-173.244.56.6-0105 | 241.395MB", server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇨🇦 🇨🇦CA-108.181.118.10-0072 | 193.884MB", server: 108.181.118.10, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: G5p6ww4o67HB, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-108.181.0.177-0070 | 191.004MB", server: 108.181.0.177, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: G5p6ww4o67HB, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-156.146.38.168-0068 | 119.328MB", server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-156.146.38.169-0069 | 109.975MB", server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-156.146.38.170-0067 | 108.075MB", server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-156.146.38.167-0066 | 99.398MB", server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇯🇵 🇯🇵JP-45.32.16.53-0102 | 74.724MB", server: 45.32.16.53, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: uTBjZhDmOMwBVAJI, tfo: false}
-  - {name: "[VMess] 🇺🇸 🇺🇸US-107.175.91.118-4743 | 69.373MB", server: 107.175.91.118, port: 443, type: vmess, uuid: 1bb1f95f-7425-4442-93f7-8fc1bd1a2001, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
-  - {name: "[SS] 🇨🇦 🇨🇦CA-149.22.95.183-0112 | 67.159MB", server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.204-0155 | 62.047MB", server: 193.29.139.204, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.16-0117 | 60.317MB", server: 82.38.31.16, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.202-0081 | 60.066MB", server: 82.38.31.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.235-0090 | 59.834MB", server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.205-0075 | 59.618MB", server: 82.38.31.205, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.174-0080 | 59.449MB", server: 82.38.31.174, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.187-0093 | 59.343MB", server: 82.38.31.187, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.149-0089 | 59.115MB", server: 82.38.31.149, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.194-0113 | 58.935MB", server: 82.38.31.194, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.155-0073 | 58.518MB", server: 82.38.31.155, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.34-0076 | 58.121MB", server: 82.38.31.34, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.35-0094 | 58.034MB", server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.35-0096 | 57.946MB", server: 82.38.31.35, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.192-0110 | 57.917MB", server: 82.38.31.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.210-0106 | 57.917MB", server: 82.38.31.210, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.15-0084 | 57.701MB", server: 82.38.31.15, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.179-0103 | 57.457MB", server: 82.38.31.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.174-0091 | 56.6MB", server: 82.38.31.174, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.57-0074 | 56.435MB", server: 82.38.31.57, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.147-0092 | 56.38MB", server: 193.29.139.147, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.212-0099 | 56.284MB", server: 82.38.31.212, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.180-0082 | 56.27MB", server: 82.38.31.180, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.217-0098 | 56.243MB", server: 82.38.31.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.36-0087 | 55.796MB", server: 82.38.31.36, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.48-0085 | 55.0MB", server: 82.38.31.48, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-146.70.61.37-0111 | 54.922MB", server: 146.70.61.37, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-109.201.152.181-0107 | 54.65MB", server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.184-0101 | 54.406MB", server: 82.38.31.184, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.49-0097 | 53.911MB", server: 82.38.31.49, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.208-0104 | 53.861MB", server: 82.38.31.208, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.216-0083 | 53.55MB", server: 82.38.31.216, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.214-0079 | 52.95MB", server: 82.38.31.214, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.191-0086 | 51.216MB", server: 82.38.31.191, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.168-0109 | 50.096MB", server: 193.29.139.168, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-37.19.198.244-0139 | 47.263MB", server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-37.19.198.160-0138 | 46.513MB", server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-37.19.198.236-0137 | 44.699MB", server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-37.19.198.243-0135 | 43.27MB", server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇨🇦 🇨🇦CA-137.184.174.93-0077 | 40.98MB", server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, tfo: false}
-  - {name: "[SS] 🇨🇦 🇨🇦CA-35.182.226.121-0114 | 39.633MB", server: 35.182.226.121, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: "[SS] 🇨🇦 🇨🇦CA-35.182.118.89-0401 | 39.097MB", server: 35.182.118.89, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.223-0095 | 33.081MB", server: 193.29.139.223, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇯🇵 🇯🇵JP-149.22.87.240-0122 | 29.599MB", server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇯🇵 🇯🇵JP-149.22.87.204-0123 | 29.236MB", server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇯🇵 🇯🇵JP-149.22.87.241-0121 | 29.141MB", server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] 🇩🇪 🇩🇪DE-209.46.102.22-0143 | 28.753MB", server: 209.46.102.22, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 1hhrqrokj3ag, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-108.181.126.122-0118 | 28.317MB", server: 108.181.126.122, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: CJmTCCx7Ltud, tfo: false}
-  - {name: "[SS] IE-3.252.205.48-0119 | 24.711MB", server: 3.252.205.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-108.181.58.239-0116 | 21.501MB", server: 108.181.58.239, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: CJmTCCx7Ltud, tfo: false}
-  - {name: "[SS] 🇯🇵 🇯🇵JP-176.97.73.215-0127 | 21.487MB", server: 176.97.73.215, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ma6zc4JoLRJA, tfo: false}
-  - {name: "[SS] 🇩🇪 🇩🇪DE-8.209.74.72-0126 | 18.439MB", server: 8.209.74.72, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: PWpjPo3tqhPN4yRZ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-141.98.101.181-0124 | 17.794MB", server: 141.98.101.181, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: "[SS] TH-103.169.67.34-0129 | 13.209MB", server: 103.169.67.34, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
-  - {name: "[VMess] 🇲🇾 🇲🇾MY-47.250.45.234-4604 | 11.693MB", server: 47.250.45.234, port: 8613, type: vmess, uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
-  - {name: "[SS] ZA-102.37.156.224-0131 | 9.849MB", server: 102.37.156.224, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: aduB9HGxQHjA2SBMRjkHX6, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-15.204.247.244-0193 | 9.688MB", server: 15.204.247.244, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, tfo: false}
-  - {name: "[SS] ZA-102.133.165.160-0130 | 9.012MB", server: 102.133.165.160, port: 16233, type: ss, cipher: chacha20-ietf-poly1305, password: Xsy8Ox4yOV3xLlpxtjzs3X, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-144.31.243.2-0136 | 7.878MB", server: 144.31.243.2, port: 16015, type: ss, cipher: chacha20-ietf-poly1305, password: J1InuU6QRT5JOh1mQfkjU2, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.199-0128 | 7.587MB", server: 82.38.31.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇨🇳 🇨🇳TW-36.224.152.189-0134 | 5.401MB", server: r3mrcg001287h3p.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.219-0145 | 5.28MB", server: 82.38.31.219, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-94.156.250.148-0189 | 2.734MB", server: 94.156.250.148, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.176-0142 | 1.993MB", server: 82.38.31.176, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] NO-185.213.23.63-0173 | 1.815MB", server: 185.213.23.63, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: "[SS] 🇨🇳 🇨🇳TW-36.224.147.226-0217 | 1.675MB", server: r3mrcg001286ek2.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, tfo: false}
-  - {name: "[SS] 🇨🇳 🇨🇳TW-36.224.151.80-0133 | 1.601MB", server: r3mrcg00129437x.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, tfo: false}
-  - {name: "[SS] 🇫🇷 🇫🇷FR-95.170.13.47-0132 | 1.498MB", server: 95.170.13.47, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.10-0146 | 0.775MB", server: 82.38.31.10, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.2-0147 | 0.77MB", server: 82.38.31.2, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[SS] 🇨🇳 🇨🇳CN-121.46.230.137-0141 | 0.587MB", server: 121.46.230.137, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
-  - {name: "[SS] 🇨🇳 🇨🇳CN-121.46.230.232-0198 | 0.359MB", server: 121.46.230.232, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
-  - {name: "[SS] 🇨🇦 🇨🇦CA-51.79.85.185-0404 | 0.308MB", server: 51.79.85.185, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, tfo: false}
-  - {name: "[SS] 🇨🇦 🇨🇦CA-142.4.216.225-0144 | 0.083MB", server: 142.4.216.225, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ytw2awn, tfo: false}
-  - {name: "[SS] 🇲🇾 🇲🇾MY-118.107.222.231-0152 | 0.051MB", server: 118.107.222.231, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷KR-211.178.105.134-0151 | 0.049MB", server: 211.178.105.134, port: 6123, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷KR-218.237.185.230-0149 | 0.049MB", server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷KR-221.139.79.57-0208 | 0.024MB", server: 221.139.79.57, port: 13979, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰HK-47.244.120.197-4588 | 0.008MB", server: 47.244.120.197, port: 36703, type: vmess, uuid: 45b83519-9c4f-4052-a11b-02e017b636d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.218-0140 | 0.006MB", server: 82.38.31.218, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰HK-156.245.232.239-0209 | 0.005MB", server: 156.245.232.239, port: 35043, type: vmess, uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
-  - {name: "[SS] 🇭🇰 🇭🇰HK-103.141.221.124-4680 | 0.0MB", server: 103.141.221.124, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-38.121.43.142-6102 | 0.0MB", server: 38.121.43.142, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, tfo: false}
-  - {name: "[SS] 🇨🇦 🇨🇦CA-3.97.16.160-0115 | 0.0MB", server: 3.97.16.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.189-0100 | 0.0MB", server: 82.38.31.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-13.40.94.70-0125 | 0.0MB", server: 13.40.94.70, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.186-0088 | 0.0MB", server: 82.38.31.186, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.151-0078 | 0.0MB", server: 193.29.139.151, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: "[VMess] 🇺🇸 🇺🇸US-107.175.91.118-0071 | 0.0MB", server: 107.175.91.118, port: 443, type: vmess, uuid: 1bb1f95f-7425-4442-93f7-8fc1bd1a2001, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-156.146.38.170-0069 | 161.773MB", server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-156.146.38.169-0068 | 155.786MB", server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-156.146.38.168-0067 | 146.61MB", server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-156.146.38.167-0066 | 135.775MB", server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-108.181.0.177-0077 | 105.083MB", server: 108.181.0.177, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: G5p6ww4o67HB, tfo: false}
+  - {name: "[SS] 🇨🇦 🇨🇦CA-108.181.118.10-0070 | 101.712MB", server: 108.181.118.10, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: G5p6ww4o67HB, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-173.244.56.9-0112 | 80.745MB", server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-173.244.56.6-0113 | 79.497MB", server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇯🇵 🇯🇵JP-45.32.16.53-0117 | 72.005MB", server: 45.32.16.53, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: uTBjZhDmOMwBVAJI, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-37.19.198.243-0109 | 65.1MB", server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.235-0090 | 64.845MB", server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.192-0083 | 63.826MB", server: 82.38.31.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.16-0089 | 63.773MB", server: 82.38.31.16, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.46-0092 | 63.773MB", server: 82.38.31.46, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.174-0099 | 63.476MB", server: 82.38.31.174, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.208-0101 | 63.458MB", server: 82.38.31.208, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.216-0084 | 63.354MB", server: 82.38.31.216, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.186-0105 | 63.25MB", server: 82.38.31.186, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-146.70.61.37-0107 | 63.216MB", server: 146.70.61.37, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.151-0102 | 62.958MB", server: 193.29.139.151, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.217-0098 | 62.872MB", server: 82.38.31.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.179-0078 | 62.634MB", server: 82.38.31.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-37.19.198.236-0071 | 62.583MB", server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.187-0123 | 62.465MB", server: 82.38.31.187, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.204-0079 | 62.381MB", server: 193.29.139.204, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.180-0085 | 62.197MB", server: 82.38.31.180, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-37.19.198.160-0073 | 61.947MB", server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.35-0096 | 61.93MB", server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.155-0080 | 61.914MB", server: 82.38.31.155, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.210-0106 | 61.732MB", server: 82.38.31.210, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.214-0093 | 61.535MB", server: 82.38.31.214, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.36-0082 | 61.47MB", server: 82.38.31.36, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.191-0103 | 61.275MB", server: 82.38.31.191, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.194-0095 | 60.952MB", server: 82.38.31.194, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-37.19.198.244-0076 | 60.92MB", server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.49-0097 | 60.649MB", server: 82.38.31.49, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.205-0091 | 60.051MB", server: 82.38.31.205, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.202-0086 | 59.865MB", server: 82.38.31.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.15-0074 | 59.818MB", server: 82.38.31.15, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.189-0072 | 59.787MB", server: 82.38.31.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[VMess] 🇺🇸 🇺🇸US-107.175.91.118-5131 | 59.618MB", server: 107.175.91.118, port: 443, type: vmess, uuid: 1bb1f95f-7425-4442-93f7-8fc1bd1a2001, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.223-0081 | 59.419MB", server: 193.29.139.223, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.212-0100 | 59.328MB", server: 82.38.31.212, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.35-0075 | 59.252MB", server: 82.38.31.35, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.168-0108 | 58.935MB", server: 193.29.139.168, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.184-0094 | 58.696MB", server: 82.38.31.184, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-193.29.139.147-0116 | 58.562MB", server: 193.29.139.147, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇨🇦 🇨🇦CA-149.22.95.183-0118 | 58.311MB", server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.174-0110 | 58.209MB", server: 82.38.31.174, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.48-0087 | 57.672MB", server: 82.38.31.48, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.34-0104 | 57.643MB", server: 82.38.31.34, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇨🇦 🇨🇦CA-3.97.16.160-0163 | 57.103MB", server: 3.97.16.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-109.201.152.181-0120 | 56.462MB", server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.57-0111 | 56.175MB", server: 82.38.31.57, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.149-0088 | 55.369MB", server: 82.38.31.149, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇨🇦 🇨🇦CA-35.182.226.121-0246 | 49.454MB", server: 35.182.226.121, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: "[SS] 🇨🇦 🇨🇦CA-137.184.174.93-0114 | 48.198MB", server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, tfo: false}
+  - {name: "[SS] NO-185.213.23.63-0127 | 36.792MB", server: 185.213.23.63, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: "[SS] 🇩🇪 🇩🇪DE-209.46.102.22-0122 | 36.353MB", server: 209.46.102.22, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 1hhrqrokj3ag, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-108.181.58.239-0121 | 33.716MB", server: 108.181.58.239, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: CJmTCCx7Ltud, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-108.181.126.122-0119 | 32.873MB", server: 108.181.126.122, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: CJmTCCx7Ltud, tfo: false}
+  - {name: "[SS] 🇯🇵 🇯🇵JP-149.22.87.204-0130 | 27.123MB", server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] IE-3.252.205.48-0124 | 26.615MB", server: 3.252.205.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: "[SS] 🇯🇵 🇯🇵JP-149.22.87.240-0129 | 26.566MB", server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇯🇵 🇯🇵JP-149.22.87.241-0128 | 26.414MB", server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-13.40.17.62-2089 | 25.716MB", server: 13.40.17.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-13.40.94.70-0126 | 23.95MB", server: 13.40.94.70, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-144.31.243.2-0132 | 22.216MB", server: 144.31.243.2, port: 16015, type: ss, cipher: chacha20-ietf-poly1305, password: J1InuU6QRT5JOh1mQfkjU2, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-141.98.101.181-0131 | 20.91MB", server: 141.98.101.181, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: "[SS] 🇯🇵 🇯🇵JP-176.97.73.215-0134 | 20.864MB", server: 176.97.73.215, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ma6zc4JoLRJA, tfo: false}
+  - {name: "[SS] 🇩🇪 🇩🇪DE-8.209.74.72-0133 | 17.709MB", server: 8.209.74.72, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: PWpjPo3tqhPN4yRZ, tfo: false}
+  - {name: "[SS] TH-103.169.67.34-0135 | 12.866MB", server: 103.169.67.34, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
+  - {name: "[SS] 🇨🇦 🇨🇦CA-142.4.216.225-0151 | 11.1MB", server: 142.4.216.225, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ytw2awn, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-15.204.247.244-0149 | 10.388MB", server: 15.204.247.244, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, tfo: false}
+  - {name: "[SS] ZA-102.133.165.160-0136 | 9.816MB", server: 102.133.165.160, port: 16233, type: ss, cipher: chacha20-ietf-poly1305, password: Xsy8Ox4yOV3xLlpxtjzs3X, tfo: false}
+  - {name: "[SS] ZA-102.37.156.224-0137 | 9.356MB", server: 102.37.156.224, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: aduB9HGxQHjA2SBMRjkHX6, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.219-0146 | 6.952MB", server: 82.38.31.219, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.199-0115 | 6.587MB", server: 82.38.31.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[VMess] 🇯🇵 🇯🇵JP-172.111.146.64-4986 | 6.563MB", server: 172.111.146.64, port: 80, type: vmess, uuid: 05b8c783-7f59-47f9-9923-06a465679f6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
+  - {name: "[SS] 🇫🇷 🇫🇷FR-95.170.13.47-0187 | 5.403MB", server: 95.170.13.47, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-94.156.250.148-0142 | 4.703MB", server: 94.156.250.148, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, tfo: false}
+  - {name: "[SS] 🇨🇳 🇨🇳TW-36.224.151.80-0139 | 2.895MB", server: r3mrcg00129437x.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, tfo: false}
+  - {name: "[VMess] 🇮🇳 🇮🇳IN-152.67.8.205-0204 | 2.794MB", server: 152.67.8.205, port: 80, type: vmess, uuid: 9db4c708-aef8-4359-821b-38e47990be0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 🇮🇳IN-152.67.8.205-0204 | 2.794MB, network: ws, ws-opts: {path: /}, tfo: false}
+  - {name: "[SS] 🇨🇳 🇨🇳CN-121.46.230.137-4916 | 2.733MB", server: 121.46.230.137, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
+  - {name: "[SS] 🇨🇳 🇨🇳CN-121.46.230.232-0198 | 2.285MB", server: 121.46.230.232, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
+  - {name: "[SS] 🇨🇳 🇨🇳CN-121.46.230.233-0197 | 0.921MB", server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.10-0148 | 0.773MB", server: 82.38.31.10, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.2-0147 | 0.772MB", server: 82.38.31.2, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.176-0138 | 0.42MB", server: 82.38.31.176, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇰🇷 🇰🇷KR-221.139.79.57-0152 | 0.281MB", server: 221.139.79.57, port: 13979, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
+  - {name: "[SS] 🇬🇧 🇬🇧GB-82.38.31.218-0150 | 0.18MB", server: 82.38.31.218, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: "[SS] 🇰🇷 🇰🇷KR-211.178.105.134-0158 | 0.04MB", server: 211.178.105.134, port: 6123, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
+  - {name: "[VMess] 🇭🇰 🇭🇰HK-156.245.232.239-0157 | 0.031MB", server: 156.245.232.239, port: 35043, type: vmess, uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
+  - {name: "[VMess] 🇩🇪 🇩🇪DE-82.139.242.5-0529 | 0.031MB", server: 82.139.242.5, port: 443, type: vmess, uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: renderer-stream-2-62.mirra.now}}, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-92.112.126.90-0155 | 0.022MB", server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, tfo: false}
+  - {name: "[VMess] 🇲🇾 🇲🇾MY-47.250.45.234-4992 | 0.004MB", server: 47.250.45.234, port: 8613, type: vmess, uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
+  - {name: "[VMess] 🇲🇾 🇲🇾MY-47.250.45.234-4993 | 0.002MB", server: 47.250.45.234, port: 43063, type: vmess, uuid: c77f48f5-4be3-4461-b52b-49998e7b897b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-172.99.188.71-6612 | 0.0MB", server: 172.99.188.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, tfo: false}
   - {name: "[VMess] 🇸🇬 🇸🇬SG-128.199.188.214-0062 | 0.0MB", server: 128.199.188.214, port: 443, type: vmess, uuid: 3f724115-8ca2-4aa4-b8cc-eb72d9b6b1ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 128.199.188.214}}, tfo: false}
   - {name: "[VMess] 🇨🇳 🇨🇳CN-120.240.55.137-0061 | 0.0MB", server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 120.240.55.137}}, tfo: false}
   - {name: "[VMess] 🇭🇰 🇭🇰HK-18.167.20.169-0058 | 0.0MB", server: 18.167.20.169, port: 8080, type: vmess, uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.167.20.169}}, tfo: false}
@@ -109,7 +108,12 @@ proxies:
   - {name: "[SS] 🇯🇵 🇯🇵JP-193.38.139.204-0049 | 0.0MB", server: 193.38.139.204, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
   - {name: "[SS] 🇯🇵 🇯🇵JP-193.38.139.204-0048 | 0.0MB", server: 193.38.139.204, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
   - {name: "[SS] 🇯🇵 🇯🇵JP-193.38.139.204-0047 | 0.0MB", server: 193.38.139.204, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[SS] 🇨🇳 🇨🇳TW-36.224.152.189-0140 | 0.0MB", server: r3mrcg001287h3p.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, tfo: false}
+  - {name: "[SS] 🇨🇳 🇨🇳TW-36.224.147.226-0141 | 0.0MB", server: r3mrcg001286ek2.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, tfo: false}
   - {name: "[SS] 🇯🇵 🇯🇵JP-193.38.139.204-0046 | 0.0MB", server: 193.38.139.204, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
+  - {name: "[VMess] 🇺🇸 🇺🇸US-107.175.91.118-0143 | 0.0MB", server: 107.175.91.118, port: 443, type: vmess, uuid: 1bb1f95f-7425-4442-93f7-8fc1bd1a2001, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
+  - {name: "[SS] 🇨🇳 🇨🇳CN-121.46.230.138-0144 | 0.0MB", server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-216.105.168.18-0145 | 0.0MB", server: 216.105.168.18, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hCCWOcIsK5wrFz4OX70rWf, tfo: false}
   - {name: "[SS] 🇯🇵 🇯🇵JP-193.38.139.204-0045 | 0.0MB", server: 193.38.139.204, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
   - {name: "[SS] 🇯🇵 🇯🇵JP-193.38.139.204-0044 | 0.0MB", server: 193.38.139.204, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
   - {name: "[VMess] 🇨🇳 🇨🇳CN-120.240.55.137-0043 | 0.0MB", server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
@@ -117,58 +121,51 @@ proxies:
   - {name: "[VMess] 🇭🇰 🇭🇰HK-18.167.20.169-0040 | 0.0MB", server: 18.167.20.169, port: 8080, type: vmess, uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
   - {name: "[VMess] 🇨🇳 🇨🇳CN-42.186.175.8-0039 | 0.0MB", server: 42.186.175.8, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.93147341.xyz}}, tfo: false}
   - {name: "[VMess] 🇦🇺 🇦🇺AU-103.224.212.142-0033 | 0.0MB", server: mpdee-1042-v2-0.tyo-d-kcd.ap.cjhh.beauty, port: 888, type: vmess, uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s3.cjhh.beauty}}, tfo: false}
-  - {name: "[SS] 🇰🇷 🇰🇷KR-218.237.185.230-0148 | 0.0MB", server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
+  - {name: "[SS] 🇰🇷 🇰🇷KR-218.237.185.230-0153 | 0.0MB", server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
+  - {name: "[SS] 🇰🇷 🇰🇷KR-218.237.185.230-0154 | 0.0MB", server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
   - {name: "[VMess] 🇨🇳 🇨🇳CN-119.36.161.40-0030 | 0.0MB", server: 119.36.161.40, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.79759381.xyz}}, tfo: false}
-  - {name: "[SS] 🇨🇳 🇨🇳CN-121.46.230.233-0150 | 0.0MB", server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
+  - {name: "[VMess] 🇭🇰 🇭🇰HK-47.244.120.197-0156 | 0.0MB", server: 47.244.120.197, port: 44867, type: vmess, uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
   - {name: "[VMess] 🇨🇳 🇨🇳CN-119.36.161.40-0029 | 0.0MB", server: 119.36.161.40, port: 443, type: vmess, uuid: 2a23dbd5-09cf-4aa8-a835-3230728c4973, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.25055502.xyz}}, tfo: false}
   - {name: "[VMess] 🇭🇰 🇭🇰HK-147.139.7.71-0028 | 0.0MB", server: 147.139.7.71, port: 888, type: vmess, uuid: 08d6729d-830e-4341-df76-62d3d12e75e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
-  - {name: "[Trojan] 🇰🇷 🇰🇷KR-54.180.239.104-0153 | 0.0MB", server: tough-hermit.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-202.8.9.27-0154 | 0.0MB", server: 202.8.9.27, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇰🇷 🇰🇷KR-54.180.239.104-0159 | 0.0MB", server: tough-hermit.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇳🇱 🇳🇱NL-172.99.188.99-0160 | 0.0MB", server: 172.99.188.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false}
+  - {name: "[Trojan] 🇭🇰 🇭🇰HK-210.0.158.220-0162 | 0.0MB", server: 210.0.158.220, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
   - {name: "[VMess] 🇭🇰 🇭🇰HK-147.139.7.71-0027 | 0.0MB", server: 147.139.7.71, port: 888, type: vmess, uuid: 08d6729d-830e-4341-df76-62d3d12e75e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 147.139.7.71}}, tfo: false}
-  - {name: "[Trojan] 🇩🇪 🇩🇪DE-172.105.65.61-0156 | 0.0MB", server: 172.105.65.61, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇭🇰 🇭🇰HK-210.0.158.220-0158 | 0.0MB", server: 210.0.158.220, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇩🇪 🇩🇪DE-85.90.246.11-0160 | 0.0MB", server: 85.90.246.11, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇩🇪 🇩🇪DE-194.233.171.25-0162 | 0.0MB", server: 194.233.171.25, port: 443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇭🇰 🇭🇰HK-5.181.4.104-0163 | 0.0MB", server: 5.181.4.104, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇰🇷 🇰🇷KR-144.24.77.154-0165 | 0.0MB", server: 144.24.77.154, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: glckr.hruqoaw.cn, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇰🇷 🇰🇷KR-144.24.90.94-0166 | 0.0MB", server: 144.24.90.94, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: glckr.hruqoaw.cn, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇰🇷 🇰🇷KR-144.24.87.99-0167 | 0.0MB", server: 144.24.87.99, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: glckr.hruqoaw.cn, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇨🇳 🇨🇳CN-119.36.161.40-0168 | 0.0MB", server: 119.36.161.40, port: 443, type: vmess, uuid: 2a23dbd5-09cf-4aa8-a835-3230728c4973, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.25055502.xyz}}, tfo: false}
-  - {name: "[Trojan] 🇯🇵 🇯🇵JP-155.248.172.87-0171 | 0.0MB", server: 155.248.172.87, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
-  - {name: "[VMess] 🇨🇳 🇨🇳CN-119.36.161.40-0172 | 0.0MB", server: 119.36.161.40, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.79759381.xyz}}, tfo: false}
-  - {name: "[VMess] 🇰🇷 🇰🇷KR-152.67.218.38-0026 | 0.0MB", server: 152.67.218.38, port: 443, type: vmess, uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 152.67.218.38}}, tfo: false}
-  - {name: "[Trojan] VN-103.195.236.24-0174 | 0.0MB", server: 103.195.236.24, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇩🇪 🇩🇪DE-85.90.246.11-0166 | 0.0MB", server: 85.90.246.11, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇩🇪 🇩🇪DE-194.233.171.25-0168 | 0.0MB", server: 194.233.171.25, port: 443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇭🇰 🇭🇰HK-5.181.4.104-0169 | 0.0MB", server: 5.181.4.104, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇰🇷 🇰🇷KR-144.24.77.154-0170 | 0.0MB", server: 144.24.77.154, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: glckr.hruqoaw.cn, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇰🇷 🇰🇷KR-144.24.90.94-0171 | 0.0MB", server: 144.24.90.94, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: glckr.hruqoaw.cn, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇰🇷 🇰🇷KR-144.24.87.99-0172 | 0.0MB", server: 144.24.87.99, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: glckr.hruqoaw.cn, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇨🇳 🇨🇳CN-119.36.161.40-0173 | 0.0MB", server: 119.36.161.40, port: 443, type: vmess, uuid: 2a23dbd5-09cf-4aa8-a835-3230728c4973, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.25055502.xyz}}, tfo: false}
   - {name: "[VMess] 🇨🇦 🇨🇦CA-23.162.200.227-0175 | 0.0MB", server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vk.com}}, tfo: false}
-  - {name: "[VMess] 🇺🇸 🇺🇸US-38.174.138.227-0176 | 0.0MB", server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vsg1.0bad.com}}, tfo: false}
-  - {name: "[Trojan] VN-103.173.255.21-0178 | 0.0MB", server: 103.173.255.21, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: glcvn150.hruqoaw.cn, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-155.248.172.87-0177 | 0.0MB", server: 155.248.172.87, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇨🇳 🇨🇳CN-119.36.161.40-0178 | 0.0MB", server: 119.36.161.40, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.79759381.xyz}}, tfo: false}
+  - {name: "[Trojan] VN-103.195.236.24-0179 | 0.0MB", server: 103.195.236.24, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇺🇸 🇺🇸US-38.174.138.227-0180 | 0.0MB", server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vsg1.0bad.com}}, tfo: false}
   - {name: "[SS] 🇸🇬 🇸🇬SG-103.36.91.32-0181 | 0.0MB", server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, tfo: false}
-  - {name: "[Trojan] VN-103.173.255.127-0183 | 0.0MB", server: 103.173.255.127, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: glcvn150.hruqoaw.cn, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇰🇷 🇰🇷KR-54.180.128.171-0185 | 0.0MB", server: accurate-cat.rooster465.autos, port: 443, type: trojan, password: NQ26071394, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] VN-103.173.255.21-0183 | 0.0MB", server: 103.173.255.21, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: glcvn150.hruqoaw.cn, skip-cert-verify: true, tfo: false}
   - {name: "[SS] IT-194.87.47.204-0186 | 0.0MB", server: 194.87.47.204, port: 10901, type: ss, cipher: aes-256-gcm, password: d1fa2f4b98a38bc8, tfo: false}
-  - {name: "[Trojan] 🇸🇬 🇸🇬SG-20.24.44.110-0187 | 0.0MB", server: 20.24.44.110, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
+  - {name: "[VMess] 🇰🇷 🇰🇷KR-152.67.218.38-0026 | 0.0MB", server: 152.67.218.38, port: 443, type: vmess, uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 152.67.218.38}}, tfo: false}
+  - {name: "[Trojan] VN-103.173.255.127-0189 | 0.0MB", server: 103.173.255.127, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: glcvn150.hruqoaw.cn, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 🇯🇵JP-202.8.9.27-0191 | 0.0MB", server: 202.8.9.27, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇸🇬 🇸🇬SG-20.24.44.110-0192 | 0.0MB", server: 20.24.44.110, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇷🇺 🇷🇺RU-45.88.148.234-0195 | 0.0MB", server: 45.88.148.234, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] VN-103.173.255.234-0196 | 0.0MB", server: 103.173.255.234, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: glcvn150.hruqoaw.cn, skip-cert-verify: true, tfo: false}
   - {name: "[SS] 🇺🇸 🇺🇸US-169.197.143.232-0025 | 0.0MB", server: 169.197.143.232, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, tfo: false}
-  - {name: "[Trojan] 🇷🇺 🇷🇺RU-45.88.148.234-0191 | 0.0MB", server: 45.88.148.234, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] VN-103.173.255.234-0192 | 0.0MB", server: 103.173.255.234, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: glcvn150.hruqoaw.cn, skip-cert-verify: true, tfo: false}
   - {name: "[SS] 🇺🇸 🇺🇸US-169.197.143.232-0024 | 0.0MB", server: 169.197.143.232, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, tfo: false}
-  - {name: "[Trojan] 🇰🇷 🇰🇷KR-144.24.69.60-0195 | 0.0MB", server: 144.24.69.60, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: glckr.hruqoaw.cn, skip-cert-verify: true, tfo: false}
-  - {name: "[Trojan] 🇸🇬 🇸🇬SG-91.243.81.42-0196 | 0.0MB", server: 91.243.81.42, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇰🇷 🇰🇷KR-144.24.69.60-0200 | 0.0MB", server: 144.24.69.60, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: glckr.hruqoaw.cn, skip-cert-verify: true, tfo: false}
+  - {name: "[Trojan] 🇸🇬 🇸🇬SG-91.243.81.42-0201 | 0.0MB", server: 91.243.81.42, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
+  - {name: "[SS] 🇲🇾 🇲🇾MY-118.107.222.231-0203 | 0.0MB", server: 118.107.222.231, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
   - {name: "[SS] 🇺🇸 🇺🇸US-38.75.136.34-0023 | 0.0MB", server: 38.75.136.34, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-216.105.168.18-0199 | 0.0MB", server: 216.105.168.18, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hCCWOcIsK5wrFz4OX70rWf, tfo: false}
-  - {name: "[SS] 🇨🇳 🇨🇳CN-121.46.230.138-0202 | 0.0MB", server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
-  - {name: "[VMess] 🇨🇳 🇨🇳CN-42.186.175.8-0203 | 0.0MB", server: 42.186.175.8, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.93147341.xyz}}, tfo: false}
-  - {name: "[VMess] 🇮🇳 🇮🇳IN-152.67.8.205-0204 | 0.0MB", server: 152.67.8.205, port: 80, type: vmess, uuid: 9db4c708-aef8-4359-821b-38e47990be0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 🇮🇳IN-152.67.8.205-0204 | 0.0MB, network: ws, ws-opts: {path: /}, tfo: false}
-  - {name: "[Trojan] 🇩🇪 🇩🇪DE-80.78.132.177-0207 | 0.0MB", server: 80.78.132.177, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-38.75.136.34-0022 | 0.0MB", server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-38.75.136.34-0021 | 0.0MB", server: 38.75.136.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false}
-  - {name: "[SS] 🇳🇱 🇳🇱NL-92.112.126.90-0210 | 0.0MB", server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, tfo: false}
+  - {name: "[VMess] 🇨🇳 🇨🇳CN-42.186.175.8-0207 | 0.0MB", server: 42.186.175.8, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.93147341.xyz}}, tfo: false}
+  - {name: "[Trojan] 🇩🇪 🇩🇪DE-80.78.132.177-0210 | 0.0MB", server: 80.78.132.177, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: download.windowsupdate1.com, skip-cert-verify: true, tfo: false}
   - {name: "[VMess] 🇭🇰 🇭🇰HK-47.244.120.197-0211 | 0.0MB", server: 47.244.120.197, port: 36703, type: vmess, uuid: 45b83519-9c4f-4052-a11b-02e017b636d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
-  - {name: "[VMess] 🇭🇰 🇭🇰HK-47.244.120.197-0212 | 0.0MB", server: 47.244.120.197, port: 44867, type: vmess, uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
   - {name: "[VMess] 🇲🇾 🇲🇾MY-47.250.45.234-0213 | 0.0MB", server: 47.250.45.234, port: 43063, type: vmess, uuid: c77f48f5-4be3-4461-b52b-49998e7b897b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
   - {name: "[VMess] 🇲🇾 🇲🇾MY-47.250.45.234-0214 | 0.0MB", server: 47.250.45.234, port: 8613, type: vmess, uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
   - {name: "[Trojan] 🇺🇸 🇺🇸US-64.94.95.118-0215 | 0.0MB", server: 64.94.95.118, port: 57142, type: trojan, password: kkzh2prsyr2ik47as615, sni: 64.94.95.118, skip-cert-verify: true, tfo: false}
   - {name: "[SS] 🇭🇰 🇭🇰HK-148.66.56.99-0216 | 0.0MB", server: 148.66.56.99, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, tfo: false}
-  - {name: "[SS] 🇺🇸 🇺🇸US-38.91.107.72-0020 | 0.0MB", server: 38.91.107.72, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, tfo: false}
-  - {name: "[VMess] 🇦🇺 🇦🇺AU-103.224.212.142-0218 | 0.0MB", server: mpdee-1042-v2-0.tyo-d-kcd.ap.cjhh.beauty, port: 888, type: vmess, uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s3.cjhh.beauty}}, tfo: false}
+  - {name: "[VMess] 🇦🇺 🇦🇺AU-103.224.212.142-0217 | 0.0MB", server: mpdee-1042-v2-0.tyo-d-kcd.ap.cjhh.beauty, port: 888, type: vmess, uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s3.cjhh.beauty}}, tfo: false}
   - {name: "[VMess] 🇫🇷 🇫🇷FR-162.19.192.89-0219 | 0.0MB", server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com}}, tfo: false}
   - {name: "[VMess] 🇯🇵 🇯🇵JP-54.168.242.25-0220 | 0.0MB", server: 54.168.242.25, port: 8555, type: vmess, uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, tfo: false}
   - {name: "[VMess] 🇨🇳 🇨🇳CN-120.240.55.137-0221 | 0.0MB", server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 120.240.55.137}}, tfo: false}
@@ -193,10 +190,13 @@ proxies:
   - {name: "[VMess] 🇺🇸 🇺🇸US-23.236.69.39-0243 | 0.0MB", server: 23.236.69.39, port: 24187, type: vmess, uuid: 12a8ee36-5936-4449-90bd-b5eac6db4c1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
   - {name: "[VMess] 🇰🇷 🇰🇷KR-132.145.80.230-0244 | 0.0MB", server: 132.145.80.230, port: 80, type: vmess, uuid: 5155860e-d07d-46c3-9128-3afbd84626c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kr02.a0a.xyz}}, tfo: false}
   - {name: "[SS] 🇨🇦 🇨🇦CA-35.182.250.193-0245 | 0.0MB", server: 35.182.250.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: "[VMess] RELAY-104.16.118.43-0247 | 0.0MB", server: access.zoominfo.com, port: 80, type: vmess, uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sanggoro6.nextvpn.cc}}, tfo: false}
+  - {name: "[SS] 🇺🇸 🇺🇸US-38.75.136.34-0022 | 0.0MB", server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, tfo: false}
+  - {name: "[VMess] RELAY-104.16.117.43-0247 | 0.0MB", server: access.zoominfo.com, port: 80, type: vmess, uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sanggoro6.nextvpn.cc}}, tfo: false}
   - {name: "[SS] 🇸🇬 🇸🇬SG-13.213.46.196-0248 | 0.0MB", server: 13.213.46.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
   - {name: "[SS] 🇨🇳 🇨🇳CN-14.29.124.168-0249 | 0.0MB", server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, tfo: false}
   - {name: "[SS] 🇺🇸 🇺🇸US-38.121.43.65-0250 | 0.0MB", server: 38.121.43.65, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, tfo: false}
   - {name: "[VMess] AE-20.216.40.219-0251 | 0.0MB", server: 20.216.40.219, port: 80, type: vmess, uuid: d218e51a-258f-43d2-8ce3-c8872611bf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
   - {name: "[VMess] RELAY-104.26.9.76-0252 | 0.0MB", server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk2.v2rayserv.com}}, tfo: false}
   - {name: "[VMess] RELAY-104.23.102.53-0253 | 0.0MB", server: 104.23.102.53, port: 443, type: vmess, uuid: 5c84e109-4772-4efb-a1cb-7b09d5a1791e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bissen.114514cn.me}}, tfo: false}
+  - {name: "[SS] 🇩🇪 🇩🇪DE-193.108.118.30-0254 | 0.0MB", server: 193.108.118.30, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, tfo: false}
+  - {name: "[SS] AE-20.216.40.219-0255 | 0.0MB", server: 20.216.40.219, port: 8080, type: ss, cipher: aes-256-gcm, password: d218e51a-258f-43d2-8ce3-c8872611bf28, tfo: false}
