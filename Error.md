@@ -4,6 +4,7 @@
 |-|-|
 |[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/vpnclashfa-backup/SubConfigShuffler/10ium/Collector/mixed/cloudflare.txt.yaml|
 |[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/vpnclashfa-backup/MirrorMan/gheychiamoozesh.b64.yaml|
+|[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/Ruk1ng001.yaml|
 |[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/surfboard/money.yaml|
 |[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/lagzian_meta.yaml|
 |[4]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/Epodonios.yaml|
@@ -49,7 +50,6 @@
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/mfuu.yaml|
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/mahsanet_mtn_sub_1.yaml|
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/mahsanet_mci_sub_3.yaml|
-|[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/Ruk1ng001.yaml|
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/MahsaNetConfigTopic.yaml|
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/10ium/base64-encoder/tristan-deng_MyNodes.yaml|
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/10ium/base64-encoder/Surfboardv2ray/_mahsa.yaml|
@@ -59,13 +59,13 @@
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/surfboard/ainita.yaml|
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/mfuu.yaml|
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/amirparsaxs_xsfilternet.yaml|
-|[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/10ium/base64-encoder/Surfboardv2ray/_mahsa.yaml|
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/mfuu.yaml|
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/itsyebekhe/_TR.yaml|
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/10ium/HiN-VPN/subscription/source/base64/spotify_porteghali.yaml|
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/10ium/HiN-VPN/subscription/source/base64/soskeynet.yaml|
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/10ium/HiN-VPN/subscription/source/base64/configx2ray.yaml|
 |[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/clash/mahsanet/test_sub.txt.yaml|
+|[3]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/clash/mahsanet/_mci_sub_1.yaml|
 |[2]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/vpnclashfa-backup/SubConfigShuffler/itsyebekhe_PSG_mix_cloudflare.txt.yaml|
 |[2]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/mahsanet_mci_sub_2.yaml|
 |[2]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/mahsanet_mci_sub_1.yaml|
@@ -119,7 +119,6 @@
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/mahsanet/tlshello_ws443_IranBypass.json.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/mahsanet/fakehost_ws80.json.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/mahdibland/ShadowsocksAggregator/EternityAir.yaml|
-|[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/free18.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/Barabama_ndnode.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/AzadNetCH/workers/AzadNet.txt.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/AzadNetCH/Clash/AzadNet.txt.yaml|
@@ -132,6 +131,7 @@
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/mahsanet/_mtn_sub_1.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/ainita.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/Barabama_ndnode.yaml|
+|[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/10ium/base64-encoder/Surfboardv2ray/_mahsa.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/vpnclashfa-backup/SubConfigShuffler/10ium_fetcher_cloudflare.txt.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/tristan-deng_MyNodes.yaml|
 |[1]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/theGreatPeter_nodes.yaml|
@@ -263,6 +263,7 @@
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/mfuu/json.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/mfuu/clash.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/maimengmeng_AnyTLS.yaml|
+|[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/maimengmeng/_custom.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/mahsanet_mtn_sub_4.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/mahsanet_mci_sub_4.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/v2ray/mahsanet/wireguard.txt.yaml|
@@ -1538,6 +1539,7 @@
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/mfuu/json.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/mfuu/clash.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/maimengmeng_AnyTLS.yaml|
+|[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/maimengmeng/_custom.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/mahsanet_mtn_sub_3.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/mahsanet_mtn_sub_2.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/ss/mahsanet_mtn_sub_1.yaml|
@@ -2439,6 +2441,7 @@
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/mfuu_v2ray.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/mfuu/json.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/mfuu/clash.yaml|
+|[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/maimengmeng/_custom.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/maimengmeng/_AnyTLS.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/mahsanet/wireguard.txt.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/mixed/mahsanet/warp_mmm_noise.json.yaml|
@@ -3289,6 +3292,7 @@
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/clash/mfuu_v2ray.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/clash/mfuu/json.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/clash/mfuu/clash.yaml|
+|[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/clash/maimengmeng/_custom.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/clash/mahsanet/wireguard.txt.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/clash/mahsanet/warp_mmm_noise.json.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/clash/mahsanet/warp.json.yaml|
@@ -3411,6 +3415,7 @@
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/clash/darknessm427_WoW-clash-wg.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/clash/dafei-sub.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/clash/clashe_eu_org.yaml|
+|[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/clash/chromego-sub.netlify.app/sub/merged_proxies_new.yaml.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/clash/barry-far/V2ray-config/Sub8.txt.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/clash/barry-far/V2ray-config/Sub7.txt.yaml|
 |[0]|https://github.com/asgharkapk/Sub-Config-Extractor/blob/main/output_configs/clash/barry-far/V2ray-config/Sub6.txt.yaml|
