@@ -1,10 +1,10 @@
 #!MANAGED-CONFIG http://127.0.0.1:25500/sub?add_emoji=true&append_info=true&append_type=true&classic=false&expand=false&fdn=true&insert=true&list=true&new_name=false&prepend=true&remove_emoji=false&script=false&scv=true&sort=false&target=surfboard&tfo=false&tls13=false&udp=true&url=https%3A%2F%2Fraw.githubusercontent.com%2Fermaozi%2Fget_subscribe%2Frefs%2Fheads%2Fmain%2Fsubscribe%2Fclash.yml interval=86400 strict=false
 
-[VMess] 🇭🇰 🇭🇰_HK_中国香港 = vmess, dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn, 443, username=d90e4077-bc7e-414d-a650-70bf1baae4d6, tls=true, vmess-aead=true, tls13=false, ws=true, ws-path=/, sni=dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn, ws-headers=Host:dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn, skip-cert-verify=true, tfo=false, udp-relay=true
 [VMess] 🇺🇸 🇺🇸_US_美国 = vmess, www.shopify.com, 443, username=6a89a215-22bf-4bd7-9642-b95b2e09583a, tls=true, vmess-aead=true, tls13=false, ws=true, ws-path=/hls/cctv5phd.m3u8, sni=guanwang.awsno.com, ws-headers=Host:guanwang.awsno.com, skip-cert-verify=true, tfo=false, udp-relay=true
-[VMess] 🇭🇰 🇭🇰_HK_中国香港_1 = vmess, v10.hdacd.com, 30807, username=cbb3f877-d1fb-344c-87a9-d153bffd5484, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
+[VMess] 🇭🇰 🇭🇰_HK_中国香港->🇩🇪_DE_德国 = vmess, v33.hdacd.com, 30833, username=cbb3f877-d1fb-344c-87a9-d153bffd5484, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
 [VMess] 🇨🇳_CN_中国 = vmess, 112.132.215.108, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
 [VMess] 🇺🇸 🇺🇸_US_美国_1 = vmess, guanwang.awsno.com, 443, username=6a89a215-22bf-4bd7-9642-b95b2e09583a, tls=true, vmess-aead=true, tls13=false, ws=true, ws-path=/hls/cctv5phd.m3u8, sni=guanwang.awsno.com, ws-headers=Host:guanwang.awsno.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[VMess] 🇭🇰 🇭🇰_HK_中国香港 = vmess, v10.hdacd.com, 30807, username=cbb3f877-d1fb-344c-87a9-d153bffd5484, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
 [VMess] 防范境外势力渗透 = vmess, 127.0.0.53, 80, username=88888888-8888-8888-8888-888888888888, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
 [VMess] 防范境外势力渗透 #1 = vmess, 127.0.0.53, 81, username=88888888-8888-8888-8888-888888888888, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
 [VMess] 防范境外势力渗透 #2 = vmess, 127.0.0.53, 82, username=88888888-8888-8888-8888-888888888888, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
@@ -30,36 +30,82 @@
 [Trojan] 🇺🇸 美国3|@ripaojiedian = trojan, 100.42.228.109, 443, password=BxceQaOe, sni=t.me%2Fripaojiedian, skip-cert-verify=true, tfo=false, udp-relay=true
 [SS] 🇨🇳 台湾|@ripaojiedian = ss, 36.33.35.105, 30001, encrypt-method=aes-256-gcm, password=Butterfly123@qwe9527, tfo=false, udp-relay=true
 [VMess] 🇭🇰 香港|@ripaojiedian = vmess, v10.hdacd.com, 30807, username=cbb3f877-d1fb-344c-87a9-d153bffd5484, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
-[SOCKS5] 🇨🇳CN_1|5.5MB/s = socks5, 103.210.161.8, 1080, username=T2c9PTpPZz09, password=T2c9PTpPZz09, skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] 🇬🇧GB_1|1.2MB/s = https, 37.120.233.34, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] 🇸🇪SE_1|1.9MB/s = https, 146.70.242.130, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] 🇨🇿CZ_1|2.2MB/s = https, 185.216.35.130, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] 🇬🇧GB_2|2.5MB/s = https, 37.120.233.50, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] 🇺🇸US_1|1.4MB/s = https, 138.199.35.207, 9002, null, null, skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] 🇬🇧GB_3|2.0MB/s = https, 185.235.0.98, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
-[VMess] 🇯🇵JP_1|1.7MB/s = vmess, 206.190.237.167, 17577, username=3ceb8486-fb82-462c-e989-89182fe660a5, tls=false, vmess-aead=true, ws=true, ws-path=/3ceb8486, sni=206.190.237.167, skip-cert-verify=true, tfo=false, udp-relay=true
-[SS] 🇯🇵JP_2|5.4MB/s = ss, 18.179.111.96, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=true
-[SOCKS5] 🇨🇳CN_2|3.1MB/s = socks5, 103.210.161.8, 1080, skip-cert-verify=true, tfo=false, udp-relay=true
-[SS] 🇺🇸US_2|1.1MB/s = ss, 18.207.155.184, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=true
-[HTTPS] 🇵🇱PL_1|1.1MB/s = https, 37.120.156.18, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] 🇧🇪BE_1|2.2MB/s = https, 146.70.176.242, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] 🇨🇭CH_1|1.3MB/s = https, 31.7.62.50, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] 🇨🇭CH_2|1.6MB/s = https, 37.120.213.210, 9443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] 🇨🇿CZ_2|1.8MB/s = https, 185.216.35.66, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] 🇬🇧GB_4|1004KB/s = https, 37.120.233.34, 9443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] 🇩🇪DE_1|1.2MB/s = https, 149.36.50.157, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] 🇩🇪DE_2|1023KB/s = https, 149.36.50.1, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] 🇬🇧GB_5|1.3MB/s = https, 212.102.63.61, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] 🇬🇧GB_6|1.1MB/s = https, 212.102.63.1, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] 🇵🇹PT_1|1.1MB/s = https, 149.22.86.14, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
-[SS] 🇯🇵JP_3|5.3MB/s = ss, 3.112.209.209, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=true
+[SOCKS5] 🇰🇷KR_1|1.3MB/s = socks5, 121.169.46.116, 1090, username=T2clM0QlM0Q6, skip-cert-verify=true, tfo=false, udp-relay=true
+[SOCKS5] 🇨🇳CN_1|5.1MB/s = socks5, 103.210.161.8, 1080, username=T2c9PTpPZz09, password=T2c9PTpPZz09, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇸🇪SE_1|1.1MB/s = https, 146.70.242.130, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇨🇿CZ_1|2.6MB/s = https, 185.216.35.130, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇬🇧GB_8|2.1MB/s = https, 37.120.233.50, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_1|3.6MB/s = https, 138.199.35.207, 9002, null, null, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇬🇧GB_2|2.5MB/s = https, 185.235.0.98, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇧🇪BE_1|3.0MB/s = https, 146.70.176.242, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇨🇭CH_1|2.6MB/s = https, 37.120.213.210, 9443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇨🇿CZ_2|4.0MB/s = https, 185.216.35.66, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇬🇧GB_3|3.3MB/s = https, 37.120.233.34, 9443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇩🇪DE_2|1.2MB/s = https, 149.36.50.1, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇬🇧GB_4|3.1MB/s = https, 212.102.63.1, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇵🇹PT_1|2.7MB/s = https, 149.22.86.14, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] NL_speednode_0004 = https, 84.17.47.125, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] NL_speednode_0005 = https, 84.17.47.125, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] NL_speednode_0006 = https, 84.17.47.150, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] NL_speednode_0007 = https, 84.17.47.148, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] NL_speednode_0008 = https, 84.17.47.148, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] NL_speednode_0009 = https, 84.17.47.146, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] NL_speednode_0010 = https, 84.17.47.149, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] RO_speednode_0097 = https, 193.176.84.23, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] RO_speednode_0110 = https, 193.176.84.27, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTP] 🇩🇪DE_3|1.2MB/s = http, 103.237.102.191, 11111, password=None, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇩🇪DE_4|2.7MB/s = https, 149.36.50.129, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇩🇪DE_5|1.2MB/s = https, 87.249.132.97, 9443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇨🇭CH_2|2.3MB/s = https, 31.7.62.50, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇬🇧GB_5|2.8MB/s = https, 185.235.0.66, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_2|2.6MB/s = https, 138.199.35.219, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇬🇧GB_6|2.7MB/s = https, 185.235.0.34, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇬🇧GB_7|3.1MB/s = https, 185.235.0.2, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇷🇸RS_1|2.7MB/s = https, 146.70.221.34, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_3|1.5MB/s = https, 138.199.35.207, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_4|1.7MB/s = https, 138.199.35.205, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_5|4.7MB/s = https, 138.199.35.206, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_6|4.4MB/s = https, 138.199.35.204, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_7|3.8MB/s = https, 138.199.35.202, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_8|3.5MB/s = https, 138.199.35.209, 9002, null, null, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇪🇸ES_1|3.0MB/s = https, 82.102.17.178, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_9|4.4MB/s = https, 138.199.35.196, 9002, null, null, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇩🇰DK_1|2.8MB/s = https, 185.245.84.50, 9443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_10|2.4MB/s = https, 38.95.111.226, 9443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_11|2.3MB/s = https, 138.199.35.201, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_12|2.6MB/s = https, 138.199.35.210, 9002, null, null, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_13|4.6MB/s = https, 138.199.35.216, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇩🇪DE_6|3.0MB/s = https, 87.249.132.97, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_14|3.4MB/s = https, 138.199.35.212, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_15|3.5MB/s = https, 138.199.35.220, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_16|3.5MB/s = https, 138.199.35.214, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇬🇷GR_1|1.5MB/s = https, 149.22.85.65, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇫🇷FR_3|3.4MB/s = https, 87.98.174.157, 6103, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇮🇹IT_1|1.4MB/s = https, 185.183.105.130, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇬🇷GR_2|2.8MB/s = https, 149.22.85.65, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇦🇹AT_1|3.0MB/s = https, 146.70.244.18, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇦🇹AT_2|2.8MB/s = https, 146.70.244.2, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇵🇱PL_1|3.3MB/s = https, 37.120.156.18, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇬🇧GB_9|2.3MB/s = https, 212.102.63.31, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇳🇱NL_7|3.6MB/s = https, 5.255.118.82, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇬🇧GB_10|2.9MB/s = https, 212.102.63.61, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_17|2.8MB/s = https, 149.88.21.129, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇪🇸ES_2|1.9MB/s = https, 130.195.250.18, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇷🇴RO_3|3.7MB/s = https, 193.176.84.21, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇫🇷FR_4|2.7MB/s = https, 149.102.245.65, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇸🇪SE_2|3.2MB/s = https, 79.142.77.63, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_18|3.0MB/s = https, 149.34.248.65, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇭🇷HR_1|2.5MB/s = https, 154.47.29.161, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇭🇺HU_1|3.8MB/s = https, 146.70.203.18, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇪🇨EC_1|2.4MB/s = https, 38.165.231.71, 9443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[SOCKS5] 🇸🇪SE_3|3.3MB/s = socks5, 171.25.158.95, 1080, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇩🇪DE_7|2.3MB/s = https, 141.17.83.73, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇷🇴RO_4|2.6MB/s = https, 193.176.84.37, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[SOCKS5] 🇺🇸US_19|2.5MB/s = socks5, 104.168.249.36, 1080, username=test123, password=test123, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_21|4.7MB/s = https, 138.199.35.205, 9002, null, null, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] 🇺🇸US_22|4.4MB/s = https, 138.199.35.209, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] RO_speednode_0126 = https, 193.176.84.39, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] RO_speednode_0087 = https, 193.176.84.20, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] NL_speednode_0005 = https, 84.17.47.125, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
+[HTTPS] NL_speednode_0009 = https, 84.17.47.146, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0011 = https, 84.239.49.218, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0012 = https, 84.239.49.202, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0013 = https, 84.239.49.59, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
@@ -136,7 +182,6 @@
 [HTTPS] RO_speednode_0084 = https, 84.239.49.37, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0085 = https, 84.239.49.234, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0086 = https, 84.239.49.211, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] RO_speednode_0087 = https, 193.176.84.20, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0088 = https, 84.239.49.239, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0089 = https, 84.239.49.187, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0090 = https, 84.239.14.148, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
@@ -146,7 +191,6 @@
 [HTTPS] RO_speednode_0094 = https, 193.176.84.31, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0095 = https, 84.239.49.186, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0096 = https, 84.239.14.146, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] RO_speednode_0097 = https, 193.176.84.23, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0098 = https, 84.239.49.173, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0099 = https, 84.239.14.147, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0100 = https, 84.239.49.248, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
@@ -159,7 +203,6 @@
 [HTTPS] RO_speednode_0107 = https, 84.239.14.158, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0108 = https, 84.239.14.151, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0109 = https, 84.239.49.39, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] RO_speednode_0110 = https, 193.176.84.27, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0111 = https, 84.239.14.155, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0112 = https, 84.239.14.160, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0113 = https, 84.239.49.175, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
@@ -175,7 +218,6 @@
 [HTTPS] RO_speednode_0123 = https, 84.239.49.182, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0124 = https, 193.176.84.32, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0125 = https, 84.239.49.227, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
-[HTTPS] RO_speednode_0126 = https, 193.176.84.39, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0127 = https, 84.239.49.180, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] RO_speednode_0128 = https, 84.239.49.218, 9002, , None, skip-cert-verify=true, tfo=false, udp-relay=true
 [SOCKS5] SI_speednode_0129 = socks5, 45.144.54.40, 1080, skip-cert-verify=true, tfo=false, udp-relay=true
@@ -185,25 +227,43 @@
 [HTTPS] US_speednode_0140 = https, purposebydesig.club, 443, , None, skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] US_speednode_0141 = https, 38.28.193.188, 443, , , skip-cert-verify=true, tfo=false, udp-relay=true
 [HTTPS] US_speednode_0143 = https, 138.199.35.198, 9002, , , skip-cert-verify=true, tfo=false, udp-relay=true
-[SS] 🇩🇪 🇩🇪 德国 | DEU 2 = ss, 130.61.180.252, 59924, encrypt-method=2022-blake3-chacha20-poly1305, password=CJz7/MZF6sW6ylvOCfAE+EmAqYZKN1GnMlS4tGUS3J4=, tfo=false, udp-relay=true
-[SS] 🇩🇪 🇩🇪 德国 | DEU 5 = ss, 130.61.235.137, 59924, encrypt-method=2022-blake3-chacha20-poly1305, password=IJPKybdCWc1qvoGqy0e6tflGkAAKCXe9FaWcBTjgfDs=, tfo=false, udp-relay=true
-[SS] 🇩🇪 🇩🇪 德国 | DEU 7 = ss, 130.61.232.101, 59924, encrypt-method=2022-blake3-chacha20-poly1305, password=f+Q/z5EHlXtbRPZBqT8ygy+RUkwnc6kMcd8UY8iyxU8=, tfo=false, udp-relay=true
-[Trojan] 🇫🇷 🇫🇷 法国 | FRA = trojan, 104.17.111.3, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
-[Trojan] 🇫🇷 🇫🇷 法国 | FRA 2 = trojan, www.ignitelimit.com, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
-[Trojan] 🇫🇷 🇫🇷 法国 | FRA 3 = trojan, 172.67.221.242, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
-[Trojan] 🇫🇷 🇫🇷 法国 | FRA 4 = trojan, 104.20.6.134, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
-[Trojan] 🇫🇷 🇫🇷 法国 | FRA 5 = trojan, 104.18.152.187, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
-[Trojan] 🇫🇷 🇫🇷 法国 | FRA 6 = trojan, 104.21.8.107, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
-[Trojan] 🇫🇷 🇫🇷 法国 | FRA 7 = trojan, 104.16.7.70, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
-[Trojan] 🇫🇷 🇫🇷 法国 | FRA 9 = trojan, 104.18.152.50, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
-[Trojan] 🇫🇷 🇫🇷 法国 | FRA 10 = trojan, 104.18.152.244, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
-[Trojan] 🇫🇷 🇫🇷 法国 | FRA 11 = trojan, 104.18.152.246, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
-[Trojan] 🇫🇷 🇫🇷 法国 | FRA 12 = trojan, 104.18.152.207, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
-[SS] 🇯🇵 🇯🇵 日本 | JPN 2 = ss, 89.125.244.241, 10090, encrypt-method=aes-256-gcm, password=9cfaa78d51ac366f, tfo=false, udp-relay=true
-[SS] 🇳🇱 🇳🇱 荷兰 | NLD 2 = ss, 158.101.211.78, 45819, encrypt-method=2022-blake3-chacha20-poly1305, password=REewqi3c7l3hyDUDzTpuhOPrWO6X9Vo6bXYhhE3tGw8=, tfo=false, udp-relay=true
-[SS] 🇳🇱 🇳🇱 荷兰 | NLD 4 = ss, 141.144.194.235, 45819, encrypt-method=2022-blake3-chacha20-poly1305, password=hW/kZ3Lkub41cyalnSsNTCYF8hMO8dh5MHzqf+FRl8o=, tfo=false, udp-relay=true
-[Trojan] 🇺🇸 🇺🇸 美国 | USA 8 = trojan, 104.18.152.73, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
-[Trojan] 🇺🇸 🇺🇸 美国 | USA 10 = trojan, 104.18.15.230, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
-[Trojan] 🇺🇸 🇺🇸 美国 | USA 15 = trojan, 104.18.152.208, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
-[Trojan] 🇺🇸 🇺🇸 美国 | USA 16 = trojan, www.speedtest.net, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
-[Trojan] 🇺🇸 🇺🇸 美国 | USA 19 = trojan, 104.26.15.137, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[SS] 🇩🇪 🇩🇪 德国 | DEU = ss, p1tun4.greewebservices.ir, 1080, encrypt-method=chacha20-ietf-poly1305, password=LMnotcv4RdaEOBXT-LdtfA, tfo=false, udp-relay=true
+[Trojan] 🇪🇸 🇪🇸 西班牙 | ESP = trojan, 185.18.250.252, 443, password=humanity, sni=www.calmlunch.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇫🇷 🇫🇷 法国 | FRA = trojan, 104.20.6.134, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇫🇷 🇫🇷 法国 | FRA 2 = trojan, 104.16.7.70, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇫🇷 🇫🇷 法国 | FRA 3 = trojan, 104.16.174.72, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇫🇷 🇫🇷 法国 | FRA 4 = trojan, 104.18.152.175, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇫🇷 🇫🇷 法国 | FRA 5 = trojan, join-telegram-channel-tirexnet.trex.kdns.fr, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇫🇷 🇫🇷 法国 | FRA 6 = trojan, 172.67.188.109, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇫🇷 🇫🇷 法国 | FRA 7 = trojan, 104.16.174.36, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇫🇷 🇫🇷 法国 | FRA 9 = trojan, 104.16.174.34, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇫🇷 🇫🇷 法国 | FRA 10 = trojan, 162.159.254.191, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇫🇷 🇫🇷 法国 | FRA 11 = trojan, 45.130.125.158, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇫🇷 🇫🇷 法国 | FRA 12 = trojan, 104.16.174.101, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇫🇷 🇫🇷 法国 | FRA 13 = trojan, 104.21.46.3, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇫🇷 🇫🇷 法国 | FRA 14 = trojan, 104.18.152.143, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇫🇷 🇫🇷 法国 | FRA 15 = trojan, 104.16.174.37, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇫🇷 🇫🇷 法国 | FRA 16 = trojan, 104.18.152.207, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇫🇷 🇫🇷 法国 | FRA 17 = trojan, 104.16.73.213, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇫🇷 🇫🇷 法国 | FRA 18 = trojan, 188.114.96.3, 443, password=humanity, sni=www.calmlunch.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[SS] 🇳🇱 🇳🇱 荷兰 | NLD = ss, 193.123.39.109, 45819, encrypt-method=2022-blake3-chacha20-poly1305, password=t0Ao+u9a5WcyKcSJOhC2R1IXIKxEcBD411OI3G5YicI=, tfo=false, udp-relay=true
+[SS] 🇸🇬 🇸🇬 新加坡 | SGP = ss, 138.2.73.61, 56927, encrypt-method=2022-blake3-chacha20-poly1305, password=To6vtBYY2vHB3dYSu3rGxLOObUWvC8zGLJMtn+/LEPU=, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA = trojan, 104.18.152.133, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA 4 = trojan, 104.18.23.63, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA 5 = trojan, 104.16.174.6, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA 9 = trojan, 104.18.152.225, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA 10 = trojan, 104.18.152.219, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA 11 = trojan, 104.16.174.14, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA 12 = trojan, 159.112.235.52, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA 13 = trojan, 104.18.15.230, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA 14 = trojan, 104.18.152.233, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA 16 = trojan, 104.16.174.148, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA 18 = trojan, 104.17.111.1, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA 19 = trojan, 104.18.152.229, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA 20 = trojan, 104.16.174.117, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA 21 = trojan, 104.16.174.46, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA 22 = trojan, 104.18.152.161, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA 23 = trojan, 104.16.174.143, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA 26 = trojan, 104.16.174.71, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA 29 = trojan, 104.18.152.144, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
+[Trojan] 🇺🇸 🇺🇸 美国 | USA 31 = trojan, 104.18.152.108, 443, password=humanity, sni=www.ignitelimit.com, skip-cert-verify=true, tfo=false, udp-relay=true
